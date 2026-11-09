@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "task_id": "FERRARI16-SLOTC-F355SPIDER-CROSS-COCKPIT-QA-V1-20261110",
+  "slot": "C",
+  "status": "QA_WAITING_INPUT",
+  "native_pmt_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+  "original_blend_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
+  "accepted_blend_sha256": "354b2d8b67839cdabdaf838d596771750f6fb8d9919fd023a4dae2c24df52518",
+  "source_chain": [
+    {
+      "component": "center_console",
+      "receipt_sha256": "96c726e12372a80a835d845ddcd7af82898dcc8b11f820157eea3970fc34bd05",
+      "source_blend": "artifacts/slot_C/f355spider/center_console_v1/F355Spider_OriginalPMT_CenterConsole_GateBezel_v1.blend",
+      "output_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3"
+    },
+    {
+      "component": "visible_seat",
+      "receipt_sha256": "459154a8f7b2c6204bf9553933cc43314f841ac612af597038a9f64df2b5f102",
+      "source_blend": "artifacts/slot_C/f355spider/visible_seat_v1/F355Spider_OriginalPMT_VisibleSeat_Bolster_v1.blend",
+      "output_sha256": "6b179f9d275226ade32960ac49f52cec8149247dc43726f311cb79beeeb06802"
+    },
+    {
+      "component": "instrument_cluster",
+      "receipt_sha256": "3bd4992e603bad0ef6455711156cdbce6861b16344d7fd4640a6d931aa55dc65",
+      "source_blend": "artifacts/slot_C/f355spider/instrument_cluster_v1/F355Spider_OriginalPMT_InstrumentCluster_Visor_v1.blend",
+      "output_sha256": "ec320da62a7ac21bf88cef5ed205558f3542e03f6f35d6f76de5d4e3d7643e23"
+    },
+    {
+      "component": "dashboard",
+      "receipt_sha256": "516621629a98cda98fbcf8497e1e3d0eb4217f78eff2c70bf738d1b04afa6841",
+      "source_blend": "artifacts/slot_C/f355spider/dashboard_v1/F355Spider_OriginalPMT_Dashboard_CenterVent_Facia_v1.blend",
+      "output_sha256": "8734757c3bac3938c8313214720c7d9e9b5d42fdb7095001de9fd90471d93c0d"
+    },
+    {
+      "component": "steering_wheel",
+      "receipt_sha256": "d15ed24b96d84629f82d99f273a6d61366392b4c3504fbc9b38143187ac27a44",
+      "source_blend": "artifacts/slot_C/f355spider/steering_wheel_v1/F355Spider_OriginalPMT_Steering_ThreeSpoke_v1.blend",
+      "output_sha256": "354b2d8b67839cdabdaf838d596771750f6fb8d9919fd023a4dae2c24df52518"
+    }
+  ],
+  "files": {
+    "QA.json": {
+      "sha256": "27d171a9382552b507fc9ecb348660bf0165dd45a79bf77e9fc314712e0edfd9",
+      "bytes": 4013
+    },
+    "native_context_accepted.png": {
+      "sha256": "6c0eb18126a3fea01d439e5a7b06fc8f4e3a7c08bd9411a5aac2921ea9a98904",
+      "bytes": 839354
+    },
+    "scan_baseline.json": {
+      "sha256": "d5c7b2f4a1f948d31380197e7bd94eda5a880a07026c8891e3eaa8c3dc8215de",
+      "bytes": 46655
+    },
+    "scan_accepted.json": {
+      "sha256": "c46f6cf43da9793f035b97fb89b342777952b438ad61de772315a267ae892e2c",
+      "bytes": 46655
+    },
+    "native_context_baseline.png": {
+      "sha256": "f84b9eb454a9d0fae24529f6c667fb1051d0e4ce2929bc0931a6f64d4ce6a9e4",
+      "bytes": 727229
+    },
+    "QA.md": {
+      "sha256": "50e959446ac3d503f976b7bb844086a365dca246a3bc93e7bdddf6f0e1a968d2",
+      "bytes": 1210
+    },
+    "native_context_delta.png": {
+      "sha256": "7bbe216e29057771a02267d8bf1d9473327c706f930b96ad300154f79d665875",
+      "bytes": 578596
+    }
+  },
+  "script": "tools/car_modeling/slot_c/f355spider_cross_cockpit_audit_v1.py",
+  "script_sha256": "071217abf4fb359c6416adb5272a63ae61437672df59c85e8c1c057ce6f2ba06",
+  "encrypted": false,
+  "parts_required": false,
+  "private_photos_published": false,
+  "whole_vehicle_qa_pass": false
+}

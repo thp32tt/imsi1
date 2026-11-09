@@ -1,0 +1,966 @@
+{
+  "mesh_count": 96,
+  "blend_sha256": "354b2d8b67839cdabdaf838d596771750f6fb8d9919fd023a4dae2c24df52518",
+  "meshes": {
+    "PMT_F355SPIDER_object00_group00_material000_a0": {
+      "coords": "6214c4ff9f18502553d8efff7bb279952e5fe6aa16bae610d1ebda4baa8fe340",
+      "topology": "e9eed8425856e49293cbd853a7c6dc2d3cf4811fa16d8a4700504f50a0492c31",
+      "uv": "1a0295f4bf5986c5f74eca9153a6a4cb10b073a01a76ba4a457fd862c78966a4",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 40,
+      "faces": 24,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group00_material001_a0": {
+      "coords": "36c0db6c2fbf22ae6810864c912759a9a39b228af2953f72b122908f0bad1177",
+      "topology": "f94c8cb98f8dbc2ef6427bd6fee00085a3c75e06ba264f271c516a6680335d06",
+      "uv": "da14ceacc5670be8524855adf9d0af7205acb4fdfefb17fbf1376f6b493dda89",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 634,
+      "faces": 462,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group00_material002_a0": {
+      "coords": "57536c2dc981cefc7c1d0754884cb6d895d04b03839a78e0ed44c2560020e6e2",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "17b0761f87b081d5cf10757ccc89f12be355c70e2e29df288b65b30710dcbcd1",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group00_material003_a0": {
+      "coords": "617f556b90b33dcf5fc7e184c9460d83fd9c422b92b70a2970fb05ae870029ad",
+      "topology": "7df9de66c7ac2450ccee32e6963dcd640fa26e3b9daba1275b4cb4af64b8aa13",
+      "uv": "4cf9816ed1062189ff0c8d427fba5e912cc68fc9af76cf7f08fd255977de3b33",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 96,
+      "faces": 48,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group00_material004_a1": {
+      "coords": "2bb3850ed5d30098d196e5a65ba602e1d2c8fee7e35ac15b683e9e939fc97f31",
+      "topology": "98eac667b3e0a3586f672ba1440e3339caa5433146b5b60fac31b8934d660bb3",
+      "uv": "4cf9816ed1062189ff0c8d427fba5e912cc68fc9af76cf7f08fd255977de3b33",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 36,
+      "faces": 48,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material005_a0": {
+      "coords": "e7b2032cb202068df57039915e9a277457a3d524601897cdbf0d5241c2b87490",
+      "topology": "f304137a2e9acf7b054ed36c7fbaf8e76634d18531e75d8e60e3538f763487b9",
+      "uv": "cd8ae85dcae4e9a2d835363bee4f4b3d3b03a0010da805cbc7a2ba69adf74013",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 2869,
+      "faces": 3252,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material006_a0": {
+      "coords": "72f92396e8a90bcb941e8023c1cb27690a62dedcf21de9061634911e2b7afbcf",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "b365b31f953d48835b324d4ca92ce5564cfffbdeed7b398c7b36b9fc40325480",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material007_a0": {
+      "coords": "a45ec50b115761dcb03f838a98c62b084694e851d938ddc42f32868fcf5c17b2",
+      "topology": "3e132a2a56738b6a259df9d245fbf7583848cd081019bac1e92d3b190cd6eeee",
+      "uv": "7b402b0f15e732e23f394173bfe05b8c4f00865a5b3c8ac16338e9d416f5fe5f",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 166,
+      "faces": 138,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material008_a0": {
+      "coords": "449c80021ccf5ceb62b518c488061230045706ee3d6aa04a1a9b177e359f3d41",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "68d4c577a24e52ff68da253f956cfb928203b5d5b78815d9371b6620287076f3",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material009_a0": {
+      "coords": "9fde32defbbc15c5f31bcbfd5b54772e56438da8a42711fbfc7e5d873072c000",
+      "topology": "ba6a28ea65155ea37ea401a0fa06c7eee49a26ece627d1c76737a730f177bd35",
+      "uv": "25222752d86de5a659c162f8d96f165f5ceb4a5d652f1a93d3ba63e969bcf273",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 63,
+      "faces": 82,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material010_a0": {
+      "coords": "7af53896966617d2233f65bc9f70e4bc628d08f4dc9a15d4c2b5b522e3599a5a",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "14e8f76bfa4bc406bf18680b07b0d621b8629177583a448b0fc835bebc8ca5d0",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material011_a0": {
+      "coords": "bd9cf7edef2482a213f477613756a6ca8268d6b4bf4388d3019d3e2e7a632cf1",
+      "topology": "5d1b86c47dde22906af31d9534a3cf09a2541e091d584d061cc8e6086a53687d",
+      "uv": "4626dafe407c2ff4b38d390fced0e78c0811f445b3be8fe3be08500f777b4aba",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 6,
+      "faces": 4,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material012_a0": {
+      "coords": "8319a2ff69255ce3bb1a61138b53fc58befa76ca717fb7ab492082ce95464b7f",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "ac59470d4c0faa0a277bcd8fc6103115f399fd02c3c129a47ee0432fc1026e58",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material013_a0": {
+      "coords": "39c0c48820831567592d60781e69a4f3d6a89b1fabf83f719196e6b2be09fdfa",
+      "topology": "04ea4a07574d84240931a39e7df9ea12ae66d31d08bc3cf93d441bc11011ff29",
+      "uv": "d1fa4357a1895d4bf4248f89434be013ebf5a1422400292d9eabfd8ded476c33",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 80,
+      "faces": 66,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material014_a0": {
+      "coords": "345ae7145558c84c49dfbb2150cdb4b17a570fa3bb1844329c0819ff5c915119",
+      "topology": "2d445c0b71b8b680aec786685781e70f1ec9ac2dc0b3b67ab10988d88726581b",
+      "uv": "213055f6c4931ce3561243af6da28cd5c5d72b8fa5b0eac3b5b92b221df2c817",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 8,
+      "faces": 4,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material015_a0": {
+      "coords": "7687a7485004d5bcd1f20a466c2a28a12ef27340d96341eb9ba52b7625046351",
+      "topology": "55583c54cca0b60c4d893b0c91aeb497e080a8b8dc63f4cb7609f1ceada0764c",
+      "uv": "c6a0b2c95b24a46ada9b32275775aa101226c41159a4c224bb5fbe6849a01070",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 24,
+      "faces": 22,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material016_a0": {
+      "coords": "47081dd9f72c9a0fb8bd13031f9c9dab55c736282821769d40c19224381b884d",
+      "topology": "ea64f19e0e7c8395282eee251a07b54f48598df01b3b40359fec6d41c50e5cbb",
+      "uv": "13128e062d286050e4b805f0bcce3790dabc17a32e8c13607282f202e2b01e3f",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 222,
+      "faces": 124,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material017_a0": {
+      "coords": "33196a5fc0170cf42de6809751d866c1316e26561ea5eaf4c1c69999e5e2bed7",
+      "topology": "a437c479c4c3d1bf3793e79cd8aea49649dcdb779a57b41ca2201a7900c90c28",
+      "uv": "387a6510d859a261144229332632bd9f21b30c98b8eb7e0bf18520adf8761077",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 21,
+      "faces": 15,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material018_a0": {
+      "coords": "0ddbbeb2db7f41c9f437f293076389620a03a411434687dd553864696ff44660",
+      "topology": "5d4e2e5cf497149dabd58d185b568f9ff6c2a9602fe4429db35ee81d6a5624ba",
+      "uv": "b5cd183a8ae1b9f2af1d55aa0668a8373ff7147abc12285f1924df18732c1d87",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 6,
+      "faces": 4,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material019_a0": {
+      "coords": "816dcee00d5324792218356a57d33486792d2e91aa871a059c4ab24613e1fa4a",
+      "topology": "c677c69c2b53b6095fc15ef6680d67a09f30afe56586e1c0b90b0a595c149f23",
+      "uv": "a156910e648aa3c632793bd95e73eb6cac1f1691e1e9aed9a3f127a9a847bca9",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 16,
+      "faces": 8,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material020_a0": {
+      "coords": "42b084a4f17080fdd42d5b0a62ffc1c404c0967943dd938adab798e2c74f3cca",
+      "topology": "ed091a28005ad6e19566c1ba19803511a20d1cf60cfb7b92b73539ebc4f2518a",
+      "uv": "4e7f9af0abebd5baf9be02d2196ea65bc40dacca88fad4f91c085d6e44c6317c",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 314,
+      "faces": 438,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material021_a0": {
+      "coords": "d4ed1b80a95f24f38c55e2de84dbff70fd470cbcd5e4dcc9ffb0b92a378901ed",
+      "topology": "b373dfc18e98095f4f97de373f7d5012caec1ab159f858a58e43e0cc94f37784",
+      "uv": "1370c60f9ad6fd6ef17a570802f07001c11a231ac225ea55aa40eaf41926efe5",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 80,
+      "faces": 80,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material022_a0": {
+      "coords": "8090bf2fe2dabe6f8d6fd8186b6a6fd52da634eb15b652c57afc92f608289b09",
+      "topology": "3413839ea421a6d66176343cccd2db820fb453e2b539e3a70123decf35f89f17",
+      "uv": "6b535d654ce299ee1444401010b6fa035c4aa796d733dcfa2e6374f3be28572f",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 40,
+      "faces": 32,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material023_a0": {
+      "coords": "469df1b95079f1fa985bf68315b25cca7883e70e232f8a94c9082b2921547f93",
+      "topology": "0dc387c6efabb7fb266d58db6e7927e2db61b6b7e145bdb397364202077bc0fc",
+      "uv": "7c1a326fbdca3fc67563126a8b896a75e8fc46e8e5ef90265b239d0a4c9801d2",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 20,
+      "faces": 10,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material024_a0": {
+      "coords": "3e7a23846ad7bb163ad35fff2d89862967de4060c7511695d5caa2fb03dea7e6",
+      "topology": "3806f34014986b240e596b39698714bd7aa1f1e61fee67d01b2c1b5673e88d59",
+      "uv": "7d518eca2126eb6d70e919e75ceab7a6545e98f47e33e096f0ace1cdb85da22e",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 8,
+      "faces": 4,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material025_a0": {
+      "coords": "7a37278f5dbbb4cfdee9d3dda96a4f0242e8e9ace6c2a83de4368ca28ce6e157",
+      "topology": "21d85258156d51b2c334cebc3b316393d2b73fa59fc1fb22423915bccebae585",
+      "uv": "51284233ce864025fc59396c903e662a554a1953877584bed4b80dc852ef9974",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 28,
+      "faces": 24,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material026_a0": {
+      "coords": "7179c33ad0171553ab4827ea30cd52eaa322dde7623b7030b3d6290f75101dd9",
+      "topology": "8acefc310ac3e70bfede7849aa9e80405aeea12917ce77aebd573dfa46258cac",
+      "uv": "275d8335f336848670ab00737037e153fa42b2f6f3a813f0a854780e4d3d89f8",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 48,
+      "faces": 24,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material027_a0": {
+      "coords": "e701f8316e17028ccc8dc7a3019cb00bd0bdb826b1d0f3e57aadd62b843b99df",
+      "topology": "71907ca1c0355b5c096c1541e478f7d50cfed2e7088860e9231210f9960746f7",
+      "uv": "96a1c5776ca3070002fc05b7f7ecbd0b065432fd94f0e5af90f0f36479f78e2d",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 188,
+      "faces": 300,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material028_a0": {
+      "coords": "22a861126f300278888ecddc777e894fae74bc76ae5d28b9adc5f11f14be211e",
+      "topology": "b5dd6ad99b54e33b148e42e2eee44fa41233e3d1059cd4e00b1dc2088aba422a",
+      "uv": "5d4ca3e8fdf9af92768975688850ead38efe1ac36a467fcfdb0b49fe75ce8a90",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 354,
+      "faces": 288,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material029_a1": {
+      "coords": "9e65b56338f3ef9611c6e4cee8c2397777309f20f09f0bfbe081d1c3011c6b2d",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "e7ba37bc2c5cff8a9b6c93d93b93292e5b860c854ba89d0486c7d22f46f49949",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material030_a1": {
+      "coords": "53743f88161052fa15513cd2a178ba7e463b036c1eb26c8def4dac3fb3549f9e",
+      "topology": "2d445c0b71b8b680aec786685781e70f1ec9ac2dc0b3b67ab10988d88726581b",
+      "uv": "4e78b8a7d78bd0b240186c905e9a6b8ceaf3c36abaa71cad6942d2a4d749594b",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 8,
+      "faces": 4,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material031_a1": {
+      "coords": "62fb59f028cc08ba3333fec0b5ea75744ba7e3ea93dac52734bb667ae4c7460d",
+      "topology": "255cd89bfd81dab14ca286596f3321504fa68e4b355ff82eed0c0b6fa5819376",
+      "uv": "974ad423437c89cb25ab5f0cb5833b5c0470fd27a2653396243de8054224c5cc",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 8,
+      "faces": 6,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material032_a1": {
+      "coords": "526148ff6263b3ef44d2b4d6339951814c76699593bd0c96558592449e1b7078",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "3c811ee15122f17538f9b6db703fd480dabcfafb835d405444b7922cd2e6108a",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object00_group01_material033_a1": {
+      "coords": "d37ee5fc0814c3368c35d60658e33e3e85e8adfad86ad9f83a821dacbb5ee331",
+      "topology": "af3efb586221242dd7007f4f526e875823cfdae480dfd7e017fdabd136419d49",
+      "uv": "b500f8e73766267d6b519f75440841e25c0f1d8cfad9cf45c3ddecca45e85729",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 18,
+      "faces": 16,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object01_group00_material000_a0": {
+      "coords": "696c820d9625e2cb4ad952141616b958b9647c1e30ed41477d92bebb6d8b09d6",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "3618b24fc202a76ca093073f4ad5ee19745d1ba828e0d413bc9585842890cdcf",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object02_group00_material000_a0": {
+      "coords": "36f936eeb7ebdb87c4495e117e232ac152adf2d6f04dc8cc59918f931f800cbc",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "b247e5dd8add01e1235bb34e3f5ede24da2411828e802ec31c85c8ba068f4420",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object03_group00_material000_a0": {
+      "coords": "24d559e95f3889a0640a018d4ef313399f2e374f27358a1c156be81e18575242",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "3618b24fc202a76ca093073f4ad5ee19745d1ba828e0d413bc9585842890cdcf",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object04_group00_material000_a0": {
+      "coords": "144c7560c3460f1e05869f212697caffd87dd9526312434254ceab8c854a2ee0",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "b247e5dd8add01e1235bb34e3f5ede24da2411828e802ec31c85c8ba068f4420",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object05_group00_material000_a0": {
+      "coords": "9926127749bcdd947a0342787e476bfc3c80db0f93d9da0a5eeeb3f1fcb8bd65",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "12f05a7af3346f3e98d105c9ebda6fa58d8091050759dd8beb8ef4e32370a549",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object06_group00_material000_a0": {
+      "coords": "b13e89fe1376cbb254a794d43694a89975440c590f69e756808271a527c255f9",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "8f1489aa36f97dc10e604adf33ab6adb3f7235b8d1ab6e5c1b1c5027a0d2cd2e",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object07_group00_material000_a0": {
+      "coords": "a72d3470ded5924106326ec975dfa0611a910ca5553749005107bfaa95f26cf8",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "12f05a7af3346f3e98d105c9ebda6fa58d8091050759dd8beb8ef4e32370a549",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object08_group00_material000_a0": {
+      "coords": "73f109926482bf4c89cadb4878e93f9733a7451b9a3cecd9428a49b4e39c93cf",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "8f1489aa36f97dc10e604adf33ab6adb3f7235b8d1ab6e5c1b1c5027a0d2cd2e",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object09_group00_material000_a0": {
+      "coords": "db2db0b8fa11bdd564651507a17349897ba4cc302fde82162f49e08a4f0de9f9",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "12f05a7af3346f3e98d105c9ebda6fa58d8091050759dd8beb8ef4e32370a549",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object10_group00_material000_a0": {
+      "coords": "ff585150ede768d1ea6527a7a11a35e018004a77e9b0ccbefef22ac1dfa251c8",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "8f1489aa36f97dc10e604adf33ab6adb3f7235b8d1ab6e5c1b1c5027a0d2cd2e",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object11_group00_material000_a0": {
+      "coords": "eade414e5648764809f3e279d6df99b35913aff7260b06628f1bf2655a7d6cff",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "12f05a7af3346f3e98d105c9ebda6fa58d8091050759dd8beb8ef4e32370a549",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object12_group00_material000_a0": {
+      "coords": "93c49c8ae64b5f1a2b264c9e08fbfaa4152ca71b07f6abd2a51684a3cf2d4070",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "8f1489aa36f97dc10e604adf33ab6adb3f7235b8d1ab6e5c1b1c5027a0d2cd2e",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object13_group00_material000_a0": {
+      "coords": "0923d5908b0e8e0e1b508733e1a13057023478b2a649fafaac15f0bbb2a72f53",
+      "topology": "91baad63b4c55168f82084ea990fd4873fb0c4523d67b4f6bced28f111cf66ab",
+      "uv": "a537a4225362dcb261e9d055b3b73ae489a887303e6db7df95b02c072f8ee806",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 354,
+      "faces": 288,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object14_group00_material000_a0": {
+      "coords": "0923d5908b0e8e0e1b508733e1a13057023478b2a649fafaac15f0bbb2a72f53",
+      "topology": "91baad63b4c55168f82084ea990fd4873fb0c4523d67b4f6bced28f111cf66ab",
+      "uv": "a537a4225362dcb261e9d055b3b73ae489a887303e6db7df95b02c072f8ee806",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 354,
+      "faces": 288,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object15_group00_material000_a0": {
+      "coords": "0923d5908b0e8e0e1b508733e1a13057023478b2a649fafaac15f0bbb2a72f53",
+      "topology": "91baad63b4c55168f82084ea990fd4873fb0c4523d67b4f6bced28f111cf66ab",
+      "uv": "a537a4225362dcb261e9d055b3b73ae489a887303e6db7df95b02c072f8ee806",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 354,
+      "faces": 288,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object15_group00_material001_a1": {
+      "coords": "644039a45b4e7e6cf70547d5384cfea3b04f2d4d58ae91889dadff70c02ee609",
+      "topology": "2d445c0b71b8b680aec786685781e70f1ec9ac2dc0b3b67ab10988d88726581b",
+      "uv": "8f5aefdd2151e2b9696e582519fcb3dd22eebd52e203151a67338e05f87153e4",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 8,
+      "faces": 4,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object16_group00_material000_a0": {
+      "coords": "e44340b6b727eef8c5492032e6a35684da89a6c1dd8e08e5899c28fa5d8b9cad",
+      "topology": "5512e505d29b65cc43b01b5b3ec205bd9544a4d0ae2f3773f9f9cb8f71c943fb",
+      "uv": "ad03396ba1f4627e67e662a75714170df3466d9aca8a4c3a8485f906fa8ebfe6",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 156,
+      "faces": 82,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object16_group01_material001_a0": {
+      "coords": "5956373a671ee0a379f241632e3281b0cb0a6bc7e82e79c6636dbd1b89b97ec3",
+      "topology": "6846366855a4429be92b8a0f5a9ed3167b8a974e6325d1b7fd283f7fa0e6f18f",
+      "uv": "8a7b17d811f86b17e73a3dbc847437eb6858cf254bdd7352e138a2691836744c",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 420,
+      "faces": 488,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object16_group01_material002_a0": {
+      "coords": "56bee6142ebfb37da4ae3eb00b76cbe59e4fe4ddf4bd329547a3941136a18b13",
+      "topology": "5b04da9d245a7ff655e2f2e08e9aa4d0ff634cfbf760fc87d88c2c404150d8bf",
+      "uv": "6ad88ae309c863d3e501cb1b2f2bee72fc007b9944ef08d4e032e260f1f2ae1e",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 104,
+      "faces": 90,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object16_group01_material003_a0": {
+      "coords": "bd9cf7edef2482a213f477613756a6ca8268d6b4bf4388d3019d3e2e7a632cf1",
+      "topology": "5d1b86c47dde22906af31d9534a3cf09a2541e091d584d061cc8e6086a53687d",
+      "uv": "4626dafe407c2ff4b38d390fced0e78c0811f445b3be8fe3be08500f777b4aba",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 6,
+      "faces": 4,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object16_group01_material004_a0": {
+      "coords": "331ca41b8a7eab0262e85db2f0882fab8b55173307902d01ced87aa910d6a0c0",
+      "topology": "b4b21f92ffd4deb7f631cff1c6996d4d8dce902c0bea13a9c168e7ed5e0090f9",
+      "uv": "e50f08365ebccf89a3ac1ba1862cc398c87552e172f42be59149d2e3c08cc323",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 110,
+      "faces": 68,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object16_group01_material005_a0": {
+      "coords": "9d08e3172e8dd0a6dfc68bfe6c9d5253b6c5fa0832c5b1d7ba43dc0877f6c585",
+      "topology": "e37566d9f49a534d835d1aa4d93342f2bbd8702626ce18510475c7e61c45733b",
+      "uv": "51c7c4a483168d77263c65be30f5111a8123a4959c4360b24c7992256efee33f",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 25,
+      "faces": 17,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object16_group01_material006_a0": {
+      "coords": "5e4bc8518acacfaf7ef81d2a26218c182c49866a3766f11691fe52779ec5feec",
+      "topology": "c677c69c2b53b6095fc15ef6680d67a09f30afe56586e1c0b90b0a595c149f23",
+      "uv": "a156910e648aa3c632793bd95e73eb6cac1f1691e1e9aed9a3f127a9a847bca9",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 16,
+      "faces": 8,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object16_group01_material007_a0": {
+      "coords": "e7c4883033d0e6f222f2c362568c61bb43ffa12f6f92d859670e51a66bfa9823",
+      "topology": "63f626302075fc947735108d762d3d4ac7a951ae4e5e3b34ce4607eebe532dd7",
+      "uv": "7ac143cdd6fe387a1eb229608ea6e9f1000978be0a0ff282703dfc1f7dadd2ac",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 41,
+      "faces": 35,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object17_group00_material000_a0": {
+      "coords": "ffbcf6060c14f5360a85f4d8b9b9b5c2323d41db31d92d693570f2d0700a51bb",
+      "topology": "184dd9769adcbbdd2ea4921065b57d11bd4aad54d6ae2cc60d1a3c56f2d1db0d",
+      "uv": "d3df611a0ed2e328b050d285287637c60643ba96ec09e4aaefaad7f2cd114b77",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 25,
+      "faces": 15,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object17_group00_material001_a0": {
+      "coords": "cd9dfbbb91a633844b3dec41170ed148f2c1d118e928d678fff49be820b1a56d",
+      "topology": "ab759b5bdd168e30d9cc5c11793f9967def29820d704004eb30c9c03684495da",
+      "uv": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 8,
+      "faces": 6,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object17_group01_material002_a0": {
+      "coords": "12f4a33c7581531251adb9031fb85311f97dece544e5a84e8acd410b33c50878",
+      "topology": "506da11530a787b0a469cc3a226d1cbb3c142443fae8683bfc4ef7504a6a62c6",
+      "uv": "f9ce9c02d24d3e5b3f0786fedc59b60c5f2147eb254091fc9b839e07c2cd7ebf",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 132,
+      "faces": 131,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object17_group01_material003_a0": {
+      "coords": "eeb3bfcd3bf0ffdea7f597ed66c4b780eaf478e272b7eb23816be3ba0016583e",
+      "topology": "5db394a64980c28f4f78f7580429c5952fe03baa4217b87a48cae747121249d9",
+      "uv": "0d9c70df8fb171ac46a6fa24256099089bde5d8cf92bd32665a4134a4724bfbb",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 100,
+      "faces": 76,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object17_group01_material004_a0": {
+      "coords": "3f613ebedf57ac6454bb43bd4dccc2d8b6e04504c3ddfe350bfbf0b61f1d7da9",
+      "topology": "d941f024b58a1a97e8d0d842bf55a403ba1605c9117bacef7323d8d8244a4ab2",
+      "uv": "9ef652ffd286d7e1bc337394883bdbfb6af184b7c34f41c3f02991279276fb25",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 7,
+      "faces": 5,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object17_group01_material005_a0": {
+      "coords": "ec912819c677545bfc1fe0b965c9e72b603b24038a91a3abb932d4ecbda23d97",
+      "topology": "c5a788d1384af4666ce4b027e3ab7e5545f24e9ad5fc08d0ecec1424c8bf3c80",
+      "uv": "bf1dd937cbd7f2fa29365c66abfcf78b169740e76c07dc52872570265d80ea5b",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object18_group00_material000_a0": {
+      "coords": "8f1cf0a04aa515dacfcf896898bc07553e5fc55bd4ff19730dfee4116d0d0bbc",
+      "topology": "bc14ea9cab5706cf6213c5738e8f9cb34bf84a83d98613dd92bd87a5c389e573",
+      "uv": "d3df611a0ed2e328b050d285287637c60643ba96ec09e4aaefaad7f2cd114b77",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 25,
+      "faces": 15,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object18_group00_material001_a0": {
+      "coords": "7996599d22b892672345898de397278348a06a8d4b3a3210f4c30b2736d83c80",
+      "topology": "d4be37b81241a72cf1c180354807112476d09dc5d561d59129b365948bcaf118",
+      "uv": "81c611f35bff79491538b2f7cf201c7597a661a5c549633541c62bdc8af1613f",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 8,
+      "faces": 6,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object18_group01_material002_a0": {
+      "coords": "b29160591a517bd85e5dea51fd2e2c8e3c0b166de1e6e6aa2ff28e4b26a5d358",
+      "topology": "34291b532e31d8e72d8c7e82a597acc20aab4f6bfedd7b2c5015e53e9a4f3209",
+      "uv": "ea440f38830f178ae49fd6a5323b84c17afb8bc211b049d67f3ac67ea10cbce4",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 132,
+      "faces": 131,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object18_group01_material003_a0": {
+      "coords": "7ef873785253090de5b781ba75f3f4bb4ac8c55b846bb5f74648a80d0a1ac40b",
+      "topology": "5ba2f817cb3050092517c27539b86a778e0eed04a0074c2b1d8626d0a105e998",
+      "uv": "dba026532a0d83ee7fe37ab2f72cafcfa427130f280df37dba296e895e4d12d9",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 100,
+      "faces": 76,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object18_group01_material004_a0": {
+      "coords": "f6823a1f9fbfe557973cc4216a96d1254a66489c77a7a842e4edcd449f4f9b7c",
+      "topology": "870dd519cce79d074cf479dc54e92ed3eb35c7e807bf12a14890c0ff48e81906",
+      "uv": "c6ec773f89789f7e157c8ee0fded3e12b43760c27a39d70605273c50d8ead5cb",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 7,
+      "faces": 5,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object18_group01_material005_a0": {
+      "coords": "50e60251f4fd69f5e34556a336746d96d6c21a1e856b59894cfd7ab4f1440c26",
+      "topology": "c5a788d1384af4666ce4b027e3ab7e5545f24e9ad5fc08d0ecec1424c8bf3c80",
+      "uv": "97591a4df2c6c2d079bc0c5edd87ea66680d9e2bd05107c22719476fc497b2aa",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object19_group00_material000_a0": {
+      "coords": "ffddb086bdc88d41d233d2e1be47a70908c9da29a5b02278ac0dd6519c99cbc0",
+      "topology": "5d1b86c47dde22906af31d9534a3cf09a2541e091d584d061cc8e6086a53687d",
+      "uv": "4626dafe407c2ff4b38d390fced0e78c0811f445b3be8fe3be08500f777b4aba",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 6,
+      "faces": 4,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object19_group00_material001_a0": {
+      "coords": "8319a2ff69255ce3bb1a61138b53fc58befa76ca717fb7ab492082ce95464b7f",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "ac59470d4c0faa0a277bcd8fc6103115f399fd02c3c129a47ee0432fc1026e58",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object19_group00_material002_a1": {
+      "coords": "d3bbe08451dd9be3a8269e503c548e5601ed40bfbb2098a331f627eed821a96f",
+      "topology": "2d445c0b71b8b680aec786685781e70f1ec9ac2dc0b3b67ab10988d88726581b",
+      "uv": "5670ddbd8013efa6eef8462f57dd1639ab106b88d7a9285c38b41422ccf25eff",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 8,
+      "faces": 4,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object19_group00_material003_a1": {
+      "coords": "ec921344b51233f223fe3ab7442253c16edd0d69dd593091d4c9a1b0af917ddd",
+      "topology": "2d445c0b71b8b680aec786685781e70f1ec9ac2dc0b3b67ab10988d88726581b",
+      "uv": "6405eb7d4b53a46c403b0419f31500af55a56e488f81751c24e21bf165f5a25f",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 8,
+      "faces": 4,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object20_group00_material000_a0": {
+      "coords": "8934d7db50fc0224835e15eadf36a773e53b15488f5ad940fe7ad3f1247222db",
+      "topology": "570b27c5c9496f50ea299f4e8abc7ab46ae20b41d881139f174b93b2e5861b65",
+      "uv": "30e02deb83657a70259cf81a005c5f24a68270fa82bc139f0dda3a1cb1ce20c7",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 144,
+      "faces": 100,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object20_group00_material001_a0": {
+      "coords": "0484a067d80bb6d846c85789a7eff87f6eaea6f6c8bf1d7e02592dbc592cdaf4",
+      "topology": "341b0edc1ddc854935dc6ac1a6abad02e50d3b8ed8a1773e932391e989b81796",
+      "uv": "ccbf27ed8d060193edc6406732a31027e52605bc3efca6c4c4b46cfeff1d2737",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 80,
+      "faces": 40,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object20_group00_material002_a0": {
+      "coords": "4406d0f1c8b09d4ee167ddc14b13ed5bf5eaad0619d0cbc2a77b0ecc28823a7e",
+      "topology": "a4469d690c265cad9709a77dd75e8188c5577ad87bffd6bde84073d647fdfc52",
+      "uv": "3c99c391c146eb8bc3dc26f3d0d01f4fc2232ab9781cbc16d2fd5be8c8165bc1",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 16,
+      "faces": 12,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object21_group00_material000_a0": {
+      "coords": "ab8fa5f38a9acefc460b6801c0f45a644192d476ab2bdca47be3b67f053af238",
+      "topology": "c677c69c2b53b6095fc15ef6680d67a09f30afe56586e1c0b90b0a595c149f23",
+      "uv": "5d89f056865052bcb89c910d2d62872e029fb273c3db03f8968a52a41593c1b5",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 16,
+      "faces": 8,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object21_group00_material001_a0": {
+      "coords": "0dfe076315c460f26231f5c23ea71f32a587d437a36509bf2776614a6d427b00",
+      "topology": "738a6d51450f9e90a76f6df4ca6f9ad4d103bdc176d341d56afcc6fb48cb0675",
+      "uv": "2c253d268f274610134a7a0131fbf74a507bb6726c1b2c37193efe293c352e2c",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 29,
+      "faces": 52,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object22_group00_material000_a0": {
+      "coords": "3daf9e9cac409caf559926b99045fbe075bed63acf0669e41f4164c4375529aa",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "f6f8de67fa74e6d8489156d7801cebd53ba460de9c4bbd5351a803fc88d7e6ed",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object22_group00_material001_a0": {
+      "coords": "b72c15c77ac0e7c6f32659652c349cde79e0599dfbc42333368bfe77e9130b3e",
+      "topology": "19c619f98de36aa4af571d807c6b3e3a328a6bf091eeeae604e1d00e01be3837",
+      "uv": "7de10dbe4584ea74a6b9e624e334cf5c310c7365c9285ceebadb0a022b7e3989",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 293,
+      "faces": 368,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object23_group00_material000_a0": {
+      "coords": "565ffcc4c0f2cc02d6a1f176b67200675328aa88ea282fe4324b7de712a30942",
+      "topology": "7e736e1569882d928d74c45b4a75ba54f674a615f557f87b96a4aa8025b9d319",
+      "uv": "2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 12,
+      "faces": 10,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object23_group01_material001_a0": {
+      "coords": "b3afbf31bf0737d89f3e1583724c56536bb258280c7c2a8d7d0913d50d5ffe90",
+      "topology": "33523eb5a95eab362798e535dcc0bfd70bea27ffce7860543a473cc752663717",
+      "uv": "69087792ac825a2d47e3d2e884d26795edca12ffd87041ad40f46c6c3f81845a",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 746,
+      "faces": 680,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object23_group01_material002_a0": {
+      "coords": "04585db6d6f930d03dd95594e19294fcfb0454aa4280041e00e155e416d719bb",
+      "topology": "341b0edc1ddc854935dc6ac1a6abad02e50d3b8ed8a1773e932391e989b81796",
+      "uv": "c061c4a4c3a27649c1385dcea98d4e828edb100bbcecc96bead32b442ad3a1f5",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 80,
+      "faces": 40,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object24_group00_material000_a0": {
+      "coords": "94707decbda348c33db6990ff55cba3a7094baf37d20546a5354da589aa598a9",
+      "topology": "be2a01575aca1f783fb9d068aa60f13e57ec5b95732f84f67dcbd6a16032cee2",
+      "uv": "2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 12,
+      "faces": 10,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object24_group01_material001_a0": {
+      "coords": "050e6756fe3d78c80dd25d9aff31e3be3bef6a957e4049f4489b1f4698826135",
+      "topology": "666c0b881f595fef469df0f59ae07987e73b6f40f13c7fa07beea155f446c622",
+      "uv": "6173809f391e908d256e5a8e42a8be670b2e0bc0f694d495b8d9e307ab8d6dda",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 746,
+      "faces": 680,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object24_group01_material002_a0": {
+      "coords": "2d17ff598dbf684367f8f32a94ecdc6e83ee7fccfeae00043000a509894650c9",
+      "topology": "341b0edc1ddc854935dc6ac1a6abad02e50d3b8ed8a1773e932391e989b81796",
+      "uv": "4a6b9fb6f87a5e391514bf4fcc3e51e42492d8a143dded38e220b0526a27605e",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 80,
+      "faces": 40,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object25_group00_material000_a0": {
+      "coords": "a86ae05aae3edf9d595ff1c4b140bb30f399709193b7c10a1198e76b3dc52a70",
+      "topology": "be2a01575aca1f783fb9d068aa60f13e57ec5b95732f84f67dcbd6a16032cee2",
+      "uv": "2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 12,
+      "faces": 10,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object25_group01_material001_a0": {
+      "coords": "05209265f38b599d48424e683be52d9e1ae3b1faa5f968dd919fb7e00b097d1d",
+      "topology": "8eada76beb7f0532c9711a26aaaa53965680e7e5939b61cc785d88454949e5e5",
+      "uv": "8987f5028e0f2f408317592e1372f6b3a11f34044cc0073c68e5eaf93d566ddd",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 749,
+      "faces": 680,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object25_group01_material002_a0": {
+      "coords": "1b456db35c471464dc7e73c2d490a93c91e911236c7caf7c3a033d7bc966cd22",
+      "topology": "341b0edc1ddc854935dc6ac1a6abad02e50d3b8ed8a1773e932391e989b81796",
+      "uv": "f4eb94a18acf4970781e4c52011753efd9a3fcf61959ffbc43bd78083da19d41",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 80,
+      "faces": 40,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object26_group00_material000_a0": {
+      "coords": "2c8428853bda7d1548c33297fbab27d453773cba5a38e5ef333edd1b3a3236ea",
+      "topology": "7e736e1569882d928d74c45b4a75ba54f674a615f557f87b96a4aa8025b9d319",
+      "uv": "2dfba633817046c7f559ed4b93076048435f7e1a90f14eb8035c04b9ebae2537",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 12,
+      "faces": 10,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object26_group01_material001_a0": {
+      "coords": "a4c0b04b26fc5d085ffb24b3e5a3bf429030896e09b0f0c61625eeedc1bc671b",
+      "topology": "3b98dad5465de593d5bc4692b656c865014a245543122cd9ae29f390dc3bd033",
+      "uv": "ed010aeceb741d5400deedb734d0bece8b3655a27dfc55f0231f520bac863d5b",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 752,
+      "faces": 680,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object26_group01_material002_a0": {
+      "coords": "00bb6fc2f730ce8336107cdecd90e9c4e005c28c70d042243d263ce87c054fe7",
+      "topology": "341b0edc1ddc854935dc6ac1a6abad02e50d3b8ed8a1773e932391e989b81796",
+      "uv": "fbc770a592bdf27aea89ba9a94316be555ba52118ad1f911fae0ab55bb3a6879",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 80,
+      "faces": 40,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object27_group00_material000_a0": {
+      "coords": "3600f75536c4e2dbadb8511445c436285ca14323215e671a46b3b40b24948ffb",
+      "topology": "79d34fd9a8149ca780089cca580c75ef1befacd17d2bd1851376f86e63274ae8",
+      "uv": "e9a15a094703faaea3fdf53af7e04da21717008ab4bb228799712b2fced03c65",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 1200,
+      "faces": 400,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object28_group00_material000_a0": {
+      "coords": "1d9575c2c3363c732e09cfb8710ccf2817ce50c8c1b20bd16d07fb8d20c1ee42",
+      "topology": "22873ac06f00ae2901b6ed17fd4a9224c38e4b52ef684a01a4921936dd7e9cc7",
+      "uv": "235a7f4dd8af8a77a032c72b99f4537ecb4c1e30067f1ef4c5308689279cb137",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 204,
+      "faces": 68,
+      "modifiers": 0,
+      "parent": false
+    },
+    "PMT_F355SPIDER_object29_group00_material000_a1": {
+      "coords": "23fa80f24fcdee9a455721696c9c2edf2d53f0e3bfe228bffe23b807a44a54ba",
+      "topology": "02bcdde82fd717e947af280871abcf83a45b53c1831734f244092d2376193bfe",
+      "uv": "b365b31f953d48835b324d4ca92ce5564cfffbdeed7b398c7b36b9fc40325480",
+      "transform": "ccc7977ae7987f37c2235e57c320a5142d6b58413825b6457a4a1c9fe469ac1c",
+      "vertices": 4,
+      "faces": 2,
+      "modifiers": 0,
+      "parent": false
+    }
+  }
+}

@@ -719,7 +719,7 @@
       "reference_gate": "UNTESTED",
       "source_scene_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
       "output_scene_sha256": "354b2d8b67839cdabdaf838d596771750f6fb8d9919fd023a4dae2c24df52518",
-      "notes": "Original PMT object22 material001 steering wheel first-pass lower-spoke shape edited, other 95 native meshes unchanged; Blender separate reopen PASS, next cross_cockpit_qa; vehicle QA NOT PASS.",
+      "notes": "F355 native integrated five-part Blender chain independently audited: 96 objects, five modified/91 unchanged, windshield protected. QA_WAITING_INPUT, no calibrated driver eye, 2/8 verified photos; not vehicle PASS.",
       "private_photo_subdir": "05_F355_Spider",
       "priority": [
         "dashboard",
@@ -937,6 +937,17 @@
         "full_vehicle_qa_pass": false,
         "next": "cross_cockpit_qa",
         "manifest": "artifacts/slot_C/f355spider/steering_wheel_v1/manifest.json"
+      },
+      "last_slot_c_cross_cockpit_qa": {
+        "task_id": "FERRARI16-SLOTC-F355SPIDER-CROSS-COCKPIT-QA-V1-20261110",
+        "status": "QA_WAITING_INPUT",
+        "accepted_blend_sha256": "354b2d8b67839cdabdaf838d596771750f6fb8d9919fd023a4dae2c24df52518",
+        "original_meshes": 96,
+        "untouched_meshes": 91,
+        "photo_coverage": "2/8",
+        "driver_eye_calibrated": false,
+        "whole_car_qa_pass": false,
+        "manifest": "artifacts/slot_C/f355spider/cross_cockpit_qa_v1/manifest.json"
       }
     },
     {

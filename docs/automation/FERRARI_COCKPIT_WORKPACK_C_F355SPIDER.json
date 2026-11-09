@@ -165,11 +165,21 @@
       "blocking_reason": null
     },
     "cross_cockpit_qa": {
-      "status": "NOT_STARTED",
+      "status": "QA_WAITING_INPUT",
       "source_edits_this_phase": 0,
       "dispatches_consumed_this_phase": 0,
-      "evidence_refs": [],
-      "last_saved_blend_sha256": null
+      "evidence_refs": [
+        "artifacts/slot_C/f355spider/cross_cockpit_qa_v1/QA.json",
+        "artifacts/slot_C/f355spider/cross_cockpit_qa_v1/manifest.json",
+        "artifacts/slot_C/f355spider/cross_cockpit_qa_v1/native_context_accepted.png",
+        "artifacts/slot_C/f355spider/cross_cockpit_qa_v1/scan_baseline.json",
+        "artifacts/slot_C/f355spider/cross_cockpit_qa_v1/scan_accepted.json",
+        "artifacts/slot_C/f355spider/cross_cockpit_qa_v1/native_context_baseline.png",
+        "artifacts/slot_C/f355spider/cross_cockpit_qa_v1/QA.md",
+        "artifacts/slot_C/f355spider/cross_cockpit_qa_v1/native_context_delta.png"
+      ],
+      "last_saved_blend_sha256": "354b2d8b67839cdabdaf838d596771750f6fb8d9919fd023a4dae2c24df52518",
+      "blocking_reason": "No calibrated game seated eye and 6/8 photo-view categories unverified; 2 native parts still BLOCKED."
     },
     "windshield_frame": {
       "status": "PROTECTED_DO_NOT_EDIT",
@@ -190,8 +200,9 @@
     }
   },
   "known_final_qa_blockers": [
-    "exact original-game seated driver-eye calibration not yet performed",
-    "authenticated same-camera photo coverage not yet verified"
+    "Original-game seated driver camera not calibrated",
+    "Six authenticated photo-view categories not verified",
+    "Driver controls and inner door native attribution BLOCKED"
   ],
   "cannot_promote_from_interim_coverage": true,
   "full_vehicle_qa_pass": false,
@@ -206,7 +217,7 @@
     "rule": "Original front glass and adjacent geometry observation-only; never edit."
   },
   "private_photo_directory": "/home/chatgpt-runner/outrun2_vr_refs/20261104_16car_cockpit/05_F355_Spider",
-  "notes": "Original PMT object22 material001 steering wheel first-pass lower-spoke shape edited, other 95 native meshes unchanged; Blender separate reopen PASS, next cross_cockpit_qa; vehicle QA NOT PASS.",
+  "notes": "F355 native integrated five-part Blender chain independently audited: 96 objects, five modified/91 unchanged, windshield protected. QA_WAITING_INPUT, no calibrated driver eye, 2/8 verified photos; not vehicle PASS.",
   "migration_input_blend_file": "artifacts/slot_C/f355spider/steering_wheel_v1/F355Spider_OriginalPMT_Steering_ThreeSpoke_v1.blend",
   "latest_accepted_editable_blend_file": "artifacts/slot_C/f355spider/steering_wheel_v1/F355Spider_OriginalPMT_Steering_ThreeSpoke_v1.blend",
   "last_material_component": "steering_wheel"
