@@ -34,7 +34,7 @@
     "steering_wheel",
     "cross_cockpit_qa"
   ],
-  "current_component": "center_console",
+  "current_component": "source_bootstrap",
   "dispatches_on_component": 0,
   "max_dispatches_per_component": 2,
   "components": {
@@ -99,6 +99,13 @@
       "source_edits_this_phase": 0,
       "dispatches_consumed_this_phase": 0,
       "blocking_reason": "User-protected front glass/frame/A-pillars; QA only. No geometry, transform or topology edits."
+    },
+    "source_bootstrap": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "dispatches_consumed_this_phase": 0,
+      "evidence_refs": [],
+      "blocking_reason": null
     }
   },
   "known_final_qa_blockers": [
@@ -119,5 +126,5 @@
     "rule": "Original front glass and adjacent geometry observation-only; never edit."
   },
   "private_photo_directory": "/home/chatgpt-runner/outrun2_vr_refs/20261104_16car_cockpit/04_360_Spider",
-  "notes": "Next 24h vehicle assignment; source-only original PMT bootstrap, no geometry until independent Blender source import SHA established. Previous Daytona/F50 remain QA_PARKED, not PASS."
+  "notes": "One-shot source_bootstrap: verify exact original PMT and independent Blender import. V11 must not dispatch; V12 will recognize bootstrap. No native geometry changes until SOURCE_VERIFIED. Prior two QA_PARKED cars retained without PASS."
 }
