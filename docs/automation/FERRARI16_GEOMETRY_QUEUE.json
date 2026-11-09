@@ -718,8 +718,8 @@
       "geometry_gate": "PARTIAL_NEEDS_QA",
       "reference_gate": "UNTESTED",
       "source_scene_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
-      "output_scene_sha256": "8734757c3bac3938c8313214720c7d9e9b5d42fdb7095001de9fd90471d93c0d",
-      "notes": "Native F355 Spider PMT019 center-dashboard fascia first-pass edited 8 pre-existing vertices; 95 unrelated native meshes unchanged; Blender reopen PASS; next steering_wheel. Whole vehicle NOT PASS.",
+      "output_scene_sha256": "354b2d8b67839cdabdaf838d596771750f6fb8d9919fd023a4dae2c24df52518",
+      "notes": "Original PMT object22 material001 steering wheel first-pass lower-spoke shape edited, other 95 native meshes unchanged; Blender separate reopen PASS, next cross_cockpit_qa; vehicle QA NOT PASS.",
       "private_photo_subdir": "05_F355_Spider",
       "priority": [
         "dashboard",
@@ -856,7 +856,7 @@
       },
       "whole_car_qa_pass": false,
       "workpack_path": "docs/automation/FERRARI_COCKPIT_WORKPACK_C_F355SPIDER.json",
-      "strategy_v3_next_component": "steering_wheel",
+      "strategy_v3_next_component": "cross_cockpit_qa",
       "last_slot_c_driver_controls": {
         "component": "driver_controls",
         "status": "BLOCKED",
@@ -922,6 +922,21 @@
         "full_vehicle_qa_pass": false,
         "next_component": "steering_wheel",
         "manifest": "artifacts/slot_C/f355spider/dashboard_v1/manifest.json"
+      },
+      "last_slot_c_steering_wheel": {
+        "task_id": "FERRARI16-SLOTC-F355SPIDER-STEERING-WHEEL-NATIVE-PMT22-V1-20261110",
+        "component": "steering_wheel",
+        "status": "COVERED_PARTIAL_QA",
+        "native_mesh": "PMT_F355SPIDER_object22_group00_material001_a0",
+        "modified_existing_vertices": 53,
+        "other_native_meshes_unchanged": 95,
+        "original_PMT_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+        "input_sha256": "8734757c3bac3938c8313214720c7d9e9b5d42fdb7095001de9fd90471d93c0d",
+        "output_sha256": "354b2d8b67839cdabdaf838d596771750f6fb8d9919fd023a4dae2c24df52518",
+        "reopen": "PASS",
+        "full_vehicle_qa_pass": false,
+        "next": "cross_cockpit_qa",
+        "manifest": "artifacts/slot_C/f355spider/steering_wheel_v1/manifest.json"
       }
     },
     {

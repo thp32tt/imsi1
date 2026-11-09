@@ -1,0 +1,24 @@
+{
+  "task_id": "FERRARI16-SLOTC-F355SPIDER-STEERING-WHEEL-NATIVE-PMT22-V1-20261110",
+  "component": "steering_wheel",
+  "status": "COVERED_PARTIAL_QA",
+  "source_mesh_changed": true,
+  "source_native_identity": "PMT_F355SPIDER_object22_group00_material001_a0",
+  "modified_existing_vertices": 53,
+  "maximum_displacement_m": 0.026913464764230503,
+  "other_95_original_meshes_untouched": true,
+  "original_source_PMT_untouched": true,
+  "airbag_emblem_mesh_untouched": true,
+  "glass_frame_A_pillar_untouched": true,
+  "save_reopen": "PASS",
+  "photo_check": "QUALITATIVE_ONLY",
+  "whole_car_qa": "NOT_PASS",
+  "next_component": "cross_cockpit_qa",
+  "evidence": [
+    "artifacts/slot_C/f355spider/steering_wheel_v1/F355Spider_OriginalPMT_Steering_ThreeSpoke_v1.blend",
+    "artifacts/slot_C/f355spider/steering_wheel_v1/receipt.json",
+    "artifacts/slot_C/f355spider/steering_wheel_v1/wheel_before.png",
+    "artifacts/slot_C/f355spider/steering_wheel_v1/wheel_after.png",
+    "artifacts/slot_C/f355spider/steering_wheel_v1/wheel_delta.png"
+  ]
+}
