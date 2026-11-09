@@ -318,7 +318,7 @@
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
       "output_scene_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
-      "notes": "[2026-11-09 SLOT C v43] F50 original PMT material023 visible_seat: two original 64v seat-shell regions; 118 existing vertices sculpted (max 23.27mm), 41 other source meshes unchanged, Blender independent reopen PASS. Input v40 restored (not rejected v41); partial region QA only. NEXT instrument_cluster; windshield region DO_NOT_EDIT.",
+      "notes": "[2026-11-09] F50 original seat v43 retained; 118 source vertices previously edited, no new geometry from repeated visible_seat dispatch. Mandatory guard BLOCKED_OUT_OF_ORDER (persisted current=instrument_cluster); second seat request consumed 2/2 cap. Next instrument_cluster, glass protected; whole-car QA NOT PASS.",
       "private_photo_subdir": "03_F50",
       "priority": [
         "dashboard",
@@ -516,6 +516,18 @@
         "manifest": "artifacts/slot_C/f50/visible_seat_v43/manifest.json",
         "next": "instrument_cluster",
         "vehicle_qa_pass": false
+      },
+      "last_slot_c_visible_seat_reentry_blocked": {
+        "task_id": "FERRARI16-SLOTC-F50-VISIBLE-SEAT-REENTRY-BLOCKED-20261109",
+        "target": "visible_seat",
+        "guard_error": "BLOCKED: requested region differs from persisted current_component",
+        "dispatches_consumed": 2,
+        "source_edits_completed": 1,
+        "accepted_blend_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
+        "no_new_geometry": true,
+        "vehicle_complete": false,
+        "next": "instrument_cluster",
+        "report": "docs/automation/F50_SLOT_C_VISIBLE_SEAT_REENTRY_BLOCKED_20261109.md"
       }
     },
     {

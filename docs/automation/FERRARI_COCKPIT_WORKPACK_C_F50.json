@@ -168,15 +168,16 @@
     "visible_seat": {
       "status": "COVERED_PARTIAL_QA",
       "source_edits_this_phase": 1,
-      "dispatches_used": 1,
+      "dispatches_used": 2,
       "evidence_refs": [
         "docs/automation/F50_SLOT_C_VISIBLE_SEAT_NATIVE_V43_20261109.md",
         "tools/car_modeling/slot_c/f50_visible_seat_native_bolster_v43.py",
         "tools/car_modeling/slot_c/f50_visible_seat_reopen_v43.py",
         "artifacts/slot_C/f50/visible_seat_v43/manifest.json",
-        "artifacts/slot_C/f50/visible_seat_v43/F50_VisibleSeat_v43_BEFORE_AFTER.png"
+        "artifacts/slot_C/f50/visible_seat_v43/F50_VisibleSeat_v43_BEFORE_AFTER.png",
+        "docs/automation/F50_SLOT_C_VISIBLE_SEAT_REENTRY_BLOCKED_20261109.md"
       ],
-      "blocking_reason": "Source PMT seat-shell contour covered only; missing calibrated driver-eye and full seven-view authentic photo QA. No upholstery texture/PBR edits, no full vehicle acceptance.",
+      "blocking_reason": "Source PMT seat-shell contour covered only; missing calibrated driver-eye and full seven-view authentic photo QA. No upholstery texture/PBR edits, no full vehicle acceptance. Follow-up 2/2 dispatch BLOCKED by mandatory workspace_guard: requested visible_seat while persisted current_component is instrument_cluster. No new edits allowed; leave native v43 accepted, next instrument_cluster.",
       "last_saved_blend_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
       "partial_scope": {
         "original_native_object": "object00_group01_material023_a0",
@@ -188,6 +189,21 @@
         "blender_independent_reopen": "PASS",
         "render_pixels_changed": 105649,
         "front_glass_and_dashboard_and_wheel_untouched": true,
+        "full_vehicle_qa_pass": false
+      },
+      "dispatches_consumed_this_phase": 2,
+      "last_dispatch": {
+        "task_id": "FERRARI16-SLOTC-F50-VISIBLE-SEAT-REENTRY-BLOCKED-20261109",
+        "component": "visible_seat",
+        "result": "BLOCKED_OUT_OF_ORDER",
+        "guard": "tools/car_modeling/workspace_guard.py",
+        "guard_error": "BLOCKED: requested region differs from persisted current_component",
+        "observed_current_component": "instrument_cluster",
+        "instruction_used": "2/2",
+        "material_geometry_changed": false,
+        "source_edits_this_phase": 1,
+        "accepted_input_output_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
+        "next": "instrument_cluster",
         "full_vehicle_qa_pass": false
       }
     },
@@ -228,7 +244,7 @@
   ],
   "cannot_promote_from_interim_coverage": true,
   "last_material_commit": "3693c9fc68b570b5e41e7a06156bebc19475efb8",
-  "notes": "SLOT C F50: v43 visible_seat PMT023 two existing seat-shell regions sculpted; save/reopen PASS, 41 protected other meshes unchanged. Plaintext six-part .blend manifest under artifacts/slot_C/f50/visible_seat_v43/. Next instrument_cluster. Whole-car QA NOT PASS. Windshield/glass/A-pillar DO_NOT_EDIT; v41 rejected.",
+  "notes": "F50 SLOT C visible_seat: one actual native edit v43 retained (COVERED_PARTIAL_QA); repeated visible_seat request consumed 2/2 dispatch budget and BLOCKED_OUT_OF_ORDER under mandatory workspace_guard; no new .blend or score. Next/current instrument_cluster (0/2). Windshield protected. Full-car QA NOT PASS.",
   "current_accepted_blend": "artifacts/slot_C/f50/visible_seat_v43/F50_OriginalPMT_VisibleSeat_Bolster_v43.blend",
   "current_accepted_blend_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
   "protected_regions": {
@@ -243,5 +259,19 @@
     "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
   },
   "current_accepted_blend_manifest": "artifacts/slot_C/f50/visible_seat_v43/manifest.json",
-  "last_material_task_id": "FERRARI16-SLOTC-F50-VISIBLE-SEAT-PMT023-V43-20261109"
+  "last_material_task_id": "FERRARI16-SLOTC-F50-VISIBLE-SEAT-PMT023-V43-20261109",
+  "last_dispatch_attempt": {
+    "task_id": "FERRARI16-SLOTC-F50-VISIBLE-SEAT-REENTRY-BLOCKED-20261109",
+    "component": "visible_seat",
+    "result": "BLOCKED_OUT_OF_ORDER",
+    "guard": "tools/car_modeling/workspace_guard.py",
+    "guard_error": "BLOCKED: requested region differs from persisted current_component",
+    "observed_current_component": "instrument_cluster",
+    "instruction_used": "2/2",
+    "material_geometry_changed": false,
+    "source_edits_this_phase": 1,
+    "accepted_input_output_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
+    "next": "instrument_cluster",
+    "full_vehicle_qa_pass": false
+  }
 }
