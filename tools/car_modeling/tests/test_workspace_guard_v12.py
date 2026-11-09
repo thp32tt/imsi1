@@ -2,7 +2,7 @@
 import importlib.util, json, tempfile, unittest
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-MODULE=ROOT/"tools"/"car_modeling"/"workspace_guard.py"
+MODULE=ROOT/"workspace_guard.py"
 spec=importlib.util.spec_from_file_location("workspace_guard",MODULE)
 g=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(g)
