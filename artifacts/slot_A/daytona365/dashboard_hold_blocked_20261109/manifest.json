@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "task_id": "FERRARI16-SLOTA-DAYTONA-DASHBOARD-P0-HOLD-BLOCKED-20261109-1404",
+  "slot": "A",
+  "car_id": "daytona365",
+  "component": "dashboard",
+  "status": "BLOCKED",
+  "geometry_modified": false,
+  "changed_native_vertices": 0,
+  "full_vehicle_qa_pass": false,
+  "ssot_base_head": "8d4fa1ca708c9248039847a5c988664cc3e3fd63",
+  "preflight": {
+    "tool": "tools/car_modeling/workspace_guard.py",
+    "arguments": "preflight --slot A --component dashboard",
+    "result": "BLOCKED: target already finished, blocked or on P0 hold; advance instead"
+  },
+  "original_native_pmt": {
+    "name": "obj_plcar_dayts_pmt.sz",
+    "storage": "N100_ONLY",
+    "sha256": "f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe"
+  },
+  "original_import_blend": {
+    "storage": "N100_ONLY",
+    "sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3"
+  },
+  "accepted_integrated_R45_blend": {
+    "sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+    "changed": false
+  },
+  "previous_standalone_R47_instrument_blend": {
+    "sha256": "7367034bf9900e380f0f61d8d89c19322e8d22207dcba6c5124bf8f572803c28",
+    "changed": false
+  },
+  "current_input_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "current_output_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "output_sha_equals_input": true,
+  "new_blend_saved": false,
+  "independent_reopen": "NOT_RUN_NO_EDIT",
+  "comparison_render": "NOT_CREATED_NO_EDIT",
+  "photo_source": "N100_PRIVATE_UNPUBLISHED",
+  "artifact_nature": "governance_blocker_only_not_material_source_checkpoint",
+  "per_component_dispatch_consumed": 1,
+  "previous_component_dispatch_count": 0,
+  "source_edits_this_phase": 0,
+  "next_component": "cross_cockpit_qa",
+  "steering_wheel": "P0_POLISH_HOLD_SKIPPED",
+  "protected_windshield_untouched": true,
+  "other_slot_untouched": true,
+  "prohibited_exports": [],
+  "encryption_used": false,
+  "new_textures_or_pbr": false,
+  "score_change": 0
+}

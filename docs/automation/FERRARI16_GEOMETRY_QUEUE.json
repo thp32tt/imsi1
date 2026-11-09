@@ -95,7 +95,7 @@
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "30ddcbd01ef7e969bb1e4220ff4318c2f75b7fd7ab70bc4d6dafedcdc7954437",
       "output_scene_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
-      "notes": "[2026-11-09 SLOT A R47] original PMT015 gauge bezel 20 genuine vertices geometry edited; new standalone .blend saved/reopened; 29 other original meshes unchanged; COVERED_PARTIAL_QA not car QA PASS. Integrated R45 unchanged, dashboard/wheel/glass protected in this dispatch. NEXT dashboard P0 hold.",
+      "notes": "[2026-11-09 SLOT A dashboard] workspace_guard preflight BLOCKED P0_POLISH_HOLD: prior repeated work and no newly identified defect. No mesh change/new .blend; accepted R45/R46/R47 SHA unchanged. Dashboard BLOCKED; steering P0 hold skipped; next cross_cockpit_qa observation. Vehicle QA NOT PASS.",
       "private_photo_subdir": "02_365_GTS4_Daytona",
       "priority": [
         "dashboard",
@@ -131,7 +131,7 @@
       "game_integration_required": false,
       "progress_history_archive": "docs/automation/FERRARI16_A_DAYTONA365_PRE_V3_HISTORY_20261109.md",
       "workpack_path": "docs/automation/FERRARI_COCKPIT_WORKPACK_A_DAYTONA365.json",
-      "strategy_v3_next_component": "dashboard",
+      "strategy_v3_next_component": "cross_cockpit_qa",
       "strategy_v3_p0_revisit_policy": "HOLD_BEFORE_BREADTH_PASS",
       "source_audit_archive": "docs/automation/FERRARI16_A_DAYTONA365_PRE_V3_SOURCE_AUDITS_20261109.json",
       "last_slot_a_audit_r42": {
@@ -273,6 +273,18 @@
         "postflight": "PASS",
         "full_car_QA_PASS": false,
         "next": "dashboard"
+      },
+      "last_slot_a_dashboard_blocked": {
+        "task_id": "FERRARI16-SLOTA-DAYTONA-DASHBOARD-P0-HOLD-BLOCKED-20261109-1404",
+        "component": "dashboard",
+        "status": "BLOCKED",
+        "reason": "P0_POLISH_HOLD: named new geometry defect missing; preflight fail closed",
+        "original_pmt_sha256": "f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe",
+        "original_import_blend_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+        "unchanged_accepted_r45_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+        "geometry_changed": false,
+        "next": "cross_cockpit_qa",
+        "full_vehicle_qa_pass": false
       }
     },
     {

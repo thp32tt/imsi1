@@ -19,7 +19,7 @@
     "steering_wheel",
     "cross_cockpit_qa"
   ],
-  "current_component": "dashboard",
+  "current_component": "cross_cockpit_qa",
   "dispatches_on_component": 0,
   "max_dispatches_per_component": 2,
   "components": {
@@ -149,11 +149,28 @@
       ]
     },
     "dashboard": {
-      "status": "P0_POLISH_HOLD",
+      "status": "BLOCKED",
       "source_edits_this_phase": 0,
-      "evidence_refs": [],
-      "blocking_reason": null,
-      "last_saved_blend_sha256": null
+      "evidence_refs": [
+        "artifacts/slot_A/daytona365/dashboard_hold_blocked_20261109/manifest.json",
+        "artifacts/slot_A/daytona365/dashboard_hold_blocked_20261109/QA.md"
+      ],
+      "blocking_reason": "2026-11-09: local workspace_guard.py preflight --slot A --component dashboard returned 'BLOCKED: target already finished, blocked or on P0 hold; advance instead'. Prior ~40 dashboard/wheel dispatches prompted P0 polish hold. No named new geometry defect or authorization to override guard; zero native vertices changed. Resume only for a distinct documented defect with separately approved guard policy.",
+      "last_saved_blend_sha256": null,
+      "dispatches_consumed_this_phase": 1,
+      "last_dispatch": {
+        "task_id": "FERRARI16-SLOTA-DAYTONA-DASHBOARD-P0-HOLD-BLOCKED-20261109-1404",
+        "result": "BLOCKED_P0_POLISH_HOLD",
+        "requested_component": "dashboard",
+        "geometry_modified": false,
+        "blender_saved": false,
+        "independent_reopen": "NOT_RUN_NO_EDIT",
+        "source_edits_this_phase": 0,
+        "preflight": "BLOCKED: target already finished, blocked or on P0 hold; advance instead",
+        "instruction_used": "1/2 but closed early per fail-closed policy",
+        "next": "cross_cockpit_qa",
+        "full_vehicle_qa_pass": false
+      }
     },
     "steering_wheel": {
       "status": "P0_POLISH_HOLD",
@@ -178,7 +195,7 @@
   ],
   "cannot_promote_from_interim_coverage": true,
   "last_material_commit": "4ebbeb8342d0fe8ebca18d7c830a6be2ac6cee02",
-  "notes": "R47 instrument_cluster COVERED_PARTIAL_QA, native PMT015 existing 20 gauge-bezel vertices changed, 29 native meshes unchanged, saved/reopened, receipt PASS. Standalone asset not merged into integrated R45. NEXT dashboard is P0_POLISH_HOLD; no automatic polishing without new defect ID.",
+  "notes": "SLOT A dashboard requested after R47; native preflight BLOCKED by P0_POLISH_HOLD, no new .blend/geometry (0 vertices). Dashboard status BLOCKED pending distinct verified defect, steering remains P0_POLISH_HOLD and is skipped. Next cross_cockpit_qa observation only; accepted R45 and standalone R46/R47 unchanged, vehicle QA NOT PASS.",
   "latest_accepted_editable_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
   "hosted_a_latest_evidence": {
     "updated_at_kst": "2026-11-09 10:36",
@@ -229,5 +246,17 @@
     "accepted_integrated_R45_unchanged": true,
     "full_vehicle_qa_pass": false,
     "next": "dashboard"
+  },
+  "last_dispatch_attempt": {
+    "task_id": "FERRARI16-SLOTA-DAYTONA-DASHBOARD-P0-HOLD-BLOCKED-20261109-1404",
+    "component": "dashboard",
+    "result": "BLOCKED_P0_POLISH_HOLD",
+    "material_geometry_changed": false,
+    "modified_native_meshes": 0,
+    "input_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+    "output_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+    "preflight": "BLOCKED: target already finished, blocked or on P0 hold; advance instead",
+    "next": "cross_cockpit_qa",
+    "whole_car_qa_pass": false
   }
 }
