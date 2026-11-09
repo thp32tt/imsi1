@@ -1,5 +1,14 @@
 > Temporary workspace migration (2026-11-09): active SSOT/work artifacts now live in public repo `thp32tt/imsi1@main`. Modeling artifacts may be stored plaintext; raw original PMT packages and private reference photos remain off-repo. Encryption/secret gating is retired for this temporary workspace.
 
+## Mandatory executable preflight / postflight gate (2026-11-09)
+The actual source-mesh authoring workflow is unchanged. Before ANY new Blender geometry edit, fetch the latest imsi1@main queue/workpack and run:
+- A: python3 tools/car_modeling/workspace_guard.py preflight --slot A
+- C: python3 tools/car_modeling/workspace_guard.py preflight --slot C
+If BLOCKED, do not edit, retry, or silently switch parts; record the blocker and advance the persisted dispatch index/workpack by the existing controller rule. Never reset the two-dispatch counter at chat rollover.
+After the separate-process Blender reopen, require:
+python3 tools/car_modeling/workspace_guard.py verify-receipt --slot <A|C> --receipt <receipt.json> --output-blend <saved.blend>
+The receipt must be generated from real before/after native object/vertex fingerprints, not text-only assertions. A metadata-only GitHub Actions receipt check does NOT verify .blend bytes or prove full photo QA. Do not promote a checkpoint to COVERED_PARTIAL_QA if the postflight fails. Never mark full-car QA PASS from this guard. The protected windshield/A-pillar policy and prohibition on new synthetic models are unchanged.
+
 ## USER PROTECTED REGION — front windshield / glass boundary (2026-11-09)
 - **DO NOT EDIT** front windshield glass, windshield frame, windshield-adjacent A-pillars, seals/borders, or any mesh whose geometry can affect the front glass fit/rendering.
 - These regions are observation/QA-only. Never move vertices, add/delete faces, alter topology/transforms, or choose them as an automation target.
