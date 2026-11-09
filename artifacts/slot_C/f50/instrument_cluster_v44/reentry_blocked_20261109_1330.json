@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "task_id": "FERRARI16-SLOTC-F50-INSTRUMENT-REENTRY-BLOCKED-20261109-1330",
+  "recorded_for_instruction_kst": "2026-11-09T13:30:00+09:00",
+  "slot": "C",
+  "vehicle": "f50",
+  "requested_component": "instrument_cluster",
+  "result": "BLOCKED_OUT_OF_ORDER_ALREADY_COVERED",
+  "guard": "tools/car_modeling/workspace_guard.py",
+  "observed_persisted_component": "dashboard",
+  "guard_preflight_actual": "BLOCKED: target already finished, blocked or on P0 hold; advance instead",
+  "guard_rule_explicit_target": "BLOCKED: requested region differs from persisted current_component",
+  "previously_accepted": {
+    "component_status": "COVERED_PARTIAL_QA",
+    "task_id": "FERRARI16-SLOTC-F50-PMT011-INSTRUMENT-CLUSTER-V44-20261109",
+    "original_pmt_sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+    "original_import_blend_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
+    "editable_blend": "artifacts/slot_C/f50/instrument_cluster_v44/F50_OriginalPMT_InstrumentCluster_v44.blend",
+    "blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "native_mesh": "object00_group01_material011_a0",
+    "existing_vertices_modified_in_v44": 40,
+    "independent_blender_reopen": "PASS",
+    "non_target_original_meshes_unchanged": 41
+  },
+  "this_attempt": {
+    "geometry_modified": false,
+    "dispatch_budget": "2/2",
+    "new_blend_saved": false,
+    "original_source_sha256_unchanged": true,
+    "current_input_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "current_output_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "reason": "v44 source-backed edit already COVERED_PARTIAL_QA; v3 guard prohibits renewed edits and P0 polishing without an explicit named defect."
+  },
+  "next": {
+    "component": "cross_cockpit_qa",
+    "dashboard": "P0_POLISH_HOLD",
+    "steering_wheel": "P0_POLISH_HOLD",
+    "status": "NOT_STARTED_OBSERVATION_ONLY",
+    "full_car_qa_pass": false
+  },
+  "exclusions_enforced": [
+    "windshield/front glass",
+    "dashboard and steering geometry",
+    "no synthetic PMT replacement",
+    "no PBR/textures",
+    "no game exports/conversion",
+    "no other slot"
+  ],
+  "score_change": 0
+}

@@ -332,7 +332,7 @@
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
       "output_scene_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
-      "notes": "[2026-11-09 SLOT C v44] instrument_cluster original PMT011 brow/hood 40 vertices edited; independent Blender reopen/fingerprint PASS. Remaining 41 source meshes unchanged; windshield/dashboard/wheel protected. COVERED_PARTIAL_QA not vehicle QA PASS. Next dashboard on P0_POLISH_HOLD.",
+      "notes": "[2026-11-09 SLOT C] v44 PMT011 instrument_cluster COVERED_PARTIAL_QA, blend SHA 1ff620c4... unchanged. Duplicate 13:30 target BLOCKED_OUT_OF_ORDER 2/2, no geometry edit. Dashboard/steering P0_POLISH_HOLD; next cross_cockpit_qa observation only. Car QA NOT PASS.",
       "private_photo_subdir": "03_F50",
       "priority": [
         "dashboard",
@@ -401,7 +401,7 @@
       "game_integration_required": false,
       "progress_history_archive": "docs/automation/FERRARI16_C_F50_PRE_V3_HISTORY_20261109.md",
       "workpack_path": "docs/automation/FERRARI_COCKPIT_WORKPACK_C_F50.json",
-      "strategy_v3_next_component": "dashboard",
+      "strategy_v3_next_component": "cross_cockpit_qa",
       "strategy_v3_p0_revisit_policy": "HOLD_BEFORE_BREADTH_PASS",
       "source_audit_archive": "docs/automation/FERRARI16_C_F50_PRE_V3_SOURCE_AUDITS_20261109.json",
       "last_slot_c_center_console_v38": {
