@@ -1,0 +1,78 @@
+{
+  "task_id": "FERRARI16-SLOTA-360SPIDER-CENTER-CONSOLE-ORIGINAL-PMT-20261110-5DABFFB5",
+  "slot": "A",
+  "car_id": "360spider",
+  "component": "center_console",
+  "status": "COVERED_PARTIAL_QA",
+  "full_vehicle_qa_pass": false,
+  "source_pmt_sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "source_pmt_path_n100_only": "/home/chatgpt-runner/rea-input/outrun/outrun2006/Cars/obj_plcar_360sp_pmt.sz",
+  "input_blend_sha256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+  "output_blend_sha256": "5dabffb52ae4136b6b72f99c7975b629820f839afec2048e59035cb74d8ee612",
+  "input": {
+    "path": "artifacts/slot_A/360spider/source_bootstrap/Ferrari360Spider_OriginalPMT_EditableBaseline.blend",
+    "sha256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+    "bytes": 468826
+  },
+  "output": {
+    "path": "artifacts/slot_A/360spider/center_console_20261110/Ferrari360Spider_CenterConsole_SourceEdit_R01.blend",
+    "sha256": "5dabffb52ae4136b6b72f99c7975b629820f839afec2048e59035cb74d8ee612",
+    "bytes": 467034
+  },
+  "files": {
+    "Ferrari360Spider_CenterConsole_SourceEdit_R01.blend": {
+      "sha256": "5dabffb52ae4136b6b72f99c7975b629820f839afec2048e59035cb74d8ee612",
+      "bytes": 467034
+    },
+    "receipt.json": {
+      "sha256": "a9dd2328b8973ebae1b058c8e85a31a55ac5f6b1a9fe0f38cb30286ceee69df7",
+      "bytes": 27133
+    },
+    "before_top.png": {
+      "sha256": "834ed53db4850efe297125d2b3f837b8160d9aebb3b40929eacb9a79a1d86a18",
+      "bytes": 770853
+    },
+    "after_top.png": {
+      "sha256": "2eb8c75b634e1a8ce932d2fa61a2a4c5690d1305b97b297125bf313c2d469e3d",
+      "bytes": 771221
+    },
+    "comparison_top.png": {
+      "sha256": "111fc0aa2efd9bcee2fa78b52bb657f5850d3e932421f5476311a94760d1ee2a",
+      "bytes": 776974
+    },
+    "before_oblique.png": {
+      "sha256": "2db10a0da5b81bffdf4ff5e1d5a032f727289bd03d5ae8d9f6725eecdceb5733",
+      "bytes": 713186
+    },
+    "after_oblique.png": {
+      "sha256": "a17139bd8a239f35456910995aa9461450adc6830a0c4f6bac87409fbc34756a",
+      "bytes": 715599
+    },
+    "comparison_oblique.png": {
+      "sha256": "3f358700436b741bc99906132e8116bf4568a5eab03a784b7ff47bf0618fc3a9",
+      "bytes": 647369
+    },
+    "visual_diff_metrics.json": {
+      "sha256": "e3fa473c4595483a95d46cd51160a3ff5da3da7299ba4d46f604e1ec3a28eebd",
+      "bytes": 413
+    }
+  },
+  "source_script": {
+    "path": "tools/car_modeling/source_edit_center_console_360spider.py",
+    "sha256": "4df552b51c4bc97f3734cf872fdc035d0ffe493553cd2ee67ec7d3d12d556008"
+  },
+  "render_reference_only": [
+    "01_interior.jpg",
+    "02_interior.jpg",
+    "REF12_transmission_1_1976f73709.jpg",
+    "REF9_transmission_01_d60f697f6.jpg"
+  ],
+  "private_photo_materials_exported": false,
+  "native_meshes_modified": 1,
+  "existing_vertices_modified": 16,
+  "other_original_meshes_unchanged": 74,
+  "protected_front_glass_mesh_or_transform_changes": 0,
+  "dispatches_consumed_for_result": 1,
+  "next_component": "driver_controls",
+  "sha256_of_partNN_required": false
+}

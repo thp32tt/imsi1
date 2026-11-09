@@ -1,0 +1,14 @@
+{
+  "top": {
+    "changed_RGB_pixels_gt3": 70058,
+    "max_channel_delta": 121,
+    "total_pixels": 660000,
+    "comparison_sha256": "111fc0aa2efd9bcee2fa78b52bb657f5850d3e932421f5476311a94760d1ee2a"
+  },
+  "oblique": {
+    "changed_RGB_pixels_gt3": 26879,
+    "max_channel_delta": 145,
+    "total_pixels": 660000,
+    "comparison_sha256": "3f358700436b741bc99906132e8116bf4568a5eab03a784b7ff47bf0618fc3a9"
+  }
+}
