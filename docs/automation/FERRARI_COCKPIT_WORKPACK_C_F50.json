@@ -19,7 +19,7 @@
     "steering_wheel",
     "cross_cockpit_qa"
   ],
-  "current_component": "instrument_cluster",
+  "current_component": "dashboard",
   "dispatches_on_component": 0,
   "max_dispatches_per_component": 2,
   "components": {
@@ -208,11 +208,30 @@
       }
     },
     "instrument_cluster": {
-      "status": "NOT_STARTED",
-      "source_edits_this_phase": 0,
-      "evidence_refs": [],
-      "blocking_reason": null,
-      "last_saved_blend_sha256": null
+      "status": "COVERED_PARTIAL_QA",
+      "source_edits_this_phase": 1,
+      "dispatches_used": 1,
+      "evidence_refs": [
+        "artifacts/slot_C/f50/instrument_cluster_v44/receipt.json",
+        "artifacts/slot_C/f50/instrument_cluster_v44/manifest.json",
+        "artifacts/slot_C/f50/instrument_cluster_v44/F50_InstrumentCluster_v44_BEFORE_AFTER.png",
+        "tools/car_modeling/slot_c/f50_instrument_cluster_v44.py",
+        "docs/automation/F50_SLOT_C_INSTRUMENT_CLUSTER_NATIVE_V44_20261109.md"
+      ],
+      "blocking_reason": "One native source PMT011 gauge-hood silhouette edit passes Blender save/reopen and fingerprint guard; actual driver-eye calibration and authenticated seven-photo car QA incomplete. This is PARTIAL ONLY, not vehicle PASS.",
+      "last_saved_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+      "partial_scope": {
+        "original_native_object": "object00_group01_material011_a0",
+        "original_mesh_vertices": 109,
+        "original_mesh_faces": 119,
+        "changed_existing_vertices": 40,
+        "max_displacement_mm": 12.5952990236,
+        "non_target_native_meshes_unchanged": 41,
+        "blender_4_5_15_independent_reopen": "PASS",
+        "windshield_dashboard_wheel_unchanged": true,
+        "real_private_photo": "REF2_dashboard_closeup_dad64db8c0a5.jpg",
+        "full_car_qa_pass": false
+      }
     },
     "dashboard": {
       "status": "P0_POLISH_HOLD",
@@ -244,9 +263,9 @@
   ],
   "cannot_promote_from_interim_coverage": true,
   "last_material_commit": "3693c9fc68b570b5e41e7a06156bebc19475efb8",
-  "notes": "F50 SLOT C visible_seat: one actual native edit v43 retained (COVERED_PARTIAL_QA); repeated visible_seat request consumed 2/2 dispatch budget and BLOCKED_OUT_OF_ORDER under mandatory workspace_guard; no new .blend or score. Next/current instrument_cluster (0/2). Windshield protected. Full-car QA NOT PASS.",
-  "current_accepted_blend": "artifacts/slot_C/f50/visible_seat_v43/F50_OriginalPMT_VisibleSeat_Bolster_v43.blend",
-  "current_accepted_blend_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
+  "notes": "F50 C instrument_cluster v44 source-native PMT011 40 existing vertices sculpted, Blender separate-process reopen and guard PASS. 41 other source meshes protected. Next dashboard P0_POLISH_HOLD; requires explicit defect/guard clearance, else skip to cross-cockpit QA. Vehicle QA NOT PASS.",
+  "current_accepted_blend": "artifacts/slot_C/f50/instrument_cluster_v44/F50_OriginalPMT_InstrumentCluster_v44.blend",
+  "current_accepted_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
   "protected_regions": {
     "windshield_and_front_glass": "DO_NOT_EDIT",
     "includes": [
@@ -258,20 +277,19 @@
     ],
     "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
   },
-  "current_accepted_blend_manifest": "artifacts/slot_C/f50/visible_seat_v43/manifest.json",
-  "last_material_task_id": "FERRARI16-SLOTC-F50-VISIBLE-SEAT-PMT023-V43-20261109",
+  "current_accepted_blend_manifest": "artifacts/slot_C/f50/instrument_cluster_v44/manifest.json",
+  "last_material_task_id": "FERRARI16-SLOTC-F50-PMT011-INSTRUMENT-CLUSTER-V44-20261109",
   "last_dispatch_attempt": {
-    "task_id": "FERRARI16-SLOTC-F50-VISIBLE-SEAT-REENTRY-BLOCKED-20261109",
-    "component": "visible_seat",
-    "result": "BLOCKED_OUT_OF_ORDER",
-    "guard": "tools/car_modeling/workspace_guard.py",
-    "guard_error": "BLOCKED: requested region differs from persisted current_component",
-    "observed_current_component": "instrument_cluster",
-    "instruction_used": "2/2",
-    "material_geometry_changed": false,
-    "source_edits_this_phase": 1,
-    "accepted_input_output_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
-    "next": "instrument_cluster",
-    "full_vehicle_qa_pass": false
+    "task_id": "FERRARI16-SLOTC-F50-PMT011-INSTRUMENT-CLUSTER-V44-20261109",
+    "component": "instrument_cluster",
+    "result": "COVERED_PARTIAL_QA",
+    "instruction_used": "1/2",
+    "material_geometry_changed": true,
+    "modified_native_meshes": 1,
+    "changed_existing_vertices": 40,
+    "input_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
+    "output_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "next": "dashboard",
+    "whole_car_qa_pass": false
   }
 }

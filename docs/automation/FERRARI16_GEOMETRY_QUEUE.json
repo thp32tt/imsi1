@@ -331,8 +331,8 @@
       "geometry_gate": "PARTIAL_NEEDS_QA",
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
-      "output_scene_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
-      "notes": "[2026-11-09] F50 original seat v43 retained; 118 source vertices previously edited, no new geometry from repeated visible_seat dispatch. Mandatory guard BLOCKED_OUT_OF_ORDER (persisted current=instrument_cluster); second seat request consumed 2/2 cap. Next instrument_cluster, glass protected; whole-car QA NOT PASS.",
+      "output_scene_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+      "notes": "[2026-11-09 SLOT C v44] instrument_cluster original PMT011 brow/hood 40 vertices edited; independent Blender reopen/fingerprint PASS. Remaining 41 source meshes unchanged; windshield/dashboard/wheel protected. COVERED_PARTIAL_QA not vehicle QA PASS. Next dashboard on P0_POLISH_HOLD.",
       "private_photo_subdir": "03_F50",
       "priority": [
         "dashboard",
@@ -401,7 +401,7 @@
       "game_integration_required": false,
       "progress_history_archive": "docs/automation/FERRARI16_C_F50_PRE_V3_HISTORY_20261109.md",
       "workpack_path": "docs/automation/FERRARI_COCKPIT_WORKPACK_C_F50.json",
-      "strategy_v3_next_component": "instrument_cluster",
+      "strategy_v3_next_component": "dashboard",
       "strategy_v3_p0_revisit_policy": "HOLD_BEFORE_BREADTH_PASS",
       "source_audit_archive": "docs/automation/FERRARI16_C_F50_PRE_V3_SOURCE_AUDITS_20261109.json",
       "last_slot_c_center_console_v38": {
@@ -542,6 +542,20 @@
         "vehicle_complete": false,
         "next": "instrument_cluster",
         "report": "docs/automation/F50_SLOT_C_VISIBLE_SEAT_REENTRY_BLOCKED_20261109.md"
+      },
+      "last_slot_c_v44": {
+        "task_id": "FERRARI16-SLOTC-F50-PMT011-INSTRUMENT-CLUSTER-V44-20261109",
+        "component": "instrument_cluster",
+        "status": "COVERED_PARTIAL_QA",
+        "native_object": "object00_group01_material011_a0",
+        "changed_existing_vertices": 40,
+        "other_41_native_meshes_unchanged": true,
+        "input_blend_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
+        "output_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+        "source_PMT_sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+        "independent_reopen": "PASS",
+        "full_car_qa_pass": false,
+        "next": "dashboard_P0_POLISH_HOLD"
       }
     },
     {

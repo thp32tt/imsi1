@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "repository": "thp32tt/imsi1",
+  "branch": "main",
+  "slot": "C",
+  "active_car_id": "f50",
+  "component": "instrument_cluster",
+  "status": "COVERED_PARTIAL_QA",
+  "format": "plain_unencrypted_binary_parts",
+  "binary_file": "F50_OriginalPMT_InstrumentCluster_v44.blend",
+  "binary_size": 1546089,
+  "binary_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+  "input_baseline": {
+    "file": "F50_OriginalPMT_VisibleSeat_Bolster_v43.blend",
+    "sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7"
+  },
+  "original_native_game_resource": {
+    "retained_on_n100": true,
+    "file": "obj_plcar_f50_pmt.sz",
+    "sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab"
+  },
+  "original_import_blend_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
+  "chunk_size": 262144,
+  "parts": [
+    {
+      "file": "F50_OriginalPMT_InstrumentCluster_v44.part01.bin",
+      "size": 262144,
+      "offset": 0,
+      "sha256": "350496598b67cf13e14f860251c3961392c80868aba5b47ce8501d53bc6b2344"
+    },
+    {
+      "file": "F50_OriginalPMT_InstrumentCluster_v44.part02.bin",
+      "size": 262144,
+      "offset": 262144,
+      "sha256": "8bdebe50f9e8ff2dc3cd7e83e6329c54659ac0924384d5c505d64b34093ae03c"
+    },
+    {
+      "file": "F50_OriginalPMT_InstrumentCluster_v44.part03.bin",
+      "size": 262144,
+      "offset": 524288,
+      "sha256": "e35ad8204179c0d0566c5db6cdcd8de26c8f1a68a346b3090e1aca7e0887ce12"
+    },
+    {
+      "file": "F50_OriginalPMT_InstrumentCluster_v44.part04.bin",
+      "size": 262144,
+      "offset": 786432,
+      "sha256": "967644249befb51bebd91f848cbcc175b59176fa41a1105f304cc95bcac048cf"
+    },
+    {
+      "file": "F50_OriginalPMT_InstrumentCluster_v44.part05.bin",
+      "size": 262144,
+      "offset": 1048576,
+      "sha256": "c3c25f0a9b75f93b2c26addf86da57d1fcfa7058477417da1e925d6a3c45b7f3"
+    },
+    {
+      "file": "F50_OriginalPMT_InstrumentCluster_v44.part06.bin",
+      "size": 235369,
+      "offset": 1310720,
+      "sha256": "3e9a3533b453aa00c7088f2e321dfd444aa83c74816d086a7e815633a3ca2326"
+    }
+  ],
+  "independent_blender_reopen": "PASS",
+  "full_vehicle_qa_pass": false,
+  "next_component": "dashboard (P0_POLISH_HOLD; advance only per guard/controller)",
+  "artifact_sha256": {
+    "receipt.json": "c978459e3060f5b65fc30d8a349001f8bf6e9ab6585d44ac0fc9738631cb0528",
+    "F50_InstrumentCluster_v44_BEFORE.png": "4c1bf31329de2356ae4c2399b7c6df9f3157a5e7884fed1c47827cb7212797cc",
+    "F50_InstrumentCluster_v44_AFTER.png": "3e85738167fd197507a24be0c4ee86243ac887e6192a7cd409aec6d0dbbc898c",
+    "F50_InstrumentCluster_v44_BEFORE_AFTER.png": "951c8d916bc29928479bfa35b95dc5eb15c4770ddae993eae2d5082f69bcbab0"
+  },
+  "protected_regions": [
+    "windshield",
+    "front_glass",
+    "A_pillars",
+    "dashboard",
+    "steering_wheel",
+    "exterior"
+  ]
+}
