@@ -92,7 +92,7 @@
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "30ddcbd01ef7e969bb1e4220ff4318c2f75b7fd7ab70bc4d6dafedcdc7954437",
       "output_scene_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
-      "notes": "[2026-11-09 SLOT A hosted corrected] inner_door R45 COVERED_PARTIAL_QA; do not repeat. Public run 42543904654: AES key present, decrypted 6 inputs, but hosted edit BLOCKED_SOURCE_SHA because ciphertext input predates private R45 .blend SHA 224131c7. Newer run 42546429232 selected slot C; A model steps skipped. No hosted A geometry/reopen/render or QA PASS. Next visible_seat remains NOT_STARTED until fresh encrypted R45 source is provided. Existing 24h vehicle ownership retained; C/F50 untouched.",
+      "notes": "[2026-11-09 PUBLIC TEMP MIGRATION] Daytona R45 baseline SHA 224131c7 mirrored plaintext in thp32tt/imsi1 as R45_parts with manifest/reassemble.py due connector single-blob transport limit. Encryption/Secret gate retired. inner_door remains COVERED_PARTIAL_QA; NEXT visible_seat. Raw PMT/photos remain N100-only; no full-car QA PASS.",
       "private_photo_subdir": "02_365_GTS4_Daytona",
       "priority": [
         "dashboard",
@@ -278,7 +278,7 @@
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
       "output_scene_sha256": "016645f5fea43ef75c8e80479f49baaff2d3aa8d1647a058f732ac69080da08d",
-      "notes": "[2026-11-09 SLOT C F50 v41] driver_controls BLOCKED original native PMT pedal/stalk not positively identified; moved to windshield_frame original PMT000 header/A-pillar outer border. 13 existing vertices moved max 21mm, glass PMT005 and other 41 native meshes untouched. Private .blend v41 SHA 016645f5, official Blender 4.5.15 independent reopen PASS. windshield_frame COVERED_PARTIAL_QA only; NEXT visible_seat, no full car QA PASS; original 24h ownership unchanged.",
+      "notes": "[2026-11-09 PUBLIC TEMP MIGRATION] F50 v41 baseline SHA 016645f5 mirrored plaintext directly at artifacts/slot_C/f50/F50_OriginalPMT_Windshield_Header_Apillar_v41.blend. Encryption/Secret gate retired. windshield_frame remains COVERED_PARTIAL_QA; NEXT visible_seat. Raw PMT/photos remain N100-only; no full-car QA PASS.",
       "private_photo_subdir": "03_F50",
       "priority": [
         "dashboard",
@@ -957,6 +957,23 @@
       "raw original game archives/PMT packages",
       "private reference-photo collection"
     ],
-    "cleanup": "delete repository after final Ferrari modeling deliverables are transferred"
+    "cleanup": "delete repository after final Ferrari modeling deliverables are transferred",
+    "current_checkpoints": {
+      "A": {
+        "car_id": "daytona365",
+        "transport": "plain_split_binary_v1",
+        "path": "artifacts/slot_A/daytona365/R45_parts/",
+        "filename": "Daytona365_SlotA_OriginalPMT005_InnerDoor_R45.blend",
+        "sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+        "next_component": "visible_seat"
+      },
+      "C": {
+        "car_id": "f50",
+        "transport": "plain_direct_blend",
+        "path": "artifacts/slot_C/f50/F50_OriginalPMT_Windshield_Header_Apillar_v41.blend",
+        "sha256": "016645f5fea43ef75c8e80479f49baaff2d3aa8d1647a058f732ac69080da08d",
+        "next_component": "visible_seat"
+      }
+    }
   }
 }
