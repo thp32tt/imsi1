@@ -1,0 +1,37 @@
+{
+  "component": "dashboard",
+  "slot": "C",
+  "car_id": "f355spider",
+  "source_modification": "True original PMT 019 twin central dashboard fascia panel; 8 existing vertices moved",
+  "source_native_geometry_changed": true,
+  "source_derived_original_meshes_changed": [
+    "PMT_F355SPIDER_object00_group01_material019_a0"
+  ],
+  "native_original_vertices_modified": 8,
+  "max_displacement_m": 0.04486646854834911,
+  "other_native_meshes_unchanged": 95,
+  "protected_windshield_and_frame_untouched": true,
+  "windshield_protected_geometry_proximity_before_m": 0.07144287902368679,
+  "windshield_protected_geometry_proximity_after_m": 0.0717604475892475,
+  "input_blend_sha256": "ec320da62a7ac21bf88cef5ed205558f3542e03f6f35d6f76de5d4e3d7643e23",
+  "output_blend_sha256": "8734757c3bac3938c8313214720c7d9e9b5d42fdb7095001de9fd90471d93c0d",
+  "independent_reopen": "PASS_BLENDER_4_5_15_SEPARATE_PROCESS",
+  "workspace_guard_verify_receipt": "PASS",
+  "same_camera_before_after_png": [
+    "dashboard_detail_before.png",
+    "dashboard_detail_after.png",
+    "dashboard_detail_delta.png",
+    "dashboard_context_before.png",
+    "dashboard_context_after.png",
+    "dashboard_context_delta.png"
+  ],
+  "private_photo_reference": "REF4_interior_03_f460291745.jpg",
+  "gaps": [
+    "authentic seated-driver calibrated reference is missing",
+    "whole cockpit glass-frame in-game QA not performed",
+    "full vehicle quality gate not met"
+  ],
+  "full_vehicle_qa_pass": false,
+  "part_coverage": "COVERED_PARTIAL_QA",
+  "next_component": "steering_wheel"
+}

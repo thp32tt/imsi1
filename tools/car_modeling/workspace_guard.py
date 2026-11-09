@@ -133,8 +133,13 @@ def verify_receipt(queue, workpack, slot, receipt, output_blend=None):
     require(receipt.get("slot") == slot and receipt.get("vehicle") == workpack["car_id"],
             "receipt crossed slot/vehicle")
     part = receipt.get("component")
-    require(part in workpack["component_order"] and part not in HOLD and not PROTECTED.search(str(part)),
+    require(part in workpack["component_order"] and not PROTECTED.search(str(part)),
             "receipt contains protected/non-editable region")
+    if part in HOLD:
+        # V12 authorizes one first source-native P0 pass on genuinely new cars.
+        # Reuse the exact strict preflight gate; historical P0 polish remains barred.
+        require(preflight(queue, workpack, slot, part).startswith("PASS "),
+                "fresh P0 receipt did not pass strict initial-pass gate")
     require(receipt.get("status") == "COVERED_PARTIAL_QA" and receipt.get("full_vehicle_qa_pass") is False,
             "interim source edit cannot claim vehicle QA PASS")
     require(receipt.get("native_original_pmt_sha256") == workpack["original_game_resource_sha256"],
