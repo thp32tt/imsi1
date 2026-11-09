@@ -1,0 +1,48 @@
+{
+  "task_id": "FERRARI16-SLOTA-360SPIDER-INNER-DOOR-NATIVE-SCOPE-BLOCKED-20261110-598DFE64",
+  "slot": "A",
+  "vehicle": "360spider",
+  "target": "inner_door",
+  "status": "BLOCKED",
+  "source_mesh_changed": false,
+  "changed_vertices": 0,
+  "changed_objects": [],
+  "new_objects": 0,
+  "new_faces": 0,
+  "native_pmt_sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "original_import_blend_sha256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+  "input_accepted_blend_sha256": "5dabffb52ae4136b6b72f99c7975b629820f839afec2048e59035cb74d8ee612",
+  "output_accepted_blend_sha256": "5dabffb52ae4136b6b72f99c7975b629820f839afec2048e59035cb74d8ee612",
+  "fresh_blend_saved": false,
+  "independent_blender_reopen": "NOT_APPLICABLE_NO_NEW_BLEND",
+  "actual_geometry_change": false,
+  "full_vehicle_qa_pass": false,
+  "covered_partial_qa": false,
+  "protected_front_glass_meshes_modified": false,
+  "non_target_meshes_modified": false,
+  "allowed_followup_component": "visible_seat",
+  "dispatch_consumed_for_check": false,
+  "native_mesh_candidate_rois": [
+    {
+      "mesh": "PMT_object00_group01_material006_a0",
+      "roots": [
+        2917,
+        2832
+      ],
+      "classification": "exterior side surfaces, not safely targetable inner door"
+    },
+    {
+      "mesh": "PMT_object00_group01_material010_a0",
+      "root": 1492,
+      "classification": "mixed seat/floor/tunnel support, not isolated door trim"
+    }
+  ],
+  "private_real_photo_reference": "N100/outrun2_vr_refs/20261104_16car_cockpit/04_360_Spider/REF4_interior_03_cbe6a4e606.jpg (not published)",
+  "real_photo_observation": "black leather upper insert; sculpted armrest/handle; contrasting lower speaker insert",
+  "blocker": "No independently attributable native original interior-door trim/armrest/handle/speaker mesh. Candidate PMT_object00_group01_material006_a0 islands 2917-2934 and 2832-2870 render as exterior body-side surfaces, while material010 includes seat/floor/cockpit surfaces without a safely isolated inner-door part. Editing either would risk exterior or adjacent protected glass-fitting geometry; source-only target was rejected. No synthetic new door mesh allowed.",
+  "render_evidence": [
+    "artifacts/slot_A/360spider/inner_door_20261110/door_from_interior.png",
+    "artifacts/slot_A/360spider/inner_door_20261110/door_from_exterior.png",
+    "artifacts/slot_A/360spider/inner_door_20261110/mat010_interior.png"
+  ]
+}

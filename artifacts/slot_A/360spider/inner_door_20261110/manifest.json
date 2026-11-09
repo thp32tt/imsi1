@@ -1,0 +1,21 @@
+{
+  "task_id": "FERRARI16-SLOTA-360SPIDER-INNER-DOOR-NATIVE-SCOPE-BLOCKED-20261110-598DFE64",
+  "status": "BLOCKED_NO_MESH_EDIT",
+  "native_pmt_input_sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "original_import_blend_sha256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+  "input_blend_sha256": "5dabffb52ae4136b6b72f99c7975b629820f839afec2048e59035cb74d8ee612",
+  "output_blend_sha256": "5dabffb52ae4136b6b72f99c7975b629820f839afec2048e59035cb74d8ee612",
+  "new_blend_produced": false,
+  "source_mesh_changed": false,
+  "part_covered": false,
+  "vehicle_qa_pass": false,
+  "next_component": "visible_seat",
+  "files_sha256": {
+    "artifacts/slot_A/360spider/inner_door_20261110/door_from_interior.png": "2d2a8dda224629d921688139c15db113487f37781e95543c278e7a2ad501e3f1",
+    "artifacts/slot_A/360spider/inner_door_20261110/door_from_exterior.png": "d3bc3d3735d6281b5783c5118002b1a7f80a990457952aa32bb58069603a0fab",
+    "artifacts/slot_A/360spider/inner_door_20261110/mat010_interior.png": "33bed427e329277fa401031ae98a6a9b7fca2e19d3464bba422313294e3e3b62",
+    "artifacts/slot_A/360spider/inner_door_20261110/QA.json": "0ba324e8bd19918cd23d4da0267bd0fd5e3dec4970aa7a20fcfd47f11f08f430",
+    "artifacts/slot_A/360spider/inner_door_20261110/QA.md": "0c2c820741bdb70681070bdc08e2e52406d7b55590472592e8d98555bc1d6723",
+    "artifacts/slot_A/360spider/inner_door_20261110/native_door_roi_inventory.json": "faddde4ebba7b3fd132c32c49f3d912a3a328aacd35da91667a26ee807ae2fd2"
+  }
+}
