@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "car": "360spider",
+  "slot": "A",
+  "component": "dashboard",
+  "run_key": "FERRARI16-SLOTA-360SPIDER-NATIVE-DASHBOARD-R04-20261110",
+  "native_game_PMT_SHA256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "original_import_blend_SHA256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+  "input_path": "artifacts/slot_A/360spider/instrument_cluster_20261110/Ferrari360Spider_InstrumentCluster_OriginalPMT_R03.blend",
+  "input_SHA256": "df7b2ce23530c4bdace9d301cde61526d5ef5ab80ab7f9811f35d4dda08de443",
+  "output_path": "artifacts/slot_A/360spider/dashboard_20261110/Ferrari360Spider_Dashboard_OriginalPMT_R04.blend",
+  "output_SHA256": "403ec48d0e9761214f20a5c22a7df608f38b3644b135b80aa185dcb559c33ad8",
+  "original_native_mesh": "PMT_object00_group01_material010_a0",
+  "actual_modified_native_indices": [
+    1501,
+    1504,
+    1509,
+    1550,
+    1554,
+    1555
+  ],
+  "independent_reopen": "PASS",
+  "whole_car_QA": "NOT_PASS",
+  "next_component": "steering_wheel",
+  "plain_binary_policy": "SINGLE_UNENCRYPTED_BLEND_UNDER_CONNECTOR_LIMIT",
+  "files": {
+    "artifacts/slot_A/360spider/instrument_cluster_20261110/Ferrari360Spider_InstrumentCluster_OriginalPMT_R03.blend": {
+      "sha256": "df7b2ce23530c4bdace9d301cde61526d5ef5ab80ab7f9811f35d4dda08de443",
+      "bytes": 467368
+    },
+    "artifacts/slot_A/360spider/dashboard_20261110/Ferrari360Spider_Dashboard_OriginalPMT_R04.blend": {
+      "sha256": "403ec48d0e9761214f20a5c22a7df608f38b3644b135b80aa185dcb559c33ad8",
+      "bytes": 467809
+    },
+    "tools/car_modeling/source_edit_dashboard_360spider.py": {
+      "sha256": "7bf1219e47679cbdc250e189109f9a5741d4718f3ce9708f4599c3f08b7cbc92",
+      "bytes": 10227
+    },
+    "artifacts/slot_A/360spider/dashboard_20261110/receipt.json": {
+      "sha256": "0958d752f867bb0ebc3ef73bbd580320fa565ab30ae6d1ee4bd480e4b626a5a8",
+      "bytes": 20650
+    },
+    "artifacts/slot_A/360spider/dashboard_20261110/QA.json": {
+      "sha256": "34d5c8ca37b1f32e093e2c43fb6bc58bb79417e3837e8f249b397f174fdba83c",
+      "bytes": 1692
+    },
+    "artifacts/slot_A/360spider/dashboard_20261110/QA.md": {
+      "sha256": "e79eb660bef1a365bdaada3fc1a1f515a03e7a87d0d0474d1e898aff6c08fe20",
+      "bytes": 2038
+    },
+    "artifacts/slot_A/360spider/dashboard_20261110/dashboard_isolated_seated_before.png": {
+      "sha256": "7e8040243e0fa9f42db7583ecf0cd10eec0ca49d8ec19f53ab40e573694739a5",
+      "bytes": 276841
+    },
+    "artifacts/slot_A/360spider/dashboard_20261110/dashboard_isolated_seated_after.png": {
+      "sha256": "c93d45f5bc32374d7f1ed28d6b4abf8feb0cef6536b761fad8b73cbdb31731d5",
+      "bytes": 267471
+    },
+    "artifacts/slot_A/360spider/dashboard_20261110/dashboard_compare_seated.jpg": {
+      "sha256": "02dea3292420435034c7e1642026990393d6716ccf232bdf2b414fc13af74274",
+      "bytes": 66792
+    },
+    "artifacts/slot_A/360spider/dashboard_20261110/dashboard_isolated_overhead_before.png": {
+      "sha256": "97420bb9739c04695cc0da822ec67c68640ad8419113100b9457fa51c018e0e5",
+      "bytes": 316994
+    },
+    "artifacts/slot_A/360spider/dashboard_20261110/dashboard_isolated_overhead_after.png": {
+      "sha256": "c75e96a884cfdf116f13368d4dd6c977cbe56bc7b5c6bbee80675a7e3193676e",
+      "bytes": 320095
+    },
+    "artifacts/slot_A/360spider/dashboard_20261110/dashboard_compare_overhead.jpg": {
+      "sha256": "d60b49b150a8e1d3cc3a649ef958cf10443c07ee22056fc08b9bb6e24180f522",
+      "bytes": 73502
+    }
+  }
+}
