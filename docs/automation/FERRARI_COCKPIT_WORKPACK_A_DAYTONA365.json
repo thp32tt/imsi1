@@ -20,7 +20,7 @@
     "cross_cockpit_qa"
   ],
   "current_component": "cross_cockpit_qa",
-  "dispatches_on_component": 0,
+  "dispatches_on_component": 1,
   "max_dispatches_per_component": 2,
   "components": {
     "center_console": {
@@ -180,11 +180,29 @@
       "last_saved_blend_sha256": null
     },
     "cross_cockpit_qa": {
-      "status": "NOT_STARTED",
+      "status": "IN_PROGRESS",
       "source_edits_this_phase": 0,
-      "evidence_refs": [],
+      "evidence_refs": [
+        "artifacts/slot_A/daytona365/cross_cockpit_qa_20261109_1434/manifest.json",
+        "artifacts/slot_A/daytona365/cross_cockpit_qa_20261109_1434/QA.md",
+        "artifacts/slot_A/daytona365/cross_cockpit_qa_20261109_1434/Daytona365_R45_cross_cockpit_observation.png"
+      ],
       "blocking_reason": null,
-      "last_saved_blend_sha256": null
+      "last_saved_blend_sha256": null,
+      "dispatches_consumed_this_phase": 1,
+      "observation_status": "QA_OBSERVED_PARTIAL_NOT_PASS",
+      "input_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+      "output_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+      "render_sha256": "e4a807a7169677bc67a63ffeb46e5beda74ebb756193405c89fece98b19fd385",
+      "camera": "V7_Camera_Reference_ThreeQuarter",
+      "native_source_edit": false,
+      "remaining_blockers": [
+        "exact original game driver-eye uncalibrated",
+        "seven-camera-matched real photo views incomplete",
+        "standalone R46/R47 not integrated",
+        "existing source connectivity/unclosed surfaces"
+      ],
+      "notes": "Observation 1/2; no Blender edit or new .blend. After R45 Workbench three-quarter render compared privately with non-matched authentic LHD dashboard photo; definitive geometry defects not asserted."
     }
   },
   "known_final_qa_blockers": [
@@ -195,7 +213,7 @@
   ],
   "cannot_promote_from_interim_coverage": true,
   "last_material_commit": "4ebbeb8342d0fe8ebca18d7c830a6be2ac6cee02",
-  "notes": "SLOT A dashboard requested after R47; native preflight BLOCKED by P0_POLISH_HOLD, no new .blend/geometry (0 vertices). Dashboard status BLOCKED pending distinct verified defect, steering remains P0_POLISH_HOLD and is skipped. Next cross_cockpit_qa observation only; accepted R45 and standalone R46/R47 unchanged, vehicle QA NOT PASS.",
+  "notes": "SLOT A cross_cockpit_qa observation 1/2: independent read-only R45 Workbench render + private original Daytona dashboard photo comparison. Camera angles differ, game eye not calibrated; not accepted as pass or new mesh edit. Dashboard BLOCKED P0 hold, wheel HOLD, R46/R47 not integrated. Vehicle QA NOT PASS.",
   "latest_accepted_editable_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
   "hosted_a_latest_evidence": {
     "updated_at_kst": "2026-11-09 10:36",
@@ -248,15 +266,16 @@
     "next": "dashboard"
   },
   "last_dispatch_attempt": {
-    "task_id": "FERRARI16-SLOTA-DAYTONA-DASHBOARD-P0-HOLD-BLOCKED-20261109-1404",
-    "component": "dashboard",
-    "result": "BLOCKED_P0_POLISH_HOLD",
+    "task_id": "FERRARI16-SLOTA-DAYTONA-CROSS-COCKPIT-OBSERVE-R45-20261109-1434",
+    "component": "cross_cockpit_qa",
+    "result": "QA_OBSERVED_PARTIAL_NOT_PASS",
     "material_geometry_changed": false,
     "modified_native_meshes": 0,
     "input_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
     "output_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
-    "preflight": "BLOCKED: target already finished, blocked or on P0 hold; advance instead",
-    "next": "cross_cockpit_qa",
+    "photo_reference_sha256": "6c87cd360497eead51a8aba83c6c4e07986247c47f4dbd5a181fcecf81a1f004",
+    "render_sha256": "e4a807a7169677bc67a63ffeb46e5beda74ebb756193405c89fece98b19fd385",
+    "next": "continue_slot_A_final_photo_qa_or_distinct_approved_defect",
     "whole_car_qa_pass": false
   }
 }

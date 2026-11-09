@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "task_id": "FERRARI16-SLOTA-DAYTONA-CROSS-COCKPIT-OBSERVE-R45-20261109-1434",
+  "slot": "A",
+  "car_id": "daytona365",
+  "component": "cross_cockpit_qa",
+  "status": "QA_OBSERVED_PARTIAL",
+  "final_vehicle_qa": "NOT_PASS",
+  "ssot_input_head": "3a0f9f36f6671bc8df7f68c4fa93fd87efc6fbba",
+  "original_native_pmt_sha256": "f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe",
+  "original_import_blend_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+  "current_input_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "current_output_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "geometry_modified": false,
+  "source_mesh_vertices_changed": 0,
+  "new_blend_saved": false,
+  "private_photo_sha256_not_published": "6c87cd360497eead51a8aba83c6c4e07986247c47f4dbd5a181fcecf81a1f004",
+  "rendered_accepted_scene": "Daytona365_R45_cross_cockpit_observation.png",
+  "render_sha256": "e4a807a7169677bc67a63ffeb46e5beda74ebb756193405c89fece98b19fd385",
+  "camera": "V7_Camera_Reference_ThreeQuarter",
+  "driver_eye_calibrated": false,
+  "blender_independent_read_only_load": "READ_ONLY_LOADED_IN_SEPARATE_BLENDER_PROCESS",
+  "sources_uploaded": [
+    "cross_cockpit_observation.py",
+    "Daytona365_R45_cross_cockpit_observation.png",
+    "blender_observation.json",
+    "QA.md"
+  ],
+  "source_script_sha256": "20926f73071879a39811801e5200b5f5a856eaf9a9f625c880bac203796f0d91",
+  "final_photo_qa_blockers": [
+    "game_eye_uncalibrated",
+    "seven_view_incomplete",
+    "unintegrated_R46_R47",
+    "nonmanifold_not_resolved"
+  ],
+  "other_slot_untouched": true,
+  "protected_front_glass_untouched": true,
+  "encryption_used": false,
+  "score_change": 0
+}

@@ -1,0 +1,19 @@
+{
+  "status": "RENDERED_READ_ONLY_NOT_SCENE_EDIT",
+  "camera_source": "PERSISTED_SCENE",
+  "camera_name": "V7_Camera_Reference_ThreeQuarter",
+  "true_game_driver_eye_calibrated": false,
+  "scene_file_sha256_before": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "original_pmt_sha256": "f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe",
+  "native_mesh_object_count": 113,
+  "render_path": "/home/chatgpt-runner/work_handoff/ferrari16_slotA_daytona_dashboard_steering_20261108/slotA_cross_cockpit_qa_20261109_1434/Daytona365_R45_cross_cockpit_observation.png",
+  "geometry_edits": 0,
+  "source_file_saved": false,
+  "photo_kept_private": true,
+  "whole_car_qa_pass": false,
+  "input_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "input_blend_sha256_after": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "photo_sha256_N100_only": "6c87cd360497eead51a8aba83c6c4e07986247c47f4dbd5a181fcecf81a1f004",
+  "render_sha256": "e4a807a7169677bc67a63ffeb46e5beda74ebb756193405c89fece98b19fd385",
+  "reopen": "READ_ONLY_LOADED_IN_SEPARATE_BLENDER_PROCESS"
+}
