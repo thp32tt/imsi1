@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "strategy": "breadth_first_cockpit_v3",
+  "slot": "C",
+  "car_id": "f50",
+  "source_repo": "thp32tt/OutRun2006Tweaks",
+  "source_branch": "feature/ferrari16-geometry-rework-20261108",
+  "original_game_resource_sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+  "original_import_blend_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
+  "migration_input_blend_sha256": "4f232ce124caab8afca8ddfcadb6b629267730d80a58ab50a1daddbfad591b3e",
+  "migration_info": "2026-11-09 user override; P0 repeatedly edited (Daytona R41, F50 v36), not certified PASS",
+  "component_order": [
+    "center_console",
+    "driver_controls",
+    "inner_door",
+    "windshield_frame",
+    "visible_seat",
+    "instrument_cluster",
+    "dashboard",
+    "steering_wheel",
+    "cross_cockpit_qa"
+  ],
+  "current_component": "visible_seat",
+  "dispatches_on_component": 0,
+  "max_dispatches_per_component": 2,
+  "components": {
+    "center_console": {
+      "status": "COVERED_PARTIAL_QA",
+      "source_edits_this_phase": 2,
+      "evidence_refs": [
+        "docs/automation/F50_SLOT_C_CENTER_CONSOLE_NATIVE_SHIFTER_V38_20261109.md",
+        "tools/car_modeling/slot_c/f50_center_console_original_shifter_v38.py",
+        "N100 private F50_CenterConsole_Shifter_v38_IndependentReopen.json",
+        "docs/automation/F50_SLOT_C_CENTER_CONSOLE_NATIVE_SHAFT_V39_20261109.md",
+        "tools/car_modeling/slot_c/f50_center_console_native_shaft_v39.py",
+        "N100 private F50_CenterConsole_Shaft_v39_IndependentReopen.json"
+      ],
+      "blocking_reason": "Knob and shaft source-edited (2/2 limit). H-pattern gate, plate and tunnel: BLOCKED_UNIDENTIFIED_NATIVE_SOURCE; do not synthesize. Full 7-view/driver-eye car QA not complete.",
+      "last_saved_blend_sha256": "724df8bcd079299e8781726b25888243dbdcab7368d7d758f81ba8236666072f",
+      "dispatches_used": 2,
+      "partial_scope": {
+        "original_native_object": "object20_group00_material000_a0",
+        "original_knob_vf": [
+          16,
+          19
+        ],
+        "edited_knob_vf": [
+          103,
+          171
+        ],
+        "repositioned_verts": 91,
+        "other_41_native_meshes_unchanged": true,
+        "official_blender_fresh_reopen": "PASS",
+        "full_car_qa_pass": false,
+        "gate_and_tunnel": "BLOCKED_UNIDENTIFIED_NATIVE_SOURCE",
+        "source_shaft_object": "object20_group00_material001_a0",
+        "original_shaft_vf": [
+          12,
+          6
+        ],
+        "edited_shaft_vf": [
+          108,
+          150
+        ],
+        "shaft_moved_vertices": 108,
+        "no_more_center_console_dispatch": true
+      }
+    },
+    "driver_controls": {
+      "status": "BLOCKED",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [
+        "docs/automation/F50_SLOT_C_DRIVER_CONTROLS_BLOCKED_INNER_DOOR_V40_20261109.md",
+        "N100 F50 42 original native mesh Blender v39 inspection"
+      ],
+      "blocking_reason": "No positive native original PMT foot-pedal or stalk attribution among 42 source meshes; wheel object21 is on P0 hold, so no invented driver_controls mesh.",
+      "last_saved_blend_sha256": null,
+      "dispatches_used": 1
+    },
+    "inner_door": {
+      "status": "COVERED_PARTIAL_QA",
+      "source_edits_this_phase": 2,
+      "evidence_refs": [
+        "docs/automation/F50_SLOT_C_DRIVER_CONTROLS_BLOCKED_INNER_DOOR_V40_20261109.md",
+        "tools/car_modeling/slot_c/f50_inner_door_native_v40.py",
+        "N100 private F50_InnerDoor_UpperRail_v40_IndependentReopen.json",
+        "docs/automation/FERRARI16_SLOTC_F50_HOSTED_INNER_DOOR_BLOCKED_20261109.md",
+        "tools/car_modeling/hosted_edits/f50_slot_c_inner_door_v42.py",
+        "hosted run 42540030991 gate ready=false; Blender/decrypt/edit skipped",
+        "GitHub Actions 42543904654: decryption + Blender install PASS, model step BLOCKED_PART, no ciphertext artifact",
+        "GitHub Actions 42546429232: AES decrypt, Blender 4.5.15 original-native edit, before/after workbench, independent reopen PASS; AES-GCM artifact 13642534956"
+      ],
+      "blocking_reason": "Native driver-side door shoulder has v40 + hosted v42 geometry checkpoints; missing original door handle attribution, calibrated driver-eye and seven-view comparison remain. Public hosted result ciphertext-only, output SHA held in encrypted receipt; cannot claim car QA or promote v42 as accepted source before private verification.",
+      "last_saved_blend_sha256": "03b96b1eb2293c151c60133919380055fa8393372b0acbf18045edf25faa949a",
+      "dispatches_used": 2,
+      "partial_scope": {
+        "original_native_object": "object00_group01_material031_a0",
+        "original_mesh_verts": 66,
+        "original_mesh_faces": 40,
+        "original_vertices_moved": 10,
+        "max_displacement_mm": 26.495,
+        "other_41_meshes_unchanged": true,
+        "official_blender_save_reopen": "PASS",
+        "full_vehicle_qa_pass": false,
+        "original_photo": "REF5_mecum_interior_01_f8afa7e2a.jpg",
+        "handle": "BLOCKED_UNIDENTIFIED_NATIVE_SOURCE"
+      },
+      "hosted_v42_request": {
+        "status": "SOURCE_NATIVE_EDIT_FRESH_BLENDER_REOPEN_PASS_ENCRYPTED_UNPROMOTED",
+        "original_native_object": "object00_group01_material031_a0",
+        "source_blend_sha256": "016645f5fea43ef75c8e80479f49baaff2d3aa8d1647a058f732ac69080da08d",
+        "original_native_sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+        "script": "tools/car_modeling/hosted_edits/f50_slot_c_inner_door_v42.py",
+        "geometry_modified": true,
+        "dispatches_used": 2,
+        "source_edit_count_remains": 2,
+        "next": "visible_seat",
+        "latest_run_id": 42546429232,
+        "runner_decryption": "PASS",
+        "blender_install": "PASS",
+        "stopped_at": null,
+        "hosted_blend_saved": true,
+        "hosted_artifact_uploaded": true,
+        "hosted_independent_reopen": "PASS",
+        "before_after_workbench_png": "PASS",
+        "changed_existing_meshes": [
+          "PMT_F50_object00_group01_material031_a0"
+        ],
+        "protected_other_native_meshes": 41,
+        "encrypted_artifact_name": "ferrari-ciphertext-slot-C-42546429232",
+        "encrypted_artifact_id": 13642534956,
+        "encrypted_payload_sha256": "0fd3e4d95f883d798764ea8d341953349b09f75c0d629246f514849fd3e7f0c3",
+        "output_blend_sha256": null,
+        "output_sha_location": "Encrypted receipt only; public log cannot prove standalone file digest",
+        "source_promotion": "PENDING_PRIVATE_DECRYPTED_RECEIPT_AND_SOURCE_ACCEPTANCE",
+        "whole_car_qa_pass": false,
+        "retry_allowed": false
+      }
+    },
+    "windshield_frame": {
+      "status": "COVERED_PARTIAL_QA",
+      "source_edits_this_phase": 1,
+      "evidence_refs": [
+        "docs/automation/F50_SLOT_C_WINDSHIELD_FRAME_NATIVE_HEADER_V41_20261109.md",
+        "tools/car_modeling/slot_c/f50_windshield_native_header_v41.py",
+        "N100 private F50_Windshield_Header_Apillar_v41_Receipt.json",
+        "N100 private F50_Windshield_Header_Apillar_v41_IndependentReopen.json"
+      ],
+      "blocking_reason": "Original PMT windshield header/A-pillar outer-border 13 verts edited; transparent PMT005 untouched. Other 41 native meshes unchanged; cockpit seven views and calibrated game driver-eye not verified.",
+      "last_saved_blend_sha256": "016645f5fea43ef75c8e80479f49baaff2d3aa8d1647a058f732ac69080da08d",
+      "dispatches_used": 1,
+      "partial_scope": {
+        "original_native_object": "object00_group00_material000_a0",
+        "original_mesh_verts": 68,
+        "original_mesh_faces": 56,
+        "moved_existing_vertices": 13,
+        "max_displacement_mm": 21,
+        "original_windshield_glass_object": "object00_group00_material005_a1",
+        "original_glass_unchanged": true,
+        "other_41_original_meshes_unchanged": true,
+        "official_blender_4_5_15_fresh_reopen": "PASS",
+        "full_car_qa_pass": false,
+        "private_photo": "REF16_interior_1_b0df0e6809.jpg"
+      }
+    },
+    "visible_seat": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": null
+    },
+    "instrument_cluster": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": null
+    },
+    "dashboard": {
+      "status": "P0_POLISH_HOLD",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": null
+    },
+    "steering_wheel": {
+      "status": "P0_POLISH_HOLD",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": null
+    },
+    "cross_cockpit_qa": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": null
+    }
+  },
+  "known_final_qa_blockers": [
+    "exact original game driver-eye camera uncalibrated",
+    "seven authenticated car-photo viewpoints incomplete",
+    "real proprietary source scene not available in GitHub-hosted Actions",
+    "existing source nonmanifold / connectivity findings unresolved",
+    "hosted v42 output scene SHA and photo match contained only in encrypted artifact, not yet privately reviewed/promoted"
+  ],
+  "cannot_promote_from_interim_coverage": true,
+  "last_material_commit": "3693c9fc68b570b5e41e7a06156bebc19475efb8",
+  "notes": "SLOT C F50: hosted v42 inner_door second (2/2) source-native checkpoint GitHub Actions 42546429232 PASS: one original PMT031 mesh changed, .blend saved/fresh reopened, Workbench before/after PASS, encrypted artifact 13642534956. Prior v40 door remains COVERED_PARTIAL_QA only; v42 output SHA inside encrypted receipt, NOT promoted as accepted v41 successor. NEXT visible_seat original source attribution; no wheel/dash, vehicle QA NOT PASS.",
+  "current_accepted_blend": "work_handoff/ferrari16_slotC_f50_source_audit_20261108/F50_OriginalPMT_Windshield_Header_Apillar_v41.blend",
+  "current_accepted_blend_sha256": "016645f5fea43ef75c8e80479f49baaff2d3aa8d1647a058f732ac69080da08d"
+}
