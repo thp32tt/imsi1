@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "task_id": "FERRARI16-SLOTA-DAYTONA-CROSSQA-NATIVE-INTEGRATION-GUARD-20261109-V4",
+  "slot": "A",
+  "car_id": "daytona365",
+  "requested_component": "cross_cockpit_qa",
+  "result": "BLOCKED_SAFE_NATIVE_OBJECT_MAP",
+  "wait_state": "WAITING_QA_INPUT",
+  "dispatch": "2/2",
+  "hard_24h_geometry_stop": "ENFORCED",
+  "whole_vehicle_qa_pass": false,
+  "source_mesh_changed": false,
+  "changed_native_vertices_this_dispatch": 0,
+  "integrated_into_accepted_scene": false,
+  "new_blend_saved": false,
+  "new_blend_independent_reopen": "NOT_APPLICABLE_NO_NEW_BLEND",
+  "existing_blends_independently_opened_by_official_blender_4_5_15": true,
+  "same_driver_camera_render": "EXISTING_R45_OBSERVATION_1434_ONLY; NO_NEW_AFTER_MERGE_RENDER",
+  "matched_authentic_photo_driver_eye": "NOT_PASS_CAMERA_UNCALIBRATED",
+  "source_sha256": {
+    "original_game_pmt": "f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe",
+    "original_import_blend": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+    "accepted_R45_blend": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+    "standalone_R46_seat_blend": "e84c723111f8409686ee2d4e953c021212a76055bcb24ba0aad8138ebae828a4",
+    "standalone_R47_gauge_blend": "7367034bf9900e380f0f61d8d89c19322e8d22207dcba6c5124bf8f572803c28"
+  },
+  "current_input_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "current_output_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "input_equals_output": true,
+  "public_native_original_objects_r46_r47": {
+    "R46": [
+      "object00_group01_material017_a0"
+    ],
+    "R47": [
+      "object00_group01_material015_a0"
+    ]
+  },
+  "r45_visible_mesh_objects": 113,
+  "r45_matching_original_named_native_objects": 0,
+  "r46_r47_native_original_mesh_count": 30,
+  "safe_replacement_mapping": "NOT_PROVEN",
+  "blocking_reason": "R45 has 113 source-derived specialized meshes but neither original PMT015 nor PMT017 native object identity; blindly appending R46/R47 30-object source scenes or swapping whole native submeshes risks duplicate overlapping seats/gauges and unrelated geometry.",
+  "next_step": "PARK_SLOT_A_WAITING_QA_INPUT; require explicit verified one-to-one R45 seat/gauge source-object vertex mapping; never return to P0 micro-polish",
+  "private_reference_photos_on_n100": [
+    {
+      "name": "ADD_interior_LHD.jpg",
+      "sha256": "6eae2fafd6369c1dbd4b82df8e24834d2d284bc3415cace15a9ea830cadd26eb"
+    },
+    {
+      "name": "REF2_dashboard_original_e91527ff82f3.jpg",
+      "sha256": "6c87cd360497eead51a8aba83c6c4e07986247c47f4dbd5a181fcecf81a1f004"
+    }
+  ],
+  "original_game_pmt_bytes_published": false,
+  "private_photo_bytes_published": false,
+  "aes_or_secret_used": false,
+  "pmto_vc_ovc3_game_exported": false,
+  "dashboard_steering_glass_other_slot_changed": false,
+  "artifacts": {
+    "probe_source_script": "probe_native_sources.py",
+    "probes": [
+      "probe_ORIGINAL.json",
+      "probe_R45.json",
+      "probe_R46.json",
+      "probe_R47.json"
+    ],
+    "audit_script": "publish_blocked_qa.py"
+  },
+  "score_delta": 0,
+  "artifact_sha256": {
+    "probe_native_sources.py": "4cec358300b6b79c4ab9404e1b11628a4cdc492fa67285f20bb440eb3314fdf7",
+    "publish_blocked_qa.py": "3d374feff693315d31f366615db1352d42469313aba9bc52d67e3edcd1d04dc2",
+    "probe_ORIGINAL.json": "c7e9117a650525908fdf60906a6dff1f88e99118c90ae9775a71e177453241ca",
+    "probe_R45.json": "b9309674d51f4418c27c81a514cb513a8d0cca42e8540b55ac4d1740da47b0b0",
+    "probe_R46.json": "2846f8e847879ad9f2785abeccfbe5244df090399c6b3214068521f9b05788a5",
+    "probe_R47.json": "43f14729c572466f1a99f72553f09b06d8891d10986b17679c150189189ef2e1"
+  }
+}

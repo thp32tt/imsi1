@@ -1,0 +1,1035 @@
+{
+  "source_file": "/home/chatgpt-runner/work_handoff/daytona365_rework_20261107/original_game_blender/Daytona365_ORIGINAL_GAME_COCKPIT_COMPARE.blend",
+  "source_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+  "blender_version": "4.5.15 LTS",
+  "native_objects": {
+    "object00_group00_material000_a0": {
+      "vertex_count": 230,
+      "face_count": 126,
+      "mesh_sha256": "27467889818cc2047437e3c837bd0154298ad2e386d97460343fa04b67f9a7c1",
+      "mesh_datablock": "object00_group00_material000_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group00_material001_a0": {
+      "vertex_count": 4,
+      "face_count": 2,
+      "mesh_sha256": "74f9792e05f6e13e015738d7f6ed56be7bffd36ad6d67f218e993beb3a424c67",
+      "mesh_datablock": "object00_group00_material001_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group00_material002_a0": {
+      "vertex_count": 163,
+      "face_count": 188,
+      "mesh_sha256": "de62cf35918dad1b061161477d38457865ba34116a37dc3aed26dc155d98cf08",
+      "mesh_datablock": "object00_group00_material002_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group00_material003_a0": {
+      "vertex_count": 92,
+      "face_count": 50,
+      "mesh_sha256": "7bee28f0d8ad0cba80e202f0c2652ccd683884014c5298f1d1f14252b1b001de",
+      "mesh_datablock": "object00_group00_material003_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group00_material004_a1": {
+      "vertex_count": 49,
+      "face_count": 54,
+      "mesh_sha256": "edd0fcd110506e972d0cc1661ed3f474b3b0ffee67c16969fe8fd6526c4a212c",
+      "mesh_datablock": "object00_group00_material004_a1",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material005_a0": {
+      "vertex_count": 3459,
+      "face_count": 3536,
+      "mesh_sha256": "4c267563dde2817dd3b9315055bb7c774fe9562b468f2ce377b1f993864d4b44",
+      "mesh_datablock": "object00_group01_material005_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material006_a0": {
+      "vertex_count": 855,
+      "face_count": 838,
+      "mesh_sha256": "0f57c26dac982625ca9a942e9a324f7415cb3e100168a16ba3960f4b5035cd45",
+      "mesh_datablock": "object00_group01_material006_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material007_a0": {
+      "vertex_count": 16,
+      "face_count": 8,
+      "mesh_sha256": "ccebecb897070238e50207b75ab5436498ba13c454bcf364e99e00b0eada5fcd",
+      "mesh_datablock": "object00_group01_material007_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material008_a0": {
+      "vertex_count": 4,
+      "face_count": 2,
+      "mesh_sha256": "0bcfb84837a31daf22d816f342e5a084efebd877b525498c241925becb96dd07",
+      "mesh_datablock": "object00_group01_material008_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material009_a0": {
+      "vertex_count": 4,
+      "face_count": 2,
+      "mesh_sha256": "97af474c450fb5db3626a69953ebdf1d47e6dff44c5678566c1cbd2da5b0ad2b",
+      "mesh_datablock": "object00_group01_material009_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material010_a0": {
+      "vertex_count": 510,
+      "face_count": 262,
+      "mesh_sha256": "8abdae9d11967d2f7ecdb80a5112b01ecdf40b83a18f855197bae2ebb95369be",
+      "mesh_datablock": "object00_group01_material010_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material011_a0": {
+      "vertex_count": 4,
+      "face_count": 2,
+      "mesh_sha256": "99170c1e8a15707e2a9f62ab306de86eb7bc1f867a82f26a3dd6855f870eae2a",
+      "mesh_datablock": "object00_group01_material011_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material012_a0": {
+      "vertex_count": 13,
+      "face_count": 12,
+      "mesh_sha256": "a7abf7b4a056073b545c2a39a0c665626fb122673a178e69c14939acc219afd0",
+      "mesh_datablock": "object00_group01_material012_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material013_a0": {
+      "vertex_count": 26,
+      "face_count": 16,
+      "mesh_sha256": "06bed929d63726288ac0fb5b634f4135009d849766500b2a3ad4af6f7e531a59",
+      "mesh_datablock": "object00_group01_material013_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material014_a0": {
+      "vertex_count": 20,
+      "face_count": 18,
+      "mesh_sha256": "38d2a4016d47d2eaf960b38da60212b50edaf02b054424d897617b996c392e2b",
+      "mesh_datablock": "object00_group01_material014_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material015_a0": {
+      "vertex_count": 619,
+      "face_count": 501,
+      "mesh_sha256": "7410f7f20b71892fc41d521ec078ade48a2de9092df94e3f6e3ec787337784ec",
+      "mesh_datablock": "object00_group01_material015_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "bounds": [
+        [
+          -0.82183,
+          -2.14736,
+          0.32972
+        ],
+        [
+          -0.82183,
+          -2.14736,
+          1.20784
+        ],
+        [
+          -0.82183,
+          2.23017,
+          1.20784
+        ],
+        [
+          -0.82183,
+          2.23017,
+          0.32972
+        ],
+        [
+          0.82183,
+          -2.14736,
+          0.32972
+        ],
+        [
+          0.82183,
+          -2.14736,
+          1.20784
+        ],
+        [
+          0.82183,
+          2.23017,
+          1.20784
+        ],
+        [
+          0.82183,
+          2.23017,
+          0.32972
+        ]
+      ]
+    },
+    "object00_group01_material016_a0": {
+      "vertex_count": 10,
+      "face_count": 6,
+      "mesh_sha256": "f3db3345f8282f9648143ed86d9023c825418436f28311c645799f2ff73649c5",
+      "mesh_datablock": "object00_group01_material016_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material017_a0": {
+      "vertex_count": 184,
+      "face_count": 300,
+      "mesh_sha256": "f5e7f1c0d16fd1f6b8f77d05c87d84a19759fef90d66a0610f38e590c834cb77",
+      "mesh_datablock": "object00_group01_material017_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "bounds": [
+        [
+          -0.57464,
+          -0.72863,
+          0.33179
+        ],
+        [
+          -0.57464,
+          -0.72863,
+          0.85149
+        ],
+        [
+          -0.57464,
+          -0.01985,
+          0.85149
+        ],
+        [
+          -0.57464,
+          -0.01985,
+          0.33179
+        ],
+        [
+          0.57464,
+          -0.72863,
+          0.33179
+        ],
+        [
+          0.57464,
+          -0.72863,
+          0.85149
+        ],
+        [
+          0.57464,
+          -0.01985,
+          0.85149
+        ],
+        [
+          0.57464,
+          -0.01985,
+          0.33179
+        ]
+      ]
+    },
+    "object00_group01_material018_a0": {
+      "vertex_count": 24,
+      "face_count": 12,
+      "mesh_sha256": "01854bfccf1e37d90ba0e56472a600fb0a3e4a9718460d968d3fdb37c59ad9e8",
+      "mesh_datablock": "object00_group01_material018_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material019_a0": {
+      "vertex_count": 62,
+      "face_count": 94,
+      "mesh_sha256": "ab7591e64fc7d8e3c0edb8ffd0e46f9ac35bc3d4c38346cb7716d8c2f493f37d",
+      "mesh_datablock": "object00_group01_material019_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material020_a0": {
+      "vertex_count": 8,
+      "face_count": 4,
+      "mesh_sha256": "2ef9b1973c8826daebd31d3740859f02fde877cda6c3d8dc8815dd56c3497d20",
+      "mesh_datablock": "object00_group01_material020_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material021_a0": {
+      "vertex_count": 101,
+      "face_count": 83,
+      "mesh_sha256": "6eed5f8b38d7bb1f62cab9a284c4f358bc3f98f9ec1fa6bad0d7b065b754b449",
+      "mesh_datablock": "object00_group01_material021_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material022_a0": {
+      "vertex_count": 48,
+      "face_count": 40,
+      "mesh_sha256": "bf973581b0defafcbb1fb6641a8fffbf04265482c7e58141938ad237cf6379ec",
+      "mesh_datablock": "object00_group01_material022_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material023_a0": {
+      "vertex_count": 56,
+      "face_count": 74,
+      "mesh_sha256": "1ce694fcc549d6b8238b5c33a8e4dfbb4e0c05a168bd00bed6c0b27882f30726",
+      "mesh_datablock": "object00_group01_material023_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material024_a0": {
+      "vertex_count": 162,
+      "face_count": 160,
+      "mesh_sha256": "53dd4f9bc2bebebd2239de8f6b30d8f676fbbad32e920c3b10ac2b210e7242b2",
+      "mesh_datablock": "object00_group01_material024_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material025_a0": {
+      "vertex_count": 96,
+      "face_count": 96,
+      "mesh_sha256": "83e60a4fe57917868fed87e5167fad5052b536f8be9b5f3b6c10d8e34e825e21",
+      "mesh_datablock": "object00_group01_material025_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object00_group01_material026_a0": {
+      "vertex_count": 80,
+      "face_count": 68,
+      "mesh_sha256": "147c4e34616e3441b17f2eda22e77b6b07dc9896915802f27dacc4e55c30b3bd",
+      "mesh_datablock": "object00_group01_material026_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object22_group00_material000_a0": {
+      "vertex_count": 61,
+      "face_count": 31,
+      "mesh_sha256": "c9d11f736a0af9e1fd1212d0be44aee026fa586d3d641db8a30b8f87b824a7c2",
+      "mesh_datablock": "object22_group00_material000_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -0.34999999,
+        0.0,
+        1.0,
+        0.0,
+        -0.285,
+        0.0,
+        0.0,
+        1.0,
+        0.79000002,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object22_group00_material001_a0": {
+      "vertex_count": 4,
+      "face_count": 2,
+      "mesh_sha256": "f90d9c939edb98f1b6972e57b1d3d4abd14b42239624d0152c2a52253180fd4b",
+      "mesh_datablock": "object22_group00_material001_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -0.34999999,
+        0.0,
+        1.0,
+        0.0,
+        -0.285,
+        0.0,
+        0.0,
+        1.0,
+        0.79000002,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    },
+    "object22_group00_material002_a0": {
+      "vertex_count": 153,
+      "face_count": 298,
+      "mesh_sha256": "dec133cc48320967f8d96178a4a976b64e062886b926061c3ca9c45fefcd7316",
+      "mesh_datablock": "object22_group00_material002_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        -0.34999999,
+        0.0,
+        1.0,
+        0.0,
+        -0.285,
+        0.0,
+        0.0,
+        1.0,
+        0.79000002,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false
+    }
+  },
+  "target_related": {
+    "object00_group01_material015_a0": {
+      "vertex_count": 619,
+      "face_count": 501,
+      "mesh_sha256": "7410f7f20b71892fc41d521ec078ade48a2de9092df94e3f6e3ec787337784ec",
+      "mesh_datablock": "object00_group01_material015_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "bounds": [
+        [
+          -0.82183,
+          -2.14736,
+          0.32972
+        ],
+        [
+          -0.82183,
+          -2.14736,
+          1.20784
+        ],
+        [
+          -0.82183,
+          2.23017,
+          1.20784
+        ],
+        [
+          -0.82183,
+          2.23017,
+          0.32972
+        ],
+        [
+          0.82183,
+          -2.14736,
+          0.32972
+        ],
+        [
+          0.82183,
+          -2.14736,
+          1.20784
+        ],
+        [
+          0.82183,
+          2.23017,
+          1.20784
+        ],
+        [
+          0.82183,
+          2.23017,
+          0.32972
+        ]
+      ]
+    },
+    "object00_group01_material017_a0": {
+      "vertex_count": 184,
+      "face_count": 300,
+      "mesh_sha256": "f5e7f1c0d16fd1f6b8f77d05c87d84a19759fef90d66a0610f38e590c834cb77",
+      "mesh_datablock": "object00_group01_material017_a0",
+      "matrix_world": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "hide_render": false,
+      "hide_viewport": false,
+      "bounds": [
+        [
+          -0.57464,
+          -0.72863,
+          0.33179
+        ],
+        [
+          -0.57464,
+          -0.72863,
+          0.85149
+        ],
+        [
+          -0.57464,
+          -0.01985,
+          0.85149
+        ],
+        [
+          -0.57464,
+          -0.01985,
+          0.33179
+        ],
+        [
+          0.57464,
+          -0.72863,
+          0.33179
+        ],
+        [
+          0.57464,
+          -0.72863,
+          0.85149
+        ],
+        [
+          0.57464,
+          -0.01985,
+          0.85149
+        ],
+        [
+          0.57464,
+          -0.01985,
+          0.33179
+        ]
+      ]
+    }
+  },
+  "cameras": [
+    {
+      "name": "ORIGINAL_COMPARE_CAMERA",
+      "matrix_world": [
+        0.707107,
+        -0.365095,
+        0.605562,
+        0.95,
+        0.707107,
+        0.365095,
+        -0.605563,
+        -1.16,
+        0.0,
+        0.856395,
+        0.516322,
+        1.46,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "camera_lens": 47.0
+    }
+  ],
+  "all_mesh_count": 31,
+  "all_mesh_sha256": "8df13ee65611e376f5f27a3eaa7a8257711e63c32bc688f2728eb6ce641c733d"
+}

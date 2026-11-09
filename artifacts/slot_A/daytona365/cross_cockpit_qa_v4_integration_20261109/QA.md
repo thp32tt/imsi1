@@ -1,0 +1,12 @@
+# Daytona365 SLOT A cross_cockpit_qa V4 integration guard
+
+**BLOCKED_SAFE_NATIVE_OBJECT_MAP / WAITING_QA_INPUT / turn 2 of 2. Vehicle QA NOT PASS.**
+
+- Native resource SHA: `f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe`; original imported Blender SHA: `92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3`.
+- R45 accepted editable Blender SHA (input = output, unchanged): `224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722`. 113 existing meshes, five saved camera objects; **zero** original source native object IDs named `object...`.
+- R46 native PMT017 seat source SHA `e84c723111f8409686ee2d4e953c021212a76055bcb24ba0aad8138ebae828a4`: compared to original import, **only** `object00_group01_material017_a0` changed; all original object counts, topology counts and transforms preserved.
+- R47 native PMT015 instrument source SHA `7367034bf9900e380f0f61d8d89c19322e8d22207dcba6c5124bf8f572803c28`: compared to original import, **only** `object00_group01_material015_a0` changed; all original object counts, topology counts and transforms preserved.
+- The R45 cabin already contains specialized seat and gauge structures but neither original PMT017 nor PMT015 object ID. Thus direct native-object replacement cannot be proven, and appending whole native objects could overlap existing cabin/alter unrelated geometry. **No speculative integration, no source mesh change, no invented model.**
+- Blender 4.5.15 independently opened all four existing sources for this geometry inventory. There was **no newly saved .blend**, hence no new-blend independent reopen nor post-merge matched camera render. Previous R45 cross-cockpit observation remains available from the 14:34 QA checkpoint; private LHD photo references are not same-camera calibrated and remain on N100.
+- All dashboards, steering, windshield/glass/A-pillars and SLOT C remain unchanged. No PMT/OVC/OVC3 exports, new textures, PBR, AES or secrets.
+- **Next:** park SLOT A in `WAITING_QA_INPUT` until a verifiable original PMT017/PMT015-to-R45 object/vertex mapping exists. The 24h geometry cutoff and 2/2 dispatch cap are enforced. Do not auto-advance car or return to wheel/dashboard cosmetic edits.
