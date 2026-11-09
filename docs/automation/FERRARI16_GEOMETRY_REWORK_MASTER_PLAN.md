@@ -1,3 +1,5 @@
+> **V4 corrective override (2026-11-09):** The authoritative workflow is the V4 section in FERRARI16_BREADTH_FIRST_STRATEGY.md. Controller must read GitHub workpack.current_component before any send; skip completed, protected, blocked, duplicate and held parts; after 24 hours stop new geometry and park nonactionable QA. Daytona R46/R47 are isolated, NOT integrated into accepted R45. Verify a new non-destructive assembled .blend and matched driver view before claiming combined quality. The front windshield, A-pillars and any related glass fitting meshes are DO_NOT_EDIT; older conflicting language below is revoked. Do not auto-advance a vehicle without whole-car QA. No original PMT/private photos on public GitHub.
+
 > Temporary workspace migration (2026-11-09): active SSOT/work artifacts now live in public repo `thp32tt/imsi1@main`. Modeling artifacts may be stored plaintext; raw original PMT packages and private reference photos remain off-repo. Encryption/secret gating is retired for this temporary workspace.
 
 # OutRun 2006 Ferrari cockpit-only geometric rework, dual-slot 24h SSOT
