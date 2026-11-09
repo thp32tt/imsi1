@@ -1,0 +1,7 @@
+# SLOT A Daytona steering_wheel — BLOCKED
+
+- Task `FERRARI16-SLOTA-DAYTONA-STEERING-HOLD-OUT-OF-ORDER-20261109-1504`; SSOT `imsi1@ec3381d417027722f05ffcf8cb39c7cc8a3486dc`. Active A: **daytona365**, C untouched. Current persisted component: **cross_cockpit_qa (1/2)**; requested steering_wheel is out of order.
+- Executed exact-source `tools/car_modeling/workspace_guard.py preflight --slot A --component steering_wheel` with latest queue/workpack; exit 2: **BLOCKED: requested region differs from persisted current_component**. Existing steering status `P0_POLISH_HOLD` because around 40 prior iterations, no budget reset.
+- Historic user complaint: unnatural holes/bolt-like wheel spokes. Prior R42 PMT audit reports eight open holes and rejected button-like caps; defect is unresolved, but not a newly verified/current authorized source change. No source edit or synthesized wheel.
+- Original Daytona PMT SHA256 `f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe`; source-import .blend SHA256 `92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3`. Accepted R45 editable .blend before/after SHA256 `224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722` unchanged; no new .blend/reopen/render because source edit was refused.
+- Wheel marked **BLOCKED**, not COVERED_PARTIAL_QA or vehicle QA PASS. Advance/retain next region **cross_cockpit_qa 1/2**, no valid new component dispatch consumed. Front glass/A-pillar, dashboard, other cars, source PMT, photos, PBR, PMT/OVC export and game integration untouched. No AES/Secret used.

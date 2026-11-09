@@ -173,11 +173,19 @@
       }
     },
     "steering_wheel": {
-      "status": "P0_POLISH_HOLD",
+      "status": "BLOCKED",
       "source_edits_this_phase": 0,
-      "evidence_refs": [],
-      "blocking_reason": null,
-      "last_saved_blend_sha256": null
+      "evidence_refs": [
+        "artifacts/slot_A/daytona365/steering_wheel_hold_blocked_20261109_1504/manifest.json",
+        "artifacts/slot_A/daytona365/steering_wheel_hold_blocked_20261109_1504/QA.md"
+      ],
+      "blocking_reason": "Out of order: persisted cross_cockpit_qa 1/2. Original steering already P0_POLISH_HOLD after ~40 historical dashboard/wheel loops. Guard fails closed, no edit or dispatch reset.",
+      "last_saved_blend_sha256": null,
+      "previous_status": "P0_POLISH_HOLD",
+      "valid_component_dispatches_consumed_this_attempt": 0,
+      "known_user_defect": "DAYTONA_STEERING_SPOKE_HOLES_BOLTLIKE",
+      "known_defect_state": "UNRESOLVED_HISTORIC_R42_EIGHT_OPEN",
+      "accepted_scene_SHA256_unchanged": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722"
     },
     "cross_cockpit_qa": {
       "status": "IN_PROGRESS",
@@ -213,7 +221,7 @@
   ],
   "cannot_promote_from_interim_coverage": true,
   "last_material_commit": "4ebbeb8342d0fe8ebca18d7c830a6be2ac6cee02",
-  "notes": "SLOT A cross_cockpit_qa observation 1/2: independent read-only R45 Workbench render + private original Daytona dashboard photo comparison. Camera angles differ, game eye not calibrated; not accepted as pass or new mesh edit. Dashboard BLOCKED P0 hold, wheel HOLD, R46/R47 not integrated. Vehicle QA NOT PASS.",
+  "notes": "SLOT A requested steering wheel: BLOCKED_OUT_OF_ORDER/P0_POLISH_HOLD, no new PMT-native geometry; old R42 spoke holes unresolved, ~40 previous P0 loops. Current cross_cockpit_qa 1/2 preserved, no duplicate dispatch; vehicle QA NOT PASS.",
   "latest_accepted_editable_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
   "hosted_a_latest_evidence": {
     "updated_at_kst": "2026-11-09 10:36",
@@ -266,16 +274,24 @@
     "next": "dashboard"
   },
   "last_dispatch_attempt": {
-    "task_id": "FERRARI16-SLOTA-DAYTONA-CROSS-COCKPIT-OBSERVE-R45-20261109-1434",
-    "component": "cross_cockpit_qa",
-    "result": "QA_OBSERVED_PARTIAL_NOT_PASS",
+    "task_id": "FERRARI16-SLOTA-DAYTONA-STEERING-HOLD-OUT-OF-ORDER-20261109-1504",
+    "component": "steering_wheel",
+    "result": "BLOCKED_OUT_OF_ORDER_P0_POLISH_HOLD",
     "material_geometry_changed": false,
     "modified_native_meshes": 0,
     "input_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
     "output_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
-    "photo_reference_sha256": "6c87cd360497eead51a8aba83c6c4e07986247c47f4dbd5a181fcecf81a1f004",
-    "render_sha256": "e4a807a7169677bc67a63ffeb46e5beda74ebb756193405c89fece98b19fd385",
-    "next": "continue_slot_A_final_photo_qa_or_distinct_approved_defect",
+    "preflight": "BLOCKED: requested region differs from persisted current_component",
+    "valid_controller_dispatch_consumed": 0,
+    "next": "cross_cockpit_qa",
     "whole_car_qa_pass": false
+  },
+  "last_steering_wheel_blocker": {
+    "task_id": "FERRARI16-SLOTA-DAYTONA-STEERING-HOLD-OUT-OF-ORDER-20261109-1504",
+    "status": "BLOCKED_OUT_OF_ORDER_P0_POLISH_HOLD",
+    "input_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+    "output_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+    "next": "cross_cockpit_qa",
+    "qa_pass": false
   }
 }
