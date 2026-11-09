@@ -45,7 +45,7 @@
     "steering_wheel",
     "cross_cockpit_qa"
   ],
-  "current_component": "inner_door",
+  "current_component": "visible_seat",
   "dispatches_on_component": 0,
   "max_dispatches_per_component": 2,
   "components": {
@@ -74,11 +74,18 @@
       "blocking_reason": "NATIVE_CONTROL_SUBMESH_ATTRIBUTION_NOT_ESTABLISHED: Original F355 Spider PMT-derived cockpit inspection found no securely attributable separately editable stalk, pedal or driver switch mesh; broad instrument/dash candidate materials cannot be altered without scope uncertainty."
     },
     "inner_door": {
-      "status": "NOT_STARTED",
+      "status": "BLOCKED",
       "source_edits_this_phase": 0,
       "dispatches_consumed_this_phase": 0,
-      "evidence_refs": [],
-      "last_saved_blend_sha256": null
+      "evidence_refs": [
+        "artifacts/slot_C/f355spider/inner_door_20261110/QA.json",
+        "artifacts/slot_C/f355spider/inner_door_20261110/QA.md",
+        "artifacts/slot_C/f355spider/inner_door_20261110/manifest.json",
+        "artifacts/slot_C/f355spider/inner_door_20261110/door_candidates_view.png",
+        "artifacts/slot_C/f355spider/inner_door_20261110/connected_components_view.png"
+      ],
+      "last_saved_blend_sha256": null,
+      "blocking_reason": "NATIVE_INNER_DOOR_TRIM_NOT_SAFELY_ATTRIBUTED: Real F355 Spider door-trim, pull and armrest are not safely attributable to isolated source-native game mesh. Candidate material001 and material005 contain wheel-arch/exterior shell; 024 and 026 are too small and ambiguous. Editing would cross exterior or glass-adjacent protection."
     },
     "visible_seat": {
       "status": "NOT_STARTED",
@@ -150,6 +157,6 @@
     "rule": "Original front glass and adjacent geometry observation-only; never edit."
   },
   "private_photo_directory": "/home/chatgpt-runner/outrun2_vr_refs/20261104_16car_cockpit/05_F355_Spider",
-  "notes": "center_console native gate geometry accepted; driver_controls source attribution BLOCKED after rendered PMT component inspection, 0 geometry edits/0 dispatch charged, next inner_door; vehicle QA not passed.",
+  "notes": "Native inner_door BLOCKED: authentic door trim not securely attributed to existing PMT source. No mesh edit, no dispatch charged. Next visible_seat; whole vehicle QA NOT PASS.",
   "migration_input_blend_file": "artifacts/slot_C/f355spider/center_console_v1/F355Spider_OriginalPMT_CenterConsole_GateBezel_v1.blend"
 }

@@ -1,0 +1,77 @@
+{
+  "task_id": "FERRARI16-SLOTC-F355SPIDER-INNERDOOR-BLOCKED-20261110",
+  "slot": "C",
+  "car_id": "f355spider",
+  "component": "inner_door",
+  "status": "BLOCKED",
+  "reason_code": "NATIVE_INNER_DOOR_TRIM_NOT_SAFELY_ATTRIBUTED",
+  "reason": "Real F355 Spider door-trim, pull and armrest are not safely attributable to isolated source-native game mesh. Candidate material001 and material005 contain wheel-arch/exterior shell; 024 and 026 are too small and ambiguous. Editing would cross exterior or glass-adjacent protection.",
+  "source_original_pmt_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+  "original_import_blend_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
+  "input_blend": "artifacts/slot_C/f355spider/center_console_v1/F355Spider_OriginalPMT_CenterConsole_GateBezel_v1.blend",
+  "input_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3",
+  "output_changed_blend": null,
+  "output_changed_sha256": null,
+  "accepted_blend_unchanged_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3",
+  "photo_private_sha256": "932f264fa64630af2ec0528aa20750295690fdb54bd7eedddeebcae06bf2f66d",
+  "photo_not_uploaded": true,
+  "native_original_side_region_face_inventory": [
+    {
+      "original_mesh": "object00_group00_material001_a0",
+      "side_region_faces": 5,
+      "face_orientation": {
+        "outward": 1,
+        "inward": 4
+      }
+    },
+    {
+      "original_mesh": "object00_group01_material005_a0",
+      "side_region_faces": 24,
+      "face_orientation": {
+        "outward": 23,
+        "inward": 1
+      }
+    },
+    {
+      "original_mesh": "object00_group01_material009_a0",
+      "side_region_faces": 1,
+      "face_orientation": {
+        "outward": 1
+      }
+    },
+    {
+      "original_mesh": "object00_group01_material017_a0",
+      "side_region_faces": 1,
+      "face_orientation": {
+        "inward": 1
+      }
+    },
+    {
+      "original_mesh": "object00_group01_material020_a0",
+      "side_region_faces": 2,
+      "face_orientation": {
+        "inward": 2
+      }
+    }
+  ],
+  "blender_diagnostics": "Blender 4.5.15 LTS WORKBENCH render PASS; no source save",
+  "geometry_changed": false,
+  "changed_vertices": 0,
+  "changed_original_objects": [],
+  "all_native_meshes_unchanged": true,
+  "new_blend_created": false,
+  "no_synthetic_mesh": true,
+  "windshield_Apillars_frame_and_glass_untouched": true,
+  "dash_steering_centerconsole_seat_untouched": true,
+  "no_PMT_OVC_OVC3_export": true,
+  "dispatches_charged": 0,
+  "full_vehicle_qa_pass": false,
+  "next_component": "visible_seat",
+  "limitation": "Not proof that every native PMT submesh lacks interior door detail; no safe original source identity established by this inspection.",
+  "renders": [
+    "artifacts/slot_C/f355spider/inner_door_20261110/original_cabin_view.png",
+    "artifacts/slot_C/f355spider/inner_door_20261110/door_candidates_view.png",
+    "artifacts/slot_C/f355spider/inner_door_20261110/material005_body_view.png",
+    "artifacts/slot_C/f355spider/inner_door_20261110/connected_components_view.png"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "slot": "C",
+  "car_id": "f355spider",
+  "component": "inner_door",
+  "status": "BLOCKED",
+  "plaintext": true,
+  "original_PMT_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+  "original_import_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
+  "input_blend": "artifacts/slot_C/f355spider/center_console_v1/F355Spider_OriginalPMT_CenterConsole_GateBezel_v1.blend",
+  "input_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3",
+  "unchanged_accepted_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3",
+  "changed_output_blend": null,
+  "changed_output_sha256": null,
+  "parts": [],
+  "files": {
+    "artifacts/slot_C/f355spider/inner_door_20261110/QA.json": {
+      "sha256": "e5057427bb14f5abd6b40e8f73403fccef1e03d282ce4cb2085d3b9a21f4c8b4",
+      "bytes": 3127
+    },
+    "artifacts/slot_C/f355spider/inner_door_20261110/QA.md": {
+      "sha256": "911e57db777f1b3761368d711c589dc5d341b5149a3277c83acdc98297e52427",
+      "bytes": 1085
+    },
+    "artifacts/slot_C/f355spider/inner_door_20261110/original_cabin_view.png": {
+      "sha256": "5990ce2301e73b2306a0f8415dfac73d998281e57b4cd7071e4190816f0b8fb7",
+      "bytes": 570667
+    },
+    "artifacts/slot_C/f355spider/inner_door_20261110/door_candidates_view.png": {
+      "sha256": "603f43ccbe42aa1ad9a58a72c73b9b1356a84ec3b5c613d686b17f4361aea63c",
+      "bytes": 360521
+    },
+    "artifacts/slot_C/f355spider/inner_door_20261110/material005_body_view.png": {
+      "sha256": "85980483727fa2bc2f57f15f5afed9f548834cba148c24298df715c50c91cde8",
+      "bytes": 360211
+    },
+    "artifacts/slot_C/f355spider/inner_door_20261110/connected_components_view.png": {
+      "sha256": "a32e58431e3a6aeb5bbd0d5e3a5a6a1c904d064a7583526e4e8c94d6ad8b4e41",
+      "bytes": 190003
+    },
+    "tools/car_modeling/slot_c/f355spider_innerdoor_native_region_probe.py": {
+      "sha256": "f4dd4f8d40b6ebd8aadca9494c6128d71ffb98ae762f46e256d9edee5ad0669e",
+      "bytes": 1113
+    },
+    "tools/car_modeling/slot_c/f355spider_innerdoor_blender_visual_probe.py": {
+      "sha256": "f461e085a2fb35a628feb4f1567f8485f8cd161166d4cb050b4d856414bd9add",
+      "bytes": 2427
+    },
+    "tools/car_modeling/slot_c/f355spider_innerdoor_component_probe.py": {
+      "sha256": "606f4b6dcc332a552b5e802d4b4ad65c6793121fb1592ce67dfa002af4940b24",
+      "bytes": 3257
+    }
+  },
+  "whole_vehicle_qa_pass": false
+}
