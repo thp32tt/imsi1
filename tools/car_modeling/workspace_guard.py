@@ -42,7 +42,7 @@ def valid_sha(value):
     return isinstance(value, str) and SHA.fullmatch(value) is not None
 
 
-def check_identity(queue, workpack, slot):
+def check_identity(queue, workpack, slot, require_baseline=True):
     require(slot in ("A", "C"), "only existing slot A or C is authorized")
     require(queue.get("repository") == "thp32tt/imsi1" and queue.get("branch") == "main",
             "queue SSOT must be imsi1@main")
@@ -62,9 +62,20 @@ def check_identity(queue, workpack, slot):
             "windshield protection missing from queue")
     require(workpack.get("max_dispatches_per_component") == strategy.get("dispatch_turn_limit_per_component") == 2,
             "two-dispatch budget must not be changed")
-    require(all(valid_sha(workpack.get(k)) for k in (
-        "original_game_resource_sha256", "original_import_blend_sha256", "migration_input_blend_sha256")),
-            "native-original/import/accepted migration SHA256 required")
+    require(valid_sha(workpack.get("original_game_resource_sha256")),
+            "authentic original game PMT SHA256 required")
+    if require_baseline:
+        require(all(valid_sha(workpack.get(k)) for k in (
+            "original_import_blend_sha256", "migration_input_blend_sha256")),
+                "native Blender import/accepted migration SHA256 required before geometry")
+        require(workpack.get("input_stage") not in {"SOURCE_IMPORT_PENDING", "SOURCE_IMPORT_BLOCKED"},
+                "native original import not yet independently verified")
+    else:
+        require(workpack.get("input_stage") == "SOURCE_IMPORT_PENDING",
+                "bootstrap only for unresolved original game import")
+        require(not workpack.get("original_import_blend_sha256") and
+                not workpack.get("migration_input_blend_sha256"),
+                "bootstrap may not overwrite an existing Blender import")
     require(isinstance(workpack.get("components"), dict), "component records absent")
     for name in expected:
         require(name in workpack["components"], f"component record missing: {name}")
@@ -107,9 +118,12 @@ def preflight(queue, workpack, slot, component=None):
             "two material-edit limit reached")
     if target in HOLD:
         prior = sequence[:sequence.index(target)]
-        require(all(workpack["components"][p].get("status") in {"COVERED_PARTIAL_QA", "OUT_OF_VIEW"} for p in prior),
-                "P0 polishing forbidden while other cockpit components remain unresolved")
-        raise GuardError("P0 polish requires a separate explicit user-reported defect ID; automatic dispatch refused")
+        require(all(workpack["components"][p].get("status") in {"COVERED_PARTIAL_QA", "OUT_OF_VIEW", "BLOCKED"} for p in prior),
+                "P0 initial pass requires documented earlier cockpit coverage or source blockers")
+        require(item.get("source_edits_this_phase", 0) == 0 and item.get("status") == "NOT_STARTED",
+                "P0 historical polish retry requires an explicit new user defect ID")
+        # Fresh vehicles get one initial source-backed dashboard/wheel pass; the old
+        # 40+ iteration P0 loop remains permanently barred without user approval.
     require(target != "cross_cockpit_qa", "cross-cockpit QA is observation-only, not mesh edit")
     return f"PASS {slot}/{workpack['car_id']} target={target} turn={turns + 1}/2"
 
@@ -170,20 +184,48 @@ def verify_receipt(queue, workpack, slot, receipt, output_blend=None):
     return f"PASS {slot}/{workpack['car_id']} receipt={part} changed_native_objects={len(modified)}"
 
 
+def bootstrap_preflight(queue, workpack, slot, original_resource):
+    """Source-only bootstrap admission: no mesh edit and no fake import SHA."""
+    check_identity(queue, workpack, slot, require_baseline=False)
+    require(workpack.get("current_component") == "center_console" and
+            workpack.get("dispatches_on_component") == 0,
+            "source bootstrap must precede first cockpit geometry dispatch")
+    expected = Path(workpack.get("original_game_resource_file", ""))
+    actual = Path(original_resource)
+    require(expected == actual and str(actual).startswith(
+            "/home/chatgpt-runner/rea-input/outrun/outrun2006/Cars/") and
+            actual.name.startswith("obj_plcar_") and actual.name.endswith("_pmt.sz"),
+            "source-only bootstrap must use protected N100 game PMT pathname")
+    require(actual.is_file() and hashlib.sha256(actual.read_bytes()).hexdigest() ==
+            workpack["original_game_resource_sha256"],
+            "original game PMT missing or SHA256 mismatched")
+    return f"PASS SOURCE_BOOTSTRAP {slot}/{workpack['car_id']} pmt_sha256={workpack['original_game_resource_sha256']}"
+
+
 def paths(root, slot):
-    return (root / "docs/automation/FERRARI16_GEOMETRY_QUEUE.json",
-            root / ("docs/automation/FERRARI_COCKPIT_WORKPACK_A_DAYTONA365.json" if slot == "A"
-                    else "docs/automation/FERRARI_COCKPIT_WORKPACK_C_F50.json"))
+    """Resolve the current car from queue, not hardwired Daytona/F50 filenames."""
+    queue_path = root / "docs/automation/FERRARI16_GEOMETRY_QUEUE.json"
+    queue = read_json(queue_path)
+    car_id = (queue.get("active_by_slot") or {}).get(slot)
+    record = next((car for car in queue.get("cars", [])
+                   if car.get("id") == car_id and car.get("slot") == slot), None)
+    rel = record.get("workpack_path") if record else None
+    require(isinstance(rel, str) and rel.startswith("docs/automation/FERRARI_COCKPIT_WORKPACK_")
+            and rel.endswith(".json") and ".." not in rel and "/" not in
+            rel[len("docs/automation/"):],
+            "current Ferrari slot lacks safe GitHub workpack path")
+    return queue_path, root / rel
 
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("action", choices=["audit-workspace", "preflight", "verify-receipt"])
+    parser.add_argument("action", choices=["audit-workspace", "preflight", "verify-receipt", "bootstrap-source"])
     parser.add_argument("--root", type=Path, default=Path("."))
     parser.add_argument("--slot", choices=["A", "C"])
     parser.add_argument("--component")
     parser.add_argument("--receipt", type=Path)
     parser.add_argument("--output-blend", type=Path)
+    parser.add_argument("--original-resource", type=Path)
     args = parser.parse_args(argv)
     try:
         if args.action == "audit-workspace":
@@ -198,6 +240,9 @@ def main(argv=None):
         queue, pack = read_json(q), read_json(w)
         if args.action == "preflight":
             print(preflight(queue, pack, args.slot, args.component))
+        elif args.action == "bootstrap-source":
+            require(args.original_resource is not None, "--original-resource required for bootstrap")
+            print(bootstrap_preflight(queue, pack, args.slot, args.original_resource))
         else:
             require(args.receipt is not None, "--receipt is mandatory")
             print(verify_receipt(queue, pack, args.slot, read_json(args.receipt), args.output_blend))
