@@ -275,9 +275,37 @@
     "steering_wheel": {
       "status": "P0_POLISH_HOLD",
       "source_edits_this_phase": 0,
-      "evidence_refs": [],
-      "blocking_reason": null,
-      "last_saved_blend_sha256": null
+      "evidence_refs": [
+        "artifacts/slot_C/f50/steering_wheel_dispatch_blocked_20261109_1501/manifest.json",
+        "docs/automation/F50_SLOT_C_STEERING_WHEEL_P0_HOLD_20261109_1501.md"
+      ],
+      "blocking_reason": "P0_POLISH_HOLD + persisted current_component=cross_cockpit_qa; no newly identified user defect ID. Strict workspace_guard preflight BLOCKED on exact GitHub HEAD; 40+ earlier P0 iterations not reset. Preserve accepted v44 native blend; no source geometry edit.",
+      "last_saved_blend_sha256": null,
+      "scope_state": "BLOCKED",
+      "last_dispatch": {
+        "task_id": "FERRARI16-SLOTC-F50-STEERING-P0-HOLD-20261109-1501",
+        "requested_component": "steering_wheel",
+        "status": "BLOCKED_OUT_OF_ORDER_P0_POLISH_HOLD",
+        "scope_state": "BLOCKED",
+        "guard": "tools/car_modeling/workspace_guard.py",
+        "guard_action": "preflight --slot C --component steering_wheel",
+        "guard_stderr": "BLOCKED: requested region differs from persisted current_component",
+        "observed_current_component": "cross_cockpit_qa",
+        "wheel_prior_status": "P0_POLISH_HOLD",
+        "original_native_pmt_sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+        "original_native_pmt_n100_hash_verified": true,
+        "accepted_input_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+        "unchanged_output_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+        "geometry_changed": false,
+        "new_blend_created": false,
+        "blender_reopen_this_dispatch": "NOT_RUN_PREFLIGHT_BLOCKED",
+        "comparison_render_this_dispatch": "NOT_RUN_PREFLIGHT_BLOCKED",
+        "photo_comparison_this_dispatch": "NOT_RUN",
+        "extra_dispatchs_assigned": 0,
+        "full_vehicle_qa_pass": false,
+        "next": "cross_cockpit_qa",
+        "manifest": "artifacts/slot_C/f50/steering_wheel_dispatch_blocked_20261109_1501/manifest.json"
+      }
     },
     "cross_cockpit_qa": {
       "status": "NOT_STARTED",
@@ -297,7 +325,7 @@
   ],
   "cannot_promote_from_interim_coverage": true,
   "last_material_commit": "3693c9fc68b570b5e41e7a06156bebc19475efb8",
-  "notes": "2026-11-09 14:01 C dashboard request BLOCKED_P0_HOLD: native F50 PMT SHA verified on N100; accepted v44 SHA unchanged. Two authentic private photos inspected as reference only, no calibrated comparison. Next cross_cockpit_qa observation; no vehicle QA PASS.",
+  "notes": "SLOT C F50 steering_wheel: BLOCKED_OUT_OF_ORDER_P0_POLISH_HOLD. Exact-current GitHub queue/workpack preflight denied wheel because persisted current_component=cross_cockpit_qa; previous P0 wheel work is on polish hold and no new defect ID exists. Native F50 PMT SHA matched N100. Geometry 0; existing v44 blend SHA unchanged; no new save/reopen/render. Next: read-only cross_cockpit_qa. Whole-car QA NOT PASS.",
   "current_accepted_blend": "artifacts/slot_C/f50/instrument_cluster_v44/F50_OriginalPMT_InstrumentCluster_v44.blend",
   "current_accepted_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
   "protected_regions": {
@@ -314,18 +342,27 @@
   "current_accepted_blend_manifest": "artifacts/slot_C/f50/instrument_cluster_v44/manifest.json",
   "last_material_task_id": "FERRARI16-SLOTC-F50-PMT011-INSTRUMENT-CLUSTER-V44-20261109",
   "last_dispatch_attempt": {
-    "task_id": "FERRARI16-SLOTC-F50-DASHBOARD-P0-HOLD-20261109-1401",
-    "requested_component": "dashboard",
+    "task_id": "FERRARI16-SLOTC-F50-STEERING-P0-HOLD-20261109-1501",
+    "requested_component": "steering_wheel",
     "status": "BLOCKED_OUT_OF_ORDER_P0_POLISH_HOLD",
-    "material_geometry_changed": false,
-    "source_edits_this_phase": 0,
-    "accepted_input_output_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
-    "original_pmt_rehashed_sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
-    "reason": "out of order + previous P0 iteration ceiling",
-    "photo_reference_review": "REFERENCE_ONLY_NO_MATCHED_RENDER",
+    "scope_state": "BLOCKED",
+    "guard": "tools/car_modeling/workspace_guard.py",
+    "guard_action": "preflight --slot C --component steering_wheel",
+    "guard_stderr": "BLOCKED: requested region differs from persisted current_component",
+    "observed_current_component": "cross_cockpit_qa",
+    "wheel_prior_status": "P0_POLISH_HOLD",
+    "original_native_pmt_sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+    "original_native_pmt_n100_hash_verified": true,
+    "accepted_input_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "unchanged_output_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "geometry_changed": false,
     "new_blend_created": false,
-    "blender_reopen_this_dispatch": "NOT_RUN_NO_EDIT",
+    "blender_reopen_this_dispatch": "NOT_RUN_PREFLIGHT_BLOCKED",
+    "comparison_render_this_dispatch": "NOT_RUN_PREFLIGHT_BLOCKED",
+    "photo_comparison_this_dispatch": "NOT_RUN",
+    "extra_dispatchs_assigned": 0,
+    "full_vehicle_qa_pass": false,
     "next": "cross_cockpit_qa",
-    "full_vehicle_qa_pass": false
+    "manifest": "artifacts/slot_C/f50/steering_wheel_dispatch_blocked_20261109_1501/manifest.json"
   }
 }

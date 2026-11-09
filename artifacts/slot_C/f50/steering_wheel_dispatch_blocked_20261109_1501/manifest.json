@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "task_id": "FERRARI16-SLOTC-F50-STEERING-P0-HOLD-20261109-1501",
+  "recorded_at_kst": "2026-11-09 15:01 KST",
+  "repository": "thp32tt/imsi1",
+  "source_head_before_record": "261eade15249cdd3f34e064855c1ed5e3bddb727",
+  "slot": "C",
+  "active_car_id": "f50",
+  "target": "steering_wheel",
+  "scope_status": "BLOCKED",
+  "workpack_component_status": "P0_POLISH_HOLD",
+  "guard": {
+    "script": "tools/car_modeling/workspace_guard.py",
+    "action": "preflight",
+    "slot": "C",
+    "component": "steering_wheel",
+    "result": "BLOCKED",
+    "stderr": "BLOCKED: requested region differs from persisted current_component"
+  },
+  "persisted_current_component": "cross_cockpit_qa",
+  "original_game_resource": {
+    "retained_on_n100": true,
+    "relative_path": "rea-input/outrun/outrun2006/Cars/obj_plcar_f50_pmt.sz",
+    "sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+    "hash_reverified_on_n100": true
+  },
+  "original_import_blend_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
+  "input_blend": {
+    "path": "artifacts/slot_C/f50/instrument_cluster_v44/F50_OriginalPMT_InstrumentCluster_v44.blend",
+    "sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "sha_source": "accepted v44 plaintext manifest + workpack"
+  },
+  "output_blend": {
+    "created": false,
+    "path": "artifacts/slot_C/f50/instrument_cluster_v44/F50_OriginalPMT_InstrumentCluster_v44.blend",
+    "sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "same_as_input": true
+  },
+  "retained_editable_source": {
+    "manifest": "artifacts/slot_C/f50/instrument_cluster_v44/manifest.json",
+    "format": "plaintext partNN.bin + reassemble.py",
+    "already_published": true,
+    "reassemble_verified_in_prior_v44_receipt": true
+  },
+  "source_geometry_changes": 0,
+  "new_blender_script": null,
+  "new_renders": [],
+  "independent_blender_reopen": "NOT_RUN_NO_NEW_EDIT",
+  "reason": "Existing wheel P0-polish hold and persisted dispatch is cross_cockpit_qa; no newly identified wheel defect; do not reset dispatch count, invent mesh or touch dashboard.",
+  "next_component": "cross_cockpit_qa",
+  "full_vehicle_qa_pass": false,
+  "raw_pmt_and_original_private_photos_published": false,
+  "encrypted": false,
+  "new_partNN_bin_required": false,
+  "score_change": 0
+}
