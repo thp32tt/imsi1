@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "task_id": "FERRARI16-SLOTA-360SPIDER-CROSS-COCKPIT-QA-20261110",
+  "slot": "A",
+  "car_id": "360spider",
+  "component": "cross_cockpit_qa",
+  "status": "QA_WAITING_INPUT",
+  "original_native_PMT_sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "baseline_blend_sha256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+  "input_blend_sha256": "403ec48d0e9761214f20a5c22a7df608f38b3644b135b80aa185dcb559c33ad8",
+  "output_blend_sha256": "403ec48d0e9761214f20a5c22a7df608f38b3644b135b80aa185dcb559c33ad8",
+  "unchanged_output_blend_path": "artifacts/slot_A/360spider/dashboard_20261110/Ferrari360Spider_Dashboard_OriginalPMT_R04.blend",
+  "original_native_source_on_N100_only": true,
+  "protected_other_74_meshes_unchanged": true,
+  "full_vehicle_QA_PASS": false,
+  "actual_new_mesh_edit": false,
+  "new_blend_file": false,
+  "dispatches_consumed": 0,
+  "score_change": 0,
+  "files": {
+    "artifacts/slot_A/360spider/cross_cockpit_qa_20261110/geometry_audit.json": {
+      "sha256": "a6a2ac3e8a03985c2bcea547012486a97c9d1ae2294af3db1889e12e7d5ff2be"
+    },
+    "tools/car_modeling/audit_360spider_cross_cockpit.py": {
+      "sha256": "0a4e8e0f0aa3d4f53f303fae167584596624e04454ea880e450a64644b772919"
+    }
+  }
+}

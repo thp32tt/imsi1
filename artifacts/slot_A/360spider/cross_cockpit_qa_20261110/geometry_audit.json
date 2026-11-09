@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "task_id": "FERRARI16-SLOTA-360SPIDER-CROSS-COCKPIT-QA-20261110",
+  "slot": "A",
+  "car_id": "360spider",
+  "component": "cross_cockpit_qa",
+  "geometry_integration": "PASS_R00_R01_R02_R03_R04_EXISTING_CHECKPOINTS",
+  "original_PMT_sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "input_output_sha256": {
+    "original_game_resource": {
+      "path_on_N100_only": "/home/chatgpt-runner/rea-input/outrun/outrun2006/Cars/obj_plcar_360sp_pmt.sz",
+      "sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6"
+    },
+    "R00": {
+      "repo_path": "artifacts/slot_A/360spider/source_bootstrap/Ferrari360Spider_OriginalPMT_EditableBaseline.blend",
+      "sha256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+      "bytes": 468826
+    },
+    "R01": {
+      "repo_path": "artifacts/slot_A/360spider/center_console_20261110/Ferrari360Spider_CenterConsole_SourceEdit_R01.blend",
+      "sha256": "5dabffb52ae4136b6b72f99c7975b629820f839afec2048e59035cb74d8ee612",
+      "bytes": 467034
+    },
+    "R02": {
+      "repo_path": "artifacts/slot_A/360spider/visible_seat_20261110/Ferrari360Spider_VisibleSeat_OriginalPMT_R02.blend",
+      "sha256": "af5a9a9d9650d261b1b24f56e5ff8b5291773e033c43087e000276940fbc87a2",
+      "bytes": 466982
+    },
+    "R03": {
+      "repo_path": "artifacts/slot_A/360spider/instrument_cluster_20261110/Ferrari360Spider_InstrumentCluster_OriginalPMT_R03.blend",
+      "sha256": "df7b2ce23530c4bdace9d301cde61526d5ef5ab80ab7f9811f35d4dda08de443",
+      "bytes": 467368
+    },
+    "R04": {
+      "repo_path": "artifacts/slot_A/360spider/dashboard_20261110/Ferrari360Spider_Dashboard_OriginalPMT_R04.blend",
+      "sha256": "403ec48d0e9761214f20a5c22a7df608f38b3644b135b80aa185dcb559c33ad8",
+      "bytes": 467809
+    }
+  },
+  "native_original_meshes": 75,
+  "native_original_vertices": 12424,
+  "latest_scene_R04_SHA256": "403ec48d0e9761214f20a5c22a7df608f38b3644b135b80aa185dcb559c33ad8",
+  "source_object_IDs_and_topology_invariant": true,
+  "non_target_native_meshes_untouched": 74,
+  "protected_windshield_frame_glass_unchanged_by_non_target_mesh_audit": true,
+  "shared_mesh_only_expected_native_vertex_indices_changed": true,
+  "total_unique_cumulative_modified_vertices": 62,
+  "per_component_persisted_changes": [
+    {
+      "step": "R00->R01",
+      "modified_native_mesh": "PMT_object00_group01_material010_a0",
+      "changed_vertex_count": 16,
+      "changed_vertex_indices": [
+        1350,
+        1353,
+        1354,
+        1355,
+        1384,
+        1385,
+        1386,
+        1389,
+        1414,
+        1415,
+        1416,
+        1417,
+        1418,
+        1419,
+        1420,
+        1421
+      ],
+      "untouched_native_mesh_count": 74,
+      "native_mesh_ids_identical": true,
+      "all_face_edge_topology_invariant": true,
+      "all_object_transforms_invariant": true,
+      "prior_step_vertex_edits_preserved_and_disjoint": true
+    },
+    {
+      "step": "R01->R02",
+      "modified_native_mesh": "PMT_object00_group01_material010_a0",
+      "changed_vertex_count": 20,
+      "changed_vertex_indices": [
+        357,
+        362,
+        366,
+        368,
+        373,
+        375,
+        469,
+        486,
+        488,
+        889,
+        891,
+        918,
+        925,
+        931,
+        939,
+        941,
+        957,
+        967,
+        968,
+        988
+      ],
+      "untouched_native_mesh_count": 74,
+      "native_mesh_ids_identical": true,
+      "all_face_edge_topology_invariant": true,
+      "all_object_transforms_invariant": true,
+      "prior_step_vertex_edits_preserved_and_disjoint": true
+    },
+    {
+      "step": "R02->R03",
+      "modified_native_mesh": "PMT_object00_group01_material010_a0",
+      "changed_vertex_count": 20,
+      "changed_vertex_indices": [
+        1568,
+        1584,
+        1585,
+        1586,
+        1587,
+        1588,
+        1589,
+        1595,
+        1610,
+        1611,
+        1619,
+        1620,
+        1621,
+        1622,
+        1623,
+        1624,
+        1628,
+        1629,
+        1630,
+        1635
+      ],
+      "untouched_native_mesh_count": 74,
+      "native_mesh_ids_identical": true,
+      "all_face_edge_topology_invariant": true,
+      "all_object_transforms_invariant": true,
+      "prior_step_vertex_edits_preserved_and_disjoint": true
+    },
+    {
+      "step": "R03->R04",
+      "modified_native_mesh": "PMT_object00_group01_material010_a0",
+      "changed_vertex_count": 6,
+      "changed_vertex_indices": [
+        1501,
+        1504,
+        1509,
+        1550,
+        1554,
+        1555
+      ],
+      "untouched_native_mesh_count": 74,
+      "native_mesh_ids_identical": true,
+      "all_face_edge_topology_invariant": true,
+      "all_object_transforms_invariant": true,
+      "prior_step_vertex_edits_preserved_and_disjoint": true
+    }
+  ],
+  "camera_calibration": "MISSING_ORIGINAL_GAME_SEATED_DRIVER_EYE",
+  "matched_photo_seven_views": "UNVERIFIED_NOT_CALIBRATED",
+  "photo_assets": "N100_ONLY_DO_NOT_PUBLISH; 04_360_Spider/REFERENCE_LINKS.md",
+  "whole_car_qa": "QA_WAITING_INPUT",
+  "full_vehicle_qa_pass": false,
+  "new_geometry_created_during_this_audit": false,
+  "new_blend_created_during_this_audit": false,
+  "dispatches_consumed": 0,
+  "score_change": 0
+}
