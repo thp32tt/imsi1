@@ -1,0 +1,69 @@
+{
+  "accepted_blend_unchanged_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3",
+  "candidate_native_materials_inspected": [
+    "object00_group01_material011_a0",
+    "object00_group01_material016_a0",
+    "object00_group01_material019_a0",
+    "object00_group01_material020_a0",
+    "object00_group01_material027_a0"
+  ],
+  "car_id": "f355spider",
+  "component": "driver_controls",
+  "dispatches_consumed_on_no_edit": 0,
+  "existing_accepted_center_console_untouched": true,
+  "independent_blender_view_probe": "PASS_BLENDER_4_5_15_WORKBENCH",
+  "input_accepted_blend_path": "artifacts/slot_C/f355spider/center_console_v1/F355Spider_OriginalPMT_CenterConsole_GateBezel_v1.blend",
+  "input_accepted_blend_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3",
+  "native_source_import_executed_prior": true,
+  "new_blend_saves": 0,
+  "new_meshes": 0,
+  "next_component": "inner_door",
+  "no_game_export": true,
+  "no_recreated_controls": true,
+  "original_PMT_untouched": true,
+  "original_import_object_count": 96,
+  "original_import_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
+  "original_pmt_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+  "other_components_dashboard_steering_seats_untouched": true,
+  "other_meshes_edited": 0,
+  "output_changed_blend_path": null,
+  "output_changed_blend_sha256": null,
+  "private_real_f355_photo_not_published": true,
+  "private_real_f355_photo_sha256": "3c9c620497a8b86f2f1b904c99f58ba19169a06d612d235e2bc98c8683263bec",
+  "protected_windshield_frame_Apillars_and_glass_untouched": true,
+  "reason": "Original F355 Spider PMT-derived cockpit inspection found no securely attributable separately editable stalk, pedal or driver switch mesh; broad instrument/dash candidate materials cannot be altered without scope uncertainty.",
+  "reason_code": "NATIVE_CONTROL_SUBMESH_ATTRIBUTION_NOT_ESTABLISHED",
+  "rejections": [
+    {
+      "mesh": "object00_group01_material011_a0",
+      "reason": "Driver-forward planar original face, apparent instrument/screen background rather than attributed pedal/stalk/switch; no edit"
+    },
+    {
+      "mesh": "object00_group01_material016_a0",
+      "reason": "Mixed large interior panel and ambiguous driver-forward housing; risk of dashboard/instrument geometry; no edit"
+    },
+    {
+      "mesh": "object00_group01_material019_a0",
+      "reason": "Four small symmetric planar islands beside center region, no proven driver-specific switch function; no edit"
+    },
+    {
+      "mesh": "object00_group01_material020_a0",
+      "reason": "Prominent windscreen-/body-adjacent geometry candidate; protected-region uncertainty, excluded"
+    },
+    {
+      "mesh": "object00_group01_material027_a0",
+      "reason": "Paired visible-seat geometry, not driver controls"
+    }
+  ],
+  "render_refs": [
+    "artifacts/slot_C/f355spider/driver_controls_20261110/original_pmt_cluster011_driver.png",
+    "artifacts/slot_C/f355spider/driver_controls_20261110/original_pmt_cluster016_driver.png",
+    "artifacts/slot_C/f355spider/driver_controls_20261110/original_pmt_cockpit_candidates_driver.png"
+  ],
+  "slot": "C",
+  "source_provenance_limit": "No safe source-native edit target identified; not a proof no switch is modeled anywhere. Requires stronger PMT-to-control attribution before retry.",
+  "status": "BLOCKED",
+  "task_id": "FERRARI16-SLOTC-F355SPIDER-DRIVER-CONTROLS-ATTRIBUTION-BLOCKED-20261110",
+  "vertices_edited": 0,
+  "whole_vehicle_qa_pass": false
+}

@@ -719,7 +719,7 @@
       "reference_gate": "UNTESTED",
       "source_scene_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
       "output_scene_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3",
-      "notes": "F355 Spider center_console v1 original PMT material023 20 existing vertices reshaped; other 95 unchanged; standalone Blender reopen verified; next driver_controls; vehicle QA not PASS.",
+      "notes": "Source-native center_console accepted; driver_controls = BLOCKED (unattributed original pedal/stalk/switch target after Blender geometry probe); no source edit/dispatch charge. Next inner_door; vehicle QA NOT PASS.",
       "private_photo_subdir": "05_F355_Spider",
       "priority": [
         "dashboard",
@@ -856,7 +856,19 @@
       },
       "whole_car_qa_pass": false,
       "workpack_path": "docs/automation/FERRARI_COCKPIT_WORKPACK_C_F355SPIDER.json",
-      "strategy_v3_next_component": "driver_controls"
+      "strategy_v3_next_component": "inner_door",
+      "last_slot_c_driver_controls": {
+        "component": "driver_controls",
+        "status": "BLOCKED",
+        "reason_code": "NATIVE_CONTROL_SUBMESH_ATTRIBUTION_NOT_ESTABLISHED",
+        "original_pmt_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+        "unchanged_blend_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3",
+        "geometry_edit_count": 0,
+        "dispatches_charged": 0,
+        "evidence": "artifacts/slot_C/f355spider/driver_controls_20261110/QA.json",
+        "next_component": "inner_door",
+        "whole_car_qa_pass": false
+      }
     },
     {
       "order": 6,

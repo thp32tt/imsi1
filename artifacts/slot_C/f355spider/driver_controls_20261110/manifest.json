@@ -1,0 +1,37 @@
+{
+  "car_id": "f355spider",
+  "component": "driver_controls",
+  "encryption": false,
+  "files": {
+    "artifacts/slot_C/f355spider/driver_controls_20261110/QA.json": {
+      "bytes": 3547,
+      "sha256": "284325d3829254d8cb1607694d2a57189f278c621ee363c3e0a0a83ff995543a"
+    },
+    "artifacts/slot_C/f355spider/driver_controls_20261110/original_pmt_cluster011_driver.png": {
+      "bytes": 258001,
+      "sha256": "c46a3f30c4526ccf300175544a52d49847d049054fd03f7a235381a4e2f0df49"
+    },
+    "artifacts/slot_C/f355spider/driver_controls_20261110/original_pmt_cluster016_driver.png": {
+      "bytes": 479014,
+      "sha256": "469efbc03253abe25666e6b1511283c9746f2b30822ce422142acaf6a86c6d84"
+    },
+    "artifacts/slot_C/f355spider/driver_controls_20261110/original_pmt_cockpit_candidates_driver.png": {
+      "bytes": 563280,
+      "sha256": "01ed7deac29b5e10690fedaa36c9296ff87a56a25a96bf1aff6c3d78cb372c51"
+    },
+    "tools/car_modeling/slot_c/f355spider_driver_controls_attribution_probe.py": {
+      "bytes": 2133,
+      "sha256": "04725be4c2145dab9f994c65b59734d57a9268930db2f8eb6d666f0575948d2d"
+    }
+  },
+  "full_vehicle_qa_pass": false,
+  "geometry_revision_created": false,
+  "input_blend_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3",
+  "original_private_PMT_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+  "output_blend_sha256": null,
+  "part_files": false,
+  "schema_version": 1,
+  "slot": "C",
+  "status": "BLOCKED",
+  "unchanged_input_and_accepted_scene_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3"
+}
