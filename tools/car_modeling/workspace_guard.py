@@ -187,7 +187,7 @@ def verify_receipt(queue, workpack, slot, receipt, output_blend=None):
 def bootstrap_preflight(queue, workpack, slot, original_resource):
     """Source-only bootstrap admission: no mesh edit and no fake import SHA."""
     check_identity(queue, workpack, slot, require_baseline=False)
-    require(workpack.get("current_component") == "center_console" and
+    require(workpack.get("current_component") == "source_bootstrap" and
             workpack.get("dispatches_on_component") == 0,
             "source bootstrap must precede first cockpit geometry dispatch")
     expected = Path(workpack.get("original_game_resource_file", ""))
