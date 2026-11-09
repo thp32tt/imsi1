@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "slot": "A",
+  "car_id": "daytona365",
+  "component": "visible_seat",
+  "task_id": "FERRARI16-SLOTA-DAYTONA-NATIVE-PMT017-VISIBLE-SEAT-R46-20261109",
+  "status": "COVERED_PARTIAL_QA",
+  "full_car_QA_PASS": false,
+  "original_game_pmt_path_n100_only": "rea-input/outrun/outrun2006/Cars/obj_plcar_dayts_pmt.sz",
+  "original_game_pmt_sha256": "f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe",
+  "native_original_import_blend_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+  "input_native_scene_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+  "accepted_previous_integrated_r45_sha256_unchanged": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "output_native_seat_only_blend_file": "Daytona365_NATIVE_PMT017_VisibleSeat_R46.blend",
+  "output_native_seat_only_blend_sha256": "e84c723111f8409686ee2d4e953c021212a76055bcb24ba0aad8138ebae828a4",
+  "native_mesh_object": "object00_group01_material017_a0",
+  "actual_modified_native_vertices": 82,
+  "other_original_import_mesh_count_unchanged": 30,
+  "original_pmt_package_committed": false,
+  "reference_photo_originals_committed": false,
+  "encryption_or_secrets_used": false,
+  "binary_split_required": false,
+  "binary_max_single_file_bytes": 1400000,
+  "reassemble_required": false,
+  "r45_cockpit_merge_status": "NOT_MERGED; isolated original-PMT seat geometry proof, not an integrated R46 cockpit",
+  "next_component": "instrument_cluster",
+  "files": [
+    {
+      "path": "Daytona365_NATIVE_PMT017_VisibleSeat_R46.blend",
+      "bytes": 512609,
+      "sha256": "e84c723111f8409686ee2d4e953c021212a76055bcb24ba0aad8138ebae828a4"
+    },
+    {
+      "path": "native_pmt017_seat_r46.py",
+      "bytes": 9797,
+      "sha256": "067f3dc422cc9049349c624edf85bc8ec7e29bfa23abce9d71750ba2431595fc"
+    },
+    {
+      "path": "native_pmt017_seat_render_compare.py",
+      "bytes": 3907,
+      "sha256": "38a5a65a05cb24f4ca84f609e1774e793b44559225b98fd57fd18c7a7559fb4a"
+    },
+    {
+      "path": "native_seat_r46_geometry_qa.json",
+      "bytes": 28396,
+      "sha256": "7726efc7711795c76e787b4ec404aeed8161e71a93c84512ed3c7a907e5b28e1"
+    },
+    {
+      "path": "native_seat_r46_fresh_reopen_qa.json",
+      "bytes": 418,
+      "sha256": "6b61d1f269a19a0d63d00ccf2749f1a9ab6f77787926bd00923c9d896794dd53"
+    },
+    {
+      "path": "native_seat_r46_render_qa.json",
+      "bytes": 781,
+      "sha256": "5c52ebb3082a4d5dc38d93c23762c74d622d11279b362c6eaefddc3f432e6511"
+    },
+    {
+      "path": "seat_provenance_comparison.json",
+      "bytes": 9403,
+      "sha256": "dc80e7caf3c53fbe1647370068549af017a6f00df3ce26113a0969a700425d20"
+    },
+    {
+      "path": "native_017_components.json",
+      "bytes": 4582,
+      "sha256": "e27436fb87d8f416b42edaa14bf5e7b36d134787a8f86542f619d05e5c3176e6"
+    },
+    {
+      "path": "PMT017_before_workbench.png",
+      "bytes": 461136,
+      "sha256": "d957fefdabe7149b9f6504e7ea2a5538471f9df6779de94ccf28b5fcf6f3aa5f"
+    },
+    {
+      "path": "PMT017_after_workbench.png",
+      "bytes": 462588,
+      "sha256": "42f80ddad8bb805a7b0e83bd79fb673994be8afde0856f16fd1a4c2e22736b53"
+    },
+    {
+      "path": "Daytona365_NATIVE_PMT017_R45Ref_R46_BeforeAfter.png",
+      "bytes": 490394,
+      "sha256": "fe4af401f1b4e882c3039ca566649ec54703f80cd17b6b580cb5dab24d24e68c"
+    }
+  ]
+}

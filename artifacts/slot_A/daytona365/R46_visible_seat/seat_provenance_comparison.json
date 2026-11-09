@@ -1,0 +1,406 @@
+{
+  "native_original_object": "object00_group01_material017_a0",
+  "native_verts": 184,
+  "native_faces": 300,
+  "native_x_distribution": {
+    "left": 94,
+    "right": 90
+  },
+  "candidate_proximity": [
+    {
+      "object": "V5_L_SEAT_RECLINED_PADDED_BACK",
+      "verts": 1617,
+      "faces": 3072,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 8,
+      "side_points": 94,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 8,
+      "mean_side_nearest_m": 0.165879
+    },
+    {
+      "object": "V5_R_SEAT_RECLINED_PADDED_BACK",
+      "verts": 1617,
+      "faces": 3072,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 8,
+      "side_points": 90,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 8,
+      "mean_side_nearest_m": 0.162435
+    },
+    {
+      "object": "V8_3_L_LOWER_SEAT_SKIRT_+0.165",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 0,
+      "side_points": 94,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 0,
+      "mean_side_nearest_m": 0.343848
+    },
+    {
+      "object": "V8_3_L_LOWER_SEAT_SKIRT_-0.165",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 0,
+      "side_points": 94,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 0,
+      "mean_side_nearest_m": 0.352396
+    },
+    {
+      "object": "V8_3_L_SEAT_MOUNT_-0.25",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 0,
+      "side_points": 94,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 0,
+      "mean_side_nearest_m": 0.35582
+    },
+    {
+      "object": "V8_3_L_SEAT_MOUNT_-0.51",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 1,
+      "side_points": 94,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 1,
+      "mean_side_nearest_m": 0.344506
+    },
+    {
+      "object": "V8_3_L_SEAT_RAIL_+0.105",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 0,
+      "side_points": 94,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 0,
+      "mean_side_nearest_m": 0.35119
+    },
+    {
+      "object": "V8_3_L_SEAT_RAIL_-0.105",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 0,
+      "side_points": 94,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 0,
+      "mean_side_nearest_m": 0.356545
+    },
+    {
+      "object": "V8_3_R_LOWER_SEAT_SKIRT_+0.165",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 0,
+      "side_points": 90,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 0,
+      "mean_side_nearest_m": 0.353907
+    },
+    {
+      "object": "V8_3_R_LOWER_SEAT_SKIRT_-0.165",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 0,
+      "side_points": 90,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 0,
+      "mean_side_nearest_m": 0.345317
+    },
+    {
+      "object": "V8_3_R_SEAT_MOUNT_-0.25",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 0,
+      "side_points": 90,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 0,
+      "mean_side_nearest_m": 0.359699
+    },
+    {
+      "object": "V8_3_R_SEAT_MOUNT_-0.51",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 1,
+      "side_points": 90,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 1,
+      "mean_side_nearest_m": 0.345116
+    },
+    {
+      "object": "V8_3_R_SEAT_RAIL_+0.105",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 0,
+      "side_points": 90,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 0,
+      "mean_side_nearest_m": 0.358549
+    },
+    {
+      "object": "V8_3_R_SEAT_RAIL_-0.105",
+      "verts": 8,
+      "faces": 6,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 0,
+      "native_all_within_20mm": 0,
+      "side_points": 90,
+      "side_exact_10um": 0,
+      "side_within_5mm": 0,
+      "side_within_20mm": 0,
+      "mean_side_nearest_m": 0.353142
+    },
+    {
+      "object": "V8_9_L_INTEGRATED_PADDED_HEADREST",
+      "verts": 242,
+      "faces": 222,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 1,
+      "native_all_within_20mm": 22,
+      "side_points": 94,
+      "side_exact_10um": 0,
+      "side_within_5mm": 1,
+      "side_within_20mm": 22,
+      "mean_side_nearest_m": 0.306977
+    },
+    {
+      "object": "V8_9_R_INTEGRATED_PADDED_HEADREST",
+      "verts": 242,
+      "faces": 222,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 1,
+      "native_all_within_20mm": 22,
+      "side_points": 90,
+      "side_exact_10um": 0,
+      "side_within_5mm": 1,
+      "side_within_20mm": 22,
+      "mean_side_nearest_m": 0.302364
+    },
+    {
+      "object": "V8_L_CLASSIC_PADDED_CUSHION",
+      "verts": 7738,
+      "faces": 7736,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 2,
+      "native_all_within_20mm": 17,
+      "side_points": 94,
+      "side_exact_10um": 0,
+      "side_within_5mm": 2,
+      "side_within_20mm": 17,
+      "mean_side_nearest_m": 0.145937
+    },
+    {
+      "object": "V8_L_TAPERED_PADDED_BACKREST",
+      "verts": 8614,
+      "faces": 8612,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 12,
+      "native_all_within_20mm": 39,
+      "side_points": 94,
+      "side_exact_10um": 0,
+      "side_within_5mm": 12,
+      "side_within_20mm": 39,
+      "mean_side_nearest_m": 0.121943
+    },
+    {
+      "object": "V8_R_CLASSIC_PADDED_CUSHION",
+      "verts": 7738,
+      "faces": 7736,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 2,
+      "native_all_within_20mm": 17,
+      "side_points": 90,
+      "side_exact_10um": 0,
+      "side_within_5mm": 2,
+      "side_within_20mm": 17,
+      "mean_side_nearest_m": 0.149204
+    },
+    {
+      "object": "V8_R_TAPERED_PADDED_BACKREST",
+      "verts": 8614,
+      "faces": 8612,
+      "native_all_exact_10um": 0,
+      "native_all_within_1mm": 0,
+      "native_all_within_5mm": 12,
+      "native_all_within_20mm": 38,
+      "side_points": 90,
+      "side_exact_10um": 0,
+      "side_within_5mm": 12,
+      "side_within_20mm": 38,
+      "mean_side_nearest_m": 0.119151
+    }
+  ],
+  "native_sample_vertices": [
+    [
+      -0.574642,
+      -0.079226,
+      0.429145
+    ],
+    [
+      -0.544733,
+      -0.271394,
+      0.452746
+    ],
+    [
+      -0.544733,
+      -0.114743,
+      0.461597
+    ],
+    [
+      -0.493687,
+      -0.076793,
+      0.461597
+    ],
+    [
+      -0.493687,
+      -0.041276,
+      0.429145
+    ],
+    [
+      -0.47525,
+      -0.019851,
+      0.439407
+    ],
+    [
+      -0.493687,
+      -0.033017,
+      0.331787
+    ],
+    [
+      -0.342175,
+      -0.033017,
+      0.331787
+    ],
+    [
+      -0.342175,
+      -0.019851,
+      0.439407
+    ],
+    [
+      -0.209101,
+      -0.019851,
+      0.439407
+    ],
+    [
+      -0.209101,
+      -0.076793,
+      0.483546
+    ],
+    [
+      -0.190664,
+      -0.076793,
+      0.461597
+    ],
+    [
+      -0.190664,
+      -0.271394,
+      0.452746
+    ],
+    [
+      -0.139618,
+      -0.271394,
+      0.452746
+    ],
+    [
+      -0.139618,
+      -0.386148,
+      0.455697
+    ],
+    [
+      -0.109709,
+      -0.079226,
+      0.429145
+    ],
+    [
+      -0.121543,
+      -0.432475,
+      0.424882
+    ],
+    [
+      -0.137215,
+      -0.059467,
+      0.331787
+    ],
+    [
+      -0.159727,
+      -0.519535,
+      0.331787
+    ],
+    [
+      -0.123135,
+      -0.489832,
+      0.451265
+    ],
+    [
+      -0.126382,
+      -0.549002,
+      0.518683
+    ],
+    [
+      -0.150798,
+      -0.520221,
+      0.564855
+    ]
+  ],
+  "original_object_properties": {
+    "SOURCE": "ORIGINAL game PMT object00, geometry and original DDS unmodified"
+  }
+}

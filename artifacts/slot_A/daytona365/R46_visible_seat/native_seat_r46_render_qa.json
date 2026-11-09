@@ -1,0 +1,13 @@
+{
+  "comparison_type": "real_blender_4_5_15_workbench_same_orthographic_camera",
+  "view": "angled_seat_only",
+  "before_original_import_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+  "after_r46_blend_sha256": "e84c723111f8409686ee2d4e953c021212a76055bcb24ba0aad8138ebae828a4",
+  "before_image_sha256": "d957fefdabe7149b9f6504e7ea2a5538471f9df6779de94ccf28b5fcf6f3aa5f",
+  "after_image_sha256": "42f80ddad8bb805a7b0e83bd79fb673994be8afde0856f16fd1a4c2e22736b53",
+  "comparison_image_sha256": "fe4af401f1b4e882c3039ca566649ec54703f80cd17b6b580cb5dab24d24e68c",
+  "pixels_changed_rgb_max_gt_3": 55026,
+  "camera": "(1.48,1.15,1.22)->(0,-0.34,0.55) ortho 1.67",
+  "actual_game_driver_eye_calibrated": false,
+  "photo_reference_not_republished": true
+}

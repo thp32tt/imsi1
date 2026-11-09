@@ -1,0 +1,1394 @@
+{
+  "task_id": "FERRARI16-SLOTA-DAYTONA-NATIVE-PMT017-VISIBLE-SEAT-R46-20261109",
+  "slot": "A",
+  "car_id": "daytona365",
+  "scope": "visible_seat",
+  "scope_status": "COVERED_PARTIAL_QA",
+  "native_original_object": "object00_group01_material017_a0",
+  "mesh_provenance": "DIRECT_ORIGINAL_GAME_PMT_IMPORT",
+  "native_vf": [
+    184,
+    300
+  ],
+  "native_connected_seat_components_vertex_counts": [
+    94,
+    90
+  ],
+  "left_right_changed_vertices": {
+    "L": 42,
+    "R": 40
+  },
+  "changed_original_vertices": 82,
+  "max_displacement_m": 0.0125,
+  "affected_features": {
+    "cushion_side_bolster": 58,
+    "upper_back_side_roll": 24
+  },
+  "vertex_changes": [
+    {
+      "vertex": 0,
+      "side": "L",
+      "xyz_before": [
+        -0.5746416,
+        -0.0792259,
+        0.4291445
+      ],
+      "xyz_after": [
+        -0.5746416,
+        -0.0792259,
+        0.4338672
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0047227
+    },
+    {
+      "vertex": 1,
+      "side": "L",
+      "xyz_before": [
+        -0.5447328,
+        -0.2713944,
+        0.4527463
+      ],
+      "xyz_after": [
+        -0.5447328,
+        -0.2713944,
+        0.4652463
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0125
+    },
+    {
+      "vertex": 2,
+      "side": "L",
+      "xyz_before": [
+        -0.5447328,
+        -0.114743,
+        0.461597
+      ],
+      "xyz_after": [
+        -0.5447328,
+        -0.114743,
+        0.4734423
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0118453
+    },
+    {
+      "vertex": 3,
+      "side": "L",
+      "xyz_before": [
+        -0.4936874,
+        -0.0767934,
+        0.461597
+      ],
+      "xyz_after": [
+        -0.4936874,
+        -0.0767934,
+        0.467222
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.005625
+    },
+    {
+      "vertex": 11,
+      "side": "L",
+      "xyz_before": [
+        -0.1906635,
+        -0.0767934,
+        0.461597
+      ],
+      "xyz_after": [
+        -0.1906635,
+        -0.0767934,
+        0.4672281
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0056311
+    },
+    {
+      "vertex": 12,
+      "side": "L",
+      "xyz_before": [
+        -0.1906635,
+        -0.2713944,
+        0.4527463
+      ],
+      "xyz_after": [
+        -0.1906635,
+        -0.2713944,
+        0.4634836
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0107373
+    },
+    {
+      "vertex": 13,
+      "side": "L",
+      "xyz_before": [
+        -0.139618,
+        -0.2713944,
+        0.4527463
+      ],
+      "xyz_after": [
+        -0.139618,
+        -0.2713944,
+        0.4652463
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0125
+    },
+    {
+      "vertex": 14,
+      "side": "L",
+      "xyz_before": [
+        -0.139618,
+        -0.3861477,
+        0.4556966
+      ],
+      "xyz_after": [
+        -0.139618,
+        -0.3861477,
+        0.4681966
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0125
+    },
+    {
+      "vertex": 15,
+      "side": "L",
+      "xyz_before": [
+        -0.1097092,
+        -0.0792259,
+        0.4291445
+      ],
+      "xyz_after": [
+        -0.1097092,
+        -0.0792259,
+        0.4338672
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0047227
+    },
+    {
+      "vertex": 16,
+      "side": "L",
+      "xyz_before": [
+        -0.1215432,
+        -0.4324747,
+        0.4248816
+      ],
+      "xyz_after": [
+        -0.1215432,
+        -0.4324747,
+        0.4319415
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0070599
+    },
+    {
+      "vertex": 19,
+      "side": "L",
+      "xyz_before": [
+        -0.1231352,
+        -0.4898325,
+        0.4512645
+      ],
+      "xyz_after": [
+        -0.1231352,
+        -0.4898325,
+        0.4594047
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0081402
+    },
+    {
+      "vertex": 22,
+      "side": "L",
+      "xyz_before": [
+        -0.1571549,
+        -0.6504537,
+        0.8012163
+      ],
+      "xyz_after": [
+        -0.1571549,
+        -0.6386163,
+        0.8012163
+      ],
+      "delta_y_m": 0.0118374,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 23,
+      "side": "L",
+      "xyz_before": [
+        -0.1360407,
+        -0.6831467,
+        0.7834802
+      ],
+      "xyz_after": [
+        -0.1360407,
+        -0.676062,
+        0.7834802
+      ],
+      "delta_y_m": 0.0070847,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 24,
+      "side": "L",
+      "xyz_before": [
+        -0.1685125,
+        -0.6927931,
+        0.8338449
+      ],
+      "xyz_after": [
+        -0.1685125,
+        -0.6841849,
+        0.8338449
+      ],
+      "delta_y_m": 0.0086081,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 26,
+      "side": "L",
+      "xyz_before": [
+        -0.1906635,
+        -0.6866935,
+        0.846162
+      ],
+      "xyz_after": [
+        -0.1906635,
+        -0.6788206,
+        0.846162
+      ],
+      "delta_y_m": 0.0078729,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 35,
+      "side": "L",
+      "xyz_before": [
+        -0.4936874,
+        -0.6866935,
+        0.846162
+      ],
+      "xyz_after": [
+        -0.4936874,
+        -0.6788291,
+        0.846162
+      ],
+      "delta_y_m": 0.0078644,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 37,
+      "side": "L",
+      "xyz_before": [
+        -0.5158383,
+        -0.6927931,
+        0.8338449
+      ],
+      "xyz_after": [
+        -0.5158383,
+        -0.6841849,
+        0.8338449
+      ],
+      "delta_y_m": 0.0086081,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 38,
+      "side": "L",
+      "xyz_before": [
+        -0.5483102,
+        -0.6831467,
+        0.7834802
+      ],
+      "xyz_after": [
+        -0.5483102,
+        -0.676062,
+        0.7834802
+      ],
+      "delta_y_m": 0.0070847,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 39,
+      "side": "L",
+      "xyz_before": [
+        -0.527196,
+        -0.6504537,
+        0.8012164
+      ],
+      "xyz_after": [
+        -0.527196,
+        -0.6386163,
+        0.8012164
+      ],
+      "delta_y_m": 0.0118374,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 42,
+      "side": "L",
+      "xyz_before": [
+        -0.5612156,
+        -0.4898325,
+        0.4512645
+      ],
+      "xyz_after": [
+        -0.5612156,
+        -0.4898325,
+        0.4594047
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0081402
+    },
+    {
+      "vertex": 43,
+      "side": "L",
+      "xyz_before": [
+        -0.5387359,
+        -0.4651739,
+        0.4894091
+      ],
+      "xyz_after": [
+        -0.5387359,
+        -0.4651739,
+        0.5017388
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0123297
+    },
+    {
+      "vertex": 44,
+      "side": "L",
+      "xyz_before": [
+        -0.5628076,
+        -0.4324747,
+        0.4248816
+      ],
+      "xyz_after": [
+        -0.5628076,
+        -0.4324747,
+        0.4319415
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0070599
+    },
+    {
+      "vertex": 45,
+      "side": "L",
+      "xyz_before": [
+        -0.5447328,
+        -0.3861477,
+        0.4556966
+      ],
+      "xyz_after": [
+        -0.5447328,
+        -0.3861477,
+        0.4681966
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0125
+    },
+    {
+      "vertex": 46,
+      "side": "L",
+      "xyz_before": [
+        -0.4936874,
+        -0.2713944,
+        0.4527463
+      ],
+      "xyz_after": [
+        -0.4936874,
+        -0.2713944,
+        0.4634719
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0107256
+    },
+    {
+      "vertex": 49,
+      "side": "L",
+      "xyz_before": [
+        -0.2091011,
+        -0.2713944,
+        0.4746949
+      ],
+      "xyz_after": [
+        -0.2091011,
+        -0.2713944,
+        0.4798314
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0051365
+    },
+    {
+      "vertex": 50,
+      "side": "L",
+      "xyz_before": [
+        -0.1906635,
+        -0.3861477,
+        0.4556966
+      ],
+      "xyz_after": [
+        -0.1906635,
+        -0.3861477,
+        0.4664339
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0107373
+    },
+    {
+      "vertex": 51,
+      "side": "L",
+      "xyz_before": [
+        -0.1456149,
+        -0.4651739,
+        0.4894092
+      ],
+      "xyz_after": [
+        -0.1456149,
+        -0.4651739,
+        0.501739
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0123297
+    },
+    {
+      "vertex": 52,
+      "side": "L",
+      "xyz_before": [
+        -0.1906635,
+        -0.4651739,
+        0.4894092
+      ],
+      "xyz_after": [
+        -0.1906635,
+        -0.4651739,
+        0.5000002
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.010591
+    },
+    {
+      "vertex": 55,
+      "side": "L",
+      "xyz_before": [
+        -0.1906635,
+        -0.6559331,
+        0.8157111
+      ],
+      "xyz_after": [
+        -0.1906635,
+        -0.6456253,
+        0.8157111
+      ],
+      "delta_y_m": 0.0103078,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 56,
+      "side": "L",
+      "xyz_before": [
+        -0.2091011,
+        -0.6613593,
+        0.8249162
+      ],
+      "xyz_after": [
+        -0.2091011,
+        -0.6564282,
+        0.8249162
+      ],
+      "delta_y_m": 0.0049311,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 58,
+      "side": "L",
+      "xyz_before": [
+        -0.4752497,
+        -0.6613593,
+        0.8249162
+      ],
+      "xyz_after": [
+        -0.4752497,
+        -0.6564435,
+        0.8249162
+      ],
+      "delta_y_m": 0.0049158,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 59,
+      "side": "L",
+      "xyz_before": [
+        -0.4936874,
+        -0.6559331,
+        0.8157111
+      ],
+      "xyz_after": [
+        -0.4936874,
+        -0.6456365,
+        0.8157111
+      ],
+      "delta_y_m": 0.0102966,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 62,
+      "side": "L",
+      "xyz_before": [
+        -0.4936874,
+        -0.4651739,
+        0.4894092
+      ],
+      "xyz_after": [
+        -0.4936874,
+        -0.4651739,
+        0.4999887
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0105795
+    },
+    {
+      "vertex": 63,
+      "side": "L",
+      "xyz_before": [
+        -0.5387359,
+        -0.4651739,
+        0.4894091
+      ],
+      "xyz_after": [
+        -0.5387359,
+        -0.4651739,
+        0.5017388
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0123297
+    },
+    {
+      "vertex": 64,
+      "side": "L",
+      "xyz_before": [
+        -0.4936874,
+        -0.3861477,
+        0.4556966
+      ],
+      "xyz_after": [
+        -0.4936874,
+        -0.3861477,
+        0.4664222
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0107256
+    },
+    {
+      "vertex": 65,
+      "side": "L",
+      "xyz_before": [
+        -0.4752497,
+        -0.2713944,
+        0.4746949
+      ],
+      "xyz_after": [
+        -0.4752497,
+        -0.2713944,
+        0.4798155
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0051206
+    },
+    {
+      "vertex": 68,
+      "side": "L",
+      "xyz_before": [
+        -0.2091011,
+        -0.4808936,
+        0.4642163
+      ],
+      "xyz_after": [
+        -0.2091011,
+        -0.4808936,
+        0.468379
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0041627
+    },
+    {
+      "vertex": 72,
+      "side": "L",
+      "xyz_before": [
+        -0.4752497,
+        -0.4808936,
+        0.4642163
+      ],
+      "xyz_after": [
+        -0.4752497,
+        -0.4808936,
+        0.4683661
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0041498
+    },
+    {
+      "vertex": 76,
+      "side": "R",
+      "xyz_before": [
+        0.1396181,
+        -0.2713944,
+        0.4527463
+      ],
+      "xyz_after": [
+        0.1396181,
+        -0.2713944,
+        0.4652463
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0125
+    },
+    {
+      "vertex": 77,
+      "side": "R",
+      "xyz_before": [
+        0.1396181,
+        -0.114743,
+        0.461597
+      ],
+      "xyz_after": [
+        0.1396181,
+        -0.114743,
+        0.4734423
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0118453
+    },
+    {
+      "vertex": 78,
+      "side": "R",
+      "xyz_before": [
+        0.1097091,
+        -0.0792259,
+        0.4291445
+      ],
+      "xyz_after": [
+        0.1097091,
+        -0.0792259,
+        0.4338672
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0047227
+    },
+    {
+      "vertex": 79,
+      "side": "R",
+      "xyz_before": [
+        0.1396181,
+        -0.3861477,
+        0.4556966
+      ],
+      "xyz_after": [
+        0.1396181,
+        -0.3861477,
+        0.4681966
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0125
+    },
+    {
+      "vertex": 80,
+      "side": "R",
+      "xyz_before": [
+        0.1215432,
+        -0.4324747,
+        0.4248816
+      ],
+      "xyz_after": [
+        0.1215432,
+        -0.4324747,
+        0.4319415
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0070599
+    },
+    {
+      "vertex": 81,
+      "side": "R",
+      "xyz_before": [
+        0.1456148,
+        -0.4651739,
+        0.4894092
+      ],
+      "xyz_after": [
+        0.1456148,
+        -0.4651739,
+        0.501739
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0123297
+    },
+    {
+      "vertex": 82,
+      "side": "R",
+      "xyz_before": [
+        0.1231352,
+        -0.4898325,
+        0.4512645
+      ],
+      "xyz_after": [
+        0.1231352,
+        -0.4898325,
+        0.4594047
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0081402
+    },
+    {
+      "vertex": 85,
+      "side": "R",
+      "xyz_before": [
+        0.157155,
+        -0.6504537,
+        0.8012163
+      ],
+      "xyz_after": [
+        0.157155,
+        -0.6386163,
+        0.8012163
+      ],
+      "delta_y_m": 0.0118374,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 86,
+      "side": "R",
+      "xyz_before": [
+        0.1360407,
+        -0.6831467,
+        0.7834802
+      ],
+      "xyz_after": [
+        0.1360407,
+        -0.676062,
+        0.7834802
+      ],
+      "delta_y_m": 0.0070847,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 87,
+      "side": "R",
+      "xyz_before": [
+        0.1685126,
+        -0.6927931,
+        0.8338449
+      ],
+      "xyz_after": [
+        0.1685126,
+        -0.6841849,
+        0.8338449
+      ],
+      "delta_y_m": 0.0086081,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 89,
+      "side": "R",
+      "xyz_before": [
+        0.1906635,
+        -0.6866935,
+        0.846162
+      ],
+      "xyz_after": [
+        0.1906635,
+        -0.6788206,
+        0.846162
+      ],
+      "delta_y_m": 0.0078729,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 98,
+      "side": "R",
+      "xyz_before": [
+        0.4936872,
+        -0.6866935,
+        0.846162
+      ],
+      "xyz_after": [
+        0.4936872,
+        -0.6788291,
+        0.846162
+      ],
+      "delta_y_m": 0.0078644,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 100,
+      "side": "R",
+      "xyz_before": [
+        0.5158381,
+        -0.6927931,
+        0.8338449
+      ],
+      "xyz_after": [
+        0.5158381,
+        -0.6841849,
+        0.8338449
+      ],
+      "delta_y_m": 0.0086081,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 101,
+      "side": "R",
+      "xyz_before": [
+        0.54831,
+        -0.6831467,
+        0.7834802
+      ],
+      "xyz_after": [
+        0.54831,
+        -0.676062,
+        0.7834802
+      ],
+      "delta_y_m": 0.0070847,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 102,
+      "side": "R",
+      "xyz_before": [
+        0.5271957,
+        -0.6504536,
+        0.8012163
+      ],
+      "xyz_after": [
+        0.5271957,
+        -0.6386162,
+        0.8012163
+      ],
+      "delta_y_m": 0.0118374,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 105,
+      "side": "R",
+      "xyz_before": [
+        0.5612155,
+        -0.4898325,
+        0.4512645
+      ],
+      "xyz_after": [
+        0.5612155,
+        -0.4898325,
+        0.4594047
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0081402
+    },
+    {
+      "vertex": 106,
+      "side": "R",
+      "xyz_before": [
+        0.5387359,
+        -0.4651739,
+        0.4894092
+      ],
+      "xyz_after": [
+        0.5387359,
+        -0.4651739,
+        0.501739
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0123297
+    },
+    {
+      "vertex": 107,
+      "side": "R",
+      "xyz_before": [
+        0.5628075,
+        -0.4324747,
+        0.4248816
+      ],
+      "xyz_after": [
+        0.5628075,
+        -0.4324747,
+        0.4319415
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0070599
+    },
+    {
+      "vertex": 108,
+      "side": "R",
+      "xyz_before": [
+        0.5447327,
+        -0.3861477,
+        0.4556966
+      ],
+      "xyz_after": [
+        0.5447327,
+        -0.3861477,
+        0.4681966
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0125
+    },
+    {
+      "vertex": 109,
+      "side": "R",
+      "xyz_before": [
+        0.5746416,
+        -0.0792259,
+        0.4291445
+      ],
+      "xyz_after": [
+        0.5746416,
+        -0.0792259,
+        0.4338672
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0047227
+    },
+    {
+      "vertex": 110,
+      "side": "R",
+      "xyz_before": [
+        0.5447327,
+        -0.2713944,
+        0.4527464
+      ],
+      "xyz_after": [
+        0.5447327,
+        -0.2713944,
+        0.4652464
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0125
+    },
+    {
+      "vertex": 111,
+      "side": "R",
+      "xyz_before": [
+        0.5447326,
+        -0.114743,
+        0.461597
+      ],
+      "xyz_after": [
+        0.5447326,
+        -0.114743,
+        0.4734423
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0118453
+    },
+    {
+      "vertex": 112,
+      "side": "R",
+      "xyz_before": [
+        0.4936872,
+        -0.0767934,
+        0.461597
+      ],
+      "xyz_after": [
+        0.4936872,
+        -0.0767934,
+        0.467222
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.005625
+    },
+    {
+      "vertex": 120,
+      "side": "R",
+      "xyz_before": [
+        0.1906635,
+        -0.0767934,
+        0.461597
+      ],
+      "xyz_after": [
+        0.1906635,
+        -0.0767934,
+        0.4672281
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0056311
+    },
+    {
+      "vertex": 121,
+      "side": "R",
+      "xyz_before": [
+        0.1906635,
+        -0.2713944,
+        0.4527463
+      ],
+      "xyz_after": [
+        0.1906635,
+        -0.2713944,
+        0.4634836
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0107373
+    },
+    {
+      "vertex": 122,
+      "side": "R",
+      "xyz_before": [
+        0.1906635,
+        -0.3861477,
+        0.4556966
+      ],
+      "xyz_after": [
+        0.1906635,
+        -0.3861477,
+        0.4664339
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0107373
+    },
+    {
+      "vertex": 123,
+      "side": "R",
+      "xyz_before": [
+        0.1456148,
+        -0.4651739,
+        0.4894092
+      ],
+      "xyz_after": [
+        0.1456148,
+        -0.4651739,
+        0.501739
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0123297
+    },
+    {
+      "vertex": 124,
+      "side": "R",
+      "xyz_before": [
+        0.1906635,
+        -0.4651739,
+        0.4894092
+      ],
+      "xyz_after": [
+        0.1906635,
+        -0.4651739,
+        0.5000002
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.010591
+    },
+    {
+      "vertex": 126,
+      "side": "R",
+      "xyz_before": [
+        0.1906635,
+        -0.6559331,
+        0.8157112
+      ],
+      "xyz_after": [
+        0.1906635,
+        -0.6456253,
+        0.8157112
+      ],
+      "delta_y_m": 0.0103078,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 127,
+      "side": "R",
+      "xyz_before": [
+        0.2091011,
+        -0.6613593,
+        0.8249163
+      ],
+      "xyz_after": [
+        0.2091011,
+        -0.6564282,
+        0.8249163
+      ],
+      "delta_y_m": 0.0049311,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 129,
+      "side": "R",
+      "xyz_before": [
+        0.4752496,
+        -0.6613594,
+        0.8249163
+      ],
+      "xyz_after": [
+        0.4752496,
+        -0.6564437,
+        0.8249163
+      ],
+      "delta_y_m": 0.0049157,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 130,
+      "side": "R",
+      "xyz_before": [
+        0.4936872,
+        -0.6559331,
+        0.8157112
+      ],
+      "xyz_after": [
+        0.4936872,
+        -0.6456366,
+        0.8157112
+      ],
+      "delta_y_m": 0.0102965,
+      "delta_z_m": 0.0
+    },
+    {
+      "vertex": 132,
+      "side": "R",
+      "xyz_before": [
+        0.4936872,
+        -0.4651739,
+        0.4894092
+      ],
+      "xyz_after": [
+        0.4936872,
+        -0.4651739,
+        0.4999887
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0105795
+    },
+    {
+      "vertex": 133,
+      "side": "R",
+      "xyz_before": [
+        0.5387359,
+        -0.4651739,
+        0.4894092
+      ],
+      "xyz_after": [
+        0.5387359,
+        -0.4651739,
+        0.501739
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0123297
+    },
+    {
+      "vertex": 134,
+      "side": "R",
+      "xyz_before": [
+        0.4936872,
+        -0.3861476,
+        0.4556966
+      ],
+      "xyz_after": [
+        0.4936872,
+        -0.3861476,
+        0.4664222
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0107256
+    },
+    {
+      "vertex": 135,
+      "side": "R",
+      "xyz_before": [
+        0.4936872,
+        -0.2713944,
+        0.4527464
+      ],
+      "xyz_after": [
+        0.4936872,
+        -0.2713944,
+        0.4634719
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0107256
+    },
+    {
+      "vertex": 138,
+      "side": "R",
+      "xyz_before": [
+        0.2091011,
+        -0.2713944,
+        0.4746949
+      ],
+      "xyz_after": [
+        0.2091011,
+        -0.2713944,
+        0.4798314
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0051365
+    },
+    {
+      "vertex": 140,
+      "side": "R",
+      "xyz_before": [
+        0.2091011,
+        -0.4808936,
+        0.4642163
+      ],
+      "xyz_after": [
+        0.2091011,
+        -0.4808936,
+        0.468379
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0041627
+    },
+    {
+      "vertex": 144,
+      "side": "R",
+      "xyz_before": [
+        0.4752496,
+        -0.4808936,
+        0.4642163
+      ],
+      "xyz_after": [
+        0.4752496,
+        -0.4808936,
+        0.4683661
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0041498
+    },
+    {
+      "vertex": 146,
+      "side": "R",
+      "xyz_before": [
+        0.4752496,
+        -0.2713944,
+        0.4746949
+      ],
+      "xyz_after": [
+        0.4752496,
+        -0.2713944,
+        0.4798155
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0051205
+    },
+    {
+      "vertex": 172,
+      "side": "L",
+      "xyz_before": [
+        -0.139618,
+        -0.114743,
+        0.461597
+      ],
+      "xyz_after": [
+        -0.139618,
+        -0.114743,
+        0.4734423
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0118453
+    },
+    {
+      "vertex": 178,
+      "side": "L",
+      "xyz_before": [
+        -0.1456149,
+        -0.4651739,
+        0.4894092
+      ],
+      "xyz_after": [
+        -0.1456149,
+        -0.4651739,
+        0.501739
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0123297
+    },
+    {
+      "vertex": 179,
+      "side": "L",
+      "xyz_before": [
+        -0.1097092,
+        -0.0792259,
+        0.4291445
+      ],
+      "xyz_after": [
+        -0.1097092,
+        -0.0792259,
+        0.4338672
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0047227
+    },
+    {
+      "vertex": 181,
+      "side": "L",
+      "xyz_before": [
+        -0.5746416,
+        -0.0792259,
+        0.4291445
+      ],
+      "xyz_after": [
+        -0.5746416,
+        -0.0792259,
+        0.4338672
+      ],
+      "delta_y_m": 0.0,
+      "delta_z_m": 0.0047227
+    }
+  ],
+  "target_sig_before": "21d908381757393f97fdfcc13558238e2b94152d93c8bfb5a6360a8348655b37",
+  "target_sig_after": "3581572d463af0c6aecdc6227a4f278b2028247ede841da391d40ebebd590a77",
+  "other_30_native_mesh_signatures_unchanged": {
+    "object00_group00_material000_a0": "a68329f4def8edccd586dc1bff8790286eb636789471ceefb76c0a45142900b8",
+    "object00_group00_material001_a0": "a2068a64703d3c195ae18a421340abbdfab103ce70b3e8751c4c7c58b17f4a96",
+    "object00_group00_material002_a0": "a27ee53b1f550a0d6ef64237e889c9e4a44404a7e9c5f097e22aaa4229558fdf",
+    "object00_group00_material003_a0": "9fcecce5a181b4870b66ca73374c3e99001a7fa3375360817b602a0663ad0bbe",
+    "object00_group00_material004_a1": "6d4ecf7208dd11824d31357c5d3e409d60b26c3f934faa982a29599558830a30",
+    "object00_group01_material005_a0": "aad3c31980484a23e926f498c553b96480a393d7233d8f578224da914ad625fa",
+    "object00_group01_material006_a0": "663007c7eeda25b0e3948037033c5574dc9a198234a09fba26885ac2823cf455",
+    "object00_group01_material007_a0": "53bafc49fbd22bd8fca4405ee65fb80dcd8e7e78955ee3c163bfad1be811d666",
+    "object00_group01_material008_a0": "9d6aa5d7e46ebb2a72263c8fd1b09b511f17a6076c8a5db6188d978b437df083",
+    "object00_group01_material009_a0": "47ef0db79a8876a58b81ab2f0c61b031b1a1c240dd01c92294e3bbff432b9647",
+    "object00_group01_material010_a0": "2bb9f50a03d7ea0cbd285beb2b8de22eea4abd5d340f3104c67e4a56c42acb86",
+    "object00_group01_material011_a0": "f46f6f45c11ee87335a4c1e6ade9041a25d76f4a727ab11c7b49176de6266098",
+    "object00_group01_material012_a0": "e7a552cdaf59b1e61b56bb81193129ac0a5675d1ac7554d80b4ec42d4b170da9",
+    "object00_group01_material013_a0": "85aa829ac62994176c0dd512b4bf3f307178f350ed03627c84c279052c098ebf",
+    "object00_group01_material014_a0": "85f099f0d7067f51cc4f661d31b15eea82157ddfb9703cab8e9ced818cf5988d",
+    "object00_group01_material015_a0": "7c12d886771506222c6a38826b85e157537696e75f125632cdbf087f3f6a5b39",
+    "object00_group01_material016_a0": "e35000f906e9b5d814814aab830cbd8a054c5396c8a16ff973612c1c2a8fba6a",
+    "object00_group01_material018_a0": "baddbeeefc6ec108df0bd292122fac70c3384793dafa78fc5d4fcf73323b8ae7",
+    "object00_group01_material019_a0": "9c8dccc41c8f2c65832a7b96d8a1984b780ba10a81d3f03d4157eb69a8ef4541",
+    "object00_group01_material020_a0": "d2a28a552c7106fad2141d4e8c758aa47195ce541b66402828ef81a218494ab9",
+    "object00_group01_material021_a0": "67f42c9fecbadc4e745ee91b77d66ccf9c498a1d4f4d085d7a3d34ccd9fc15c3",
+    "object00_group01_material022_a0": "cfd8ecccd13a84e26669129a26e846c154f87b80d659881a08290dd551ea77aa",
+    "object00_group01_material023_a0": "6abb9c0c419adf80eb98e735611c3cebced89f21861242d5548513efdff7cdb4",
+    "object00_group01_material024_a0": "268a81391fe0bc7b530e2db0f188fa51e5667a20bb41c82610ed49a81698314d",
+    "object00_group01_material025_a0": "c6202edfa01aa6a6bd8d80b26e145c08d56eba22d6d2fa20adf3831d83ef8d0d",
+    "object00_group01_material026_a0": "f1d08ea3797016e6c63cb4776141d7e2a12843621a9d789dac7df37eb2bde541",
+    "object22_group00_material000_a0": "d48de58cd764746b3006cc781ec5b9a864f7dc4439c23f2099dbbefe20d831f7",
+    "object22_group00_material001_a0": "f74d78f60be22a1315fd069de237ccbbc55de60d5f57d09d02ee4e4e7e962ae6",
+    "object22_group00_material002_a0": "02c71801966a27210b091bc303bd974acb0bd7d697576e711e4a651b23fc6c3a",
+    "STUDIO_FLOOR_NOT_GAME_DATA": "1377c7435a66496118b621aa8d5ab6454f4b1ec028850d49e5897a0996611d9b"
+  },
+  "no_mesh_added_or_deleted": true,
+  "no_texture_pbr_export_or_windshield_modifications": true,
+  "original_pmt_sha256": "f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe",
+  "original_import_blend_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+  "accepted_r45_integrated_scene_sha256_untouched": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "output_native_seat_only_blend_sha256": "e84c723111f8409686ee2d4e953c021212a76055bcb24ba0aad8138ebae828a4",
+  "reference_photo_sha256": {
+    "REF5_mecum_interior_05_464b30a6d.jpg": "b5024fee80131abcdfdb0d7c56507b7da4b45f011e10e61086fe1cd85336aeb8",
+    "REF5_mecum_interior_02_cb27ab7aa.jpg": "0ddbab49a9a0fbb9436207868cbe0eedcb0095e2f08a74e04f77910c3f1e28df"
+  },
+  "source_compare_note": "Original PMT017 is exact native seat mesh. Previous R45 high-density V5/V8 seats are not proven vertex-identical; they were not edited.",
+  "integration_to_accepted_r45": "NOT_PERFORMED; native seat part is separate editable Blender source asset, no full-car R45 replacement",
+  "full_car_QA_PASS": false,
+  "next_region": "instrument_cluster",
+  "QA_pending": [
+    "original_game_eye_calibration",
+    "seven_view_authentic_photo_coverage",
+    "R45_scene_integration_not_done"
+  ]
+}

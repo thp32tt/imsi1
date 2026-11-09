@@ -19,7 +19,7 @@
     "steering_wheel",
     "cross_cockpit_qa"
   ],
-  "current_component": "visible_seat",
+  "current_component": "instrument_cluster",
   "dispatches_on_component": 0,
   "max_dispatches_per_component": 2,
   "components": {
@@ -98,11 +98,28 @@
       "native_source_mesh": "UNVERIFIED_HOSTED_INPUT_BLOCKED"
     },
     "visible_seat": {
-      "status": "NOT_STARTED",
-      "source_edits_this_phase": 0,
-      "evidence_refs": [],
+      "status": "COVERED_PARTIAL_QA",
+      "source_edits_this_phase": 1,
+      "dispatches_consumed_this_phase": 1,
+      "evidence_refs": [
+        "docs/automation/FERRARI16_SLOTA_DAYTONA_R46_NATIVE_SEAT_20261109.md",
+        "artifacts/slot_A/daytona365/R46_visible_seat/manifest.json"
+      ],
       "blocking_reason": null,
-      "last_saved_blend_sha256": null
+      "native_original_mesh_object": "object00_group01_material017_a0",
+      "native_input_blend_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+      "last_saved_blend_sha256": "e84c723111f8409686ee2d4e953c021212a76055bcb24ba0aad8138ebae828a4",
+      "original_pmt_sha256": "f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe",
+      "edited_original_native_vertices": 82,
+      "other_30_meshes_unchanged": true,
+      "independent_reopen": "PASS",
+      "matching_render_comparison": "fe4af401f1b4e882c3039ca566649ec54703f80cd17b6b580cb5dab24d24e68c",
+      "integration_into_R45": "NOT_PERFORMED: source-native seat-only .blend, R45 remains accepted cockpit baseline",
+      "pending_qa": [
+        "original_game_eye_calibration",
+        "seven_view_authentic_photo_coverage",
+        "R45_scene_integration_not_done"
+      ]
     },
     "instrument_cluster": {
       "status": "NOT_STARTED",
@@ -136,13 +153,12 @@
   "known_final_qa_blockers": [
     "exact original game driver-eye camera uncalibrated",
     "seven authenticated car-photo viewpoints incomplete",
-    "real proprietary source scene not available in GitHub-hosted Actions",
     "existing source nonmanifold / connectivity findings unresolved",
-    "Host key is present (run 42543904654); slot A encrypted input is stale against latest R45 source SHA, so hosted source geometry is blocked"
+    "isolated native PMT017 seat geometry is not integrated into accepted R45 combined scene"
   ],
   "cannot_promote_from_interim_coverage": true,
   "last_material_commit": "4ebbeb8342d0fe8ebca18d7c830a6be2ac6cee02",
-  "notes": "SLOT A Daytona: front windshield/frame/A-pillar/glass-border geometry permanently protected DO_NOT_EDIT. Accepted baseline remains R45 SHA 224131c7. Current component visible_seat; no windshield geometry dispatch allowed.",
+  "notes": "SLOT A Daytona R46: direct-native PMT017 seat geometry standalone .blend, 82 original vertices edited, independent Blender reopen PASS. Existing integrated R45 unchanged and not merged. Coverage partial only; next instrument_cluster. Front windshield, dash and steering DO_NOT_EDIT during breadth pass.",
   "latest_accepted_editable_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
   "hosted_a_latest_evidence": {
     "updated_at_kst": "2026-11-09 10:36",
@@ -154,7 +170,8 @@
     "encrypted_bundle_sha256": "502cf59b193ad45345ca50e6dd093eb88c92248ae044a99d9860991d6fffd520",
     "new_geometry": false,
     "whole_car_qa_pass": false,
-    "score_delta": 0
+    "score_delta": 0,
+    "historical_only_retired_encryption_pipeline": true
   },
   "protected_regions": {
     "windshield_and_front_glass": "DO_NOT_EDIT",
@@ -166,5 +183,16 @@
       "interior/exterior meshes whose edit can change windshield fit"
     ],
     "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+  },
+  "last_slot_a_r46": {
+    "task_id": "FERRARI16-SLOTA-DAYTONA-NATIVE-PMT017-VISIBLE-SEAT-R46-20261109",
+    "status": "COVERED_PARTIAL_QA",
+    "region": "visible_seat",
+    "native_output_sha256": "e84c723111f8409686ee2d4e953c021212a76055bcb24ba0aad8138ebae828a4",
+    "accepted_integrated_R45_SHA_unchanged": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+    "native_only_edit_not_integrated": true,
+    "next_region": "instrument_cluster",
+    "vehicle_QA_PASS": false,
+    "evidence_path": "docs/automation/FERRARI16_SLOTA_DAYTONA_R46_NATIVE_SEAT_20261109.md"
   }
 }

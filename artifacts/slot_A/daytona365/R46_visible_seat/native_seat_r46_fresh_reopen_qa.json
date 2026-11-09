@@ -1,0 +1,10 @@
+{
+  "result": "PASS_INDEPENDENT_BLENDER_4_5_15_SAVE_REOPEN",
+  "source_native_object": "object00_group01_material017_a0",
+  "output_sha256": "e84c723111f8409686ee2d4e953c021212a76055bcb24ba0aad8138ebae828a4",
+  "original_vertices_modified": 82,
+  "30_other_native_meshes": "BITWISE_GEOMETRY_SIGNATURE_UNCHANGED",
+  "full_car_QA_PASS": false,
+  "integration_into_R45": "NOT_PERFORMED",
+  "next": "instrument_cluster"
+}
