@@ -1,0 +1,44 @@
+{
+  "task_id": "FERRARI16-SLOTA-360SPIDER-NATIVE-VISIBLE-SEAT-R02-20261110-AF5A9A9D",
+  "slot": "A",
+  "car_id": "360spider",
+  "component": "visible_seat",
+  "status": "COVERED_PARTIAL_QA",
+  "vehicle_complete": false,
+  "whole_car_qa_pass": false,
+  "original_native_pmt_sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "original_import_blend_sha256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+  "input_blend_sha256": "5dabffb52ae4136b6b72f99c7975b629820f839afec2048e59035cb74d8ee612",
+  "output_blend_sha256": "af5a9a9d9650d261b1b24f56e5ff8b5291773e033c43087e000276940fbc87a2",
+  "original_mesh_changed": "PMT_object00_group01_material010_a0",
+  "original_native_vertices_changed": 20,
+  "original_meshes_unchanged": 74,
+  "previous_accepted_console_vertices_unchanged": true,
+  "front_windshield_frame_A_pillar_glass_fit_unchanged": true,
+  "new_meshes": 0,
+  "new_textures": 0,
+  "exported_pmt_ovc_ovc3": false,
+  "fresh_blender_reopen": "PASS",
+  "workspace_guard_receipt": "PASS",
+  "target_subregions": [
+    "driver and passenger lumbar backrest",
+    "side bolsters",
+    "front seat-cushion support"
+  ],
+  "photo_reference_N100_only": "outrun2_vr_refs/20261104_16car_cockpit/04_360_Spider/01_interior.jpg",
+  "real_world_photo_assessment": "Original black leather sport seats show padded lumbar and profiled side bolsters. First-pass local native geometry refinement only; original upholstery ribbing, leather finish and true camera calibration unverified.",
+  "visual_evidence": [
+    "before_seat_driver_top.png",
+    "after_seat_driver_top.png",
+    "before_seat_driver_oblique.png",
+    "after_seat_driver_oblique.png",
+    "comparison_seat_before_after.jpg"
+  ],
+  "remaining_qa_blockers": [
+    "exact original-game seated driver-eye view not calibrated",
+    "matched genuine photos only qualitative",
+    "full car QA has not passed"
+  ],
+  "next": "instrument_cluster",
+  "outstanding_vehicle_qa": "NOT_PASS"
+}
