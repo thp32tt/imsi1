@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "task_id": "FERRARI16-SLOTC-F50-DASHBOARD-P0-HOLD-20261109-1401",
+  "checked_at_kst": "2026-11-09T14:04:36+09:00",
+  "source_repository": "thp32tt/imsi1",
+  "source_ref": "main",
+  "reviewed_head": "7678041dcd19ed23aa92d9127b8a692b04281d30",
+  "slot": "C",
+  "active_by_slot_C": "f50",
+  "requested_component": "dashboard",
+  "decision": "BLOCKED_OUT_OF_ORDER_P0_POLISH_HOLD",
+  "policy_basis": [
+    "P0 dashboard and steering wheel already underwent numerous historical source edits; strategy v3 prohibits unbounded cosmetic repetition.",
+    "Persisted current_component=cross_cockpit_qa; no independent new dashboard defect ID or approved P0 revisit.",
+    "Two-dispatch ceiling does not reset on chat rollover; a new output .blend would violate the current guard."
+  ],
+  "source_native_pmt": {
+    "location": "N100_ONLY",
+    "path": "rea-input/outrun/outrun2006/Cars/obj_plcar_f50_pmt.sz",
+    "sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+    "verified_live_sha256": true
+  },
+  "original_import_blend_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
+  "input_blend": {
+    "path": "artifacts/slot_C/f50/instrument_cluster_v44/F50_OriginalPMT_InstrumentCluster_v44.blend",
+    "binary_file": "F50_OriginalPMT_InstrumentCluster_v44.blend",
+    "sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "evidence": "artifacts/slot_C/f50/instrument_cluster_v44/manifest.json",
+    "sha_provenance": "existing independent-reopen-validated v44 manifest; not rehashed this dispatch"
+  },
+  "output_blend": {
+    "new_file_created": false,
+    "path": null,
+    "sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "meaning": "UNCHANGED_ACCEPTED_INPUT"
+  },
+  "geometry_changed": false,
+  "edited_native_meshes": [],
+  "new_blender_save": false,
+  "new_blender_independent_reopen": "NOT_RUN_NO_EDIT",
+  "new_comparison_render": "NOT_CREATED_NO_EDIT",
+  "n100_private_photo_reference": [
+    {
+      "filename": "REF2_dashboard_closeup_dad64db8c0a5.jpg",
+      "sha256": "6d2a66553b22fbf03f9bfdceed2a9bc5930cc0564da8b8bbe7a45bb01f6d8961"
+    },
+    {
+      "filename": "REF5_mecum_interior_01_f8afa7e2a.jpg",
+      "sha256": "cd31303113763596eebada76ea964386522f4a03c9684c9132226963e8663ca2"
+    }
+  ],
+  "reference_only_visual_observation": "Photo REF2 shows a prominent arched instrument hood, padded black upper dashboard, and round vents on contrasting lower fascia; REF5 gives a wider driver-side cabin context. Current accepted v44 has no independently calibrated, matched-angle whole-dashboard render in this dispatch, so geometric match cannot be accepted.",
+  "photo_to_model_pass": "NOT_EVALUATED_MATCHED_CAMERA_UNAVAILABLE",
+  "seven_view_final_qa": "INCOMPLETE",
+  "protected_windshield_glass_a_pillar": "NO_CHANGE",
+  "driver_controls_native_attribution": "BLOCKED_UNIDENTIFIED_NATIVE_SOURCE",
+  "dashboard_workpack_status": "P0_POLISH_HOLD",
+  "next_component": "cross_cockpit_qa",
+  "full_vehicle_qa_pass": false,
+  "slot_advance": false,
+  "score_change": 0,
+  "forbidden_export_or_integration": false,
+  "encryption_secret_usage": false
+}
