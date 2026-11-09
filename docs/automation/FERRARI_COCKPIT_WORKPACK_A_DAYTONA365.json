@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "strategy": "breadth_first_cockpit_v3",
+  "slot": "A",
+  "car_id": "daytona365",
+  "source_repo": "thp32tt/OutRun2006Tweaks",
+  "source_branch": "feature/ferrari16-geometry-rework-20261108",
+  "original_game_resource_sha256": "f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe",
+  "original_import_blend_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+  "migration_input_blend_sha256": "65320b1ac94990a1c187f9e92d06e290ef46e6c89e6f9b6843e777a10041a236",
+  "migration_info": "2026-11-09 user override; P0 repeatedly edited (Daytona R41, F50 v36), not certified PASS",
+  "component_order": [
+    "center_console",
+    "driver_controls",
+    "inner_door",
+    "windshield_frame",
+    "visible_seat",
+    "instrument_cluster",
+    "dashboard",
+    "steering_wheel",
+    "cross_cockpit_qa"
+  ],
+  "current_component": "visible_seat",
+  "dispatches_on_component": 0,
+  "max_dispatches_per_component": 2,
+  "components": {
+    "center_console": {
+      "status": "COVERED_PARTIAL_QA",
+      "source_edits_this_phase": 1,
+      "evidence_refs": [
+        "docs/automation/FERRARI16_SLOTA_DAYTONA_CENTER_CONSOLE_BLOCKED_20261109.md",
+        "docs/automation/FERRARI16_SLOTA_DAYTONA_R43_CENTER_CONSOLE_20261109.md"
+      ],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": "27c477d18b3737e08b02276bb50a7c5afb21c97fae14ec7fff9e24f7536ef877",
+      "original_native_mesh_object": "object00_group01_material018_a0",
+      "dispatches_consumed_this_phase": 2,
+      "existing_original_derived_mesh_modified": "V8_LOW_CENTER_TUNNEL",
+      "edited_existing_vertices": 20,
+      "max_vertex_offset_m": 0.03474878682372335,
+      "pending_qa": [
+        "calibrated_original_game_eye",
+        "matched_before_after_driver_view",
+        "seven_authenticated_photo_views"
+      ]
+    },
+    "driver_controls": {
+      "status": "COVERED_PARTIAL_QA",
+      "source_edits_this_phase": 1,
+      "evidence_refs": [
+        "docs/automation/FERRARI16_SLOTA_DAYTONA_R44_DRIVER_CONTROLS_20261109.md"
+      ],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": "638f69369f9ff9d074221320f38f4e137675a911d05939470f6cd24bec73040d",
+      "dispatches_consumed_this_phase": 1,
+      "blocked_subparts": [
+        "pedal original native mesh attribution unproven",
+        "column stalk original native mesh attribution unproven"
+      ],
+      "original_native_mesh_object": "object00_group01_material016_a0",
+      "existing_original_derived_mesh_modified": "DAYTONA_PHOTO_NATIVE_SWITCHBANK_REFINED_V4",
+      "edited_existing_vertices": 70,
+      "max_vertex_offset_m": 0.014,
+      "pending_qa": [
+        "calibrated_original_game_eye",
+        "matched_same_camera_before_after",
+        "seven_authenticated_photo_views"
+      ]
+    },
+    "inner_door": {
+      "status": "COVERED_PARTIAL_QA",
+      "source_edits_this_phase": 1,
+      "evidence_refs": [
+        "docs/automation/FERRARI16_SLOTA_DAYTONA_R45_INNER_DOOR_20261109.md"
+      ],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+      "dispatches_consumed_this_phase": 1,
+      "original_native_mesh_object": "object00_group01_material005_a0",
+      "existing_original_derived_mesh_modified": "V5_L_LEATHER_SCULPTED_DOOR",
+      "original_native_reference_edge_points": 7,
+      "edited_existing_vertices": 41,
+      "max_vertex_offset_m": 0.015851131999123982,
+      "pending_qa": [
+        "calibrated_original_game_eye",
+        "matched_same_camera_before_after",
+        "seven_authenticated_photo_views"
+      ]
+    },
+    "windshield_frame": {
+      "status": "BLOCKED",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [
+        "docs/automation/FERRARI16_SLOTA_DAYTONA_HOSTED_BLOCKED_20261109.md"
+      ],
+      "blocking_reason": "BLOCKED_HOSTED_INPUT_STALE (NOT KEY): hosted run 42543904654 slot A had nonempty FERRARI_BUNDLE_KEY_B64, decrypt verified 6 private inputs, then runner rejected stale source .blend (BLOCKED_SOURCE_SHA); ciphertext SHA 502cf59b predates R45 source SHA 224131c7. Native windshield not inspected; do not fabricate.",
+      "last_saved_blend_sha256": null,
+      "dispatches_consumed_this_phase": 0,
+      "native_source_mesh": "UNVERIFIED_HOSTED_INPUT_BLOCKED"
+    },
+    "visible_seat": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": null
+    },
+    "instrument_cluster": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": null
+    },
+    "dashboard": {
+      "status": "P0_POLISH_HOLD",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": null
+    },
+    "steering_wheel": {
+      "status": "P0_POLISH_HOLD",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": null
+    },
+    "cross_cockpit_qa": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "evidence_refs": [],
+      "blocking_reason": null,
+      "last_saved_blend_sha256": null
+    }
+  },
+  "known_final_qa_blockers": [
+    "exact original game driver-eye camera uncalibrated",
+    "seven authenticated car-photo viewpoints incomplete",
+    "real proprietary source scene not available in GitHub-hosted Actions",
+    "existing source nonmanifold / connectivity findings unresolved",
+    "Host key is present (run 42543904654); slot A encrypted input is stale against latest R45 source SHA, so hosted source geometry is blocked"
+  ],
+  "cannot_promote_from_interim_coverage": true,
+  "last_material_commit": "4ebbeb8342d0fe8ebca18d7c830a6be2ac6cee02",
+  "notes": "SLOT A inner_door R45 previously COVERED_PARTIAL_QA; repeated user command is not a new geometry pass. Run 42543904654 proved key/decrypt available but BLOCKED_SOURCE_SHA on stale slot A ciphertext. Run 42546429232 selected slot C; slot A Blender skipped. Current region visible_seat NOT_STARTED, pending fresh encrypted R45 exact input and positive original seat mesh attribution. No new script, render or vehicle QA PASS, no new score.",
+  "latest_accepted_editable_blend_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "hosted_a_latest_evidence": {
+    "updated_at_kst": "2026-11-09 10:36",
+    "latest_confirmed_usable_key_run": 42543904654,
+    "decrypt": "PASS_SIX_INPUTS",
+    "blender": "INSTALLED",
+    "source_admission": "BLOCKED_SOURCE_SHA_STALE_CIPHERTEXT",
+    "current_expected_source_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+    "encrypted_bundle_sha256": "502cf59b193ad45345ca50e6dd093eb88c92248ae044a99d9860991d6fffd520",
+    "new_geometry": false,
+    "whole_car_qa_pass": false,
+    "score_delta": 0
+  }
+}
