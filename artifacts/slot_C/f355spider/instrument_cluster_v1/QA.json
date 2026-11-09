@@ -1,0 +1,28 @@
+{
+  "task_id": "FERRARI16-SLOTC-F355SPIDER-INSTRUMENT-CLUSTER-NATIVE-PMT016-V1-20261110",
+  "component": "instrument_cluster",
+  "slot": "C",
+  "car": "f355spider",
+  "native_original_mesh_modified": [
+    "PMT_F355SPIDER_object00_group01_material016_a0"
+  ],
+  "source_existing_vertices_moved": 40,
+  "max_movement_m": 0.034117508618742756,
+  "other_original_meshes_unchanged": 95,
+  "instrument_gauge_face_untouched": true,
+  "protected_windshield_glass_frame_apillars_untouched": true,
+  "blender_separate_process_reopen": "PASS_BLENDER_4_5_15_SEPARATE_PROCESS",
+  "guard_verify_receipt": "PASS",
+  "comparison_render": "cluster_before.png vs cluster_after.png; driver_context_before.png vs driver_context_after.png",
+  "private_photo_used": "REF4_interior_01_4540a6cc94.jpg",
+  "photo_comparison": "F355 LHD black hood around triple circular gauges; qualitative shape only; registered driver eye not available",
+  "qa_limitations": [
+    "game camera not calibrated to photograph",
+    "gauge artwork/textures unchanged",
+    "Blender visual QA cannot prove original-game visibility",
+    "whole cockpit seam review outstanding"
+  ],
+  "status": "COVERED_PARTIAL_QA",
+  "whole_car_qa_pass": false,
+  "next": "dashboard"
+}

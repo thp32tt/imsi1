@@ -718,8 +718,8 @@
       "geometry_gate": "PARTIAL_NEEDS_QA",
       "reference_gate": "UNTESTED",
       "source_scene_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
-      "output_scene_sha256": "6b179f9d275226ade32960ac49f52cec8149247dc43726f311cb79beeeb06802",
-      "notes": "F355 Spider original PMT027 seat 106 original vertices altered and reopened; 95 nonseat original meshes unchanged. COVERED_PARTIAL_QA, vehicle QA NOT PASS. Next instrument_cluster.",
+      "output_scene_sha256": "ec320da62a7ac21bf88cef5ed205558f3542e03f6f35d6f76de5d4e3d7643e23",
+      "notes": "Original PMT016 instrument-cluster visor edited 40 vertices; independent Blender reopen and source proof PASS. Scope COVERED_PARTIAL_QA only; next dashboard; whole-car QA NOT PASS.",
       "private_photo_subdir": "05_F355_Spider",
       "priority": [
         "dashboard",
@@ -856,7 +856,7 @@
       },
       "whole_car_qa_pass": false,
       "workpack_path": "docs/automation/FERRARI_COCKPIT_WORKPACK_C_F355SPIDER.json",
-      "strategy_v3_next_component": "instrument_cluster",
+      "strategy_v3_next_component": "dashboard",
       "last_slot_c_driver_controls": {
         "component": "driver_controls",
         "status": "BLOCKED",
@@ -896,6 +896,19 @@
         "evidence": "artifacts/slot_C/f355spider/visible_seat_v1/QA.json",
         "next_component": "instrument_cluster",
         "full_car_QA_PASS": false
+      },
+      "last_slot_c_instrument_cluster": {
+        "component": "instrument_cluster",
+        "status": "COVERED_PARTIAL_QA",
+        "native_mesh": "PMT_F355SPIDER_object00_group01_material016_a0",
+        "changed_existing_vertices": 40,
+        "other_native_meshes_unchanged": 95,
+        "input_sha256": "6b179f9d275226ade32960ac49f52cec8149247dc43726f311cb79beeeb06802",
+        "output_sha256": "ec320da62a7ac21bf88cef5ed205558f3542e03f6f35d6f76de5d4e3d7643e23",
+        "reopen": "PASS",
+        "full_vehicle_qa_pass": false,
+        "next": "dashboard",
+        "manifest": "artifacts/slot_C/f355spider/instrument_cluster_v1/manifest.json"
       }
     },
     {

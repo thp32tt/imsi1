@@ -1,0 +1,839 @@
+{
+  "task_id": "FERRARI16-SLOTC-F355SPIDER-INSTRUMENT-CLUSTER-NATIVE-PMT016-V1-20261110",
+  "slot": "C",
+  "vehicle": "f355spider",
+  "component": "instrument_cluster",
+  "status": "COVERED_PARTIAL_QA",
+  "native_original_pmt_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+  "original_import_blend_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
+  "input_sha256": "6b179f9d275226ade32960ac49f52cec8149247dc43726f311cb79beeeb06802",
+  "input_blend": "F355Spider_OriginalPMT_VisibleSeat_Bolster_v1.blend",
+  "output_sha256": "ec320da62a7ac21bf88cef5ed205558f3542e03f6f35d6f76de5d4e3d7643e23",
+  "output_blend": "F355Spider_OriginalPMT_InstrumentCluster_Visor_v1.blend",
+  "original_mesh": "PMT_F355SPIDER_object00_group01_material016_a0",
+  "modified_objects": [
+    "PMT_F355SPIDER_object00_group01_material016_a0"
+  ],
+  "source_mesh_fingerprints_before": {
+    "PMT_F355SPIDER_object00_group00_material000_a0": "679e7d513d8608f8204f24220b1208dd8de1614bf8420ac98c6534036ea81a14",
+    "PMT_F355SPIDER_object00_group00_material001_a0": "362352762965851e3f1ddc828960dcaa5aaade6bc1c089f6eb9654eb21bfd29a",
+    "PMT_F355SPIDER_object00_group00_material002_a0": "799223de66fb82784fdd4e9d7aeb2ba0891917879b3f855771921f89e5abb987",
+    "PMT_F355SPIDER_object00_group00_material003_a0": "13723020a7834934b6ef5db39eb74eecb05e93d8492392a53ee2a7b18bfeb860",
+    "PMT_F355SPIDER_object00_group00_material004_a1": "f1a353c2beb69230572c3cad77034732e3aae514df4ff75d36d5fbd2b067986f",
+    "PMT_F355SPIDER_object00_group01_material005_a0": "9ea1b9187cf10e9232d02956b74935d2b8c4b50d6aca3a094a697315e8e2c288",
+    "PMT_F355SPIDER_object00_group01_material006_a0": "afe235321cc90282c040929ac180828e6437dcec342f92ee926f1944eb33c1df",
+    "PMT_F355SPIDER_object00_group01_material007_a0": "7709d1019bd8c892e7ad8db9415b5ca8e890b0fb85025b2ce07dda794a5472eb",
+    "PMT_F355SPIDER_object00_group01_material008_a0": "cdfd472ed69d0b2f8c6ad1817e3b5b28777ff86e1656f78f3212c95f91ae1eb3",
+    "PMT_F355SPIDER_object00_group01_material009_a0": "d8b1e52ba6613244e423d55b3df95ca9c4461ea07b109eaf571ebbfa5ff3b099",
+    "PMT_F355SPIDER_object00_group01_material010_a0": "fcd938bb04e1f12e06ca458101110f92cdf5c06f20ee8bd3c2801d4f6e550d89",
+    "PMT_F355SPIDER_object00_group01_material011_a0": "0ac8f58c40a6b711e39cda1ae0b7f3a6ad5030058f960aafe5cf6f4ca836da9f",
+    "PMT_F355SPIDER_object00_group01_material012_a0": "bfa1d7776e07278a5a93feec6469ca0c2af773d1fcd681227a1cf28a0d01650d",
+    "PMT_F355SPIDER_object00_group01_material013_a0": "2f2a775430e94d4632dcf177cf7342b55b52ce44c3bce08b60866aaa5bfd5012",
+    "PMT_F355SPIDER_object00_group01_material014_a0": "2717358817d6760aefccd2edd249927677940bcf91c52fdd015acab922c4e543",
+    "PMT_F355SPIDER_object00_group01_material015_a0": "f49037e58524ec35b06df297ecef2e8921aae44cced57e1bd7a754f80909ec40",
+    "PMT_F355SPIDER_object00_group01_material016_a0": "17e37074b05b9b5ee1535f644796f5bae60f1f0f1ffb1155c376b521c9975d75",
+    "PMT_F355SPIDER_object00_group01_material017_a0": "fe90f4652189d82200b85610426727de775b867d407535f82283c5d2572254dc",
+    "PMT_F355SPIDER_object00_group01_material018_a0": "007e9c4ff116272fcc3786322ef87d4ba225d92a8805a90e3f73d66fda4d71d0",
+    "PMT_F355SPIDER_object00_group01_material019_a0": "26b90761d036c7e052fdd4357a09f31abf17e1757f15edc25de5e93344745232",
+    "PMT_F355SPIDER_object00_group01_material020_a0": "73277ecdc7751302e7c31a759591363f8e4636c205ad5ffb81e545991a04e742",
+    "PMT_F355SPIDER_object00_group01_material021_a0": "c1d96487f46c2eb5263bd87525cb7825023b4b5fd295c5c83fa0bb9409f7bf8a",
+    "PMT_F355SPIDER_object00_group01_material022_a0": "1223c658872d5067bdb91200c81f205cf663fdee694202df619f7672832d3514",
+    "PMT_F355SPIDER_object00_group01_material023_a0": "68d3e24294db9e518622bbdefb6081f0899d3a488ecb3e784f2da17ec58fc79c",
+    "PMT_F355SPIDER_object00_group01_material024_a0": "dee707074b39cca92697ff7432ae9ef9e0bc439275e2e54dd4fd018b0658e5d1",
+    "PMT_F355SPIDER_object00_group01_material025_a0": "35d81b2075469d52d703eaf58e42128da218d1c199ce65c1cf4fe80e5d8618f0",
+    "PMT_F355SPIDER_object00_group01_material026_a0": "0ac5e87e8c646f77b781abeec679daa460ff99f195e7e3c229d69dc6ca76bfe7",
+    "PMT_F355SPIDER_object00_group01_material027_a0": "9208c94e3b298b0a5a4d87251fbc8beb02a0cae36538061c9dc79908edb19b84",
+    "PMT_F355SPIDER_object00_group01_material028_a0": "5af75e004757ae447aa4ee783d38fc7df220d780842d29c2f4a41d13611e6c2f",
+    "PMT_F355SPIDER_object00_group01_material029_a1": "4ea9500c0d3d694352e936044e4fc8244c2e1b41758b585e234ce7aab1b62fc9",
+    "PMT_F355SPIDER_object00_group01_material030_a1": "79b725196934fe3af50d4895fb1c0773c7465fd58d347ea658e13cc5afdce6fd",
+    "PMT_F355SPIDER_object00_group01_material031_a1": "33ea093ee896f231934d6f33efc319157e4f8f7b9ee8e43cb6135da7f2d874a2",
+    "PMT_F355SPIDER_object00_group01_material032_a1": "a7ad147a4206bc177186ef4c8d601a148b33ee5819001d7cbce0a280d24909e0",
+    "PMT_F355SPIDER_object00_group01_material033_a1": "f18ad8265598dd9e51a6a041e5ed5f02231e480bd098b1ea19a507f9eb6f9228",
+    "PMT_F355SPIDER_object01_group00_material000_a0": "53e55a9f65917e6d3d1a13c3c718bc491d39edb6c06d15a0c166b79bdcff4b28",
+    "PMT_F355SPIDER_object02_group00_material000_a0": "8b2ad99a46c6faaad0245b26ceee86d57565ff09688ac63c8c3deba6f0b528f2",
+    "PMT_F355SPIDER_object03_group00_material000_a0": "8e1ffdf9b187c04afd1d86a7e52e5824ea15bfe66e6a8d67dfae45603ea2f785",
+    "PMT_F355SPIDER_object04_group00_material000_a0": "bc775f476fd22cd58c5fa03ae7fe29076ea8fcf558c420e64509e61be931aded",
+    "PMT_F355SPIDER_object05_group00_material000_a0": "c9f0937b888e08c1636fc2dffdaded897ab90fdd1ca87e86da9275b2d01e1fc2",
+    "PMT_F355SPIDER_object06_group00_material000_a0": "29173d3415d9bdba563641c5c1baca82c088c94088b54ac97e26785dd0bb5ca6",
+    "PMT_F355SPIDER_object07_group00_material000_a0": "3fbc39d4b842efe849d812bb80601d0ecea083f66912fa9f10bf527be22a493e",
+    "PMT_F355SPIDER_object08_group00_material000_a0": "1ae3d791ccc3e533d150b9bf166cb2b04d2d5719f5516a9e5bf551aa4eb37c8f",
+    "PMT_F355SPIDER_object09_group00_material000_a0": "cbe90e8bc8fdf6e1a9e33750159a86d6eaae726020ed72109ffea6dafb1d4fca",
+    "PMT_F355SPIDER_object10_group00_material000_a0": "8f6fd4f5ac56ca2426151d9e756af7e5e8632a064fde1ac9ddb72a4df914edcf",
+    "PMT_F355SPIDER_object11_group00_material000_a0": "7ee9cea7b65402dc80c145ace2e240e300dea3a007370d32d816f829eae5e210",
+    "PMT_F355SPIDER_object12_group00_material000_a0": "8288dd96efeb52e5a8500a177340fb9ac113c8663eb7d3eb92c3b980615ae934",
+    "PMT_F355SPIDER_object13_group00_material000_a0": "8f2185b7e597902baadc0a1080a08e19d2034e101a12a96a07771ce9428f183b",
+    "PMT_F355SPIDER_object14_group00_material000_a0": "a677edb2c9231ec0f0254466ac59b2defe3d9b5abe4e9e0c9a6143b9cc826ca1",
+    "PMT_F355SPIDER_object15_group00_material000_a0": "a9f900a0172d477d635fea408db0a6a3cd6417d423a750c82d4f926e8ad70dc5",
+    "PMT_F355SPIDER_object15_group00_material001_a1": "27fe35576cfa0e3bf94e4a0765cf154c6ab7841e78d47a97bbe4c3eda0c98dd2",
+    "PMT_F355SPIDER_object16_group00_material000_a0": "a9ceebe4905c96999086cb0941a16e846409eec38a7c1684fd57103c0b0d7f71",
+    "PMT_F355SPIDER_object16_group01_material001_a0": "40c262cda96a1b56071e58e286211961e301b0834379f406a5be31bdbdf26360",
+    "PMT_F355SPIDER_object16_group01_material002_a0": "fe4222627b2f0af8f592f247e1be39a590a821da170487be1a30833359922b45",
+    "PMT_F355SPIDER_object16_group01_material003_a0": "5f39ab46c3bf4dd674a35010c6245ee3ca758ee3ba6670f7f39b150f8ffd8667",
+    "PMT_F355SPIDER_object16_group01_material004_a0": "d5aa1ba0f3645b9d8e53ddadcfa5bcc0aed3c43fa4a0a050582722a33662910e",
+    "PMT_F355SPIDER_object16_group01_material005_a0": "1307297ff98bc26992cf05ac77d6529620218f49a18f22f6ab2d35b9880a0f62",
+    "PMT_F355SPIDER_object16_group01_material006_a0": "e298f93e9bf4c28f54b1b3e34c678d40af519da51fae1d2709518175eef904d8",
+    "PMT_F355SPIDER_object16_group01_material007_a0": "13a9128c9f711a2660b2ef5f129657ef35f96cf1ead18fec31a6aa4fd2065ba6",
+    "PMT_F355SPIDER_object17_group00_material000_a0": "d63eedbd3efbbb6f16a118b207be233c3c2fb025d0ed67104fdae8c3c1cd5d4a",
+    "PMT_F355SPIDER_object17_group00_material001_a0": "527d5e93a58d5904bac1814120383bfcc59c5f15577952427a68366fca21293a",
+    "PMT_F355SPIDER_object17_group01_material002_a0": "7eeedb9050f0756ad3d28d72a5456edd7f8907c4877dc0704ace3c949b6b94d8",
+    "PMT_F355SPIDER_object17_group01_material003_a0": "c0b1116d0420bbda633283da74f0c9d5474d3e4512dbd08170546497c1928c89",
+    "PMT_F355SPIDER_object17_group01_material004_a0": "76dcdde30acb94349ad86c5e51aa3dfbba4291a8f5aeea0457f96571c0048c72",
+    "PMT_F355SPIDER_object17_group01_material005_a0": "85ae14f627e26c20f09eb82159060a9442db7bcdcab044ab60de088748f8f287",
+    "PMT_F355SPIDER_object18_group00_material000_a0": "446db96bd9fb4c39c0589b950ef0a7d54be1436e9e26a0a1ffa1e4518be888c6",
+    "PMT_F355SPIDER_object18_group00_material001_a0": "3b09466b41a76affea6754928ed635fc36140c6426efd5b4135469b90224033d",
+    "PMT_F355SPIDER_object18_group01_material002_a0": "78f7eb65f20e51d51106cadc3059bd2b5712ac672c1739b0f06fece2cdf8e3ab",
+    "PMT_F355SPIDER_object18_group01_material003_a0": "9043700310d013c8b5f9f425b2f326f585e1aeac595a8abdc5453b42ac06626b",
+    "PMT_F355SPIDER_object18_group01_material004_a0": "7d899d9dead27464be36d061fc297d0e2d0d948d8a05a112af2d525ac7ecbd56",
+    "PMT_F355SPIDER_object18_group01_material005_a0": "572932ab7cacae89d65c0234e8166b97c34f480cce1470413f15e4728df03505",
+    "PMT_F355SPIDER_object19_group00_material000_a0": "00749249295ab79c34773ab5f0a7a7f204b8d94450446d7f635388567ff2dc99",
+    "PMT_F355SPIDER_object19_group00_material001_a0": "8556eef543afc945382744f22f79465b4834ce38533184c8026630ab49d355c7",
+    "PMT_F355SPIDER_object19_group00_material002_a1": "2a077d4213a6136bd813282b040a1cdd63452dae64b6777ad4e6d3aca4c13131",
+    "PMT_F355SPIDER_object19_group00_material003_a1": "0a4c128e9421eaaf49bbeb9ad80a5257858124484ac9801a849306b4de5b67da",
+    "PMT_F355SPIDER_object20_group00_material000_a0": "36c196fe6023737258750db01f0b93c0de43727eb1f2c21f42bd1ccabb2857a5",
+    "PMT_F355SPIDER_object20_group00_material001_a0": "aa0ad260c8b1075ad59babac7b70035a5577facfafe43a95bf18f7da8748878b",
+    "PMT_F355SPIDER_object20_group00_material002_a0": "c31eff598027a6783309697f6aab3be44d604ed83efe3f2294a92dd63586a609",
+    "PMT_F355SPIDER_object21_group00_material000_a0": "e034c0104e942e4e7b20a2b314e5c2df416d5aea8a0b4e5bb25422fee558a28c",
+    "PMT_F355SPIDER_object21_group00_material001_a0": "6ce9138c7a08de5127b2aa7272d52b887e33b9973316813f4a0055a0accc967a",
+    "PMT_F355SPIDER_object22_group00_material000_a0": "abcd8d1e7613d4f376df6ebfd795cc64b374b796a21f90864affef8e2f1e14b8",
+    "PMT_F355SPIDER_object22_group00_material001_a0": "0bc3689cd0686620b2c724e93b0721dad07502be2b0cc7d755fe3440fecbbcba",
+    "PMT_F355SPIDER_object23_group00_material000_a0": "f49aa17f34ee9506ea6cfdbae2f5140b615863ab353b2b3e47bac41d1fbb01c7",
+    "PMT_F355SPIDER_object23_group01_material001_a0": "94723faa43556fae62c2b2ea61b78be4e9d3f5f462b9a3574bfca0bd71801b73",
+    "PMT_F355SPIDER_object23_group01_material002_a0": "0cae03c0075da74d8cc802771fb1b28a8a159b1c228a143b8e6355d46da0d867",
+    "PMT_F355SPIDER_object24_group00_material000_a0": "769075b1ada6bb0da636d59075895fd0559be9aa9e487e21ef7749ad81087abd",
+    "PMT_F355SPIDER_object24_group01_material001_a0": "77058708be0d8cb0049bcc35edd80b991e8e2f272d1cd3a11d3a59a5fe0a6bd7",
+    "PMT_F355SPIDER_object24_group01_material002_a0": "2d924d1b0346c6948e2729aeac815ada4b0674e9e0df0b891e3893e8ebe608b6",
+    "PMT_F355SPIDER_object25_group00_material000_a0": "f85ef3e0dbb72f373ac6ebaddd74e60e840753309050d7e79a6f1473d59be08e",
+    "PMT_F355SPIDER_object25_group01_material001_a0": "516a705f4ba415ffdaa613813f9209807d40e1ba42b78e72eca88f8dcac5b4fc",
+    "PMT_F355SPIDER_object25_group01_material002_a0": "63f57f7cbebd67bbd7d55d0e655f9bb5dd53c2c78436f2c2178704b2b476a4f0",
+    "PMT_F355SPIDER_object26_group00_material000_a0": "80c810940b4c948c549aeee6bef58ee2a5bdc8392ec05a11c46fba313f1e2386",
+    "PMT_F355SPIDER_object26_group01_material001_a0": "ad7357c68e0f14b7507f5708fc0b1355dabb38ddc9d00141ed8ba97798dba1b8",
+    "PMT_F355SPIDER_object26_group01_material002_a0": "4d0e8fa13e9bf9f37808ca33f1d1c396c14a2f8c9c5f9d3fd33ef6eb98a4f191",
+    "PMT_F355SPIDER_object27_group00_material000_a0": "90bf1ee2cf0d96f89b5ec27a1eb51e4ce47f1c85411527105ae2407f462b82dc",
+    "PMT_F355SPIDER_object28_group00_material000_a0": "e598c14932dd9b6f6414f4dd48abb3c0fa02e93299c8000a691f9ec5175b4b25",
+    "PMT_F355SPIDER_object29_group00_material000_a1": "e8bec645ec58931f8bc72a2f9d08863ee5191db96b56349e26e1471bde492de1"
+  },
+  "source_mesh_fingerprints_after": {
+    "PMT_F355SPIDER_object00_group00_material000_a0": "679e7d513d8608f8204f24220b1208dd8de1614bf8420ac98c6534036ea81a14",
+    "PMT_F355SPIDER_object00_group00_material001_a0": "362352762965851e3f1ddc828960dcaa5aaade6bc1c089f6eb9654eb21bfd29a",
+    "PMT_F355SPIDER_object00_group00_material002_a0": "799223de66fb82784fdd4e9d7aeb2ba0891917879b3f855771921f89e5abb987",
+    "PMT_F355SPIDER_object00_group00_material003_a0": "13723020a7834934b6ef5db39eb74eecb05e93d8492392a53ee2a7b18bfeb860",
+    "PMT_F355SPIDER_object00_group00_material004_a1": "f1a353c2beb69230572c3cad77034732e3aae514df4ff75d36d5fbd2b067986f",
+    "PMT_F355SPIDER_object00_group01_material005_a0": "9ea1b9187cf10e9232d02956b74935d2b8c4b50d6aca3a094a697315e8e2c288",
+    "PMT_F355SPIDER_object00_group01_material006_a0": "afe235321cc90282c040929ac180828e6437dcec342f92ee926f1944eb33c1df",
+    "PMT_F355SPIDER_object00_group01_material007_a0": "7709d1019bd8c892e7ad8db9415b5ca8e890b0fb85025b2ce07dda794a5472eb",
+    "PMT_F355SPIDER_object00_group01_material008_a0": "cdfd472ed69d0b2f8c6ad1817e3b5b28777ff86e1656f78f3212c95f91ae1eb3",
+    "PMT_F355SPIDER_object00_group01_material009_a0": "d8b1e52ba6613244e423d55b3df95ca9c4461ea07b109eaf571ebbfa5ff3b099",
+    "PMT_F355SPIDER_object00_group01_material010_a0": "fcd938bb04e1f12e06ca458101110f92cdf5c06f20ee8bd3c2801d4f6e550d89",
+    "PMT_F355SPIDER_object00_group01_material011_a0": "0ac8f58c40a6b711e39cda1ae0b7f3a6ad5030058f960aafe5cf6f4ca836da9f",
+    "PMT_F355SPIDER_object00_group01_material012_a0": "bfa1d7776e07278a5a93feec6469ca0c2af773d1fcd681227a1cf28a0d01650d",
+    "PMT_F355SPIDER_object00_group01_material013_a0": "2f2a775430e94d4632dcf177cf7342b55b52ce44c3bce08b60866aaa5bfd5012",
+    "PMT_F355SPIDER_object00_group01_material014_a0": "2717358817d6760aefccd2edd249927677940bcf91c52fdd015acab922c4e543",
+    "PMT_F355SPIDER_object00_group01_material015_a0": "f49037e58524ec35b06df297ecef2e8921aae44cced57e1bd7a754f80909ec40",
+    "PMT_F355SPIDER_object00_group01_material016_a0": "3cfd950e00f1d73e03c7edcc5c09eb30ff909493e458f871aa89e97dd4bf2b5a",
+    "PMT_F355SPIDER_object00_group01_material017_a0": "fe90f4652189d82200b85610426727de775b867d407535f82283c5d2572254dc",
+    "PMT_F355SPIDER_object00_group01_material018_a0": "007e9c4ff116272fcc3786322ef87d4ba225d92a8805a90e3f73d66fda4d71d0",
+    "PMT_F355SPIDER_object00_group01_material019_a0": "26b90761d036c7e052fdd4357a09f31abf17e1757f15edc25de5e93344745232",
+    "PMT_F355SPIDER_object00_group01_material020_a0": "73277ecdc7751302e7c31a759591363f8e4636c205ad5ffb81e545991a04e742",
+    "PMT_F355SPIDER_object00_group01_material021_a0": "c1d96487f46c2eb5263bd87525cb7825023b4b5fd295c5c83fa0bb9409f7bf8a",
+    "PMT_F355SPIDER_object00_group01_material022_a0": "1223c658872d5067bdb91200c81f205cf663fdee694202df619f7672832d3514",
+    "PMT_F355SPIDER_object00_group01_material023_a0": "68d3e24294db9e518622bbdefb6081f0899d3a488ecb3e784f2da17ec58fc79c",
+    "PMT_F355SPIDER_object00_group01_material024_a0": "dee707074b39cca92697ff7432ae9ef9e0bc439275e2e54dd4fd018b0658e5d1",
+    "PMT_F355SPIDER_object00_group01_material025_a0": "35d81b2075469d52d703eaf58e42128da218d1c199ce65c1cf4fe80e5d8618f0",
+    "PMT_F355SPIDER_object00_group01_material026_a0": "0ac5e87e8c646f77b781abeec679daa460ff99f195e7e3c229d69dc6ca76bfe7",
+    "PMT_F355SPIDER_object00_group01_material027_a0": "9208c94e3b298b0a5a4d87251fbc8beb02a0cae36538061c9dc79908edb19b84",
+    "PMT_F355SPIDER_object00_group01_material028_a0": "5af75e004757ae447aa4ee783d38fc7df220d780842d29c2f4a41d13611e6c2f",
+    "PMT_F355SPIDER_object00_group01_material029_a1": "4ea9500c0d3d694352e936044e4fc8244c2e1b41758b585e234ce7aab1b62fc9",
+    "PMT_F355SPIDER_object00_group01_material030_a1": "79b725196934fe3af50d4895fb1c0773c7465fd58d347ea658e13cc5afdce6fd",
+    "PMT_F355SPIDER_object00_group01_material031_a1": "33ea093ee896f231934d6f33efc319157e4f8f7b9ee8e43cb6135da7f2d874a2",
+    "PMT_F355SPIDER_object00_group01_material032_a1": "a7ad147a4206bc177186ef4c8d601a148b33ee5819001d7cbce0a280d24909e0",
+    "PMT_F355SPIDER_object00_group01_material033_a1": "f18ad8265598dd9e51a6a041e5ed5f02231e480bd098b1ea19a507f9eb6f9228",
+    "PMT_F355SPIDER_object01_group00_material000_a0": "53e55a9f65917e6d3d1a13c3c718bc491d39edb6c06d15a0c166b79bdcff4b28",
+    "PMT_F355SPIDER_object02_group00_material000_a0": "8b2ad99a46c6faaad0245b26ceee86d57565ff09688ac63c8c3deba6f0b528f2",
+    "PMT_F355SPIDER_object03_group00_material000_a0": "8e1ffdf9b187c04afd1d86a7e52e5824ea15bfe66e6a8d67dfae45603ea2f785",
+    "PMT_F355SPIDER_object04_group00_material000_a0": "bc775f476fd22cd58c5fa03ae7fe29076ea8fcf558c420e64509e61be931aded",
+    "PMT_F355SPIDER_object05_group00_material000_a0": "c9f0937b888e08c1636fc2dffdaded897ab90fdd1ca87e86da9275b2d01e1fc2",
+    "PMT_F355SPIDER_object06_group00_material000_a0": "29173d3415d9bdba563641c5c1baca82c088c94088b54ac97e26785dd0bb5ca6",
+    "PMT_F355SPIDER_object07_group00_material000_a0": "3fbc39d4b842efe849d812bb80601d0ecea083f66912fa9f10bf527be22a493e",
+    "PMT_F355SPIDER_object08_group00_material000_a0": "1ae3d791ccc3e533d150b9bf166cb2b04d2d5719f5516a9e5bf551aa4eb37c8f",
+    "PMT_F355SPIDER_object09_group00_material000_a0": "cbe90e8bc8fdf6e1a9e33750159a86d6eaae726020ed72109ffea6dafb1d4fca",
+    "PMT_F355SPIDER_object10_group00_material000_a0": "8f6fd4f5ac56ca2426151d9e756af7e5e8632a064fde1ac9ddb72a4df914edcf",
+    "PMT_F355SPIDER_object11_group00_material000_a0": "7ee9cea7b65402dc80c145ace2e240e300dea3a007370d32d816f829eae5e210",
+    "PMT_F355SPIDER_object12_group00_material000_a0": "8288dd96efeb52e5a8500a177340fb9ac113c8663eb7d3eb92c3b980615ae934",
+    "PMT_F355SPIDER_object13_group00_material000_a0": "8f2185b7e597902baadc0a1080a08e19d2034e101a12a96a07771ce9428f183b",
+    "PMT_F355SPIDER_object14_group00_material000_a0": "a677edb2c9231ec0f0254466ac59b2defe3d9b5abe4e9e0c9a6143b9cc826ca1",
+    "PMT_F355SPIDER_object15_group00_material000_a0": "a9f900a0172d477d635fea408db0a6a3cd6417d423a750c82d4f926e8ad70dc5",
+    "PMT_F355SPIDER_object15_group00_material001_a1": "27fe35576cfa0e3bf94e4a0765cf154c6ab7841e78d47a97bbe4c3eda0c98dd2",
+    "PMT_F355SPIDER_object16_group00_material000_a0": "a9ceebe4905c96999086cb0941a16e846409eec38a7c1684fd57103c0b0d7f71",
+    "PMT_F355SPIDER_object16_group01_material001_a0": "40c262cda96a1b56071e58e286211961e301b0834379f406a5be31bdbdf26360",
+    "PMT_F355SPIDER_object16_group01_material002_a0": "fe4222627b2f0af8f592f247e1be39a590a821da170487be1a30833359922b45",
+    "PMT_F355SPIDER_object16_group01_material003_a0": "5f39ab46c3bf4dd674a35010c6245ee3ca758ee3ba6670f7f39b150f8ffd8667",
+    "PMT_F355SPIDER_object16_group01_material004_a0": "d5aa1ba0f3645b9d8e53ddadcfa5bcc0aed3c43fa4a0a050582722a33662910e",
+    "PMT_F355SPIDER_object16_group01_material005_a0": "1307297ff98bc26992cf05ac77d6529620218f49a18f22f6ab2d35b9880a0f62",
+    "PMT_F355SPIDER_object16_group01_material006_a0": "e298f93e9bf4c28f54b1b3e34c678d40af519da51fae1d2709518175eef904d8",
+    "PMT_F355SPIDER_object16_group01_material007_a0": "13a9128c9f711a2660b2ef5f129657ef35f96cf1ead18fec31a6aa4fd2065ba6",
+    "PMT_F355SPIDER_object17_group00_material000_a0": "d63eedbd3efbbb6f16a118b207be233c3c2fb025d0ed67104fdae8c3c1cd5d4a",
+    "PMT_F355SPIDER_object17_group00_material001_a0": "527d5e93a58d5904bac1814120383bfcc59c5f15577952427a68366fca21293a",
+    "PMT_F355SPIDER_object17_group01_material002_a0": "7eeedb9050f0756ad3d28d72a5456edd7f8907c4877dc0704ace3c949b6b94d8",
+    "PMT_F355SPIDER_object17_group01_material003_a0": "c0b1116d0420bbda633283da74f0c9d5474d3e4512dbd08170546497c1928c89",
+    "PMT_F355SPIDER_object17_group01_material004_a0": "76dcdde30acb94349ad86c5e51aa3dfbba4291a8f5aeea0457f96571c0048c72",
+    "PMT_F355SPIDER_object17_group01_material005_a0": "85ae14f627e26c20f09eb82159060a9442db7bcdcab044ab60de088748f8f287",
+    "PMT_F355SPIDER_object18_group00_material000_a0": "446db96bd9fb4c39c0589b950ef0a7d54be1436e9e26a0a1ffa1e4518be888c6",
+    "PMT_F355SPIDER_object18_group00_material001_a0": "3b09466b41a76affea6754928ed635fc36140c6426efd5b4135469b90224033d",
+    "PMT_F355SPIDER_object18_group01_material002_a0": "78f7eb65f20e51d51106cadc3059bd2b5712ac672c1739b0f06fece2cdf8e3ab",
+    "PMT_F355SPIDER_object18_group01_material003_a0": "9043700310d013c8b5f9f425b2f326f585e1aeac595a8abdc5453b42ac06626b",
+    "PMT_F355SPIDER_object18_group01_material004_a0": "7d899d9dead27464be36d061fc297d0e2d0d948d8a05a112af2d525ac7ecbd56",
+    "PMT_F355SPIDER_object18_group01_material005_a0": "572932ab7cacae89d65c0234e8166b97c34f480cce1470413f15e4728df03505",
+    "PMT_F355SPIDER_object19_group00_material000_a0": "00749249295ab79c34773ab5f0a7a7f204b8d94450446d7f635388567ff2dc99",
+    "PMT_F355SPIDER_object19_group00_material001_a0": "8556eef543afc945382744f22f79465b4834ce38533184c8026630ab49d355c7",
+    "PMT_F355SPIDER_object19_group00_material002_a1": "2a077d4213a6136bd813282b040a1cdd63452dae64b6777ad4e6d3aca4c13131",
+    "PMT_F355SPIDER_object19_group00_material003_a1": "0a4c128e9421eaaf49bbeb9ad80a5257858124484ac9801a849306b4de5b67da",
+    "PMT_F355SPIDER_object20_group00_material000_a0": "36c196fe6023737258750db01f0b93c0de43727eb1f2c21f42bd1ccabb2857a5",
+    "PMT_F355SPIDER_object20_group00_material001_a0": "aa0ad260c8b1075ad59babac7b70035a5577facfafe43a95bf18f7da8748878b",
+    "PMT_F355SPIDER_object20_group00_material002_a0": "c31eff598027a6783309697f6aab3be44d604ed83efe3f2294a92dd63586a609",
+    "PMT_F355SPIDER_object21_group00_material000_a0": "e034c0104e942e4e7b20a2b314e5c2df416d5aea8a0b4e5bb25422fee558a28c",
+    "PMT_F355SPIDER_object21_group00_material001_a0": "6ce9138c7a08de5127b2aa7272d52b887e33b9973316813f4a0055a0accc967a",
+    "PMT_F355SPIDER_object22_group00_material000_a0": "abcd8d1e7613d4f376df6ebfd795cc64b374b796a21f90864affef8e2f1e14b8",
+    "PMT_F355SPIDER_object22_group00_material001_a0": "0bc3689cd0686620b2c724e93b0721dad07502be2b0cc7d755fe3440fecbbcba",
+    "PMT_F355SPIDER_object23_group00_material000_a0": "f49aa17f34ee9506ea6cfdbae2f5140b615863ab353b2b3e47bac41d1fbb01c7",
+    "PMT_F355SPIDER_object23_group01_material001_a0": "94723faa43556fae62c2b2ea61b78be4e9d3f5f462b9a3574bfca0bd71801b73",
+    "PMT_F355SPIDER_object23_group01_material002_a0": "0cae03c0075da74d8cc802771fb1b28a8a159b1c228a143b8e6355d46da0d867",
+    "PMT_F355SPIDER_object24_group00_material000_a0": "769075b1ada6bb0da636d59075895fd0559be9aa9e487e21ef7749ad81087abd",
+    "PMT_F355SPIDER_object24_group01_material001_a0": "77058708be0d8cb0049bcc35edd80b991e8e2f272d1cd3a11d3a59a5fe0a6bd7",
+    "PMT_F355SPIDER_object24_group01_material002_a0": "2d924d1b0346c6948e2729aeac815ada4b0674e9e0df0b891e3893e8ebe608b6",
+    "PMT_F355SPIDER_object25_group00_material000_a0": "f85ef3e0dbb72f373ac6ebaddd74e60e840753309050d7e79a6f1473d59be08e",
+    "PMT_F355SPIDER_object25_group01_material001_a0": "516a705f4ba415ffdaa613813f9209807d40e1ba42b78e72eca88f8dcac5b4fc",
+    "PMT_F355SPIDER_object25_group01_material002_a0": "63f57f7cbebd67bbd7d55d0e655f9bb5dd53c2c78436f2c2178704b2b476a4f0",
+    "PMT_F355SPIDER_object26_group00_material000_a0": "80c810940b4c948c549aeee6bef58ee2a5bdc8392ec05a11c46fba313f1e2386",
+    "PMT_F355SPIDER_object26_group01_material001_a0": "ad7357c68e0f14b7507f5708fc0b1355dabb38ddc9d00141ed8ba97798dba1b8",
+    "PMT_F355SPIDER_object26_group01_material002_a0": "4d0e8fa13e9bf9f37808ca33f1d1c396c14a2f8c9c5f9d3fd33ef6eb98a4f191",
+    "PMT_F355SPIDER_object27_group00_material000_a0": "90bf1ee2cf0d96f89b5ec27a1eb51e4ce47f1c85411527105ae2407f462b82dc",
+    "PMT_F355SPIDER_object28_group00_material000_a0": "e598c14932dd9b6f6414f4dd48abb3c0fa02e93299c8000a691f9ec5175b4b25",
+    "PMT_F355SPIDER_object29_group00_material000_a1": "e8bec645ec58931f8bc72a2f9d08863ee5191db96b56349e26e1471bde492de1"
+  },
+  "unchanged_other_native_meshes": 95,
+  "changed_existing_vertices": 40,
+  "changed_existing_vertex_indices": [
+    5,
+    7,
+    9,
+    10,
+    17,
+    19,
+    21,
+    22,
+    124,
+    125,
+    126,
+    127,
+    132,
+    135,
+    144,
+    145,
+    146,
+    147,
+    148,
+    151,
+    152,
+    153,
+    154,
+    155,
+    157,
+    158,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    173,
+    174
+  ],
+  "per_vertex_deltas": [
+    {
+      "index": 5,
+      "delta_m": [
+        0.0020196,
+        0.0064962,
+        0.0103568
+      ],
+      "displacement_m": 0.012391288355440485,
+      "native_position_m": [
+        -0.24218249320983887,
+        0.8043792843818665,
+        -0.5749865174293518
+      ]
+    },
+    {
+      "index": 7,
+      "delta_m": [
+        0.0045489,
+        0.0152132,
+        0.0234347
+      ],
+      "displacement_m": 0.028307589956576222,
+      "native_position_m": [
+        -0.2602106034755707,
+        0.8156911134719849,
+        -0.5690683722496033
+      ]
+    },
+    {
+      "index": 9,
+      "delta_m": [
+        -0.0045489,
+        0.0152125,
+        0.0234346
+      ],
+      "displacement_m": 0.02830714061631551,
+      "native_position_m": [
+        -0.4452114999294281,
+        0.8156911134719849,
+        -0.5690683126449585
+      ]
+    },
+    {
+      "index": 10,
+      "delta_m": [
+        -0.0020196,
+        0.006496,
+        0.0103569
+      ],
+      "displacement_m": 0.012391154116226826,
+      "native_position_m": [
+        -0.4632396101951599,
+        0.8043792843818665,
+        -0.5749863982200623
+      ]
+    },
+    {
+      "index": 17,
+      "delta_m": [
+        -0.0043245,
+        0.0135055,
+        0.022102
+      ],
+      "displacement_m": 0.026260219325991974,
+      "native_position_m": [
+        -0.4764147102832794,
+        0.8179442882537842,
+        -0.5723364949226379
+      ]
+    },
+    {
+      "index": 19,
+      "delta_m": [
+        -0.0055,
+        0.0180774,
+        0.0282761
+      ],
+      "displacement_m": 0.0340085559296777,
+      "native_position_m": [
+        -0.4533112943172455,
+        0.8324738144874573,
+        -0.5637683272361755
+      ]
+    },
+    {
+      "index": 21,
+      "delta_m": [
+        0.0055,
+        0.0180783,
+        0.0282763
+      ],
+      "displacement_m": 0.034009140660130006,
+      "native_position_m": [
+        -0.2521106004714966,
+        0.8324738144874573,
+        -0.5637683272361755
+      ]
+    },
+    {
+      "index": 22,
+      "delta_m": [
+        0.0043245,
+        0.0135062,
+        0.022102
+      ],
+      "displacement_m": 0.026260543397577916,
+      "native_position_m": [
+        -0.2290073037147522,
+        0.8179442882537842,
+        -0.5723366141319275
+      ]
+    },
+    {
+      "index": 124,
+      "delta_m": [
+        -0.0055,
+        0.0182353,
+        0.0283052
+      ],
+      "displacement_m": 0.03411691926357407,
+      "native_position_m": [
+        -0.4492613971233368,
+        0.8240824937820435,
+        -0.5586531162261963
+      ]
+    },
+    {
+      "index": 125,
+      "delta_m": [
+        0.0055,
+        0.0182362,
+        0.0283054
+      ],
+      "displacement_m": 0.034117508618742756,
+      "native_position_m": [
+        -0.25616058707237244,
+        0.8240824937820435,
+        -0.5586531162261963
+      ]
+    },
+    {
+      "index": 126,
+      "delta_m": [
+        0.0055,
+        0.0180783,
+        0.0282763
+      ],
+      "displacement_m": 0.034009140660130006,
+      "native_position_m": [
+        -0.2521106004714966,
+        0.8324738144874573,
+        -0.5637683272361755
+      ]
+    },
+    {
+      "index": 127,
+      "delta_m": [
+        -0.0055,
+        0.0180774,
+        0.0282761
+      ],
+      "displacement_m": 0.0340085559296777,
+      "native_position_m": [
+        -0.4533112943172455,
+        0.8324738144874573,
+        -0.5637683272361755
+      ]
+    },
+    {
+      "index": 132,
+      "delta_m": [
+        -0.0040653,
+        0.0128859,
+        0.0208124
+      ],
+      "displacement_m": 0.024813877547354028,
+      "native_position_m": [
+        -0.4698270857334137,
+        0.8111618161201477,
+        -0.565896213054657
+      ]
+    },
+    {
+      "index": 135,
+      "delta_m": [
+        -0.0020196,
+        0.006496,
+        0.0103569
+      ],
+      "displacement_m": 0.012391154116226826,
+      "native_position_m": [
+        -0.4632396101951599,
+        0.8043792843818665,
+        -0.5749863982200623
+      ]
+    },
+    {
+      "index": 144,
+      "delta_m": [
+        0.0040653,
+        0.0128865,
+        0.0208124
+      ],
+      "displacement_m": 0.02481426049013453,
+      "native_position_m": [
+        -0.23559489846229553,
+        0.8111618161201477,
+        -0.5658963918685913
+      ]
+    },
+    {
+      "index": 145,
+      "delta_m": [
+        0.0055,
+        0.0182362,
+        0.0283054
+      ],
+      "displacement_m": 0.034117508618742756,
+      "native_position_m": [
+        -0.25616058707237244,
+        0.8240824937820435,
+        -0.5586531162261963
+      ]
+    },
+    {
+      "index": 146,
+      "delta_m": [
+        0.0045489,
+        0.0152132,
+        0.0234347
+      ],
+      "displacement_m": 0.028307589956576222,
+      "native_position_m": [
+        -0.2602106034755707,
+        0.8156911134719849,
+        -0.5690683722496033
+      ]
+    },
+    {
+      "index": 147,
+      "delta_m": [
+        0.0020196,
+        0.0064962,
+        0.0103568
+      ],
+      "displacement_m": 0.012391288355440485,
+      "native_position_m": [
+        -0.24218249320983887,
+        0.8043792843818665,
+        -0.5749865174293518
+      ]
+    },
+    {
+      "index": 148,
+      "delta_m": [
+        0.0040653,
+        0.0128865,
+        0.0208124
+      ],
+      "displacement_m": 0.02481426049013453,
+      "native_position_m": [
+        -0.23559489846229553,
+        0.8111618161201477,
+        -0.5658963918685913
+      ]
+    },
+    {
+      "index": 151,
+      "delta_m": [
+        0.0043245,
+        0.0135062,
+        0.022102
+      ],
+      "displacement_m": 0.026260543397577916,
+      "native_position_m": [
+        -0.2290073037147522,
+        0.8179442882537842,
+        -0.5723366141319275
+      ]
+    },
+    {
+      "index": 152,
+      "delta_m": [
+        -0.0040653,
+        0.0128859,
+        0.0208124
+      ],
+      "displacement_m": 0.024813877547354028,
+      "native_position_m": [
+        -0.4698270857334137,
+        0.8111618161201477,
+        -0.565896213054657
+      ]
+    },
+    {
+      "index": 153,
+      "delta_m": [
+        -0.0055,
+        0.0182353,
+        0.0283052
+      ],
+      "displacement_m": 0.03411691926357407,
+      "native_position_m": [
+        -0.4492613971233368,
+        0.8240824937820435,
+        -0.5586531162261963
+      ]
+    },
+    {
+      "index": 154,
+      "delta_m": [
+        -0.0055,
+        0.0180774,
+        0.0282761
+      ],
+      "displacement_m": 0.0340085559296777,
+      "native_position_m": [
+        -0.4533112943172455,
+        0.8324738144874573,
+        -0.5637683272361755
+      ]
+    },
+    {
+      "index": 155,
+      "delta_m": [
+        -0.0043245,
+        0.0135055,
+        0.022102
+      ],
+      "displacement_m": 0.026260219325991974,
+      "native_position_m": [
+        -0.4764147102832794,
+        0.8179442882537842,
+        -0.5723364949226379
+      ]
+    },
+    {
+      "index": 157,
+      "delta_m": [
+        -0.0040653,
+        0.0128859,
+        0.0208124
+      ],
+      "displacement_m": 0.024813877547354028,
+      "native_position_m": [
+        -0.4698270857334137,
+        0.8111618161201477,
+        -0.565896213054657
+      ]
+    },
+    {
+      "index": 158,
+      "delta_m": [
+        -0.0043245,
+        0.0135055,
+        0.022102
+      ],
+      "displacement_m": 0.026260219325991974,
+      "native_position_m": [
+        -0.4764147102832794,
+        0.8179442882537842,
+        -0.5723364949226379
+      ]
+    },
+    {
+      "index": 160,
+      "delta_m": [
+        -0.0055,
+        0.0182353,
+        0.0283052
+      ],
+      "displacement_m": 0.03411691926357407,
+      "native_position_m": [
+        -0.4492613971233368,
+        0.8240824937820435,
+        -0.5586531162261963
+      ]
+    },
+    {
+      "index": 161,
+      "delta_m": [
+        -0.0040653,
+        0.0128859,
+        0.0208124
+      ],
+      "displacement_m": 0.024813877547354028,
+      "native_position_m": [
+        -0.4698270857334137,
+        0.8111618161201477,
+        -0.565896213054657
+      ]
+    },
+    {
+      "index": 162,
+      "delta_m": [
+        -0.0020196,
+        0.006496,
+        0.0103569
+      ],
+      "displacement_m": 0.012391154116226826,
+      "native_position_m": [
+        -0.4632396101951599,
+        0.8043792843818665,
+        -0.5749863982200623
+      ]
+    },
+    {
+      "index": 163,
+      "delta_m": [
+        -0.0045489,
+        0.0152125,
+        0.0234346
+      ],
+      "displacement_m": 0.02830714061631551,
+      "native_position_m": [
+        -0.4452114999294281,
+        0.8156911134719849,
+        -0.5690683126449585
+      ]
+    },
+    {
+      "index": 164,
+      "delta_m": [
+        0.0055,
+        0.0182362,
+        0.0283054
+      ],
+      "displacement_m": 0.034117508618742756,
+      "native_position_m": [
+        -0.25616058707237244,
+        0.8240824937820435,
+        -0.5586531162261963
+      ]
+    },
+    {
+      "index": 165,
+      "delta_m": [
+        -0.0055,
+        0.0182353,
+        0.0283052
+      ],
+      "displacement_m": 0.03411691926357407,
+      "native_position_m": [
+        -0.4492613971233368,
+        0.8240824937820435,
+        -0.5586531162261963
+      ]
+    },
+    {
+      "index": 166,
+      "delta_m": [
+        -0.0045489,
+        0.0152125,
+        0.0234346
+      ],
+      "displacement_m": 0.02830714061631551,
+      "native_position_m": [
+        -0.4452114999294281,
+        0.8156911134719849,
+        -0.5690683126449585
+      ]
+    },
+    {
+      "index": 167,
+      "delta_m": [
+        0.0045489,
+        0.0152132,
+        0.0234347
+      ],
+      "displacement_m": 0.028307589956576222,
+      "native_position_m": [
+        -0.2602106034755707,
+        0.8156911134719849,
+        -0.5690683722496033
+      ]
+    },
+    {
+      "index": 168,
+      "delta_m": [
+        0.0055,
+        0.0182362,
+        0.0283054
+      ],
+      "displacement_m": 0.034117508618742756,
+      "native_position_m": [
+        -0.25616058707237244,
+        0.8240824937820435,
+        -0.5586531162261963
+      ]
+    },
+    {
+      "index": 169,
+      "delta_m": [
+        0.0040653,
+        0.0128865,
+        0.0208124
+      ],
+      "displacement_m": 0.02481426049013453,
+      "native_position_m": [
+        -0.23559489846229553,
+        0.8111618161201477,
+        -0.5658963918685913
+      ]
+    },
+    {
+      "index": 170,
+      "delta_m": [
+        0.0043245,
+        0.0135062,
+        0.022102
+      ],
+      "displacement_m": 0.026260543397577916,
+      "native_position_m": [
+        -0.2290073037147522,
+        0.8179442882537842,
+        -0.5723366141319275
+      ]
+    },
+    {
+      "index": 171,
+      "delta_m": [
+        0.0055,
+        0.0180783,
+        0.0282763
+      ],
+      "displacement_m": 0.034009140660130006,
+      "native_position_m": [
+        -0.2521106004714966,
+        0.8324738144874573,
+        -0.5637683272361755
+      ]
+    },
+    {
+      "index": 173,
+      "delta_m": [
+        0.0040653,
+        0.0128865,
+        0.0208124
+      ],
+      "displacement_m": 0.02481426049013453,
+      "native_position_m": [
+        -0.23559489846229553,
+        0.8111618161201477,
+        -0.5658963918685913
+      ]
+    },
+    {
+      "index": 174,
+      "delta_m": [
+        0.0020196,
+        0.0064962,
+        0.0103568
+      ],
+      "displacement_m": 0.012391288355440485,
+      "native_position_m": [
+        -0.24218249320983887,
+        0.8043792843818665,
+        -0.5749865174293518
+      ]
+    }
+  ],
+  "max_displacement_m": 0.034117508618742756,
+  "changed_vertex_selection_bounds": "x(-0.515,-0.193), y(0.782,0.845), z(-0.600,-0.545); isolated source instrument visor brow only",
+  "native_pmt_fingerprint_other_regions_unchanged": true,
+  "gauge_face_material011_untouched": true,
+  "windshield_and_other_regions_untouched": true,
+  "protected_front_glass_untouched": true,
+  "photo_reference_private": "05_F355_Spider/REF4_interior_01_4540a6cc94.jpg",
+  "photo_reference_sha256": "a9e6d3f2a3ece6c303752b21b17a92e4aebfbe199decf47c5e67a6e153b2bd5b",
+  "photo_alignment": "VISUAL_SHAPE_REFERENCE_ONLY_NOT_CAMERA_REGISTERED",
+  "render_before_sha256": "f02e5f570e432df97e60c43ad779b7fe89cbba5b7ed62fc8892b368083840ebc",
+  "render_after_sha256": "a5920dc86544d835cc50da727a8aaf6ae2e105ac33ea1fa5e56243da728aae6f",
+  "context_before_sha256": "e004e09ca2622103ada4243b96545661c691e6d5d5b5a13fb326dff819003048",
+  "context_after_sha256": "31b23fa3a2a357efe3f36563d458afc3256eaf6d20dae964db4f003013d6559d",
+  "blender_saved": true,
+  "independent_reopen": "PASS_BLENDER_4_5_15_SEPARATE_PROCESS",
+  "full_vehicle_qa_pass": false,
+  "next_component": "dashboard",
+  "exports": [],
+  "new_textures": [],
+  "independent_reopen_mesh_count": 96
+}
