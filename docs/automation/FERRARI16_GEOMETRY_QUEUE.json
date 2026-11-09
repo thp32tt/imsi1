@@ -21,7 +21,7 @@
       "0-2": "verify native original PMT/private scene and genuine photos; preserve sources",
       "2-4": "dashboard visible silhouette first pass (timeboxed)",
       "4-6": "steering native wheel/spoke first pass (timeboxed)",
-      "6-14": "complete other cockpit source parts before P0 polish: console, driver's controls, inner door, windshield/A-pillar, visible seat, gauge cluster",
+      "6-14": "complete other cockpit source parts before P0 polish: console, driver's controls, inner door, visible seat, gauge cluster; windshield/front-glass regions are protected",
       "14-18": "seated camera whole-cockpit proportions and major photo-visible defects",
       "18-21": "local Blender saved/reopen, evidence and before-after matched camera comparisons",
       "21-24": "targeted QA fixes on distinct visible defects; unresolved blockers documented, no repeated cosmetic loops"
@@ -42,7 +42,10 @@
       "OVC3 conversion",
       "OVC or PMT export",
       "game installation or integration",
-      "game runtime validation"
+      "game runtime validation",
+      "windshield / front glass geometry",
+      "windshield frame, A-pillars and glass-border meshes",
+      "any mesh edit that can alter front windshield fit, position, topology or rendering"
     ],
     "required_views": [
       "driver_eye",
@@ -51,7 +54,7 @@
       "instrument_cluster",
       "center_console",
       "door_trim",
-      "windshield_frame"
+      "windshield_observation_only"
     ]
   },
   "source_artifacts": {
@@ -92,7 +95,7 @@
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "30ddcbd01ef7e969bb1e4220ff4318c2f75b7fd7ab70bc4d6dafedcdc7954437",
       "output_scene_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
-      "notes": "[2026-11-09 PUBLIC TEMP MIGRATION] Daytona R45 baseline SHA 224131c7 mirrored plaintext in thp32tt/imsi1 as R45_parts with manifest/reassemble.py due connector single-blob transport limit. Encryption/Secret gate retired. inner_door remains COVERED_PARTIAL_QA; NEXT visible_seat. Raw PMT/photos remain N100-only; no full-car QA PASS.",
+      "notes": "[2026-11-09 USER PROTECTION] Front windshield/glass-adjacent geometry is DO_NOT_EDIT. Daytona remains on R45 SHA 224131c7; windshield work was never accepted. NEXT visible_seat. No full-car QA PASS.",
       "private_photo_subdir": "02_365_GTS4_Daytona",
       "priority": [
         "dashboard",
@@ -228,8 +231,19 @@
         "source_commit": "4ebbeb8342d0fe8ebca18d7c830a6be2ac6cee02",
         "workpack_commit": "1c56b1bea3bf9983b92734b9b328a4291b40ba75",
         "report": "docs/automation/FERRARI16_SLOTA_DAYTONA_R45_INNER_DOOR_20261109.md",
-        "next": "windshield_frame",
+        "next": "visible_seat",
         "whole_car_QA_PASS": false
+      },
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
       }
     },
     {
@@ -265,7 +279,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 3,
@@ -277,8 +302,8 @@
       "geometry_gate": "PARTIAL_NEEDS_QA",
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
-      "output_scene_sha256": "016645f5fea43ef75c8e80479f49baaff2d3aa8d1647a058f732ac69080da08d",
-      "notes": "[2026-11-09 PUBLIC TEMP MIGRATION] F50 v41 baseline SHA 016645f5 mirrored plaintext directly at artifacts/slot_C/f50/F50_OriginalPMT_Windshield_Header_Apillar_v41.blend. Encryption/Secret gate retired. windshield_frame remains COVERED_PARTIAL_QA; NEXT visible_seat. Raw PMT/photos remain N100-only; no full-car QA PASS.",
+      "output_scene_sha256": "03b96b1eb2293c151c60133919380055fa8393372b0acbf18045edf25faa949a",
+      "notes": "[2026-11-09 USER PROTECTION/REVERT] Front windshield, windshield frame, A-pillars and glass-border meshes are DO_NOT_EDIT. F50 v41 windshield-header edit SHA 016645f5 is NOT an accepted baseline. Restored accepted source-derived baseline to pre-windshield v40 SHA 03b96b1e; NEXT visible_seat. No full-car QA PASS.",
       "private_photo_subdir": "03_F50",
       "priority": [
         "dashboard",
@@ -441,6 +466,22 @@
         "next": "visible_seat",
         "source_commit": "3693c9fc68b570b5e41e7a06156bebc19475efb8",
         "report": "docs/automation/F50_SLOT_C_WINDSHIELD_FRAME_NATIVE_HEADER_V41_20261109.md"
+      },
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      },
+      "reverted_windshield_edit": {
+        "rejected_sha256": "016645f5fea43ef75c8e80479f49baaff2d3aa8d1647a058f732ac69080da08d",
+        "restored_sha256": "03b96b1eb2293c151c60133919380055fa8393372b0acbf18045edf25faa949a",
+        "reason": "user protected front windshield/glass-adjacent meshes; v41 touched windshield header/A-pillar"
       }
     },
     {
@@ -476,7 +517,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 5,
@@ -511,7 +563,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 6,
@@ -546,7 +609,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 7,
@@ -581,7 +655,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 8,
@@ -616,7 +701,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 9,
@@ -651,7 +747,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 10,
@@ -686,7 +793,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 11,
@@ -721,7 +839,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 12,
@@ -756,7 +885,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 13,
@@ -791,7 +931,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 14,
@@ -826,7 +977,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 15,
@@ -861,7 +1023,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     },
     {
       "order": 16,
@@ -896,7 +1069,18 @@
       "edit_from_original_required": true,
       "output_format": "blend",
       "ovc3_conversion_required": false,
-      "game_integration_required": false
+      "game_integration_required": false,
+      "user_protected_regions": {
+        "windshield_and_front_glass": "DO_NOT_EDIT",
+        "includes": [
+          "front windshield glass",
+          "windshield frame",
+          "A-pillars adjacent to windshield",
+          "glass-border/seal meshes",
+          "interior/exterior meshes whose edit can change windshield fit"
+        ],
+        "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+      }
     }
   ],
   "active_by_slot": {
@@ -930,7 +1114,6 @@
       "center_console",
       "driver_controls",
       "inner_door",
-      "windshield_frame",
       "visible_seat",
       "instrument_cluster",
       "dashboard",
@@ -939,7 +1122,18 @@
     ],
     "history_policy": "per-car archived reports; queue notes max 700 chars; no repeated large append",
     "no_repeated_p0_polish_when_other_components_untouched": true,
-    "qa_blocker_policy": "record genuine missing 7 views/driver-eye/hosted-private-scene as unresolved; do not repeat steering edit for those blockers"
+    "qa_blocker_policy": "record genuine missing 7 views/driver-eye/hosted-private-scene as unresolved; do not repeat steering edit for those blockers",
+    "protected_regions": {
+      "windshield_and_front_glass": "DO_NOT_EDIT",
+      "includes": [
+        "front windshield glass",
+        "windshield frame",
+        "A-pillars adjacent to windshield",
+        "glass-border/seal meshes",
+        "interior/exterior meshes whose edit can change windshield fit"
+      ],
+      "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
+    }
   },
   "temp_public_workspace": {
     "repository": "thp32tt/imsi1",
@@ -970,9 +1164,10 @@
       "C": {
         "car_id": "f50",
         "transport": "plain_direct_blend",
-        "path": "artifacts/slot_C/f50/F50_OriginalPMT_Windshield_Header_Apillar_v41.blend",
-        "sha256": "016645f5fea43ef75c8e80479f49baaff2d3aa8d1647a058f732ac69080da08d",
-        "next_component": "visible_seat"
+        "path": "artifacts/slot_C/f50/F50_OriginalPMT_InnerDoor_UpperRail_v40.blend",
+        "sha256": "03b96b1eb2293c151c60133919380055fa8393372b0acbf18045edf25faa949a",
+        "next_component": "visible_seat",
+        "filename": "F50_OriginalPMT_InnerDoor_UpperRail_v40.blend"
       }
     }
   }
