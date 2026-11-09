@@ -1,0 +1,35 @@
+{
+  "task_id": "FERRARI16-SLOTC-F355SPIDER-VISIBLE-SEAT-PMT027-V1-20261110",
+  "slot": "C",
+  "car_id": "f355spider",
+  "component": "visible_seat",
+  "status": "COVERED_PARTIAL_QA",
+  "original_native_pmt_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+  "native_import_blend_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
+  "input_blend_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3",
+  "output_blend_sha256": "6b179f9d275226ade32960ac49f52cec8149247dc43726f311cb79beeeb06802",
+  "original_native_mesh_changed": [
+    "PMT_F355SPIDER_object00_group01_material027_a0"
+  ],
+  "new_original_native_vertex_edits": 106,
+  "modified_vertices_per_original_seat": {
+    "-1": 53,
+    "1": 53
+  },
+  "max_displacement_m": 0.018403445705838455,
+  "other_native_mesh_fingerprints_unchanged": 95,
+  "blender_4_5_15_independent_reopen": "PASS_BLENDER_4_5_15_SEPARATE_PROCESS",
+  "workspace_guard_verify_receipt": "PASS C/f355spider receipt=visible_seat changed_native_objects=1",
+  "before_png_sha256": "750c4dedeef86ef007bbae226b21224ac2d740efe29b0ab9619a335ba7ed38b8",
+  "after_png_sha256": "d6002e818ba9783b6255d022a75bcb66b095f4507aacc6b052e6d41c01ceffb3",
+  "real_photo_reference": "N100 private REF4_interior_01_4540a6cc94.jpg",
+  "real_photo_alignment": "VISUAL_PROPORTION_ONLY_UNCALIBRATED",
+  "private_original_pmt_photo_not_uploaded": true,
+  "no_new_vertices_faces_objects_materials_textures": true,
+  "protected_glass_frame_Apillars_untouched": true,
+  "dashboard_steering_center_console_unchanged": true,
+  "new_PMT_OVC_OVC3_game_exports": 0,
+  "whole_car_qa_pass": false,
+  "next_component": "instrument_cluster",
+  "next_dispatches": 0
+}
