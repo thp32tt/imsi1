@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - 'docs/automation/FERRARI16_GEOMETRY_QUEUE.json'
+      - 'docs/automation/FERRARI16_BREADTH_FIRST_STRATEGY.md'
       - 'docs/automation/FERRARI_COCKPIT_WORKPACK_*.json'
       - 'tools/car_modeling/**'
       - 'artifacts/slot_C/f50/visible_seat_v43/F50_VisibleSeat_v43_Receipt.json'
@@ -11,6 +12,7 @@ on:
   pull_request:
     paths:
       - 'docs/automation/FERRARI16_GEOMETRY_QUEUE.json'
+      - 'docs/automation/FERRARI16_BREADTH_FIRST_STRATEGY.md'
       - 'docs/automation/FERRARI_COCKPIT_WORKPACK_*.json'
       - 'tools/car_modeling/**'
       - 'artifacts/slot_C/f50/visible_seat_v43/F50_VisibleSeat_v43_Receipt.json'
