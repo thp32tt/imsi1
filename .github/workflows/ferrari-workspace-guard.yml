@@ -32,7 +32,5 @@ jobs:
         run: python3 -m unittest discover -s tools/car_modeling/tests -p 'test_*.py' -v
       - name: Validate active A/C slot and protected-region governance
         run: python3 tools/car_modeling/workspace_guard.py audit-workspace
-      - name: Verify real F50 native seat receipt metadata (not full scene QA)
-        run: |
-          python3 tools/car_modeling/workspace_guard.py verify-receipt --slot C \
-            --receipt artifacts/slot_C/f50/visible_seat_v43/F50_VisibleSeat_v43_Receipt.json
+      - name: Verify archived F50 native seat receipt metadata (not vehicle QA)
+        run: python3 tools/car_modeling/verify_archived_f50_receipt.py
