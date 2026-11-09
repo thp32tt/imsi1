@@ -1,0 +1,43 @@
+{
+  "slot": "A",
+  "car_id": "360spider",
+  "component": "steering_wheel",
+  "status": "BLOCKED",
+  "original_game_PMT_SHA256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "baseline_blend_SHA256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+  "input_path": "artifacts/slot_A/360spider/dashboard_20261110/Ferrari360Spider_Dashboard_OriginalPMT_R04.blend",
+  "input_SHA256": "403ec48d0e9761214f20a5c22a7df608f38b3644b135b80aa185dcb559c33ad8",
+  "output_path": "artifacts/slot_A/360spider/dashboard_20261110/Ferrari360Spider_Dashboard_OriginalPMT_R04.blend",
+  "output_SHA256": "403ec48d0e9761214f20a5c22a7df608f38b3644b135b80aa185dcb559c33ad8",
+  "new_blend_generated": false,
+  "source_geometry_changed": false,
+  "new_score_eligible": false,
+  "dispatch_consumed": false,
+  "next_component": "cross_cockpit_qa",
+  "files": {
+    "tools/car_modeling/qa_original_steering_view_360spider.py": {
+      "sha256": "5847346e44a6405da9b52937146951d911500ee5bba7481acab1a93e6ea7332d",
+      "bytes": 1850
+    },
+    "tools/car_modeling/qa_steering_native19_suspect_360spider.py": {
+      "sha256": "c6a6a6872822c74571000329ed56ded3b52bd5fb6248fe229f3e8cffecd438bb",
+      "bytes": 2407
+    },
+    "artifacts/slot_A/360spider/steering_wheel_20261110/source_wheel_candidate_contact.jpg": {
+      "sha256": "ef32e625839e15cec37f4d87070fd1ad8c5693f5f77d62b7ff1c1808d8f66648",
+      "bytes": 96856
+    },
+    "artifacts/slot_A/360spider/steering_wheel_20261110/QA.json": {
+      "sha256": "1dcbb82d51860ad4c68b7734e2f09af6c27dbd1f1531c2d1a3c53c4715c29801",
+      "bytes": 3319
+    },
+    "artifacts/slot_A/360spider/steering_wheel_20261110/QA.md": {
+      "sha256": "19015db0851ff5d0fb822303bdc48ab4f03f944bddd09e2802de35698246ff3e",
+      "bytes": 2673
+    },
+    "artifacts/slot_A/360spider/steering_wheel_20261110/manifest.json": {
+      "sha256": "a0a713f26d9322d713c1538799b482d481ab944f2b8a55aa0fc01cc6175d4f11",
+      "bytes": 1803
+    }
+  }
+}

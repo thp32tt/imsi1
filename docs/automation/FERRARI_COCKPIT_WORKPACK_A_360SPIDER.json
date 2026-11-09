@@ -122,7 +122,7 @@
     "steering_wheel",
     "cross_cockpit_qa"
   ],
-  "current_component": "steering_wheel",
+  "current_component": "cross_cockpit_qa",
   "dispatches_on_component": 0,
   "max_dispatches_per_component": 2,
   "components": {
@@ -248,11 +248,23 @@
       "full_vehicle_qa_pass": false
     },
     "steering_wheel": {
-      "status": "NOT_STARTED",
+      "status": "BLOCKED",
       "source_edits_this_phase": 0,
       "dispatches_consumed_this_phase": 0,
-      "evidence_refs": [],
-      "last_saved_blend_sha256": null
+      "evidence_refs": [
+        "tools/car_modeling/qa_original_steering_view_360spider.py",
+        "tools/car_modeling/qa_steering_native19_suspect_360spider.py",
+        "artifacts/slot_A/360spider/steering_wheel_20261110/source_wheel_candidate_contact.jpg",
+        "artifacts/slot_A/360spider/steering_wheel_20261110/QA.json",
+        "artifacts/slot_A/360spider/steering_wheel_20261110/QA.md",
+        "artifacts/slot_A/360spider/steering_wheel_20261110/manifest.json"
+      ],
+      "last_saved_blend_sha256": null,
+      "blocking_reason": "Native original PMT obj_plcar_360sp_pmt.sz (75 imported objects) contains no safely attributable existing driver steering-wheel rim/spokes/hub in inspected 360 Spider cockpit candidate geometry. Isolated PMT_object19_group00_material001_a0 (10 vertices / 8 faces) and PMT_object00_group01_material010_a0 source islands 1565/1580/1594/1617/1628 are solid cluster/dash panels, not a circular 3-spoke steering wheel. Native objects 20-24 are exterior wheel assets and out of scope. Converting dash/glass/exterior candidates into a wheel or creating a substitute is forbidden.",
+      "geometry_edit_proved": false,
+      "native_wheel_attribution": "UNRESOLVED",
+      "protected_regions_untouched": true,
+      "full_vehicle_qa_pass": false
     },
     "cross_cockpit_qa": {
       "status": "NOT_STARTED",
@@ -296,7 +308,7 @@
     "rule": "Original front glass and adjacent geometry observation-only; never edit."
   },
   "private_photo_directory": "/home/chatgpt-runner/outrun2_vr_refs/20261104_16car_cockpit/04_360_Spider",
-  "notes": "2026-11-10 360spider dashboard source-native passenger fascia crown: 6 existing split-seam vertices across 0.79 m moved up <=33mm; native 74 other meshes, previous instrument/seat/console and front-glass vertices remain unchanged. Blender fresh reopen PASS. COVERED_PARTIAL_QA only, real photo/driver-eye calibration pending. Next steering_wheel. 2026-11-10 instrument_cluster: 20 existing original PMT binnacle vertices changed, original 74 other meshes and prior console/seat vertices preserved, independent Blender reopen + guard PASS; PARTIAL_QA, not vehicle PASS. Next dashboard. 2026-11-10 360spider visible_seat: 20 original PMT native vertices changed, previous console and 74 other meshes preserved, independent reopen & workspace guard PASS, COVERED_PARTIAL_QA only. Next instrument_cluster. 2026-11-10 SLOT A 360spider inner_door BLOCKED after original PMT island/isolated render+private photo comparison: only exterior/mixed support surfaces; no safe native interior trim, no geometry edit or dispatch consumption; next visible_seat. 2026-11-10 driver_controls BLOCKED from source-native inspection: no safely attributable original pedals/stalks/switches; front body/glass candidate rejected. Unchanged input SHA; next inner_door. 2026-11-10 SLOT A 360spider center_console: 16 original PMT-native vertices source geometry edited, 74 other original meshes unchanged, independent Blender reopen+UV/normal PASS; only COVERED_PARTIAL_QA, next driver_controls. One-shot original PMT source bootstrap verified with Blender 4.5.15 independent fresh reopen; no geometry edits. Next: center_console. Whole-vehicle QA remains UNTESTED.",
+  "notes": "2026-11-10 SLOT A 360spider steering_wheel BLOCKED: isolated original game PMT candidate geometry did not contain reliably attributable existing three-spoke rim/hub, native candidate PMT19 is filled fascia and other PMT010 islands are dashboard/cluster; exterior wheel objects excluded. No geometry edit, no new blend SHA, no dispatch consumed. Next cross_cockpit_qa. 2026-11-10 360spider dashboard source-native passenger fascia crown: 6 existing split-seam vertices across 0.79 m moved up <=33mm; native 74 other meshes, previous instrument/seat/console and front-glass vertices remain unchanged. Blender fresh reopen PASS. COVERED_PARTIAL_QA only, real photo/driver-eye calibration pending. Next steering_wheel. 2026-11-10 instrument_cluster: 20 existing original PMT binnacle vertices changed, original 74 other meshes and prior console/seat vertices preserved, independent Blender reopen + guard PASS; PARTIAL_QA, not vehicle PASS. Next dashboard. 2026-11-10 360spider visible_seat: 20 original PMT native vertices changed, previous console and 74 other meshes preserved, independent reopen & workspace guard PASS, COVERED_PARTIAL_QA only. Next instrument_cluster. 2026-11-10 SLOT A 360spider inner_door BLOCKED after original PMT island/isolated render+private photo comparison: only exterior/mixed support surfaces; no safe native interior trim, no geometry edit or dispatch consumption; next visible_seat. 2026-11-10 driver_controls BLOCKED from source-native inspection: no safely attributable original pedals/stalks/switches; front body/glass candidate rejected. Unchanged input SHA; next inner_door. 2026-11-10 SLOT A 360spider center_console: 16 original PMT-native vertices source geometry edited, 74 other original meshes unchanged, independent Blender reopen+UV/normal PASS; only COVERED_PARTIAL_QA, next driver_controls. One-shot original PMT source bootstrap verified with Blender 4.5.15 independent fresh reopen; no geometry edits. Next: center_console. Whole-vehicle QA remains UNTESTED.",
   "latest_accepted_editable_blend_file": "artifacts/slot_A/360spider/dashboard_20261110/Ferrari360Spider_Dashboard_OriginalPMT_R04.blend",
   "last_material_task_id": "FERRARI16-SLOTA-360SPIDER-NATIVE-DASHBOARD-R04-20261110"
 }

@@ -1,0 +1,65 @@
+{
+  "task_id": "FERRARI16-SLOTA-360SPIDER-STEERING-NATIVE-PMT-ATTRIBUTION-BLOCKED-20261110",
+  "slot": "A",
+  "car_id": "360spider",
+  "target": "steering_wheel",
+  "status": "BLOCKED",
+  "geometry_changed": false,
+  "native_original_mesh_changed": null,
+  "changed_existing_vertices": 0,
+  "same_SHA_audit_only": false,
+  "workpack_dispatch_consumed": false,
+  "workpack_advanced_to": "cross_cockpit_qa",
+  "original_pmt_sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "original_import_blend_sha256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+  "input_blend": "artifacts/slot_A/360spider/dashboard_20261110/Ferrari360Spider_Dashboard_OriginalPMT_R04.blend",
+  "input_sha256": "403ec48d0e9761214f20a5c22a7df608f38b3644b135b80aa185dcb559c33ad8",
+  "output_blend_created": false,
+  "output_blend_sha256": "403ec48d0e9761214f20a5c22a7df608f38b3644b135b80aa185dcb559c33ad8",
+  "original_mesh_count": 75,
+  "protected_windshield_glass_frame_A_pillars_unchanged": true,
+  "other_steering_dashboard_geometry_untouched": true,
+  "full_vehicle_qa_pass": false,
+  "blocking_reason": "Native original PMT obj_plcar_360sp_pmt.sz (75 imported objects) contains no safely attributable existing driver steering-wheel rim/spokes/hub in inspected 360 Spider cockpit candidate geometry. Isolated PMT_object19_group00_material001_a0 (10 vertices / 8 faces) and PMT_object00_group01_material010_a0 source islands 1565/1580/1594/1617/1628 are solid cluster/dash panels, not a circular 3-spoke steering wheel. Native objects 20-24 are exterior wheel assets and out of scope. Converting dash/glass/exterior candidates into a wheel or creating a substitute is forbidden.",
+  "native_candidate_inventory": [
+    {
+      "mesh": "PMT_object19_group00_material001_a0",
+      "vertices": 10,
+      "faces": 8,
+      "bbox_x": [
+        -0.54448,
+        -0.18663
+      ],
+      "bbox_y": [
+        0.6417,
+        0.82879
+      ],
+      "bbox_z": [
+        -0.60113,
+        -0.60023
+      ],
+      "finding": "filled curved flat panel, no opening, no spoke"
+    },
+    {
+      "mesh": "PMT_object00_group01_material010_a0",
+      "candidate_island_roots": [
+        1565,
+        1580,
+        1594,
+        1617,
+        1628
+      ],
+      "finding": "source-native instrument/dash cowl panel fragments, not a wheel"
+    },
+    {
+      "mesh": "PMT_object20_to_24",
+      "finding": "engine-transformed exterior road wheel assets; excluded"
+    }
+  ],
+  "reference_photo_private": "N100 outrun2_vr_refs/20261104_16car_cockpit/04_360_Spider/01_interior.jpg",
+  "photo_comparison": "Genuine Ferrari 360 Spider image has round rim and three-spoke center; inspected source fragments are solid fascia without rim/spokes",
+  "visual_evidence": "source_wheel_candidate_contact.jpg",
+  "blender_session": "Blender 4.5.15 opened accepted source R04; only temporary render QA objects created; source .blend NOT saved/changed",
+  "scope_constraints": "No generated replacement or mesh alteration, no PMT/OVC/OVC3 export, no new textures/PBR, no exterior or windscreen alteration",
+  "limitation": "Absence is proved only in verified imported source scene candidates, not in all possible other game packages; distinct verified original wheel asset would need a separate permitted provenance gate"
+}
