@@ -1,0 +1,29 @@
+{
+  "task_id": "FERRARI16-SLOTA-360SPIDER-DRIVER-CONTROLS-ABSENT-20261110",
+  "status": "BLOCKED",
+  "source_material_edit": false,
+  "slot": "A",
+  "vehicle": "360spider",
+  "target": "driver_controls",
+  "original_pmt_sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "accepted_input_blend_sha256": "5dabffb52ae4136b6b72f99c7975b629820f839afec2048e59035cb74d8ee612",
+  "accepted_output_blend_sha256": "5dabffb52ae4136b6b72f99c7975b629820f839afec2048e59035cb74d8ee612",
+  "output_created": false,
+  "evidence_files": {
+    "QA.json": {
+      "sha256": "dee745c318c43058f3699409647e6e8043cd20ac23e7c27afebe2abb7bb8fd98",
+      "size": 3240
+    },
+    "QA.md": {
+      "sha256": "8cdeee05f59f882b7276e63e9266aaeaf3a4ea009d29cbc18e673745c82dd459",
+      "size": 1955
+    },
+    "protected_body_candidate_rejected.png": {
+      "sha256": "2fc2fb6838fb6c989e573ed7b28bf02996045ab1842ecd9311d84930c4b8be6d",
+      "size": 578903
+    }
+  },
+  "next": "inner_door",
+  "dispatch_budget_used": 0,
+  "score_change": 0
+}
