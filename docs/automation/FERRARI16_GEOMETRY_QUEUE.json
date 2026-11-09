@@ -718,8 +718,8 @@
       "geometry_gate": "UNTESTED",
       "reference_gate": "UNTESTED",
       "source_scene_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
-      "output_scene_sha256": null,
-      "notes": "F355 Spider one-shot original PMT Blender import SOURCE_VERIFIED. 96 original PMT mesh parts, zero geometry edits, independent Blender 4.5.15 reopen and SHA match; next center_console.",
+      "output_scene_sha256": "0c8667304fb6c527f54dd79557604e46a02270dee5a05ce37281c181db1d66f3",
+      "notes": "F355 Spider center_console v1 original PMT material023 20 existing vertices reshaped; other 95 unchanged; standalone Blender reopen verified; next driver_controls; vehicle QA not PASS.",
       "private_photo_subdir": "05_F355_Spider",
       "priority": [
         "dashboard",
@@ -856,7 +856,7 @@
       },
       "whole_car_qa_pass": false,
       "workpack_path": "docs/automation/FERRARI_COCKPIT_WORKPACK_C_F355SPIDER.json",
-      "strategy_v3_next_component": "center_console"
+      "strategy_v3_next_component": "driver_controls"
     },
     {
       "order": 6,
