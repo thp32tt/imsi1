@@ -1,0 +1,123 @@
+{
+  "schema_version": 2,
+  "strategy": "breadth_first_cockpit_v12",
+  "slot": "C",
+  "car_id": "f355spider",
+  "vehicle_name": "Ferrari F355 Spider",
+  "source_repo": "thp32tt/imsi1",
+  "source_branch": "main",
+  "input_stage": "SOURCE_IMPORT_PENDING",
+  "source_bootstrap": {
+    "status": "NOT_STARTED",
+    "verified_original_resource_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+    "verified_original_file_size_bytes": 365750,
+    "task_scope": "Import exact original native PMT to editable .blend, preserve identities, hash, independent reopen; NO mesh edit before baseline verified",
+    "allowed_bootstrap_attempts": 1,
+    "real_blender_imported": false,
+    "synthetic_model_allowed": false
+  },
+  "original_game_resource_file": "/home/chatgpt-runner/rea-input/outrun/outrun2006/Cars/obj_plcar_f355sp_pmt.sz",
+  "original_game_resource_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+  "original_import_blend_sha256": null,
+  "migration_input_blend_sha256": null,
+  "latest_accepted_editable_blend_sha256": null,
+  "original_import_blend_file": null,
+  "bootstrap_verified": false,
+  "last_material_commit": null,
+  "component_order": [
+    "center_console",
+    "driver_controls",
+    "inner_door",
+    "visible_seat",
+    "instrument_cluster",
+    "dashboard",
+    "steering_wheel",
+    "cross_cockpit_qa"
+  ],
+  "current_component": "center_console",
+  "dispatches_on_component": 0,
+  "max_dispatches_per_component": 2,
+  "components": {
+    "center_console": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "dispatches_consumed_this_phase": 0,
+      "evidence_refs": [],
+      "last_saved_blend_sha256": null
+    },
+    "driver_controls": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "dispatches_consumed_this_phase": 0,
+      "evidence_refs": [],
+      "last_saved_blend_sha256": null
+    },
+    "inner_door": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "dispatches_consumed_this_phase": 0,
+      "evidence_refs": [],
+      "last_saved_blend_sha256": null
+    },
+    "visible_seat": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "dispatches_consumed_this_phase": 0,
+      "evidence_refs": [],
+      "last_saved_blend_sha256": null
+    },
+    "instrument_cluster": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "dispatches_consumed_this_phase": 0,
+      "evidence_refs": [],
+      "last_saved_blend_sha256": null
+    },
+    "dashboard": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "dispatches_consumed_this_phase": 0,
+      "evidence_refs": [],
+      "last_saved_blend_sha256": null
+    },
+    "steering_wheel": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "dispatches_consumed_this_phase": 0,
+      "evidence_refs": [],
+      "last_saved_blend_sha256": null
+    },
+    "cross_cockpit_qa": {
+      "status": "NOT_STARTED",
+      "source_edits_this_phase": 0,
+      "dispatches_consumed_this_phase": 0,
+      "evidence_refs": [],
+      "last_saved_blend_sha256": null
+    },
+    "windshield_frame": {
+      "status": "PROTECTED_DO_NOT_EDIT",
+      "source_edits_this_phase": 0,
+      "dispatches_consumed_this_phase": 0,
+      "blocking_reason": "User-protected front glass/frame/A-pillars; QA only. No geometry, transform or topology edits."
+    }
+  },
+  "known_final_qa_blockers": [
+    "original Blender editable PMT import not yet verified",
+    "exact original-game seated driver-eye calibration not yet performed",
+    "authenticated same-camera photo coverage not yet verified"
+  ],
+  "cannot_promote_from_interim_coverage": true,
+  "full_vehicle_qa_pass": false,
+  "protected_regions": {
+    "windshield_and_front_glass": "DO_NOT_EDIT",
+    "includes": [
+      "front windshield glass",
+      "windshield frame",
+      "A-pillars adjacent to windshield",
+      "glass border/seals and mesh affecting front glass fit"
+    ],
+    "rule": "Original front glass and adjacent geometry observation-only; never edit."
+  },
+  "private_photo_directory": "/home/chatgpt-runner/outrun2_vr_refs/20261104_16car_cockpit/05_F355_Spider",
+  "notes": "Next 24h vehicle assignment; source-only original PMT bootstrap, no geometry until independent Blender source import SHA established. Previous Daytona/F50 remain QA_PARKED, not PASS."
+}
