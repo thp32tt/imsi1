@@ -1,3 +1,20 @@
+## V4 authoritative workpack dispatch and measurable output (2026-11-09)
+
+**This V4 section overrides all conflicting V3 cyclic part selection, stale windshield instructions and repeated QA send guidance below.** Controller source: thp32tt/OutRun2006Tweaks@chat-controller-downloads. Artifact SSOT: thp32tt/imsi1@main.
+
+1. **Fetch before sending.** Controller reads the current queue and each A/C workpack through GitHub. Validate active car identity, current_component, part status, consumed dispatches and source evidence. Local breadth_dispatch_count is telemetry only, NEVER an assignment source. GitHub failure means no send.
+2. **One checkpoint, one send.** Persist last_workpack_fingerprint_sent only on actual successful message delivery. When the same component/status/dispatch/accepted-blend fingerprint reappears, suppress the dispatch across chat rollover/redeployment. Do not consume tokens just for a repeat BLOCKED/QA report.
+3. **No P0 loops or glass edits.** Dashboard and steering are held after dozens of historical passes. Never schedule them without explicit new user defect and separate approval. Front windshield, A-pillars and glass-fitting/border geometry are always observation-only.
+4. **Hard 24h geometry stop.** After started_at_utc +24h, only a bounded QA/integration action is eligible. Do not silently mark PASS, switch active cars, resume exploratory geometry or keep polling ChatGPT. If QA is blocked, waiting for input, complete or has used 2/2 sends, park the slot until the workpack materially changes.
+5. **Daytona integrated checkpoint priority.** Existing accepted full cabin is R45 SHA 224131c7...; R46 original PMT017 seat SHA e84c723... and R47 PMT015 gauge SHA 7367034... are independent original-import .blend files and are not merged into the R45 cabin. Before declaring whole-car improvement, carry out a non-destructive integration into a NEW versioned .blend: compare each original object ID, verify source vertex fingerprints, preserve all unrelated meshes including windshield-adjacent geometry, independently reopen, and render from the same seated camera. Record input/output SHA and failed guards. If it cannot be validated, record one WAITING_QA_INPUT and park.
+6. **F50 integrated lineage but incomplete QA.** v40→v43→v44 is a chained native source-edit baseline; it is not a full-car PASS. Complete authentic calibrated seated-driver view/photo checks, or record missing evidence and WAITING_QA_INPUT once. No P0 cosmetic retries.
+7. **Outcome-oriented acceptance.** Reports distinguish source_mesh_changed, integrated_into_accepted_scene, blender_independent_reopen, matched_driver_view and whole_car_qa_pass. No credit for doc-only commits, minor vertex/pixel-count changes or repeated same-source QA. Part COVERED_PARTIAL_QA is not a vehicle PASS.
+8. **Safety and scope.** Original PMT packages, native game resource bundles and private authentic full photos remain off public GitHub; permitted files are only editable .blend, modeling scripts, QA receipts and non-proprietary comparison renders. No PMT/OVC/OVC3 conversion, runtime patch, new PBR, exterior modeling or windshield-adjacent edit.
+
+**Deployment confirmation:** live controller build must change from 2026-11-09-ferrari-public-temp-v10, and per-slot state should report breadth_strategy_version=4 and dispatch_source=imsi1_workpack_main after its next approved send. If GitHub workpack has not changed, the gate should explain why no message was sent.
+
+---
+
 > Temporary workspace migration (2026-11-09): active SSOT/work artifacts now live in public repo `thp32tt/imsi1@main`. Modeling artifacts may be stored plaintext; raw original PMT packages and private reference photos remain off-repo. Encryption/secret gating is retired for this temporary workspace.
 
 ## Mandatory executable preflight / postflight gate (2026-11-09)
