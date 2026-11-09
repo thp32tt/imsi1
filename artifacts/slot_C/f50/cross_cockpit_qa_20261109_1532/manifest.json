@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "task_id": "FERRARI16-SLOTC-F50-CROSS-COCKPIT-QA-READONLY-20261109-1532",
+  "repository": "thp32tt/imsi1",
+  "source_head": "ad2ecca119d557090211f8b50465052c3547ac11",
+  "slot": "C",
+  "active_car_id": "f50",
+  "requested_component": "steering_wheel",
+  "requested_component_result": "PREVIOUSLY_BLOCKED_DO_NOT_REPEAT",
+  "prior_steering_task_id": "FERRARI16-SLOTC-F50-STEERING-P0-HOLD-20261109-1501",
+  "current_component": "cross_cockpit_qa",
+  "scope_status": "WAITING_QA_INPUT",
+  "operation": "READ_ONLY_CROSS_COCKPIT_EVIDENCE_GATE",
+  "started_at_utc": "2026-11-08T04:35:52Z",
+  "geometry_window_hours": 24,
+  "geometry_window_elapsed": true,
+  "original_native_pmt": {
+    "location": "N100_ONLY",
+    "sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+    "reverified_by_N100_hash_file": true
+  },
+  "original_import_blend_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
+  "input_blend": {
+    "path": "artifacts/slot_C/f50/instrument_cluster_v44/F50_OriginalPMT_InstrumentCluster_v44.blend",
+    "sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "verification": "ACCEPTED_MANIFEST_READ_ONLY_NO_REASSEMBLY_THIS_RUN"
+  },
+  "output_blend": {
+    "new_blend_created": false,
+    "sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "same_as_input": true
+  },
+  "photo_matrix": {
+    "location": "N100_ONLY",
+    "path": "outrun2_vr_refs/20261104_16car_cockpit/COVERAGE_MATRIX_16x8.csv",
+    "sha256": "1f16c1dddbd436954fdfc486807382ad75a97adc0fe3c70f902d9c3307cfaac3",
+    "categories_total": 8,
+    "visually_verified": 1,
+    "candidate_needs_review": 1,
+    "no_dedicated_photo_tag": 6,
+    "verified_component": "05_center_shifter",
+    "candidate_component": "02_dashboard_full",
+    "missing_verification": [
+      "01_driver_eye",
+      "03_gauges_closeup",
+      "04_steering_closeup",
+      "06_seats",
+      "07_door_trim",
+      "08_windshield_frame"
+    ],
+    "note": "Matrix status and tags, not proof there are no relevant photo files. Unreviewed N100 photos retained private."
+  },
+  "qa_gates": {
+    "calibrated_original_game_driver_eye": "MISSING",
+    "matched_same_camera_photo_comparison": "NOT_DONE",
+    "original_PMT_provenance": "PASS",
+    "seven_view_authenticated_photo_qa": "INCOMPLETE",
+    "independent_blender_reopen_this_run": "NOT_RUN_NO_EDIT",
+    "source_mesh_changed": false,
+    "whole_vehicle_QA_PASS": false
+  },
+  "no_edit": [
+    "steering_wheel",
+    "dashboard",
+    "front_glass",
+    "windshield_frame",
+    "A_pillars",
+    "exterior",
+    "texture",
+    "PBR"
+  ],
+  "plain_text": true,
+  "encrypted": false,
+  "published_raw_game_resource": false,
+  "published_private_reference_photos": false,
+  "next": "PARK_SLOT_C_UNTIL_CALIBRATED_DRIVER_EYE_AND_VERIFIED_PHOTO_INPUT_OR_DISTINCT_APPROVED_DEFECT",
+  "score_change": 0
+}

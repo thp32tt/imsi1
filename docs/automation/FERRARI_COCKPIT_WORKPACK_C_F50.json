@@ -308,13 +308,28 @@
       }
     },
     "cross_cockpit_qa": {
-      "status": "NOT_STARTED",
+      "status": "WAITING_QA_INPUT",
       "source_edits_this_phase": 0,
       "evidence_refs": [
-        "docs/automation/F50_SLOT_C_DASHBOARD_P0_HOLD_20261109_1401.md"
+        "docs/automation/F50_SLOT_C_DASHBOARD_P0_HOLD_20261109_1401.md",
+        "artifacts/slot_C/f50/cross_cockpit_qa_20261109_1532/manifest.json",
+        "docs/automation/F50_SLOT_C_CROSS_COCKPIT_QA_WAITING_INPUT_20261109.md"
       ],
-      "blocking_reason": "Pending calibrated driver-eye matching and complete 7-view authenticated reference inspection; read-only QA next. Do not infer PASS from reference-only dashboard inspection.",
-      "last_saved_blend_sha256": null
+      "blocking_reason": "Original-game driver-eye uncalibrated; N100 photo matrix F50 only 1/8 visually verified, 1 pending review, 6 missing dedicated tags; no matched same-camera comparison. 24-hour geometry window elapsed; park without P0 retry.",
+      "last_saved_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+      "dispatches_used": 0,
+      "qa_scope": {
+        "photo_matrix_sha256": "1f16c1dddbd436954fdfc486807382ad75a97adc0fe3c70f902d9c3307cfaac3",
+        "photo_views_verified": 1,
+        "photo_views_total": 8,
+        "calibrated_driver_eye": false,
+        "source_pmt_sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+        "input_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+        "output_blend_sha256_unchanged": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+        "source_mesh_changed": false,
+        "whole_car_qa_pass": false,
+        "task_id": "FERRARI16-SLOTC-F50-CROSS-COCKPIT-QA-READONLY-20261109-1532"
+      }
     }
   },
   "known_final_qa_blockers": [
@@ -325,7 +340,7 @@
   ],
   "cannot_promote_from_interim_coverage": true,
   "last_material_commit": "3693c9fc68b570b5e41e7a06156bebc19475efb8",
-  "notes": "SLOT C F50 steering_wheel: BLOCKED_OUT_OF_ORDER_P0_POLISH_HOLD. Exact-current GitHub queue/workpack preflight denied wheel because persisted current_component=cross_cockpit_qa; previous P0 wheel work is on polish hold and no new defect ID exists. Native F50 PMT SHA matched N100. Geometry 0; existing v44 blend SHA unchanged; no new save/reopen/render. Next: read-only cross_cockpit_qa. Whole-car QA NOT PASS.",
+  "notes": "F50 steering wheel already BLOCKED (15:01); no duplicate dispatch. Read-only cross_cockpit_qa evidence gate: F50 photo matrix 1/8 verified, driver-eye uncalibrated. WAITING_QA_INPUT; park SLOT C without new geometry, accepted v44 unchanged. Vehicle QA NOT PASS.",
   "current_accepted_blend": "artifacts/slot_C/f50/instrument_cluster_v44/F50_OriginalPMT_InstrumentCluster_v44.blend",
   "current_accepted_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
   "protected_regions": {
@@ -342,27 +357,13 @@
   "current_accepted_blend_manifest": "artifacts/slot_C/f50/instrument_cluster_v44/manifest.json",
   "last_material_task_id": "FERRARI16-SLOTC-F50-PMT011-INSTRUMENT-CLUSTER-V44-20261109",
   "last_dispatch_attempt": {
-    "task_id": "FERRARI16-SLOTC-F50-STEERING-P0-HOLD-20261109-1501",
+    "task_id": "FERRARI16-SLOTC-F50-CROSS-COCKPIT-QA-READONLY-20261109-1532",
     "requested_component": "steering_wheel",
-    "status": "BLOCKED_OUT_OF_ORDER_P0_POLISH_HOLD",
-    "scope_state": "BLOCKED",
-    "guard": "tools/car_modeling/workspace_guard.py",
-    "guard_action": "preflight --slot C --component steering_wheel",
-    "guard_stderr": "BLOCKED: requested region differs from persisted current_component",
-    "observed_current_component": "cross_cockpit_qa",
-    "wheel_prior_status": "P0_POLISH_HOLD",
-    "original_native_pmt_sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
-    "original_native_pmt_n100_hash_verified": true,
-    "accepted_input_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
-    "unchanged_output_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
-    "geometry_changed": false,
-    "new_blend_created": false,
-    "blender_reopen_this_dispatch": "NOT_RUN_PREFLIGHT_BLOCKED",
-    "comparison_render_this_dispatch": "NOT_RUN_PREFLIGHT_BLOCKED",
-    "photo_comparison_this_dispatch": "NOT_RUN",
-    "extra_dispatchs_assigned": 0,
-    "full_vehicle_qa_pass": false,
-    "next": "cross_cockpit_qa",
-    "manifest": "artifacts/slot_C/f50/steering_wheel_dispatch_blocked_20261109_1501/manifest.json"
+    "action_taken": "READ_ONLY_NEXT_COMPONENT_CROSS_COCKPIT_QA",
+    "source_geometry_changed": false,
+    "accepted_blend_sha256_unchanged": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+    "scope_status": "WAITING_QA_INPUT",
+    "deduplicated_prior_steering_block": true,
+    "full_vehicle_qa_pass": false
   }
 }
