@@ -1,0 +1,13 @@
+{
+  "render": "BLENDER_4_5_15_REAL_WORKBENCH_SAME_CAMERA",
+  "camera": "(-.56,-.66,1.11) to (-.345,.175,.825) orthographic .74",
+  "before_original_blend_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+  "after_original_derived_blend_sha256": "7367034bf9900e380f0f61d8d89c19322e8d22207dcba6c5124bf8f572803c28",
+  "changed_pixels_max_RGB_gt_3": 13120,
+  "before_png_sha256": "d70b61a1d80fbb2bc4a91d79d4d61f5c4f758ee79470c029cb260058f5b78d97",
+  "after_png_sha256": "3d00de59281ef6e18937a163b03a3ad801710a490b00fe803755d078203cb289",
+  "comparison_png_sha256": "6e35aba3dd7dc7f5e203799e2417ae4628ba736fa8018493722401db8f311ab0",
+  "not_a_genuine_game_camera": true,
+  "authentic_reference_photos_remain_private": true,
+  "full_car_qa_pass": false
+}

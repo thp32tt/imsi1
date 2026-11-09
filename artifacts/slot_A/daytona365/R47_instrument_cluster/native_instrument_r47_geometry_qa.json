@@ -1,0 +1,437 @@
+{
+  "task_id": "FERRARI16-SLOTA-DAYTONA-NATIVE-PMT015-INSTRUMENT-R47-20261109",
+  "scope": "instrument_cluster",
+  "slot": "A",
+  "vehicle": "daytona365",
+  "status": "COVERED_PARTIAL_QA",
+  "source": "DIRECT_ORIGINAL_GAME_PMT",
+  "native_original_object": "object00_group01_material015_a0",
+  "native_vertex_count": 619,
+  "native_face_count": 501,
+  "connected_component_anchors": [
+    229,
+    253
+  ],
+  "connected_component_sizes": [
+    20,
+    20
+  ],
+  "changed_original_vertices": 20,
+  "maximum_lip_depth_extension_m": 0.0075,
+  "changed_vertex_records": [
+    {
+      "vertex": 230,
+      "strip": "lower",
+      "before": [
+        -0.6245751,
+        0.1562516,
+        0.8007147
+      ],
+      "after": [
+        -0.6245751,
+        0.1532079,
+        0.8007147
+      ],
+      "delta_y_m": -0.0030437
+    },
+    {
+      "vertex": 231,
+      "strip": "lower",
+      "before": [
+        -0.5832134,
+        0.1476682,
+        0.7782834
+      ],
+      "after": [
+        -0.5832134,
+        0.1421,
+        0.7782834
+      ],
+      "delta_y_m": -0.0055682
+    },
+    {
+      "vertex": 233,
+      "strip": "lower",
+      "before": [
+        -0.5232906,
+        0.1437284,
+        0.7597077
+      ],
+      "after": [
+        -0.5232906,
+        0.1370015,
+        0.7597077
+      ],
+      "delta_y_m": -0.0067269
+    },
+    {
+      "vertex": 235,
+      "strip": "lower",
+      "before": [
+        -0.4557061,
+        0.1418913,
+        0.7478007
+      ],
+      "after": [
+        -0.4557061,
+        0.134624,
+        0.7478007
+      ],
+      "delta_y_m": -0.0072673
+    },
+    {
+      "vertex": 237,
+      "strip": "lower",
+      "before": [
+        -0.3841671,
+        0.1412153,
+        0.7415234
+      ],
+      "after": [
+        -0.3841671,
+        0.1337492,
+        0.7415234
+      ],
+      "delta_y_m": -0.0074661
+    },
+    {
+      "vertex": 239,
+      "strip": "lower",
+      "before": [
+        -0.3112414,
+        0.141208,
+        0.7409564
+      ],
+      "after": [
+        -0.3112414,
+        0.1337398,
+        0.7409564
+      ],
+      "delta_y_m": -0.0074682
+    },
+    {
+      "vertex": 241,
+      "strip": "lower",
+      "before": [
+        -0.2398565,
+        0.1418615,
+        0.7462121
+      ],
+      "after": [
+        -0.2398565,
+        0.1345855,
+        0.7462121
+      ],
+      "delta_y_m": -0.007276
+    },
+    {
+      "vertex": 243,
+      "strip": "lower",
+      "before": [
+        -0.1723685,
+        0.1436662,
+        0.757443
+      ],
+      "after": [
+        -0.1723685,
+        0.136921,
+        0.757443
+      ],
+      "delta_y_m": -0.0067452
+    },
+    {
+      "vertex": 245,
+      "strip": "lower",
+      "before": [
+        -0.1120983,
+        0.1475842,
+        0.7761433
+      ],
+      "after": [
+        -0.1120983,
+        0.1419913,
+        0.7761433
+      ],
+      "delta_y_m": -0.0055929
+    },
+    {
+      "vertex": 247,
+      "strip": "lower",
+      "before": [
+        -0.0697926,
+        0.1562516,
+        0.8007147
+      ],
+      "after": [
+        -0.0697926,
+        0.1532079,
+        0.8007147
+      ],
+      "delta_y_m": -0.0030437
+    },
+    {
+      "vertex": 254,
+      "strip": "upper",
+      "before": [
+        -0.0697926,
+        0.1562516,
+        0.8430502
+      ],
+      "after": [
+        -0.0697926,
+        0.1532079,
+        0.8430502
+      ],
+      "delta_y_m": -0.0030437
+    },
+    {
+      "vertex": 255,
+      "strip": "upper",
+      "before": [
+        -0.1111543,
+        0.1476682,
+        0.8721581
+      ],
+      "after": [
+        -0.1111543,
+        0.1421,
+        0.8721581
+      ],
+      "delta_y_m": -0.0055682
+    },
+    {
+      "vertex": 257,
+      "strip": "upper",
+      "before": [
+        -0.1710772,
+        0.1437284,
+        0.8907337
+      ],
+      "after": [
+        -0.1710772,
+        0.1370015,
+        0.8907337
+      ],
+      "delta_y_m": -0.0067269
+    },
+    {
+      "vertex": 259,
+      "strip": "upper",
+      "before": [
+        -0.2386616,
+        0.1418913,
+        0.9026407
+      ],
+      "after": [
+        -0.2386616,
+        0.134624,
+        0.9026407
+      ],
+      "delta_y_m": -0.0072673
+    },
+    {
+      "vertex": 261,
+      "strip": "upper",
+      "before": [
+        -0.3102006,
+        0.1412153,
+        0.908918
+      ],
+      "after": [
+        -0.3102006,
+        0.1337492,
+        0.908918
+      ],
+      "delta_y_m": -0.0074661
+    },
+    {
+      "vertex": 263,
+      "strip": "upper",
+      "before": [
+        -0.3831263,
+        0.141208,
+        0.909485
+      ],
+      "after": [
+        -0.3831263,
+        0.1337398,
+        0.909485
+      ],
+      "delta_y_m": -0.0074682
+    },
+    {
+      "vertex": 265,
+      "strip": "upper",
+      "before": [
+        -0.4545113,
+        0.1418615,
+        0.9042293
+      ],
+      "after": [
+        -0.4545113,
+        0.1345855,
+        0.9042293
+      ],
+      "delta_y_m": -0.007276
+    },
+    {
+      "vertex": 267,
+      "strip": "upper",
+      "before": [
+        -0.5219992,
+        0.1436662,
+        0.8929985
+      ],
+      "after": [
+        -0.5219992,
+        0.136921,
+        0.8929985
+      ],
+      "delta_y_m": -0.0067452
+    },
+    {
+      "vertex": 269,
+      "strip": "upper",
+      "before": [
+        -0.5822694,
+        0.1475842,
+        0.8742982
+      ],
+      "after": [
+        -0.5822694,
+        0.1419913,
+        0.8742982
+      ],
+      "delta_y_m": -0.0055929
+    },
+    {
+      "vertex": 271,
+      "strip": "upper",
+      "before": [
+        -0.6245751,
+        0.1562516,
+        0.8430502
+      ],
+      "after": [
+        -0.6245751,
+        0.1532079,
+        0.8430502
+      ],
+      "delta_y_m": -0.0030437
+    }
+  ],
+  "other_native_object_signatures_unchanged": {
+    "PMT_object00_group00_material000_a0": "f13ec12ba82fa085cf05e9bcf64fa187790a4b4a98e2b5597bbc551037874a24",
+    "PMT_object00_group00_material001_a0": "d7f52027613d6186f99e50c176300369f10da738190fc8d3a78660914034d3ce",
+    "PMT_object00_group00_material002_a0": "63047f5a42816e000a2941f13f598bb2a1279f419e6acbd4cd9bbdb3aff35573",
+    "PMT_object00_group00_material003_a0": "10b55fd30ecc7bb6ab1670d165143ff46bdc5a831710e84e751874c3976f7c58",
+    "PMT_object00_group00_material004_a1": "1d8acd5afb748468ffbfb900fb2578db65cff397141f3cb64e0ed1abc00c4df6",
+    "PMT_object00_group01_material005_a0": "3832ed3bc4066a0178a3cb137b8bb811b0c00584f5410020f3442ad215dd4641",
+    "PMT_object00_group01_material006_a0": "3eb40df5d919e42dd0972462c5777be8f6d25bbc154be1c238a99c543e6f2dd7",
+    "PMT_object00_group01_material007_a0": "fb35110258398c11daf8f61c1fa39debf148a2a456f7d8dcb0399385395537a8",
+    "PMT_object00_group01_material008_a0": "a0f9890fca19abc3542f4730bd10eab3d196555c23062bdd0cb9847151a5ab38",
+    "PMT_object00_group01_material009_a0": "6627cfee7c5973c85ff56b13c9f7e56e4df6a6e2234f9be4b9397cf2b681dacb",
+    "PMT_object00_group01_material010_a0": "9108959e7141bdada8f1f5a5add1d6fed82dc50d48b7d41ba110df125b7ec43e",
+    "PMT_object00_group01_material011_a0": "42a37885e8ddea688595d664538b5370ee3d492f9ccaf961744c86d552f430dc",
+    "PMT_object00_group01_material012_a0": "9d5cbd0039084c7fa268d4cdd858af49e624f7ca7cbcc347621ddb5c3271a561",
+    "PMT_object00_group01_material013_a0": "098c3a13242ae80a0b6f83d14221bac0c2f63a32222d54a55b1b399928732edd",
+    "PMT_object00_group01_material014_a0": "9301977c533ac97ddf5753d3564da79b3ad5c1061d9c345bf09f07e4997c87bb",
+    "PMT_object00_group01_material016_a0": "ef007f48ddcabbe93cb0645176ea637cda2cdb4e901764ac027fe5641895a9cf",
+    "PMT_object00_group01_material017_a0": "471a3bc4981879cfe701bd3a5d5c92881c3ec127b7c351a88d6ddd623939342c",
+    "PMT_object00_group01_material018_a0": "f19d7e695babc95835719ca4e28a46293a80d95292aae660636b41d5825ae88a",
+    "PMT_object00_group01_material019_a0": "df2e9aad758cfd0c73d03e2acf6a1892f03568e5eeacc40f1b1bc3fe865316c7",
+    "PMT_object00_group01_material020_a0": "a19577284a312a883b0779eef79e88b1e8f77d5d30dbd19b687644e41f09ed0d",
+    "PMT_object00_group01_material021_a0": "d950f87db5e7d771c94c5f6dfbe4aca509227a737d89d4686bd3fa92a0d548b7",
+    "PMT_object00_group01_material022_a0": "fe693ec4df164798f485ca4ae686f167fcd7153f65def811ab4802f503c46641",
+    "PMT_object00_group01_material023_a0": "0886d1a9a8669f19a83c02e56fe8ff5664f6e0354dc24e68ca7e7aecbaa99711",
+    "PMT_object00_group01_material024_a0": "3b43fed7fc52ad8c52db41ff734cc9c34f01fe3313023e84964a67899e087e24",
+    "PMT_object00_group01_material025_a0": "1699e6a411b361f77136f9fcad053d3d0374c75a3df22164745e904c9c9041cb",
+    "PMT_object00_group01_material026_a0": "50ecded4d5ee52769a4f6ef2b7dd0a8fa795f804dcf6db09e6ea65279cc991a8",
+    "PMT_object22_group00_material000_a0": "66b238818ae9763ee546f1a914c9766858b7dd9161d217293387d6b09518dac0",
+    "PMT_object22_group00_material001_a0": "7f388e32085b3acc0c39942c4e1a68295d2b2f4717f758d80a5fc426d69f7189",
+    "PMT_object22_group00_material002_a0": "9f4d1babbcfebffd270e4a422835f2f4c17a959ac6514c67df4d0b2cec55c472"
+  },
+  "original_native_pmt_sha256": "f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe",
+  "original_import_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+  "accepted_r45_sha256_unchanged": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "input_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+  "output_sha256": "7367034bf9900e380f0f61d8d89c19322e8d22207dcba6c5124bf8f572803c28",
+  "reference_photos_sha256": {
+    "REF11_steering_instrument_closeup_5769d1ef1b.jpg": "4721947f8bf3d3b29a539ad3528fabc4edfaa6ee69df03fb0cde600dc4fa6335",
+    "REF2_dashboard_original_e91527ff82f3.jpg": "6c87cd360497eead51a8aba83c6c4e07986247c47f4dbd5a181fcecf81a1f004"
+  },
+  "photo_basis": "Original 365 GTS/4 driver gauge faces and protruding black rim; no exact camera calibration.",
+  "sculpt_object_limit": "Only PMT015 native upper/lower cluster bezel strips; PMT014 face and all other objects untouched.",
+  "source_mesh_fingerprints_before": {
+    "PMT_object00_group00_material000_a0": "f13ec12ba82fa085cf05e9bcf64fa187790a4b4a98e2b5597bbc551037874a24",
+    "PMT_object00_group00_material001_a0": "d7f52027613d6186f99e50c176300369f10da738190fc8d3a78660914034d3ce",
+    "PMT_object00_group00_material002_a0": "63047f5a42816e000a2941f13f598bb2a1279f419e6acbd4cd9bbdb3aff35573",
+    "PMT_object00_group00_material003_a0": "10b55fd30ecc7bb6ab1670d165143ff46bdc5a831710e84e751874c3976f7c58",
+    "PMT_object00_group00_material004_a1": "1d8acd5afb748468ffbfb900fb2578db65cff397141f3cb64e0ed1abc00c4df6",
+    "PMT_object00_group01_material005_a0": "3832ed3bc4066a0178a3cb137b8bb811b0c00584f5410020f3442ad215dd4641",
+    "PMT_object00_group01_material006_a0": "3eb40df5d919e42dd0972462c5777be8f6d25bbc154be1c238a99c543e6f2dd7",
+    "PMT_object00_group01_material007_a0": "fb35110258398c11daf8f61c1fa39debf148a2a456f7d8dcb0399385395537a8",
+    "PMT_object00_group01_material008_a0": "a0f9890fca19abc3542f4730bd10eab3d196555c23062bdd0cb9847151a5ab38",
+    "PMT_object00_group01_material009_a0": "6627cfee7c5973c85ff56b13c9f7e56e4df6a6e2234f9be4b9397cf2b681dacb",
+    "PMT_object00_group01_material010_a0": "9108959e7141bdada8f1f5a5add1d6fed82dc50d48b7d41ba110df125b7ec43e",
+    "PMT_object00_group01_material011_a0": "42a37885e8ddea688595d664538b5370ee3d492f9ccaf961744c86d552f430dc",
+    "PMT_object00_group01_material012_a0": "9d5cbd0039084c7fa268d4cdd858af49e624f7ca7cbcc347621ddb5c3271a561",
+    "PMT_object00_group01_material013_a0": "098c3a13242ae80a0b6f83d14221bac0c2f63a32222d54a55b1b399928732edd",
+    "PMT_object00_group01_material014_a0": "9301977c533ac97ddf5753d3564da79b3ad5c1061d9c345bf09f07e4997c87bb",
+    "PMT_object00_group01_material015_a0": "2075cf051ddd7230027dc296f29beae1ba949b5f991235f0691038b61a5590d4",
+    "PMT_object00_group01_material016_a0": "ef007f48ddcabbe93cb0645176ea637cda2cdb4e901764ac027fe5641895a9cf",
+    "PMT_object00_group01_material017_a0": "471a3bc4981879cfe701bd3a5d5c92881c3ec127b7c351a88d6ddd623939342c",
+    "PMT_object00_group01_material018_a0": "f19d7e695babc95835719ca4e28a46293a80d95292aae660636b41d5825ae88a",
+    "PMT_object00_group01_material019_a0": "df2e9aad758cfd0c73d03e2acf6a1892f03568e5eeacc40f1b1bc3fe865316c7",
+    "PMT_object00_group01_material020_a0": "a19577284a312a883b0779eef79e88b1e8f77d5d30dbd19b687644e41f09ed0d",
+    "PMT_object00_group01_material021_a0": "d950f87db5e7d771c94c5f6dfbe4aca509227a737d89d4686bd3fa92a0d548b7",
+    "PMT_object00_group01_material022_a0": "fe693ec4df164798f485ca4ae686f167fcd7153f65def811ab4802f503c46641",
+    "PMT_object00_group01_material023_a0": "0886d1a9a8669f19a83c02e56fe8ff5664f6e0354dc24e68ca7e7aecbaa99711",
+    "PMT_object00_group01_material024_a0": "3b43fed7fc52ad8c52db41ff734cc9c34f01fe3313023e84964a67899e087e24",
+    "PMT_object00_group01_material025_a0": "1699e6a411b361f77136f9fcad053d3d0374c75a3df22164745e904c9c9041cb",
+    "PMT_object00_group01_material026_a0": "50ecded4d5ee52769a4f6ef2b7dd0a8fa795f804dcf6db09e6ea65279cc991a8",
+    "PMT_object22_group00_material000_a0": "66b238818ae9763ee546f1a914c9766858b7dd9161d217293387d6b09518dac0",
+    "PMT_object22_group00_material001_a0": "7f388e32085b3acc0c39942c4e1a68295d2b2f4717f758d80a5fc426d69f7189",
+    "PMT_object22_group00_material002_a0": "9f4d1babbcfebffd270e4a422835f2f4c17a959ac6514c67df4d0b2cec55c472"
+  },
+  "source_mesh_fingerprints_after": {
+    "PMT_object00_group00_material000_a0": "f13ec12ba82fa085cf05e9bcf64fa187790a4b4a98e2b5597bbc551037874a24",
+    "PMT_object00_group00_material001_a0": "d7f52027613d6186f99e50c176300369f10da738190fc8d3a78660914034d3ce",
+    "PMT_object00_group00_material002_a0": "63047f5a42816e000a2941f13f598bb2a1279f419e6acbd4cd9bbdb3aff35573",
+    "PMT_object00_group00_material003_a0": "10b55fd30ecc7bb6ab1670d165143ff46bdc5a831710e84e751874c3976f7c58",
+    "PMT_object00_group00_material004_a1": "1d8acd5afb748468ffbfb900fb2578db65cff397141f3cb64e0ed1abc00c4df6",
+    "PMT_object00_group01_material005_a0": "3832ed3bc4066a0178a3cb137b8bb811b0c00584f5410020f3442ad215dd4641",
+    "PMT_object00_group01_material006_a0": "3eb40df5d919e42dd0972462c5777be8f6d25bbc154be1c238a99c543e6f2dd7",
+    "PMT_object00_group01_material007_a0": "fb35110258398c11daf8f61c1fa39debf148a2a456f7d8dcb0399385395537a8",
+    "PMT_object00_group01_material008_a0": "a0f9890fca19abc3542f4730bd10eab3d196555c23062bdd0cb9847151a5ab38",
+    "PMT_object00_group01_material009_a0": "6627cfee7c5973c85ff56b13c9f7e56e4df6a6e2234f9be4b9397cf2b681dacb",
+    "PMT_object00_group01_material010_a0": "9108959e7141bdada8f1f5a5add1d6fed82dc50d48b7d41ba110df125b7ec43e",
+    "PMT_object00_group01_material011_a0": "42a37885e8ddea688595d664538b5370ee3d492f9ccaf961744c86d552f430dc",
+    "PMT_object00_group01_material012_a0": "9d5cbd0039084c7fa268d4cdd858af49e624f7ca7cbcc347621ddb5c3271a561",
+    "PMT_object00_group01_material013_a0": "098c3a13242ae80a0b6f83d14221bac0c2f63a32222d54a55b1b399928732edd",
+    "PMT_object00_group01_material014_a0": "9301977c533ac97ddf5753d3564da79b3ad5c1061d9c345bf09f07e4997c87bb",
+    "PMT_object00_group01_material015_a0": "7ec9022bbc8e4c239606087b2c48d2e686ebe80294a4969a00946d2dafaea51c",
+    "PMT_object00_group01_material016_a0": "ef007f48ddcabbe93cb0645176ea637cda2cdb4e901764ac027fe5641895a9cf",
+    "PMT_object00_group01_material017_a0": "471a3bc4981879cfe701bd3a5d5c92881c3ec127b7c351a88d6ddd623939342c",
+    "PMT_object00_group01_material018_a0": "f19d7e695babc95835719ca4e28a46293a80d95292aae660636b41d5825ae88a",
+    "PMT_object00_group01_material019_a0": "df2e9aad758cfd0c73d03e2acf6a1892f03568e5eeacc40f1b1bc3fe865316c7",
+    "PMT_object00_group01_material020_a0": "a19577284a312a883b0779eef79e88b1e8f77d5d30dbd19b687644e41f09ed0d",
+    "PMT_object00_group01_material021_a0": "d950f87db5e7d771c94c5f6dfbe4aca509227a737d89d4686bd3fa92a0d548b7",
+    "PMT_object00_group01_material022_a0": "fe693ec4df164798f485ca4ae686f167fcd7153f65def811ab4802f503c46641",
+    "PMT_object00_group01_material023_a0": "0886d1a9a8669f19a83c02e56fe8ff5664f6e0354dc24e68ca7e7aecbaa99711",
+    "PMT_object00_group01_material024_a0": "3b43fed7fc52ad8c52db41ff734cc9c34f01fe3313023e84964a67899e087e24",
+    "PMT_object00_group01_material025_a0": "1699e6a411b361f77136f9fcad053d3d0374c75a3df22164745e904c9c9041cb",
+    "PMT_object00_group01_material026_a0": "50ecded4d5ee52769a4f6ef2b7dd0a8fa795f804dcf6db09e6ea65279cc991a8",
+    "PMT_object22_group00_material000_a0": "66b238818ae9763ee546f1a914c9766858b7dd9161d217293387d6b09518dac0",
+    "PMT_object22_group00_material001_a0": "7f388e32085b3acc0c39942c4e1a68295d2b2f4717f758d80a5fc426d69f7189",
+    "PMT_object22_group00_material002_a0": "9f4d1babbcfebffd270e4a422835f2f4c17a959ac6514c67df4d0b2cec55c472"
+  },
+  "full_vehicle_qa_pass": false,
+  "integrated_into_accepted_R45": false,
+  "next": "dashboard",
+  "qa_pending": [
+    "calibrated_original_game_eye",
+    "seven_authenticated_photo_views",
+    "standalone_geometry_not_integrated"
+  ]
+}

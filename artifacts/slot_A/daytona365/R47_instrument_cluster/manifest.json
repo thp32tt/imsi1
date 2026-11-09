@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "task_id": "FERRARI16-SLOTA-DAYTONA-NATIVE-PMT015-INSTRUMENT-R47-20261109",
+  "slot": "A",
+  "car_id": "daytona365",
+  "component": "instrument_cluster",
+  "status": "COVERED_PARTIAL_QA",
+  "full_vehicle_qa_pass": false,
+  "source_original_game_pmt_sha256": "f393ba5c706453a4d3f71604f25cd1631594152380856462fb0a504143ba6abe",
+  "original_import_input_blend_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+  "accepted_integrated_r45_sha256_unchanged": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "output_blend_sha256": "7367034bf9900e380f0f61d8d89c19322e8d22207dcba6c5124bf8f572803c28",
+  "original_pmt_and_photos_are_not_published": true,
+  "source_blend_is_editable": true,
+  "single_binary_limit_bytes": 1400000,
+  "output_blend_bytes": 512055,
+  "plaintext_binary_split_required": false,
+  "encrypted": false,
+  "secrets_required": false,
+  "modified_original_native_meshes": [
+    "object00_group01_material015_a0"
+  ],
+  "native_vertices_changed": 20,
+  "native_other_meshes_unchanged": 29,
+  "blender_independent_reopen": "PASS",
+  "postflight_guard": "PASS",
+  "render_comparison_pixels_changed": 13120,
+  "integrated_into_R45": false,
+  "next": "dashboard",
+  "files": [
+    {
+      "path": "Daytona365_NATIVE_PMT015_InstrumentCluster_R47.blend",
+      "bytes": 512055,
+      "sha256": "7367034bf9900e380f0f61d8d89c19322e8d22207dcba6c5124bf8f572803c28"
+    },
+    {
+      "path": "Daytona365_NATIVE_PMT015_R47_BeforeAfter.png",
+      "bytes": 617443,
+      "sha256": "6e35aba3dd7dc7f5e203799e2417ae4628ba736fa8018493722401db8f311ab0"
+    },
+    {
+      "path": "PMT015_after_workbench.png",
+      "bytes": 643740,
+      "sha256": "3d00de59281ef6e18937a163b03a3ad801710a490b00fe803755d078203cb289"
+    },
+    {
+      "path": "PMT015_before_workbench.png",
+      "bytes": 643768,
+      "sha256": "d70b61a1d80fbb2bc4a91d79d4d61f5c4f758ee79470c029cb260058f5b78d97"
+    },
+    {
+      "path": "build_manifest_and_workpack_r47.py",
+      "bytes": 8846,
+      "sha256": "808013a4137bbdf57eb3bf13999208f1881c09cfee70c13f824d009bffc63bd1"
+    },
+    {
+      "path": "native_instrument_r47.py",
+      "bytes": 9809,
+      "sha256": "5289a5194593f4c756b2e5690af33b481dd0052104624998ec1f45e5ec00893a"
+    },
+    {
+      "path": "native_instrument_r47_fresh_reopen_qa.json",
+      "bytes": 307,
+      "sha256": "7155cacc484bdeb3c38eeb494b8af2b10e130c421125d6a3bdf17b7cda7858a2"
+    },
+    {
+      "path": "native_instrument_r47_geometry_qa.json",
+      "bytes": 16891,
+      "sha256": "fa5858d3c665a5185c4798ba9f09045b14f5a469cdfa2a76fe73fb9274996e5b"
+    },
+    {
+      "path": "native_instrument_r47_receipt.json",
+      "bytes": 7798,
+      "sha256": "ade3fbe99780c58c97888ae2e37c14f8f305012a2a40e6d01c7a0ad12ea87b05"
+    },
+    {
+      "path": "native_instrument_r47_render.py",
+      "bytes": 3640,
+      "sha256": "a7e6a723a62ecc6a74f58dd50b8ea0638e312c8d82066e0699f9ab3393f26fea"
+    },
+    {
+      "path": "native_instrument_r47_render_qa.json",
+      "bytes": 776,
+      "sha256": "118db046d468bc14a16e7773200bfb0b2df5bb17590f7c509d74e262808e83c1"
+    },
+    {
+      "path": "probe_instrument_r47.py",
+      "bytes": 1858,
+      "sha256": "2bb162e0a81b265715ff448a021a0237f744b8dbc248db85e64f3bb1cd508c3a"
+    }
+  ]
+}

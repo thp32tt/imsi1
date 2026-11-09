@@ -95,7 +95,7 @@
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "30ddcbd01ef7e969bb1e4220ff4318c2f75b7fd7ab70bc4d6dafedcdc7954437",
       "output_scene_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
-      "notes": "[2026-11-09 SLOT A R46] native original PMT017 seats source-isolated sculpt PASS/save/reopen (82 existing vertices); R45 accepted integrated output SHA unchanged; seat COVERED_PARTIAL_QA only, not vehicle QA PASS. Windshield/glass/A-pillars protected. NEXT instrument_cluster.",
+      "notes": "[2026-11-09 SLOT A R47] original PMT015 gauge bezel 20 genuine vertices geometry edited; new standalone .blend saved/reopened; 29 other original meshes unchanged; COVERED_PARTIAL_QA not car QA PASS. Integrated R45 unchanged, dashboard/wheel/glass protected in this dispatch. NEXT dashboard P0 hold.",
       "private_photo_subdir": "02_365_GTS4_Daytona",
       "priority": [
         "dashboard",
@@ -131,7 +131,7 @@
       "game_integration_required": false,
       "progress_history_archive": "docs/automation/FERRARI16_A_DAYTONA365_PRE_V3_HISTORY_20261109.md",
       "workpack_path": "docs/automation/FERRARI_COCKPIT_WORKPACK_A_DAYTONA365.json",
-      "strategy_v3_next_component": "instrument_cluster",
+      "strategy_v3_next_component": "dashboard",
       "strategy_v3_p0_revisit_policy": "HOLD_BEFORE_BREADTH_PASS",
       "source_audit_archive": "docs/automation/FERRARI16_A_DAYTONA365_PRE_V3_SOURCE_AUDITS_20261109.json",
       "last_slot_a_audit_r42": {
@@ -259,6 +259,20 @@
         "integrated_whole_car_scene": "NOT_MERGED",
         "next": "instrument_cluster",
         "full_car_qa_pass": false
+      },
+      "last_slot_a_r47": {
+        "task_id": "FERRARI16-SLOTA-DAYTONA-NATIVE-PMT015-INSTRUMENT-R47-20261109",
+        "component": "instrument_cluster",
+        "status": "COVERED_PARTIAL_QA",
+        "native_object": "object00_group01_material015_a0",
+        "native_changed_vertices": 20,
+        "input_native_import_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+        "output_native_blend_sha256": "7367034bf9900e380f0f61d8d89c19322e8d22207dcba6c5124bf8f572803c28",
+        "accepted_R45_untouched": true,
+        "reopen": "PASS",
+        "postflight": "PASS",
+        "full_car_QA_PASS": false,
+        "next": "dashboard"
       }
     },
     {

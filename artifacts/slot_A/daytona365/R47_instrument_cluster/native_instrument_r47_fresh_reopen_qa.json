@@ -1,0 +1,8 @@
+{
+  "result": "PASS_INDEPENDENT_BLENDER_4_5_15_SAVE_REOPEN",
+  "target": "PMT_object00_group01_material015_a0",
+  "output_sha256": "7367034bf9900e380f0f61d8d89c19322e8d22207dcba6c5124bf8f572803c28",
+  "changed_existing_vertices": 20,
+  "other_native_meshes_unchanged": 29,
+  "full_vehicle_qa_pass": false
+}
