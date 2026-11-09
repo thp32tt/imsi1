@@ -1,0 +1,1000 @@
+{
+  "blender_version": "4.5.15 LTS",
+  "coordinate_policy": "original PMT object-local coordinates without transforms",
+  "full_vehicle_qa_pass": false,
+  "game_export": false,
+  "geometry_edit_count": 0,
+  "github_initial_head": "8af6cac75a21808b9ecafa919f285428468a4153",
+  "import_blend": "artifacts/slot_C/f355spider/source_bootstrap/F355Spider_OriginalPMT_SourceBaseline_v1.blend",
+  "import_script": "tools/car_modeling/slot_c/f355spider_source_import.py",
+  "independent_blender_reopen": "PASS_SEPARATE_BLENDER_PROCESS",
+  "migration_input_blend_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
+  "native_mesh_fingerprints": {
+    "PMT_F355SPIDER_object00_group00_material000_a0": "e9def020a93b8de1d0da1562991b755b1989a7a8afa3a3adb6de411c6bf59713",
+    "PMT_F355SPIDER_object00_group00_material001_a0": "9ba9bbb08724bcdfe28f797230b3c7a0868eb0fcedb8d415d25f0f8c2f779343",
+    "PMT_F355SPIDER_object00_group00_material002_a0": "d57578738f0068d724062808f5994b9693ce024a1f9961f32deec3ec78ab1c5a",
+    "PMT_F355SPIDER_object00_group00_material003_a0": "959b64b24d8d033b7f25682523e3e2c53df0f4a98a6ff6b844d374ae52b1b120",
+    "PMT_F355SPIDER_object00_group00_material004_a1": "c5a1c35a8b5bf8f048302b910eb83897b0d92d996ac04ed703bf3cf91af5824e",
+    "PMT_F355SPIDER_object00_group01_material005_a0": "f73e1d5408b46e88a03cf4b35adab45a897bb2fe16450b3529e710ad0c62181d",
+    "PMT_F355SPIDER_object00_group01_material006_a0": "72c660ebc591b8afc0ba4a9eced035012753b474a07f0c73f8f62d3818137740",
+    "PMT_F355SPIDER_object00_group01_material007_a0": "0f778e0c878d83876c598548156c60e72a2b97f4608e9f84e9d9a0c10484a3f7",
+    "PMT_F355SPIDER_object00_group01_material008_a0": "90ee2457021faf2851e1c4fa4d07e3a11ead31cdc50a9460b2a66d63a23edae0",
+    "PMT_F355SPIDER_object00_group01_material009_a0": "755efe7deb9939f3e923dd579e3f897a5955f9eb86c857fd79a73b9151d962f4",
+    "PMT_F355SPIDER_object00_group01_material010_a0": "7ef1b9f54294dd99aadd99e0708552075d0468da1c34a4253e9052cd99208276",
+    "PMT_F355SPIDER_object00_group01_material011_a0": "4296a078a221898003f895383e2d9b9c27a44719f0124f6cad445a4f51540648",
+    "PMT_F355SPIDER_object00_group01_material012_a0": "10d95c7a53a6445dcf09139aa8302c81e290297b53169e2a00a81f29d29e7838",
+    "PMT_F355SPIDER_object00_group01_material013_a0": "1edc97a0539cc7ef62813d02ddcb5cefbf45653d5228ee56da84501e468e0eed",
+    "PMT_F355SPIDER_object00_group01_material014_a0": "c0f69e541e9337a35c294c67badb98134dca144a16531f7442591dd68fd32326",
+    "PMT_F355SPIDER_object00_group01_material015_a0": "f7472a6fd0fd403d73c3ab3ef9b43cf8795cef96f0f6886009cbe7e590354c39",
+    "PMT_F355SPIDER_object00_group01_material016_a0": "e32e124104977e301fc96fde3943fef5a3fb1892125642e561eb8a030e1eba88",
+    "PMT_F355SPIDER_object00_group01_material017_a0": "57d8e858ef778714b71497d4375fcb7c58c48572029930bd801471334b2c95a2",
+    "PMT_F355SPIDER_object00_group01_material018_a0": "1a0cec761222e245037c8a65120632241c2cc889485d4483884ec845d993750e",
+    "PMT_F355SPIDER_object00_group01_material019_a0": "da11ea0cadb93945a26a201b09b47896ac3b53ca3f1a037567c5d7f783970040",
+    "PMT_F355SPIDER_object00_group01_material020_a0": "bc9ba4962cce135b7ee2a7acaf3c9464a62d1453bbbd0b107ba9e0757afcbb00",
+    "PMT_F355SPIDER_object00_group01_material021_a0": "61a2de4e7155c17ef78dbf8acc40fd5dd62aac763ee9591b83ed2ceaadc6ff35",
+    "PMT_F355SPIDER_object00_group01_material022_a0": "5707c51c2dd5e9ab695db5be01e2cc53db47c4a5db4723fd42786aa7fce92d5b",
+    "PMT_F355SPIDER_object00_group01_material023_a0": "15d2504d65c3862645a6cf53adc743f557ab5954a830ec258ce4b81b392e63f9",
+    "PMT_F355SPIDER_object00_group01_material024_a0": "1ead57ffd2a9e852898db470f924c43fc7831ff61488ddd1bccc12724904e8ac",
+    "PMT_F355SPIDER_object00_group01_material025_a0": "2ec2825394ad1626d708a548eadd1562f6f6a0717e0f342acdc2d701485b4595",
+    "PMT_F355SPIDER_object00_group01_material026_a0": "ccd598574ca1eb2ac77b6340c098047957d9d5b3eaae5f4c1a218cf4e39ef45d",
+    "PMT_F355SPIDER_object00_group01_material027_a0": "c7e0ffe7246dce7a5d88b0dc69180f2a1b0cfabf622044a4e119ec930f2662fc",
+    "PMT_F355SPIDER_object00_group01_material028_a0": "c8e13e482437652207bd2d2868cba277b69ae2d1d8df58ea251f554eca18f5e5",
+    "PMT_F355SPIDER_object00_group01_material029_a1": "71eec766a9b88baba64b19dc41b5a96635be8c31f0fafc015e76440a014a6b79",
+    "PMT_F355SPIDER_object00_group01_material030_a1": "58923e7dad7774adab931eb53b605b411637075da3f391355e5c433944ad6c5b",
+    "PMT_F355SPIDER_object00_group01_material031_a1": "30c4bf5646fd8c51fb4a2213abb19d0297bedcacfbbbb2d7cae00e6f5fcf3aa0",
+    "PMT_F355SPIDER_object00_group01_material032_a1": "35cb98f1ba822366c84c92cbbc44f93aca54638be33ade0bb06b34edf608b4f0",
+    "PMT_F355SPIDER_object00_group01_material033_a1": "0d218665885f51d431dbef4be11158dbcba4ac506da9a05d1b0d75c8c1990693",
+    "PMT_F355SPIDER_object01_group00_material000_a0": "962f33930cfedc9e79afa046da49736a868909cb29ac030b69a6f8d9141def04",
+    "PMT_F355SPIDER_object02_group00_material000_a0": "ca96a638f327dc9d1973f2e6fc3837fcd3deeec69fd791db701a4b2a075706ca",
+    "PMT_F355SPIDER_object03_group00_material000_a0": "f90091a58a1c9ba864093c760f8ce210ddbad10f2b41ce31e1d34c147688da53",
+    "PMT_F355SPIDER_object04_group00_material000_a0": "6450c4f605220f8a1ecfd433d9f2bd09d6744790a4ab026bf0b56726db41a995",
+    "PMT_F355SPIDER_object05_group00_material000_a0": "56c50117a89235e80aa7decd81273d1f391190db456565912959d8316ec0b4ce",
+    "PMT_F355SPIDER_object06_group00_material000_a0": "2dd6c694e54deb36793a67ecab29c5668bd3a4806fbe38c6367b699d7616dd48",
+    "PMT_F355SPIDER_object07_group00_material000_a0": "d2d0557db554a3f109f4b716c3ba82fbe1e65be45a452d7fd076ef3f4b9716de",
+    "PMT_F355SPIDER_object08_group00_material000_a0": "c68f15c94a551e0c29db47e70d6d1cd2403af927503075bb0e49912b44ee9fe2",
+    "PMT_F355SPIDER_object09_group00_material000_a0": "d480f9810b21741951b36d1735f2dbb81deb486a37a61c80996d8df5eeee4d52",
+    "PMT_F355SPIDER_object10_group00_material000_a0": "6a270ac1d1dae3e456ef9dab0bb4833d7b58987177628b86968467de87655707",
+    "PMT_F355SPIDER_object11_group00_material000_a0": "7fa78c2444bd8616dda64eb98e3eb43b8f3fe58d1dffa744d4614edbbd2f4479",
+    "PMT_F355SPIDER_object12_group00_material000_a0": "c65c77775347110afbd81cc51af314589d986ad15f50e7b5b6bbe82c48d5800d",
+    "PMT_F355SPIDER_object13_group00_material000_a0": "9cb18b53c41464c4206b0e07933a61e69121f2d1f0a3e640d67e83ac34838a9c",
+    "PMT_F355SPIDER_object14_group00_material000_a0": "24f5920f9cbe7278bc5b8ff7b00e2b1d50fd7e7c0adc095a030eff27f7c952a0",
+    "PMT_F355SPIDER_object15_group00_material000_a0": "15608af1641965424df276f947d0b4320a80781a0895b96289a41a048ed1f484",
+    "PMT_F355SPIDER_object15_group00_material001_a1": "68c63515c90ff0581cd7766c4053f487d91928ceb928ce9623e303419536bb22",
+    "PMT_F355SPIDER_object16_group00_material000_a0": "8053c3ab9ee406d5a8a2efaff03bc5785641c9710c1edd31f787c992afa7be78",
+    "PMT_F355SPIDER_object16_group01_material001_a0": "1b041c838598f3059a65300f546288c618f9730818c0d4f62be55f45f80a4c91",
+    "PMT_F355SPIDER_object16_group01_material002_a0": "b881f5513a7469e2ba5a345e835b0269db445956a875e0d6e09d9507fa7ddabc",
+    "PMT_F355SPIDER_object16_group01_material003_a0": "8999ed5a5e29aa5951bbaeaf87f92f5b158865de6373c5870769e1b479a4afbe",
+    "PMT_F355SPIDER_object16_group01_material004_a0": "bf252f2655502b1013458b98b2bba029a37bfc8baab98ca78f2acc160e81f6fd",
+    "PMT_F355SPIDER_object16_group01_material005_a0": "9b04c57a215b9283bcdc3478fb40467c4a8801a153073fe866b194be3c7f4233",
+    "PMT_F355SPIDER_object16_group01_material006_a0": "3b5edfa13024fe688f65f3a7acc3873335194a3e0c3e4aa2996080d348374046",
+    "PMT_F355SPIDER_object16_group01_material007_a0": "e01bfb6303e79c1d8f6e94348cc4e265db2a16c0a66c60242a9b92aa1549c578",
+    "PMT_F355SPIDER_object17_group00_material000_a0": "01dba1c0b857572888561195a407b2270e87f43f4cfebcedca1cad4fd33df3b6",
+    "PMT_F355SPIDER_object17_group00_material001_a0": "5c647203ab418dfd16d88d10a57f05c09538872f4f7b0093b42b179bc67a8f32",
+    "PMT_F355SPIDER_object17_group01_material002_a0": "57346c020888a65e2c2a1497dccc58e44ff7c5fa7e0db0e2cc792e5ae5000f41",
+    "PMT_F355SPIDER_object17_group01_material003_a0": "9a58810e260224bb6b829e971f2cfd425254b6fa9a307d81b2bd33cb39cb4be7",
+    "PMT_F355SPIDER_object17_group01_material004_a0": "f34ae817519f4a4776f922b5e577eb417cbc9498f4eb42a797d3556f2b2b6b27",
+    "PMT_F355SPIDER_object17_group01_material005_a0": "7df02a705c4f8e6d51e98b4961e86f1ac2c22bb00d97b357354280ee75553b6d",
+    "PMT_F355SPIDER_object18_group00_material000_a0": "ca5b846974d077205446b90dbef35e4fd9c736a8bc62536e68a50414f1ff2546",
+    "PMT_F355SPIDER_object18_group00_material001_a0": "fcc6a2518bc8c3b968d83f9a93a8b8660a0a3619c6c840f00765a442490ea8d2",
+    "PMT_F355SPIDER_object18_group01_material002_a0": "79f1a9e70663dfc866f70c44194afc80ec6a30af60dbeaca2c14808e73914294",
+    "PMT_F355SPIDER_object18_group01_material003_a0": "8fa730768ee22cce58de5a7baa0491cf6cb4b2c59b974b737525c4b01b6f6477",
+    "PMT_F355SPIDER_object18_group01_material004_a0": "368972cfbad6a3862a0c7f5c2ff3096816117d124da430d238ceea545344bf54",
+    "PMT_F355SPIDER_object18_group01_material005_a0": "ae02568d25de5c037bed5ce60e32a8955012b73b7f7ca1f215bea383d92b92f9",
+    "PMT_F355SPIDER_object19_group00_material000_a0": "33a54e7579eb00cef8337b6497ccc411c6467b96d9fe31d6b2d8a45aab8190ae",
+    "PMT_F355SPIDER_object19_group00_material001_a0": "b97d8ea27767c9227d396d85778b6c761c549c311639fe218eedd30b0904e413",
+    "PMT_F355SPIDER_object19_group00_material002_a1": "e9099abc43adf08b75b3fd9130a57fce5ce118e08950c7bfc1083e30f1514b7a",
+    "PMT_F355SPIDER_object19_group00_material003_a1": "f4cd53e3d760669150130cbaf4db8f9c513309e8138e22dfa69742ade0957c6f",
+    "PMT_F355SPIDER_object20_group00_material000_a0": "1b50e966ca5280d7a3259bb40108827489e313eb3425769d85734fbeed25714c",
+    "PMT_F355SPIDER_object20_group00_material001_a0": "57b89d9488e8a70cbd1347525f62cfdd228059f69300fc41c31aecc3a2f8c7d7",
+    "PMT_F355SPIDER_object20_group00_material002_a0": "b808d87348e028cbc21fe493562c59f8a273c38738cf554cadb5f1482190a428",
+    "PMT_F355SPIDER_object21_group00_material000_a0": "af9665af3637f44529202502b80e315e8d828a1174ffde1011181a0f5e35e06b",
+    "PMT_F355SPIDER_object21_group00_material001_a0": "32d75e2525116f7314c72144282d8084ae75127d87d8a523ccbc8cf8db8f183f",
+    "PMT_F355SPIDER_object22_group00_material000_a0": "d60ad8615ee7b7c4e0f7b876e3e33f5840701dc1d5611006fedd3dee4f50e851",
+    "PMT_F355SPIDER_object22_group00_material001_a0": "38de79c57d6cc0cb12bc44b14d77e8ee9b4e0ca3db775aa5e4f76d4bb2b9d5af",
+    "PMT_F355SPIDER_object23_group00_material000_a0": "517beec680887d8ede14db3648ef17b7c88709b1acc66a18124c176d82f656e6",
+    "PMT_F355SPIDER_object23_group01_material001_a0": "6eb9da23f7ff4c7c3d60ac9589f102be4d4bde99af6bb9bffdaf33eca836ace4",
+    "PMT_F355SPIDER_object23_group01_material002_a0": "ae56dde27cac9df9a7a7aa07189560ed713135640f0e4d2d53d93b0514740d32",
+    "PMT_F355SPIDER_object24_group00_material000_a0": "efe69822116df82cfc87f992dba7c750b9614ed85ccd64d2a66d11ecf4a8e308",
+    "PMT_F355SPIDER_object24_group01_material001_a0": "644986e07f915df86771a470bb72e2f7b55e1da19321bd817e89708d398bdcdf",
+    "PMT_F355SPIDER_object24_group01_material002_a0": "98e43291949d8f03e7827c8235eac1ae5522492a88f65e8bc2b033ef6c880442",
+    "PMT_F355SPIDER_object25_group00_material000_a0": "d4c67aab6d1320e075996be75541a752cbdfcc6a054efac90729808eb3326af5",
+    "PMT_F355SPIDER_object25_group01_material001_a0": "4002a208069ef5a14b5f17b68b5b6c5c54276fc3e6f0b21e98fac2705539aea3",
+    "PMT_F355SPIDER_object25_group01_material002_a0": "823bc6be011cc30bd83e7bfee33f29c4b1586b1ca480b08106936c42cb032d9e",
+    "PMT_F355SPIDER_object26_group00_material000_a0": "dbd27a47ccbe014f56527b81a26df7070de1f34b4846944f628cb331bbeadc53",
+    "PMT_F355SPIDER_object26_group01_material001_a0": "a170147ae423cc2215559036013ced0590798d8736be5e2c9bb2549d0cbc3ebf",
+    "PMT_F355SPIDER_object26_group01_material002_a0": "e4256cde4963a6b058a2e336b606cd6df6ad3901f63741dbf034fa80eec36414",
+    "PMT_F355SPIDER_object27_group00_material000_a0": "ebc7e9c3128554cd2bffed40fa87cf73f879af6d726aa4c01be64b35dc3b6c0a",
+    "PMT_F355SPIDER_object28_group00_material000_a0": "8a7eb4588b03c403aca360928af33bc7d9273d5db2218fd998e2063f9fde5442",
+    "PMT_F355SPIDER_object29_group00_material000_a1": "eafb12031cba50f4e525a07ba952ca9fabf5509d618d3bb5b2c5bb0577a41724"
+  },
+  "native_object_count": 96,
+  "native_pmt_object_count": 30,
+  "native_totals": {
+    "triangles": 11681,
+    "vertices": 13354
+  },
+  "new_vehicle_or_synthetic_mesh": false,
+  "next_component": "center_console",
+  "original_game_resource_modified": false,
+  "original_game_resource_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
+  "original_import_blend_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
+  "original_mesh_inventory": [
+    {
+      "fingerprint": "e9def020a93b8de1d0da1562991b755b1989a7a8afa3a3adb6de411c6bf59713",
+      "name": "PMT_F355SPIDER_object00_group00_material000_a0",
+      "object_index": 0,
+      "original_id": "object00_group00_material000_a0",
+      "triangles": 24,
+      "vertices": 40
+    },
+    {
+      "fingerprint": "9ba9bbb08724bcdfe28f797230b3c7a0868eb0fcedb8d415d25f0f8c2f779343",
+      "name": "PMT_F355SPIDER_object00_group00_material001_a0",
+      "object_index": 0,
+      "original_id": "object00_group00_material001_a0",
+      "triangles": 462,
+      "vertices": 634
+    },
+    {
+      "fingerprint": "d57578738f0068d724062808f5994b9693ce024a1f9961f32deec3ec78ab1c5a",
+      "name": "PMT_F355SPIDER_object00_group00_material002_a0",
+      "object_index": 0,
+      "original_id": "object00_group00_material002_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "959b64b24d8d033b7f25682523e3e2c53df0f4a98a6ff6b844d374ae52b1b120",
+      "name": "PMT_F355SPIDER_object00_group00_material003_a0",
+      "object_index": 0,
+      "original_id": "object00_group00_material003_a0",
+      "triangles": 48,
+      "vertices": 96
+    },
+    {
+      "fingerprint": "c5a1c35a8b5bf8f048302b910eb83897b0d92d996ac04ed703bf3cf91af5824e",
+      "name": "PMT_F355SPIDER_object00_group00_material004_a1",
+      "object_index": 0,
+      "original_id": "object00_group00_material004_a1",
+      "triangles": 48,
+      "vertices": 36
+    },
+    {
+      "fingerprint": "f73e1d5408b46e88a03cf4b35adab45a897bb2fe16450b3529e710ad0c62181d",
+      "name": "PMT_F355SPIDER_object00_group01_material005_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material005_a0",
+      "triangles": 3252,
+      "vertices": 2869
+    },
+    {
+      "fingerprint": "72c660ebc591b8afc0ba4a9eced035012753b474a07f0c73f8f62d3818137740",
+      "name": "PMT_F355SPIDER_object00_group01_material006_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material006_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "0f778e0c878d83876c598548156c60e72a2b97f4608e9f84e9d9a0c10484a3f7",
+      "name": "PMT_F355SPIDER_object00_group01_material007_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material007_a0",
+      "triangles": 138,
+      "vertices": 166
+    },
+    {
+      "fingerprint": "90ee2457021faf2851e1c4fa4d07e3a11ead31cdc50a9460b2a66d63a23edae0",
+      "name": "PMT_F355SPIDER_object00_group01_material008_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material008_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "755efe7deb9939f3e923dd579e3f897a5955f9eb86c857fd79a73b9151d962f4",
+      "name": "PMT_F355SPIDER_object00_group01_material009_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material009_a0",
+      "triangles": 82,
+      "vertices": 63
+    },
+    {
+      "fingerprint": "7ef1b9f54294dd99aadd99e0708552075d0468da1c34a4253e9052cd99208276",
+      "name": "PMT_F355SPIDER_object00_group01_material010_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material010_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "4296a078a221898003f895383e2d9b9c27a44719f0124f6cad445a4f51540648",
+      "name": "PMT_F355SPIDER_object00_group01_material011_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material011_a0",
+      "triangles": 4,
+      "vertices": 6
+    },
+    {
+      "fingerprint": "10d95c7a53a6445dcf09139aa8302c81e290297b53169e2a00a81f29d29e7838",
+      "name": "PMT_F355SPIDER_object00_group01_material012_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material012_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "1edc97a0539cc7ef62813d02ddcb5cefbf45653d5228ee56da84501e468e0eed",
+      "name": "PMT_F355SPIDER_object00_group01_material013_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material013_a0",
+      "triangles": 66,
+      "vertices": 80
+    },
+    {
+      "fingerprint": "c0f69e541e9337a35c294c67badb98134dca144a16531f7442591dd68fd32326",
+      "name": "PMT_F355SPIDER_object00_group01_material014_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material014_a0",
+      "triangles": 4,
+      "vertices": 8
+    },
+    {
+      "fingerprint": "f7472a6fd0fd403d73c3ab3ef9b43cf8795cef96f0f6886009cbe7e590354c39",
+      "name": "PMT_F355SPIDER_object00_group01_material015_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material015_a0",
+      "triangles": 22,
+      "vertices": 24
+    },
+    {
+      "fingerprint": "e32e124104977e301fc96fde3943fef5a3fb1892125642e561eb8a030e1eba88",
+      "name": "PMT_F355SPIDER_object00_group01_material016_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material016_a0",
+      "triangles": 124,
+      "vertices": 222
+    },
+    {
+      "fingerprint": "57d8e858ef778714b71497d4375fcb7c58c48572029930bd801471334b2c95a2",
+      "name": "PMT_F355SPIDER_object00_group01_material017_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material017_a0",
+      "triangles": 15,
+      "vertices": 21
+    },
+    {
+      "fingerprint": "1a0cec761222e245037c8a65120632241c2cc889485d4483884ec845d993750e",
+      "name": "PMT_F355SPIDER_object00_group01_material018_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material018_a0",
+      "triangles": 4,
+      "vertices": 6
+    },
+    {
+      "fingerprint": "da11ea0cadb93945a26a201b09b47896ac3b53ca3f1a037567c5d7f783970040",
+      "name": "PMT_F355SPIDER_object00_group01_material019_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material019_a0",
+      "triangles": 8,
+      "vertices": 16
+    },
+    {
+      "fingerprint": "bc9ba4962cce135b7ee2a7acaf3c9464a62d1453bbbd0b107ba9e0757afcbb00",
+      "name": "PMT_F355SPIDER_object00_group01_material020_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material020_a0",
+      "triangles": 438,
+      "vertices": 314
+    },
+    {
+      "fingerprint": "61a2de4e7155c17ef78dbf8acc40fd5dd62aac763ee9591b83ed2ceaadc6ff35",
+      "name": "PMT_F355SPIDER_object00_group01_material021_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material021_a0",
+      "triangles": 80,
+      "vertices": 80
+    },
+    {
+      "fingerprint": "5707c51c2dd5e9ab695db5be01e2cc53db47c4a5db4723fd42786aa7fce92d5b",
+      "name": "PMT_F355SPIDER_object00_group01_material022_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material022_a0",
+      "triangles": 32,
+      "vertices": 40
+    },
+    {
+      "fingerprint": "15d2504d65c3862645a6cf53adc743f557ab5954a830ec258ce4b81b392e63f9",
+      "name": "PMT_F355SPIDER_object00_group01_material023_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material023_a0",
+      "triangles": 10,
+      "vertices": 20
+    },
+    {
+      "fingerprint": "1ead57ffd2a9e852898db470f924c43fc7831ff61488ddd1bccc12724904e8ac",
+      "name": "PMT_F355SPIDER_object00_group01_material024_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material024_a0",
+      "triangles": 4,
+      "vertices": 8
+    },
+    {
+      "fingerprint": "2ec2825394ad1626d708a548eadd1562f6f6a0717e0f342acdc2d701485b4595",
+      "name": "PMT_F355SPIDER_object00_group01_material025_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material025_a0",
+      "triangles": 24,
+      "vertices": 28
+    },
+    {
+      "fingerprint": "ccd598574ca1eb2ac77b6340c098047957d9d5b3eaae5f4c1a218cf4e39ef45d",
+      "name": "PMT_F355SPIDER_object00_group01_material026_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material026_a0",
+      "triangles": 24,
+      "vertices": 48
+    },
+    {
+      "fingerprint": "c7e0ffe7246dce7a5d88b0dc69180f2a1b0cfabf622044a4e119ec930f2662fc",
+      "name": "PMT_F355SPIDER_object00_group01_material027_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material027_a0",
+      "triangles": 300,
+      "vertices": 188
+    },
+    {
+      "fingerprint": "c8e13e482437652207bd2d2868cba277b69ae2d1d8df58ea251f554eca18f5e5",
+      "name": "PMT_F355SPIDER_object00_group01_material028_a0",
+      "object_index": 0,
+      "original_id": "object00_group01_material028_a0",
+      "triangles": 288,
+      "vertices": 354
+    },
+    {
+      "fingerprint": "71eec766a9b88baba64b19dc41b5a96635be8c31f0fafc015e76440a014a6b79",
+      "name": "PMT_F355SPIDER_object00_group01_material029_a1",
+      "object_index": 0,
+      "original_id": "object00_group01_material029_a1",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "58923e7dad7774adab931eb53b605b411637075da3f391355e5c433944ad6c5b",
+      "name": "PMT_F355SPIDER_object00_group01_material030_a1",
+      "object_index": 0,
+      "original_id": "object00_group01_material030_a1",
+      "triangles": 4,
+      "vertices": 8
+    },
+    {
+      "fingerprint": "30c4bf5646fd8c51fb4a2213abb19d0297bedcacfbbbb2d7cae00e6f5fcf3aa0",
+      "name": "PMT_F355SPIDER_object00_group01_material031_a1",
+      "object_index": 0,
+      "original_id": "object00_group01_material031_a1",
+      "triangles": 6,
+      "vertices": 8
+    },
+    {
+      "fingerprint": "35cb98f1ba822366c84c92cbbc44f93aca54638be33ade0bb06b34edf608b4f0",
+      "name": "PMT_F355SPIDER_object00_group01_material032_a1",
+      "object_index": 0,
+      "original_id": "object00_group01_material032_a1",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "0d218665885f51d431dbef4be11158dbcba4ac506da9a05d1b0d75c8c1990693",
+      "name": "PMT_F355SPIDER_object00_group01_material033_a1",
+      "object_index": 0,
+      "original_id": "object00_group01_material033_a1",
+      "triangles": 16,
+      "vertices": 18
+    },
+    {
+      "fingerprint": "962f33930cfedc9e79afa046da49736a868909cb29ac030b69a6f8d9141def04",
+      "name": "PMT_F355SPIDER_object01_group00_material000_a0",
+      "object_index": 1,
+      "original_id": "object01_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "ca96a638f327dc9d1973f2e6fc3837fcd3deeec69fd791db701a4b2a075706ca",
+      "name": "PMT_F355SPIDER_object02_group00_material000_a0",
+      "object_index": 2,
+      "original_id": "object02_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "f90091a58a1c9ba864093c760f8ce210ddbad10f2b41ce31e1d34c147688da53",
+      "name": "PMT_F355SPIDER_object03_group00_material000_a0",
+      "object_index": 3,
+      "original_id": "object03_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "6450c4f605220f8a1ecfd433d9f2bd09d6744790a4ab026bf0b56726db41a995",
+      "name": "PMT_F355SPIDER_object04_group00_material000_a0",
+      "object_index": 4,
+      "original_id": "object04_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "56c50117a89235e80aa7decd81273d1f391190db456565912959d8316ec0b4ce",
+      "name": "PMT_F355SPIDER_object05_group00_material000_a0",
+      "object_index": 5,
+      "original_id": "object05_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "2dd6c694e54deb36793a67ecab29c5668bd3a4806fbe38c6367b699d7616dd48",
+      "name": "PMT_F355SPIDER_object06_group00_material000_a0",
+      "object_index": 6,
+      "original_id": "object06_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "d2d0557db554a3f109f4b716c3ba82fbe1e65be45a452d7fd076ef3f4b9716de",
+      "name": "PMT_F355SPIDER_object07_group00_material000_a0",
+      "object_index": 7,
+      "original_id": "object07_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "c68f15c94a551e0c29db47e70d6d1cd2403af927503075bb0e49912b44ee9fe2",
+      "name": "PMT_F355SPIDER_object08_group00_material000_a0",
+      "object_index": 8,
+      "original_id": "object08_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "d480f9810b21741951b36d1735f2dbb81deb486a37a61c80996d8df5eeee4d52",
+      "name": "PMT_F355SPIDER_object09_group00_material000_a0",
+      "object_index": 9,
+      "original_id": "object09_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "6a270ac1d1dae3e456ef9dab0bb4833d7b58987177628b86968467de87655707",
+      "name": "PMT_F355SPIDER_object10_group00_material000_a0",
+      "object_index": 10,
+      "original_id": "object10_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "7fa78c2444bd8616dda64eb98e3eb43b8f3fe58d1dffa744d4614edbbd2f4479",
+      "name": "PMT_F355SPIDER_object11_group00_material000_a0",
+      "object_index": 11,
+      "original_id": "object11_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "c65c77775347110afbd81cc51af314589d986ad15f50e7b5b6bbe82c48d5800d",
+      "name": "PMT_F355SPIDER_object12_group00_material000_a0",
+      "object_index": 12,
+      "original_id": "object12_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "9cb18b53c41464c4206b0e07933a61e69121f2d1f0a3e640d67e83ac34838a9c",
+      "name": "PMT_F355SPIDER_object13_group00_material000_a0",
+      "object_index": 13,
+      "original_id": "object13_group00_material000_a0",
+      "triangles": 288,
+      "vertices": 354
+    },
+    {
+      "fingerprint": "24f5920f9cbe7278bc5b8ff7b00e2b1d50fd7e7c0adc095a030eff27f7c952a0",
+      "name": "PMT_F355SPIDER_object14_group00_material000_a0",
+      "object_index": 14,
+      "original_id": "object14_group00_material000_a0",
+      "triangles": 288,
+      "vertices": 354
+    },
+    {
+      "fingerprint": "15608af1641965424df276f947d0b4320a80781a0895b96289a41a048ed1f484",
+      "name": "PMT_F355SPIDER_object15_group00_material000_a0",
+      "object_index": 15,
+      "original_id": "object15_group00_material000_a0",
+      "triangles": 288,
+      "vertices": 354
+    },
+    {
+      "fingerprint": "68c63515c90ff0581cd7766c4053f487d91928ceb928ce9623e303419536bb22",
+      "name": "PMT_F355SPIDER_object15_group00_material001_a1",
+      "object_index": 15,
+      "original_id": "object15_group00_material001_a1",
+      "triangles": 4,
+      "vertices": 8
+    },
+    {
+      "fingerprint": "8053c3ab9ee406d5a8a2efaff03bc5785641c9710c1edd31f787c992afa7be78",
+      "name": "PMT_F355SPIDER_object16_group00_material000_a0",
+      "object_index": 16,
+      "original_id": "object16_group00_material000_a0",
+      "triangles": 82,
+      "vertices": 156
+    },
+    {
+      "fingerprint": "1b041c838598f3059a65300f546288c618f9730818c0d4f62be55f45f80a4c91",
+      "name": "PMT_F355SPIDER_object16_group01_material001_a0",
+      "object_index": 16,
+      "original_id": "object16_group01_material001_a0",
+      "triangles": 488,
+      "vertices": 420
+    },
+    {
+      "fingerprint": "b881f5513a7469e2ba5a345e835b0269db445956a875e0d6e09d9507fa7ddabc",
+      "name": "PMT_F355SPIDER_object16_group01_material002_a0",
+      "object_index": 16,
+      "original_id": "object16_group01_material002_a0",
+      "triangles": 90,
+      "vertices": 104
+    },
+    {
+      "fingerprint": "8999ed5a5e29aa5951bbaeaf87f92f5b158865de6373c5870769e1b479a4afbe",
+      "name": "PMT_F355SPIDER_object16_group01_material003_a0",
+      "object_index": 16,
+      "original_id": "object16_group01_material003_a0",
+      "triangles": 4,
+      "vertices": 6
+    },
+    {
+      "fingerprint": "bf252f2655502b1013458b98b2bba029a37bfc8baab98ca78f2acc160e81f6fd",
+      "name": "PMT_F355SPIDER_object16_group01_material004_a0",
+      "object_index": 16,
+      "original_id": "object16_group01_material004_a0",
+      "triangles": 68,
+      "vertices": 110
+    },
+    {
+      "fingerprint": "9b04c57a215b9283bcdc3478fb40467c4a8801a153073fe866b194be3c7f4233",
+      "name": "PMT_F355SPIDER_object16_group01_material005_a0",
+      "object_index": 16,
+      "original_id": "object16_group01_material005_a0",
+      "triangles": 17,
+      "vertices": 25
+    },
+    {
+      "fingerprint": "3b5edfa13024fe688f65f3a7acc3873335194a3e0c3e4aa2996080d348374046",
+      "name": "PMT_F355SPIDER_object16_group01_material006_a0",
+      "object_index": 16,
+      "original_id": "object16_group01_material006_a0",
+      "triangles": 8,
+      "vertices": 16
+    },
+    {
+      "fingerprint": "e01bfb6303e79c1d8f6e94348cc4e265db2a16c0a66c60242a9b92aa1549c578",
+      "name": "PMT_F355SPIDER_object16_group01_material007_a0",
+      "object_index": 16,
+      "original_id": "object16_group01_material007_a0",
+      "triangles": 35,
+      "vertices": 41
+    },
+    {
+      "fingerprint": "01dba1c0b857572888561195a407b2270e87f43f4cfebcedca1cad4fd33df3b6",
+      "name": "PMT_F355SPIDER_object17_group00_material000_a0",
+      "object_index": 17,
+      "original_id": "object17_group00_material000_a0",
+      "triangles": 15,
+      "vertices": 25
+    },
+    {
+      "fingerprint": "5c647203ab418dfd16d88d10a57f05c09538872f4f7b0093b42b179bc67a8f32",
+      "name": "PMT_F355SPIDER_object17_group00_material001_a0",
+      "object_index": 17,
+      "original_id": "object17_group00_material001_a0",
+      "triangles": 6,
+      "vertices": 8
+    },
+    {
+      "fingerprint": "57346c020888a65e2c2a1497dccc58e44ff7c5fa7e0db0e2cc792e5ae5000f41",
+      "name": "PMT_F355SPIDER_object17_group01_material002_a0",
+      "object_index": 17,
+      "original_id": "object17_group01_material002_a0",
+      "triangles": 131,
+      "vertices": 132
+    },
+    {
+      "fingerprint": "9a58810e260224bb6b829e971f2cfd425254b6fa9a307d81b2bd33cb39cb4be7",
+      "name": "PMT_F355SPIDER_object17_group01_material003_a0",
+      "object_index": 17,
+      "original_id": "object17_group01_material003_a0",
+      "triangles": 76,
+      "vertices": 100
+    },
+    {
+      "fingerprint": "f34ae817519f4a4776f922b5e577eb417cbc9498f4eb42a797d3556f2b2b6b27",
+      "name": "PMT_F355SPIDER_object17_group01_material004_a0",
+      "object_index": 17,
+      "original_id": "object17_group01_material004_a0",
+      "triangles": 5,
+      "vertices": 7
+    },
+    {
+      "fingerprint": "7df02a705c4f8e6d51e98b4961e86f1ac2c22bb00d97b357354280ee75553b6d",
+      "name": "PMT_F355SPIDER_object17_group01_material005_a0",
+      "object_index": 17,
+      "original_id": "object17_group01_material005_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "ca5b846974d077205446b90dbef35e4fd9c736a8bc62536e68a50414f1ff2546",
+      "name": "PMT_F355SPIDER_object18_group00_material000_a0",
+      "object_index": 18,
+      "original_id": "object18_group00_material000_a0",
+      "triangles": 15,
+      "vertices": 25
+    },
+    {
+      "fingerprint": "fcc6a2518bc8c3b968d83f9a93a8b8660a0a3619c6c840f00765a442490ea8d2",
+      "name": "PMT_F355SPIDER_object18_group00_material001_a0",
+      "object_index": 18,
+      "original_id": "object18_group00_material001_a0",
+      "triangles": 6,
+      "vertices": 8
+    },
+    {
+      "fingerprint": "79f1a9e70663dfc866f70c44194afc80ec6a30af60dbeaca2c14808e73914294",
+      "name": "PMT_F355SPIDER_object18_group01_material002_a0",
+      "object_index": 18,
+      "original_id": "object18_group01_material002_a0",
+      "triangles": 131,
+      "vertices": 132
+    },
+    {
+      "fingerprint": "8fa730768ee22cce58de5a7baa0491cf6cb4b2c59b974b737525c4b01b6f6477",
+      "name": "PMT_F355SPIDER_object18_group01_material003_a0",
+      "object_index": 18,
+      "original_id": "object18_group01_material003_a0",
+      "triangles": 76,
+      "vertices": 100
+    },
+    {
+      "fingerprint": "368972cfbad6a3862a0c7f5c2ff3096816117d124da430d238ceea545344bf54",
+      "name": "PMT_F355SPIDER_object18_group01_material004_a0",
+      "object_index": 18,
+      "original_id": "object18_group01_material004_a0",
+      "triangles": 5,
+      "vertices": 7
+    },
+    {
+      "fingerprint": "ae02568d25de5c037bed5ce60e32a8955012b73b7f7ca1f215bea383d92b92f9",
+      "name": "PMT_F355SPIDER_object18_group01_material005_a0",
+      "object_index": 18,
+      "original_id": "object18_group01_material005_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "33a54e7579eb00cef8337b6497ccc411c6467b96d9fe31d6b2d8a45aab8190ae",
+      "name": "PMT_F355SPIDER_object19_group00_material000_a0",
+      "object_index": 19,
+      "original_id": "object19_group00_material000_a0",
+      "triangles": 4,
+      "vertices": 6
+    },
+    {
+      "fingerprint": "b97d8ea27767c9227d396d85778b6c761c549c311639fe218eedd30b0904e413",
+      "name": "PMT_F355SPIDER_object19_group00_material001_a0",
+      "object_index": 19,
+      "original_id": "object19_group00_material001_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "e9099abc43adf08b75b3fd9130a57fce5ce118e08950c7bfc1083e30f1514b7a",
+      "name": "PMT_F355SPIDER_object19_group00_material002_a1",
+      "object_index": 19,
+      "original_id": "object19_group00_material002_a1",
+      "triangles": 4,
+      "vertices": 8
+    },
+    {
+      "fingerprint": "f4cd53e3d760669150130cbaf4db8f9c513309e8138e22dfa69742ade0957c6f",
+      "name": "PMT_F355SPIDER_object19_group00_material003_a1",
+      "object_index": 19,
+      "original_id": "object19_group00_material003_a1",
+      "triangles": 4,
+      "vertices": 8
+    },
+    {
+      "fingerprint": "1b50e966ca5280d7a3259bb40108827489e313eb3425769d85734fbeed25714c",
+      "name": "PMT_F355SPIDER_object20_group00_material000_a0",
+      "object_index": 20,
+      "original_id": "object20_group00_material000_a0",
+      "triangles": 100,
+      "vertices": 144
+    },
+    {
+      "fingerprint": "57b89d9488e8a70cbd1347525f62cfdd228059f69300fc41c31aecc3a2f8c7d7",
+      "name": "PMT_F355SPIDER_object20_group00_material001_a0",
+      "object_index": 20,
+      "original_id": "object20_group00_material001_a0",
+      "triangles": 40,
+      "vertices": 80
+    },
+    {
+      "fingerprint": "b808d87348e028cbc21fe493562c59f8a273c38738cf554cadb5f1482190a428",
+      "name": "PMT_F355SPIDER_object20_group00_material002_a0",
+      "object_index": 20,
+      "original_id": "object20_group00_material002_a0",
+      "triangles": 12,
+      "vertices": 16
+    },
+    {
+      "fingerprint": "af9665af3637f44529202502b80e315e8d828a1174ffde1011181a0f5e35e06b",
+      "name": "PMT_F355SPIDER_object21_group00_material000_a0",
+      "object_index": 21,
+      "original_id": "object21_group00_material000_a0",
+      "triangles": 8,
+      "vertices": 16
+    },
+    {
+      "fingerprint": "32d75e2525116f7314c72144282d8084ae75127d87d8a523ccbc8cf8db8f183f",
+      "name": "PMT_F355SPIDER_object21_group00_material001_a0",
+      "object_index": 21,
+      "original_id": "object21_group00_material001_a0",
+      "triangles": 52,
+      "vertices": 29
+    },
+    {
+      "fingerprint": "d60ad8615ee7b7c4e0f7b876e3e33f5840701dc1d5611006fedd3dee4f50e851",
+      "name": "PMT_F355SPIDER_object22_group00_material000_a0",
+      "object_index": 22,
+      "original_id": "object22_group00_material000_a0",
+      "triangles": 2,
+      "vertices": 4
+    },
+    {
+      "fingerprint": "38de79c57d6cc0cb12bc44b14d77e8ee9b4e0ca3db775aa5e4f76d4bb2b9d5af",
+      "name": "PMT_F355SPIDER_object22_group00_material001_a0",
+      "object_index": 22,
+      "original_id": "object22_group00_material001_a0",
+      "triangles": 368,
+      "vertices": 293
+    },
+    {
+      "fingerprint": "517beec680887d8ede14db3648ef17b7c88709b1acc66a18124c176d82f656e6",
+      "name": "PMT_F355SPIDER_object23_group00_material000_a0",
+      "object_index": 23,
+      "original_id": "object23_group00_material000_a0",
+      "triangles": 10,
+      "vertices": 12
+    },
+    {
+      "fingerprint": "6eb9da23f7ff4c7c3d60ac9589f102be4d4bde99af6bb9bffdaf33eca836ace4",
+      "name": "PMT_F355SPIDER_object23_group01_material001_a0",
+      "object_index": 23,
+      "original_id": "object23_group01_material001_a0",
+      "triangles": 680,
+      "vertices": 746
+    },
+    {
+      "fingerprint": "ae56dde27cac9df9a7a7aa07189560ed713135640f0e4d2d53d93b0514740d32",
+      "name": "PMT_F355SPIDER_object23_group01_material002_a0",
+      "object_index": 23,
+      "original_id": "object23_group01_material002_a0",
+      "triangles": 40,
+      "vertices": 80
+    },
+    {
+      "fingerprint": "efe69822116df82cfc87f992dba7c750b9614ed85ccd64d2a66d11ecf4a8e308",
+      "name": "PMT_F355SPIDER_object24_group00_material000_a0",
+      "object_index": 24,
+      "original_id": "object24_group00_material000_a0",
+      "triangles": 10,
+      "vertices": 12
+    },
+    {
+      "fingerprint": "644986e07f915df86771a470bb72e2f7b55e1da19321bd817e89708d398bdcdf",
+      "name": "PMT_F355SPIDER_object24_group01_material001_a0",
+      "object_index": 24,
+      "original_id": "object24_group01_material001_a0",
+      "triangles": 680,
+      "vertices": 746
+    },
+    {
+      "fingerprint": "98e43291949d8f03e7827c8235eac1ae5522492a88f65e8bc2b033ef6c880442",
+      "name": "PMT_F355SPIDER_object24_group01_material002_a0",
+      "object_index": 24,
+      "original_id": "object24_group01_material002_a0",
+      "triangles": 40,
+      "vertices": 80
+    },
+    {
+      "fingerprint": "d4c67aab6d1320e075996be75541a752cbdfcc6a054efac90729808eb3326af5",
+      "name": "PMT_F355SPIDER_object25_group00_material000_a0",
+      "object_index": 25,
+      "original_id": "object25_group00_material000_a0",
+      "triangles": 10,
+      "vertices": 12
+    },
+    {
+      "fingerprint": "4002a208069ef5a14b5f17b68b5b6c5c54276fc3e6f0b21e98fac2705539aea3",
+      "name": "PMT_F355SPIDER_object25_group01_material001_a0",
+      "object_index": 25,
+      "original_id": "object25_group01_material001_a0",
+      "triangles": 680,
+      "vertices": 749
+    },
+    {
+      "fingerprint": "823bc6be011cc30bd83e7bfee33f29c4b1586b1ca480b08106936c42cb032d9e",
+      "name": "PMT_F355SPIDER_object25_group01_material002_a0",
+      "object_index": 25,
+      "original_id": "object25_group01_material002_a0",
+      "triangles": 40,
+      "vertices": 80
+    },
+    {
+      "fingerprint": "dbd27a47ccbe014f56527b81a26df7070de1f34b4846944f628cb331bbeadc53",
+      "name": "PMT_F355SPIDER_object26_group00_material000_a0",
+      "object_index": 26,
+      "original_id": "object26_group00_material000_a0",
+      "triangles": 10,
+      "vertices": 12
+    },
+    {
+      "fingerprint": "a170147ae423cc2215559036013ced0590798d8736be5e2c9bb2549d0cbc3ebf",
+      "name": "PMT_F355SPIDER_object26_group01_material001_a0",
+      "object_index": 26,
+      "original_id": "object26_group01_material001_a0",
+      "triangles": 680,
+      "vertices": 752
+    },
+    {
+      "fingerprint": "e4256cde4963a6b058a2e336b606cd6df6ad3901f63741dbf034fa80eec36414",
+      "name": "PMT_F355SPIDER_object26_group01_material002_a0",
+      "object_index": 26,
+      "original_id": "object26_group01_material002_a0",
+      "triangles": 40,
+      "vertices": 80
+    },
+    {
+      "fingerprint": "ebc7e9c3128554cd2bffed40fa87cf73f879af6d726aa4c01be64b35dc3b6c0a",
+      "name": "PMT_F355SPIDER_object27_group00_material000_a0",
+      "object_index": 27,
+      "original_id": "object27_group00_material000_a0",
+      "triangles": 400,
+      "vertices": 1200
+    },
+    {
+      "fingerprint": "8a7eb4588b03c403aca360928af33bc7d9273d5db2218fd998e2063f9fde5442",
+      "name": "PMT_F355SPIDER_object28_group00_material000_a0",
+      "object_index": 28,
+      "original_id": "object28_group00_material000_a0",
+      "triangles": 68,
+      "vertices": 204
+    },
+    {
+      "fingerprint": "eafb12031cba50f4e525a07ba952ca9fabf5509d618d3bb5b2c5bb0577a41724",
+      "name": "PMT_F355SPIDER_object29_group00_material000_a1",
+      "object_index": 29,
+      "original_id": "object29_group00_material000_a1",
+      "triangles": 2,
+      "vertices": 4
+    }
+  ],
+  "original_mesh_object_ids": [
+    "PMT_F355SPIDER_object00_group00_material000_a0",
+    "PMT_F355SPIDER_object00_group00_material001_a0",
+    "PMT_F355SPIDER_object00_group00_material002_a0",
+    "PMT_F355SPIDER_object00_group00_material003_a0",
+    "PMT_F355SPIDER_object00_group00_material004_a1",
+    "PMT_F355SPIDER_object00_group01_material005_a0",
+    "PMT_F355SPIDER_object00_group01_material006_a0",
+    "PMT_F355SPIDER_object00_group01_material007_a0",
+    "PMT_F355SPIDER_object00_group01_material008_a0",
+    "PMT_F355SPIDER_object00_group01_material009_a0",
+    "PMT_F355SPIDER_object00_group01_material010_a0",
+    "PMT_F355SPIDER_object00_group01_material011_a0",
+    "PMT_F355SPIDER_object00_group01_material012_a0",
+    "PMT_F355SPIDER_object00_group01_material013_a0",
+    "PMT_F355SPIDER_object00_group01_material014_a0",
+    "PMT_F355SPIDER_object00_group01_material015_a0",
+    "PMT_F355SPIDER_object00_group01_material016_a0",
+    "PMT_F355SPIDER_object00_group01_material017_a0",
+    "PMT_F355SPIDER_object00_group01_material018_a0",
+    "PMT_F355SPIDER_object00_group01_material019_a0",
+    "PMT_F355SPIDER_object00_group01_material020_a0",
+    "PMT_F355SPIDER_object00_group01_material021_a0",
+    "PMT_F355SPIDER_object00_group01_material022_a0",
+    "PMT_F355SPIDER_object00_group01_material023_a0",
+    "PMT_F355SPIDER_object00_group01_material024_a0",
+    "PMT_F355SPIDER_object00_group01_material025_a0",
+    "PMT_F355SPIDER_object00_group01_material026_a0",
+    "PMT_F355SPIDER_object00_group01_material027_a0",
+    "PMT_F355SPIDER_object00_group01_material028_a0",
+    "PMT_F355SPIDER_object00_group01_material029_a1",
+    "PMT_F355SPIDER_object00_group01_material030_a1",
+    "PMT_F355SPIDER_object00_group01_material031_a1",
+    "PMT_F355SPIDER_object00_group01_material032_a1",
+    "PMT_F355SPIDER_object00_group01_material033_a1",
+    "PMT_F355SPIDER_object01_group00_material000_a0",
+    "PMT_F355SPIDER_object02_group00_material000_a0",
+    "PMT_F355SPIDER_object03_group00_material000_a0",
+    "PMT_F355SPIDER_object04_group00_material000_a0",
+    "PMT_F355SPIDER_object05_group00_material000_a0",
+    "PMT_F355SPIDER_object06_group00_material000_a0",
+    "PMT_F355SPIDER_object07_group00_material000_a0",
+    "PMT_F355SPIDER_object08_group00_material000_a0",
+    "PMT_F355SPIDER_object09_group00_material000_a0",
+    "PMT_F355SPIDER_object10_group00_material000_a0",
+    "PMT_F355SPIDER_object11_group00_material000_a0",
+    "PMT_F355SPIDER_object12_group00_material000_a0",
+    "PMT_F355SPIDER_object13_group00_material000_a0",
+    "PMT_F355SPIDER_object14_group00_material000_a0",
+    "PMT_F355SPIDER_object15_group00_material000_a0",
+    "PMT_F355SPIDER_object15_group00_material001_a1",
+    "PMT_F355SPIDER_object16_group00_material000_a0",
+    "PMT_F355SPIDER_object16_group01_material001_a0",
+    "PMT_F355SPIDER_object16_group01_material002_a0",
+    "PMT_F355SPIDER_object16_group01_material003_a0",
+    "PMT_F355SPIDER_object16_group01_material004_a0",
+    "PMT_F355SPIDER_object16_group01_material005_a0",
+    "PMT_F355SPIDER_object16_group01_material006_a0",
+    "PMT_F355SPIDER_object16_group01_material007_a0",
+    "PMT_F355SPIDER_object17_group00_material000_a0",
+    "PMT_F355SPIDER_object17_group00_material001_a0",
+    "PMT_F355SPIDER_object17_group01_material002_a0",
+    "PMT_F355SPIDER_object17_group01_material003_a0",
+    "PMT_F355SPIDER_object17_group01_material004_a0",
+    "PMT_F355SPIDER_object17_group01_material005_a0",
+    "PMT_F355SPIDER_object18_group00_material000_a0",
+    "PMT_F355SPIDER_object18_group00_material001_a0",
+    "PMT_F355SPIDER_object18_group01_material002_a0",
+    "PMT_F355SPIDER_object18_group01_material003_a0",
+    "PMT_F355SPIDER_object18_group01_material004_a0",
+    "PMT_F355SPIDER_object18_group01_material005_a0",
+    "PMT_F355SPIDER_object19_group00_material000_a0",
+    "PMT_F355SPIDER_object19_group00_material001_a0",
+    "PMT_F355SPIDER_object19_group00_material002_a1",
+    "PMT_F355SPIDER_object19_group00_material003_a1",
+    "PMT_F355SPIDER_object20_group00_material000_a0",
+    "PMT_F355SPIDER_object20_group00_material001_a0",
+    "PMT_F355SPIDER_object20_group00_material002_a0",
+    "PMT_F355SPIDER_object21_group00_material000_a0",
+    "PMT_F355SPIDER_object21_group00_material001_a0",
+    "PMT_F355SPIDER_object22_group00_material000_a0",
+    "PMT_F355SPIDER_object22_group00_material001_a0",
+    "PMT_F355SPIDER_object23_group00_material000_a0",
+    "PMT_F355SPIDER_object23_group01_material001_a0",
+    "PMT_F355SPIDER_object23_group01_material002_a0",
+    "PMT_F355SPIDER_object24_group00_material000_a0",
+    "PMT_F355SPIDER_object24_group01_material001_a0",
+    "PMT_F355SPIDER_object24_group01_material002_a0",
+    "PMT_F355SPIDER_object25_group00_material000_a0",
+    "PMT_F355SPIDER_object25_group01_material001_a0",
+    "PMT_F355SPIDER_object25_group01_material002_a0",
+    "PMT_F355SPIDER_object26_group00_material000_a0",
+    "PMT_F355SPIDER_object26_group01_material001_a0",
+    "PMT_F355SPIDER_object26_group01_material002_a0",
+    "PMT_F355SPIDER_object27_group00_material000_a0",
+    "PMT_F355SPIDER_object28_group00_material000_a0",
+    "PMT_F355SPIDER_object29_group00_material000_a1"
+  ],
+  "photos_or_pmt_published": false,
+  "schema_version": 1,
+  "slot": "C",
+  "source_decoder": "tools/car_modeling/slot_c/f355spider_native_pmt_reader.py",
+  "source_file_name": "obj_plcar_f355sp_pmt.sz",
+  "source_file_size_bytes": 365750,
+  "status": "SOURCE_VERIFIED",
+  "topology_note": "Faithful native indexed GPU primitives reconstructed as Blender triangles; no arbitrary reshaping",
+  "uncompressed_pmt_sha256": "5b109caecaab1faef820fb30817036f457066e3a8d7a908e15522aa749b6f603",
+  "vehicle": "f355spider",
+  "windshield_and_glass_adjacent_meshes_untouched": true
+}
