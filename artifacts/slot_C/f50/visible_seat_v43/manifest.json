@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "bundle": "f50_visible_seat_v43_source_edit",
+  "repository": "thp32tt/imsi1",
+  "branch": "main",
+  "slot": "C",
+  "active_car_id": "f50",
+  "component": "visible_seat",
+  "status": "COVERED_PARTIAL_QA",
+  "format": "plain_unencrypted_binary_parts",
+  "binary_file": "F50_OriginalPMT_VisibleSeat_Bolster_v43.blend",
+  "binary_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
+  "binary_size": 1545355,
+  "chunk_size": 262144,
+  "parts": [
+    {
+      "file": "F50_OriginalPMT_VisibleSeat_Bolster_v43.part01.bin",
+      "sha256": "20f73c2b6337ce370a874ea4208ad19fee66a709e2a9c2530fb6c2de68b37aaa",
+      "size": 262144,
+      "offset": 0
+    },
+    {
+      "file": "F50_OriginalPMT_VisibleSeat_Bolster_v43.part02.bin",
+      "sha256": "b80f6d664f5fd4a581a80d043bcea9e922e643ed6eee8b6b5f602516ce894118",
+      "size": 262144,
+      "offset": 262144
+    },
+    {
+      "file": "F50_OriginalPMT_VisibleSeat_Bolster_v43.part03.bin",
+      "sha256": "57710591bf7b363a31cd08726f76842ff85a32e522461da5473a13ef59725067",
+      "size": 262144,
+      "offset": 524288
+    },
+    {
+      "file": "F50_OriginalPMT_VisibleSeat_Bolster_v43.part04.bin",
+      "sha256": "010205cc0aa72ba3674f10a410dda3c1d6a31470701e6ea6aba5171c2a518e7a",
+      "size": 262144,
+      "offset": 786432
+    },
+    {
+      "file": "F50_OriginalPMT_VisibleSeat_Bolster_v43.part05.bin",
+      "sha256": "4d0d41aef6fe93cd3500ca66729d99ef9ce4c69220106b340bf7188de19eac9a",
+      "size": 262144,
+      "offset": 1048576
+    },
+    {
+      "file": "F50_OriginalPMT_VisibleSeat_Bolster_v43.part06.bin",
+      "sha256": "8806f8e623fc2964b06bee43d565def8e16b205bf769b0c7a8ba0ec6e742d6f8",
+      "size": 234635,
+      "offset": 1310720
+    }
+  ],
+  "input_baseline": {
+    "file": "F50_OriginalPMT_InnerDoor_UpperRail_v40.blend",
+    "sha256": "03b96b1eb2293c151c60133919380055fa8393372b0acbf18045edf25faa949a"
+  },
+  "original_native_game_resource": {
+    "retained_on_n100": true,
+    "file": "obj_plcar_f50_pmt.sz",
+    "sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab"
+  },
+  "original_import_blend_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
+  "independent_blender_reopen": "PASS",
+  "artifacts_sha256": {
+    "F50_VisibleSeat_v43_Receipt.json": "36c8486b1f11005c723a96b5561cc1e10f4649e09df3db1e4fba97945790c8c1",
+    "F50_VisibleSeat_v43_BEFORE.png": "2e14c560859e9600d010da78b2881c644df240b14881240fba3397c69021c31c",
+    "F50_VisibleSeat_v43_AFTER.png": "88c9b80d4552a0cdaf82e219127cf273354197e7a3751cc72a1a05e1d9e6461d",
+    "F50_VisibleSeat_v43_BEFORE_AFTER.png": "0c5ea2dde31e01cc8fd88e9cfb8136f9cdf09021abebed132f45cb77ab1d7094"
+  },
+  "verification": "python3 reassemble.py --verify-only (or python3 reassemble.py --output /path/file.blend)",
+  "unmodified_protected_regions": [
+    "windshield",
+    "windshield_frame",
+    "A_pillars",
+    "glass_borders",
+    "dashboard",
+    "steering_wheel",
+    "exterior"
+  ],
+  "vehicle_qa_pass": false,
+  "next_component": "instrument_cluster"
+}

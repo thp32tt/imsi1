@@ -302,8 +302,8 @@
       "geometry_gate": "PARTIAL_NEEDS_QA",
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
-      "output_scene_sha256": "03b96b1eb2293c151c60133919380055fa8393372b0acbf18045edf25faa949a",
-      "notes": "[2026-11-09 USER PROTECTION/REVERT] Front windshield, windshield frame, A-pillars and glass-border meshes are DO_NOT_EDIT. F50 v41 windshield-header edit SHA 016645f5 is NOT an accepted baseline. Restored accepted source-derived baseline to pre-windshield v40 SHA 03b96b1e; NEXT visible_seat. No full-car QA PASS.",
+      "output_scene_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
+      "notes": "[2026-11-09 SLOT C v43] F50 original PMT material023 visible_seat: two original 64v seat-shell regions; 118 existing vertices sculpted (max 23.27mm), 41 other source meshes unchanged, Blender independent reopen PASS. Input v40 restored (not rejected v41); partial region QA only. NEXT instrument_cluster; windshield region DO_NOT_EDIT.",
       "private_photo_subdir": "03_F50",
       "priority": [
         "dashboard",
@@ -372,7 +372,7 @@
       "game_integration_required": false,
       "progress_history_archive": "docs/automation/FERRARI16_C_F50_PRE_V3_HISTORY_20261109.md",
       "workpack_path": "docs/automation/FERRARI_COCKPIT_WORKPACK_C_F50.json",
-      "strategy_v3_next_component": "visible_seat",
+      "strategy_v3_next_component": "instrument_cluster",
       "strategy_v3_p0_revisit_policy": "HOLD_BEFORE_BREADTH_PASS",
       "source_audit_archive": "docs/automation/FERRARI16_C_F50_PRE_V3_SOURCE_AUDITS_20261109.json",
       "last_slot_c_center_console_v38": {
@@ -482,6 +482,25 @@
         "rejected_sha256": "016645f5fea43ef75c8e80479f49baaff2d3aa8d1647a058f732ac69080da08d",
         "restored_sha256": "03b96b1eb2293c151c60133919380055fa8393372b0acbf18045edf25faa949a",
         "reason": "user protected front windshield/glass-adjacent meshes; v41 touched windshield header/A-pillar"
+      },
+      "last_slot_c_visible_seat_v43": {
+        "task_id": "FERRARI16-SLOTC-F50-VISIBLE-SEAT-PMT023-V43-20261109",
+        "component": "visible_seat",
+        "status": "COVERED_PARTIAL_QA",
+        "native_object": "object00_group01_material023_a0",
+        "changed_vertices": 118,
+        "source_seat_components": 2,
+        "input_sha256": "03b96b1eb2293c151c60133919380055fa8393372b0acbf18045edf25faa949a",
+        "output_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
+        "original_game_pmt_sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+        "original_import_blend_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
+        "max_move_mm": 23.2682,
+        "other_native_meshes_unchanged": 41,
+        "independent_reopen": "PASS",
+        "comparison_render_diff_pixels": 105649,
+        "manifest": "artifacts/slot_C/f50/visible_seat_v43/manifest.json",
+        "next": "instrument_cluster",
+        "vehicle_qa_pass": false
       }
     },
     {

@@ -19,7 +19,7 @@
     "steering_wheel",
     "cross_cockpit_qa"
   ],
-  "current_component": "visible_seat",
+  "current_component": "instrument_cluster",
   "dispatches_on_component": 0,
   "max_dispatches_per_component": 2,
   "components": {
@@ -166,11 +166,30 @@
       "do_not_dispatch": true
     },
     "visible_seat": {
-      "status": "NOT_STARTED",
-      "source_edits_this_phase": 0,
-      "evidence_refs": [],
-      "blocking_reason": null,
-      "last_saved_blend_sha256": null
+      "status": "COVERED_PARTIAL_QA",
+      "source_edits_this_phase": 1,
+      "dispatches_used": 1,
+      "evidence_refs": [
+        "docs/automation/F50_SLOT_C_VISIBLE_SEAT_NATIVE_V43_20261109.md",
+        "tools/car_modeling/slot_c/f50_visible_seat_native_bolster_v43.py",
+        "tools/car_modeling/slot_c/f50_visible_seat_reopen_v43.py",
+        "artifacts/slot_C/f50/visible_seat_v43/manifest.json",
+        "artifacts/slot_C/f50/visible_seat_v43/F50_VisibleSeat_v43_BEFORE_AFTER.png"
+      ],
+      "blocking_reason": "Source PMT seat-shell contour covered only; missing calibrated driver-eye and full seven-view authentic photo QA. No upholstery texture/PBR edits, no full vehicle acceptance.",
+      "last_saved_blend_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
+      "partial_scope": {
+        "original_native_object": "object00_group01_material023_a0",
+        "source_seat_components": 2,
+        "source_vertices_per_seat": 64,
+        "moved_source_vertices": 118,
+        "max_displacement_mm": 23.2682,
+        "other_41_original_meshes_unchanged": true,
+        "blender_independent_reopen": "PASS",
+        "render_pixels_changed": 105649,
+        "front_glass_and_dashboard_and_wheel_untouched": true,
+        "full_vehicle_qa_pass": false
+      }
     },
     "instrument_cluster": {
       "status": "NOT_STARTED",
@@ -204,15 +223,14 @@
   "known_final_qa_blockers": [
     "exact original game driver-eye camera uncalibrated",
     "seven authenticated car-photo viewpoints incomplete",
-    "real proprietary source scene not available in GitHub-hosted Actions",
     "existing source nonmanifold / connectivity findings unresolved",
-    "hosted v42 output scene SHA and photo match contained only in encrypted artifact, not yet privately reviewed/promoted"
+    "full visual source versus calibrated F50 photo 7-view seat acceptance not completed"
   ],
   "cannot_promote_from_interim_coverage": true,
   "last_material_commit": "3693c9fc68b570b5e41e7a06156bebc19475efb8",
-  "notes": "SLOT C F50: user protected windshield/front-glass region. v41 windshield-header/A-pillar edit rejected from accepted chain; restored pre-windshield v40 SHA 03b96b1e. Current component visible_seat. Never dispatch windshield_frame/A-pillar/glass-border edits.",
-  "current_accepted_blend": "artifacts/slot_C/f50/F50_OriginalPMT_InnerDoor_UpperRail_v40.blend",
-  "current_accepted_blend_sha256": "03b96b1eb2293c151c60133919380055fa8393372b0acbf18045edf25faa949a",
+  "notes": "SLOT C F50: v43 visible_seat PMT023 two existing seat-shell regions sculpted; save/reopen PASS, 41 protected other meshes unchanged. Plaintext six-part .blend manifest under artifacts/slot_C/f50/visible_seat_v43/. Next instrument_cluster. Whole-car QA NOT PASS. Windshield/glass/A-pillar DO_NOT_EDIT; v41 rejected.",
+  "current_accepted_blend": "artifacts/slot_C/f50/visible_seat_v43/F50_OriginalPMT_VisibleSeat_Bolster_v43.blend",
+  "current_accepted_blend_sha256": "a1f64d8f2f7e540978cfb9ae41c58dde2732f6a83c0a537c8860dee09f3768c7",
   "protected_regions": {
     "windshield_and_front_glass": "DO_NOT_EDIT",
     "includes": [
@@ -223,5 +241,7 @@
       "interior/exterior meshes whose edit can change windshield fit"
     ],
     "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
-  }
+  },
+  "current_accepted_blend_manifest": "artifacts/slot_C/f50/visible_seat_v43/manifest.json",
+  "last_material_task_id": "FERRARI16-SLOTC-F50-VISIBLE-SEAT-PMT023-V43-20261109"
 }
