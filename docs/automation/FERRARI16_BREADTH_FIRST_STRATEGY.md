@@ -1,5 +1,11 @@
 > Temporary workspace migration (2026-11-09): active SSOT/work artifacts now live in public repo `thp32tt/imsi1@main`. Modeling artifacts may be stored plaintext; raw original PMT packages and private reference photos remain off-repo. Encryption/secret gating is retired for this temporary workspace.
 
+## USER PROTECTED REGION — front windshield / glass boundary (2026-11-09)
+- **DO NOT EDIT** front windshield glass, windshield frame, windshield-adjacent A-pillars, seals/borders, or any mesh whose geometry can affect the front glass fit/rendering.
+- These regions are observation/QA-only. Never move vertices, add/delete faces, alter topology/transforms, or choose them as an automation target.
+- Historical F50 v41 windshield-header/A-pillar edit is rejected from the accepted chain; F50 resumes from pre-windshield v40 SHA `03b96b1eb2293c151c60133919380055fa8393372b0acbf18045edf25faa949a`.
+- Daytona never accepted a windshield edit and remains on R45. After inner-door coverage, proceed directly to **visible_seat**.
+
 # Ferrari cockpit rework V3 — breadth-first, source-backed, timeboxed
 Date: 2026-11-09 KST. This overrides the old P0-forever/day-long steering-wheel approach.
 SSOT queue: docs/automation/FERRARI16_GEOMETRY_QUEUE.json; per-car workpacks: docs/automation/FERRARI_COCKPIT_WORKPACK_A_DAYTONA365.json and docs/automation/FERRARI_COCKPIT_WORKPACK_C_F50.json.
@@ -11,7 +17,7 @@ As of 2026-11-09 07:30 KST, A is Daytona R41 and C is F50 v36. Both carried out 
 ## Hard priority: complete the *visible cockpit*, not one object
 - P0 dashboard and steering wheel remain important, but **P0 means must pass by final QA**, NOT the exclusive subject of all interim geometry commits.
 - A and C have already spent many iterations on dashboard/wheel. Starting next scheduled command, **put both P0 regions on polish hold** and start the missing source-native center console / shifter path. Do not reset the vehicle clock or overwrite any prior private .blend; start from the latest confirmed saved source-derived scene.
-- Coverage work order for each car: (1) center console, gear selector and surround; (2) driver's controls, stalks and visible pedals; (3) inner door / door top and handle; (4) windshield frame, A-pillars and interior mirror; (5) visible seat / immediate trim; (6) instrument cluster, bezels and vent openings; (7) dashboard whole-form fit; (8) steering only for *identified defects*; (9) cross-cockpit photo review / QA.
+- Coverage work order for each car: (1) center console, gear selector and surround; (2) driver's controls, stalks and visible pedals; (3) inner door / door top and handle; (4) visible seat / immediate trim; (5) instrument cluster, bezels and vent openings; (6) dashboard whole-form fit; (7) steering only for *identified defects*; (8) cross-cockpit photo review / QA. Windshield/front-glass regions are permanently skipped.
 - Prioritize user-visible geometry errors, silhouette, join/seam discontinuities and proportions over micrometer moves, mesh resolution increases, arbitrary subdivisions, shading-only tweaks and identical-camera pixel-change statistics. No invented fake wheel holes, no bolt tubes, no false lip/bridge.
 - No new vehicle, unrelated GLB replacement, PMT/OVC/OVC3 conversion, game integration, texture/PBR/normal map, exterior/body/wheel.
 
