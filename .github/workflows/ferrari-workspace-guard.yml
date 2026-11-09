@@ -1,0 +1,36 @@
+name: Ferrari modeling workspace guard
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'docs/automation/FERRARI16_GEOMETRY_QUEUE.json'
+      - 'docs/automation/FERRARI_COCKPIT_WORKPACK_*.json'
+      - 'tools/car_modeling/**'
+      - 'artifacts/slot_C/f50/visible_seat_v43/F50_VisibleSeat_v43_Receipt.json'
+      - '.github/workflows/ferrari-workspace-guard.yml'
+  pull_request:
+    paths:
+      - 'docs/automation/FERRARI16_GEOMETRY_QUEUE.json'
+      - 'docs/automation/FERRARI_COCKPIT_WORKPACK_*.json'
+      - 'tools/car_modeling/**'
+      - 'artifacts/slot_C/f50/visible_seat_v43/F50_VisibleSeat_v43_Receipt.json'
+      - '.github/workflows/ferrari-workspace-guard.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  governance:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run fail-closed guard unit regressions
+        run: python3 -m unittest discover -s tools/car_modeling/tests -p 'test_*.py' -v
+      - name: Validate active A/C slot and protected-region governance
+        run: python3 tools/car_modeling/workspace_guard.py audit-workspace
+      - name: Verify real F50 native seat receipt metadata (not full scene QA)
+        run: |
+          python3 tools/car_modeling/workspace_guard.py verify-receipt --slot C \
+            --receipt artifacts/slot_C/f50/visible_seat_v43/F50_VisibleSeat_v43_Receipt.json
