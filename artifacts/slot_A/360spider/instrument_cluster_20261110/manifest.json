@@ -1,0 +1,89 @@
+{
+  "schema": "ferrari16_plaintext_geometry_artifact_v1",
+  "slot": "A",
+  "vehicle": "360spider",
+  "component": "instrument_cluster",
+  "original_native_pmt_on_n100": "/home/chatgpt-runner/rea-input/outrun/outrun2006/Cars/obj_plcar_360sp_pmt.sz",
+  "original_native_pmt_sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "original_import_blend": "artifacts/slot_A/360spider/source_bootstrap/Ferrari360Spider_OriginalPMT_EditableBaseline.blend",
+  "original_import_sha256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+  "input_blend": "artifacts/slot_A/360spider/visible_seat_20261110/Ferrari360Spider_VisibleSeat_OriginalPMT_R02.blend",
+  "input_sha256": "af5a9a9d9650d261b1b24f56e5ff8b5291773e033c43087e000276940fbc87a2",
+  "output_blend": "artifacts/slot_A/360spider/instrument_cluster_20261110/Ferrari360Spider_InstrumentCluster_OriginalPMT_R03.blend",
+  "output_sha256": "df7b2ce23530c4bdace9d301cde61526d5ef5ab80ab7f9811f35d4dda08de443",
+  "changed_original_vertices": 20,
+  "changed_original_meshes": [
+    "PMT_object00_group01_material010_a0"
+  ],
+  "independent_reopen": "PASS",
+  "workspace_guard": "PASS",
+  "whole_vehicle_qa_pass": false,
+  "binary_encoding": "plaintext direct .blend (no parts required; 467 kB)",
+  "private_photos_uploaded": false,
+  "artifacts": {
+    "receipt.json": {
+      "sha256": "38db86b4063296128d52e5c27584f55008a57f53cfec1c6e04949ea1bb72f62e",
+      "size_bytes": 19083
+    },
+    "QA.json": {
+      "sha256": "9b9b75141043feeea3c7b79920f0a383ca128f647685a0df4899a09827f9cd3d",
+      "size_bytes": 1727
+    },
+    "QA.md": {
+      "sha256": "faa8062a46bdd5d307e8411c243e5ddeee1cd707dd349a0b655dfcabfed6987a",
+      "size_bytes": 1604
+    },
+    "comparison_instrument_seated_before_after.jpg": {
+      "sha256": "0ee8b7d45a33bfbae011134463a9480a01a48de315250031847ee1fa20be7d44",
+      "size_bytes": 116384
+    },
+    "instrument_seated_before.png": {
+      "sha256": "0280ee4ec2ed06b334fcbe4ea21162255b515c973bb4510268a0ff739241d976",
+      "size_bytes": 351249
+    },
+    "instrument_seated_after.png": {
+      "sha256": "c33c912120a039c9a6a9c43020dff7e174acce2edceca5953caa19c9a090785f",
+      "size_bytes": 353705
+    },
+    "instrument_reverse_before.png": {
+      "sha256": "d3ba2160fc435a69e16699caf9c8631fd4d7cc1bfaa80c493c20298d3ca9a3af",
+      "size_bytes": 342157
+    },
+    "instrument_reverse_after.png": {
+      "sha256": "d077e57074eec03ec56bae0dd037b7fca92b0bccacde543f14bd8603647de11d",
+      "size_bytes": 348417
+    },
+    "instrument_overhead_before.png": {
+      "sha256": "0386dad5cb7e0b15bb63e65ac67f38794f0858e0012d895086b1f94c4f99f446",
+      "size_bytes": 387073
+    },
+    "instrument_overhead_after.png": {
+      "sha256": "8eb92006f569b2338abe139405f66963019c5f4235d54f654755de39327d33d1",
+      "size_bytes": 388963
+    },
+    "native_islands.json": {
+      "sha256": "79e54b431e2b7296797bc27e1884bb783d4685ed5f1c7fe602fe6019b8eafa5e",
+      "size_bytes": 304585
+    },
+    "native_object_bounds.json": {
+      "sha256": "40f799cb3d211ba6e0108e0f50ab8286ff1962ef31201be92dd25e5f441a9275",
+      "size_bytes": 21606
+    },
+    "tools/car_modeling/source_edit_instrument_360spider.py": {
+      "sha256": "5ce38b1d4064603cd1d4a3dc6e2e219b7458a1984aa537d04de427a40d71a2bf",
+      "size_bytes": 10798
+    },
+    "tools/car_modeling/probe_instrument_360spider.py": {
+      "sha256": "84b4e958659dee3ec76d52a9c270cf3fbc484afb074dc09cf0619c2bea0115cd",
+      "size_bytes": 2209
+    },
+    "tools/car_modeling/instrument_island_visual_probe_360spider.py": {
+      "sha256": "214cd0d12612eff5df7586e69ddff13fba36ebe7bb7924fa9dfa1a05210f76d3",
+      "size_bytes": 2807
+    },
+    "tools/car_modeling/render_instrument_probe_360spider.py": {
+      "sha256": "f10009c2a7aaccdda0b31d652da49581315b883b8cd3a16720de46bed2e74206",
+      "size_bytes": 1964
+    }
+  }
+}

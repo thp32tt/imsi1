@@ -1,0 +1,41 @@
+{
+  "slot": "A",
+  "car": "360spider",
+  "component": "instrument_cluster",
+  "status": "COVERED_PARTIAL_QA",
+  "full_vehicle_qa_pass": false,
+  "material_geometry_change_proved": true,
+  "genuine_original_pmt_sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
+  "baseline_import_blend_sha256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+  "accepted_input_sha256": "af5a9a9d9650d261b1b24f56e5ff8b5291773e033c43087e000276940fbc87a2",
+  "output_sha256": "df7b2ce23530c4bdace9d301cde61526d5ef5ab80ab7f9811f35d4dda08de443",
+  "native_mesh_modified": "PMT_object00_group01_material010_a0",
+  "changed_existing_vertices": 20,
+  "unchanged_native_objects": 74,
+  "noncluster_native_indices_unchanged": true,
+  "previous_accepted_console_seat_indices_unchanged": true,
+  "original_transforms_topology_faces_unchanged": true,
+  "protected_windshield_frame_A_pillars_seals_untouched": true,
+  "independent_blender_reopen": "PASS",
+  "workspace_guard_verify_receipt": "PASS",
+  "new_meshes": 0,
+  "new_textures": 0,
+  "exports": [],
+  "compared_original_real_photo": "N100-only private 01_interior.jpg, silhouette reference",
+  "matched_real_photo_registration": "NOT_CALIBRATED",
+  "full_driver_eye_qa": "NOT_PASS",
+  "render_comparison": {
+    "same_camera": true,
+    "different_RGB_pixels_threshold4": 52580,
+    "image_width": 1200,
+    "image_height": 820,
+    "difference_bbox": [
+      402,
+      260,
+      825,
+      546
+    ]
+  },
+  "next_component": "dashboard",
+  "notes": "Existing disjoint native cluster hood/binnacle islands sculpted: brow elevation up to 20 mm, recessed inner face up to 32 mm. No new gauges created; low-poly original unchanged in unrelated areas."
+}
