@@ -232,8 +232,10 @@ def main(argv=None):
             for slot in ("A", "C"):
                 q, w = paths(args.root, slot)
                 queue, pack = read_json(q), read_json(w)
-                check_identity(queue, pack, slot)
-                print(f"PASS {slot} governance: {pack['car_id']} current={pack['current_component']}")
+                pending_import = pack.get("input_stage") == "SOURCE_IMPORT_PENDING"
+                check_identity(queue, pack, slot, require_baseline=not pending_import)
+                print(f"PASS {slot} governance: {pack['car_id']} current={pack['current_component']}"
+                      + (" SOURCE_IMPORT_PENDING (no source Blender QA credited)" if pending_import else ""))
             return 0
         require(args.slot is not None, "--slot is mandatory")
         q, w = paths(args.root, args.slot)
