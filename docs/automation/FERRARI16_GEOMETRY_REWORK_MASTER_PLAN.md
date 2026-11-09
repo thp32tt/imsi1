@@ -96,3 +96,6 @@ A vehicle can progress to `COMPLETE` only if all are evidenced:
 - Only A and C **car geometry** are enabled. A uses `CAR_MODEL_SCHEDULE_MINUTES=0,30`, C uses `CAR_MODEL_C_SCHEDULE_MINUTES=15,45`. `CONVERSION_ONLY_SLOT` must be empty to allow both; all legacy conversion lanes remain independently disabled. `MODEL2_AUTODEV_ENABLED=false`.
 - Slots are isolated by `car_model_simple_A` and `car_model_simple_C` in persistent queue state and their own ChatGPT tabs; both use OutRun project, no Model2 project URL. Do not delete old Model2 conversations/state.
 - Portainer Pull & redeploy (rebuild image) required to apply code; Git commits do not prove live N100 container transition. Preserve volumes and Chrome login.
+
+## 2026-11-09 user safety override — windshield geometry lock
+Front windshield glass, windshield frame, windshield-adjacent A-pillars, glass seals/borders, and any geometry that can affect front-glass fit/rendering are **DO_NOT_EDIT** for every Ferrari vehicle. They may be inspected for QA only. Automation must skip `windshield_frame` and continue to the next cockpit component. F50 accepted baseline is reverted from windshield-modified v41 to pre-windshield v40 SHA `03b96b1eb2293c151c60133919380055fa8393372b0acbf18045edf25faa949a`.
