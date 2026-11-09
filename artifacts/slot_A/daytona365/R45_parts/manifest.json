@@ -1,0 +1,45 @@
+{
+  "format": "plain_split_binary_v1",
+  "original_filename": "Daytona365_SlotA_OriginalPMT005_InnerDoor_R45.blend",
+  "original_size": 7901536,
+  "original_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+  "parts": [
+    {
+      "index": 0,
+      "name": "part000.bin",
+      "size": 1400000,
+      "git_blob_sha": "ba98612770d7f96a644e3492c5ff6930d48d8546"
+    },
+    {
+      "index": 1,
+      "name": "part001.bin",
+      "size": 1400000,
+      "git_blob_sha": "6f82576a0096c5c2aaa5b9dc79bcf571d35e7566"
+    },
+    {
+      "index": 2,
+      "name": "part002.bin",
+      "size": 1400000,
+      "git_blob_sha": "a54135eb3fa98efa413d032813bf5d14d15eb776"
+    },
+    {
+      "index": 3,
+      "name": "part003.bin",
+      "size": 1400000,
+      "git_blob_sha": "357d8e1d0b625a6e2433ef9b98379a2ebde3427f"
+    },
+    {
+      "index": 4,
+      "name": "part004.bin",
+      "size": 1400000,
+      "git_blob_sha": "d6d3543a4d84e73e3cde643a91dd98b995b099c2"
+    },
+    {
+      "index": 5,
+      "name": "part005.bin",
+      "size": 901536,
+      "git_blob_sha": "a3191ab0b6489ba26098eceef7ad6fd98de75e1e"
+    }
+  ],
+  "reassemble": "concatenate part000.bin..part005.bin in numeric order; verify SHA256"
+}
