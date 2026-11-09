@@ -55,7 +55,8 @@
       "center_console",
       "door_trim",
       "windshield_observation_only"
-    ]
+    ],
+    "qa_parked_slot_reuse_without_falsely_passing_vehicle": true
   },
   "source_artifacts": {
     "public_repo": "temporary public modeling workspace; editable .blend, scripts, QA and comparison renders allowed without encryption",
@@ -88,14 +89,14 @@
       "order": 1,
       "id": "daytona365",
       "name": "Ferrari 365 GTS/4 Daytona",
-      "status": "ACTIVE",
+      "status": "QA_PARKED",
       "started_at_utc": "2026-11-08T04:13:41Z",
       "completed_at_utc": null,
       "geometry_gate": "NEEDS_REWORK",
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "30ddcbd01ef7e969bb1e4220ff4318c2f75b7fd7ab70bc4d6dafedcdc7954437",
       "output_scene_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
-      "notes": "[2026-11-09 SLOT A dashboard] workspace_guard preflight BLOCKED P0_POLISH_HOLD: prior repeated work and no newly identified defect. No mesh change/new .blend; accepted R45/R46/R47 SHA unchanged. Dashboard BLOCKED; steering P0 hold skipped; next cross_cockpit_qa observation. Vehicle QA NOT PASS.",
+      "notes": "2026-11-09 V12 QA_PARKED, NOT PASS. Accepted R45 baseline exists; standalone R46/R47 PMT object mapping to R45 unverified, final photo/eye QA incomplete. Source/editable Blender artifacts and original source SHA retained; this releases only automation A slot.",
       "private_photo_subdir": "02_365_GTS4_Daytona",
       "priority": [
         "dashboard",
@@ -105,7 +106,7 @@
       ],
       "exterior_geometry_in_scope": false,
       "photo_view_qa": "NEEDS_REWORK",
-      "slot": "A",
+      "slot": null,
       "source_provenance": {
         "required": true,
         "original_game_resource_file": "/home/chatgpt-runner/rea-input/outrun/outrun2006/Cars/obj_plcar_dayts_pmt.sz",
@@ -285,7 +286,11 @@
         "geometry_changed": false,
         "next": "cross_cockpit_qa",
         "full_vehicle_qa_pass": false
-      }
+      },
+      "parked_from_slot": "A",
+      "parked_at_utc": "2026-11-09T14:38:47Z",
+      "whole_car_qa_pass": false,
+      "qa_parked_reason": "Accepted R45 baseline exists; standalone R46/R47 PMT object mapping to R45 unverified, final photo/eye QA incomplete."
     },
     {
       "order": 2,
@@ -337,14 +342,14 @@
       "order": 3,
       "id": "f50",
       "name": "Ferrari F50",
-      "status": "ACTIVE",
+      "status": "QA_PARKED",
       "started_at_utc": "2026-11-08T04:35:52Z",
       "completed_at_utc": null,
       "geometry_gate": "PARTIAL_NEEDS_QA",
       "reference_gate": "PARTIAL_NEEDS_7_VIEWS",
       "source_scene_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
       "output_scene_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
-      "notes": "[2026-11-09 SLOT C] v44 PMT011 instrument_cluster COVERED_PARTIAL_QA, blend SHA 1ff620c4... unchanged. Duplicate 13:30 target BLOCKED_OUT_OF_ORDER 2/2, no geometry edit. Dashboard/steering P0_POLISH_HOLD; next cross_cockpit_qa observation only. Car QA NOT PASS.",
+      "notes": "2026-11-09 V12 QA_PARKED, NOT PASS. F50 v44 source edits preserved; original-game driver-eye uncalibrated and authenticated photo views 1/8 verified. Source/editable Blender artifacts and original source SHA retained; this releases only automation C slot.",
       "private_photo_subdir": "03_F50",
       "priority": [
         "dashboard",
@@ -354,7 +359,7 @@
       ],
       "exterior_geometry_in_scope": false,
       "photo_view_qa": "PARTIAL_NEEDS_7_VIEWS",
-      "slot": "C",
+      "slot": null,
       "source_provenance": {
         "required": true,
         "original_game_resource_file": "rea-input/outrun/outrun2006/Cars/obj_plcar_f50_pmt.sz",
@@ -568,20 +573,24 @@
         "independent_reopen": "PASS",
         "full_car_qa_pass": false,
         "next": "dashboard_P0_POLISH_HOLD"
-      }
+      },
+      "parked_from_slot": "C",
+      "parked_at_utc": "2026-11-09T14:38:47Z",
+      "whole_car_qa_pass": false,
+      "qa_parked_reason": "F50 v44 source edits preserved; original-game driver-eye uncalibrated and authenticated photo views 1/8 verified."
     },
     {
       "order": 4,
       "id": "360spider",
       "name": "Ferrari 360 Spider",
-      "status": "PENDING",
-      "started_at_utc": null,
+      "status": "ACTIVE",
+      "started_at_utc": "2026-11-09T14:38:47Z",
       "completed_at_utc": null,
       "geometry_gate": "UNTESTED",
       "reference_gate": "UNTESTED",
       "source_scene_sha256": null,
       "output_scene_sha256": null,
-      "notes": "Original asset baseline to identify",
+      "notes": "V12 source-only bootstrap; N100 original-game PMT SHA verified, Blender import/mesh geometry NOT YET VERIFIED. V11 must fail closed; no windshield edits or synthetic model.",
       "private_photo_subdir": "04_360_Spider",
       "priority": [
         "dashboard",
@@ -591,14 +600,16 @@
       ],
       "exterior_geometry_in_scope": false,
       "photo_view_qa": "UNTESTED",
-      "slot": null,
+      "slot": "A",
       "source_provenance": {
         "required": true,
-        "original_game_resource_file": null,
-        "original_game_resource_sha256": null,
+        "original_game_resource_file": "/home/chatgpt-runner/rea-input/outrun/outrun2006/Cars/obj_plcar_360sp_pmt.sz",
+        "original_game_resource_sha256": "a4b56d6e3ed126bcf2b2c88f149c4daeac124f96b6de2518e88436f618f076e6",
         "original_import_blend_sha256": null,
         "original_mesh_object_ids": [],
-        "verification": "UNTESTED"
+        "verification": "ORIGINAL_RESOURCE_SHA_VERIFIED_IMPORT_PENDING",
+        "game_original_read_only": true,
+        "editable_blend_verified": false
       },
       "edit_from_original_required": true,
       "output_format": "blend",
@@ -614,20 +625,23 @@
           "interior/exterior meshes whose edit can change windshield fit"
         ],
         "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
-      }
+      },
+      "whole_car_qa_pass": false,
+      "workpack_path": "docs/automation/FERRARI_COCKPIT_WORKPACK_A_360SPIDER.json",
+      "strategy_v3_next_component": "source_bootstrap"
     },
     {
       "order": 5,
       "id": "f355spider",
       "name": "Ferrari F355 Spider",
-      "status": "PENDING",
-      "started_at_utc": null,
+      "status": "ACTIVE",
+      "started_at_utc": "2026-11-09T14:38:47Z",
       "completed_at_utc": null,
       "geometry_gate": "UNTESTED",
       "reference_gate": "UNTESTED",
       "source_scene_sha256": null,
       "output_scene_sha256": null,
-      "notes": "Original asset baseline to identify",
+      "notes": "V12 source-only bootstrap; N100 original-game PMT SHA verified, Blender import/mesh geometry NOT YET VERIFIED. V11 must fail closed; no windshield edits or synthetic model.",
       "private_photo_subdir": "05_F355_Spider",
       "priority": [
         "dashboard",
@@ -637,14 +651,16 @@
       ],
       "exterior_geometry_in_scope": false,
       "photo_view_qa": "UNTESTED",
-      "slot": null,
+      "slot": "C",
       "source_provenance": {
         "required": true,
-        "original_game_resource_file": null,
-        "original_game_resource_sha256": null,
+        "original_game_resource_file": "/home/chatgpt-runner/rea-input/outrun/outrun2006/Cars/obj_plcar_f355sp_pmt.sz",
+        "original_game_resource_sha256": "d9af341653ef44371e8df2efc4024af92d7ca03665acef04a4c3c65200bb7b11",
         "original_import_blend_sha256": null,
         "original_mesh_object_ids": [],
-        "verification": "UNTESTED"
+        "verification": "ORIGINAL_RESOURCE_SHA_VERIFIED_IMPORT_PENDING",
+        "game_original_read_only": true,
+        "editable_blend_verified": false
       },
       "edit_from_original_required": true,
       "output_format": "blend",
@@ -660,7 +676,10 @@
           "interior/exterior meshes whose edit can change windshield fit"
         ],
         "rule": "Observation/QA only. Never move vertices, add/delete faces, change topology/transforms, or use these meshes as a modeling target."
-      }
+      },
+      "whole_car_qa_pass": false,
+      "workpack_path": "docs/automation/FERRARI_COCKPIT_WORKPACK_C_F355SPIDER.json",
+      "strategy_v3_next_component": "source_bootstrap"
     },
     {
       "order": 6,
@@ -1170,8 +1189,8 @@
     }
   ],
   "active_by_slot": {
-    "A": "daytona365",
-    "C": "f50"
+    "A": "360spider",
+    "C": "f355spider"
   },
   "slots": {
     "A": {
@@ -1256,5 +1275,16 @@
         "filename": "F50_OriginalPMT_InnerDoor_UpperRail_v40.blend"
       }
     }
+  },
+  "strategy_v12": {
+    "name": "qa_parked_source_bootstrap_slot_reuse",
+    "master_plan": "docs/automation/FERRARI16_BREADTH_FIRST_STRATEGY.md",
+    "protected_glass": "DO_NOT_EDIT",
+    "previous_qa_parked_are_not_complete": true,
+    "next_car_dispatch_requires_actual_pmt_sha": true,
+    "first_stage": "source_bootstrap",
+    "new_car_geometry_requires_verified_original_blender_import": true,
+    "operator_approved_switch": "2026-11-09 two verified input cars only",
+    "no_blind_auto_advance_to_unknown_source": true
   }
 }
