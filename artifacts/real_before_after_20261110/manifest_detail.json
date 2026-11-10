@@ -1,0 +1,125 @@
+{
+  "schema_version": 2,
+  "render": "actual Blender 4.5.15 Workbench source-derived meshes only",
+  "notes": "Components isolated using only native existing geometry; no invented objects saved, no model edits.",
+  "full_vehicle_qa_pass": false,
+  "cars": {
+    "daytona365": {
+      "before_source_sha256": "92c82ee5c4e0631195cb314e0d8e2f56a78a6a58da3c809c46b1da0f9d2c71a3",
+      "after_source_sha256": "224131c7adc928d5d6f0377d030d5a350c59b8664c13303a2731d6dfc6e9a722",
+      "notes": "Source shows six authentic PMT cockpit meshes; R45 has 113 source-derived cabin meshes. R46/R47 unmerged.",
+      "regions": {
+        "cockpit": {
+          "original_render_sha256": "f007294a59208de0186f289f048c90d8d07a25483762325949a01292289b532d",
+          "final_render_sha256": "db4e7a1d428a1ad168d801ea5e04a87770ac76a8fc89b6dc1cd17821cfc2e259",
+          "comparison_sha256": "899cf17237336bd7e261077da1a2cb0274d41876a3f6a85d0ca059ae4146ce3e",
+          "difference_bbox": [
+            0,
+            0,
+            1180,
+            750
+          ]
+        },
+        "angle": {
+          "original_render_sha256": "9f1c869e1815147f4710a3f81847131b4c7c018dcda58b14b4f0bfb5ec505a69",
+          "final_render_sha256": "ae8071972ef7bd3127c8ebd6aaf0237e26fc4318b9b6b7a811ddec1aa2bceaba",
+          "comparison_sha256": "661d246603d06f812a26d2e8de481edb4b59571af2ab7342dcb966d2940d81cd",
+          "difference_bbox": [
+            0,
+            0,
+            1180,
+            750
+          ]
+        }
+      }
+    },
+    "f50": {
+      "before_source_sha256": "d82b3d024a812126da5b38c56572cfc326fbe3d1b5c0ddf8cad4cbd855119d31",
+      "after_source_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+      "notes": "Native wheel and instrument panel submeshes isolated for visibility. v44 is not whole-cockpit QA PASS.",
+      "regions": {
+        "wheel": {
+          "original_render_sha256": "7a45908863a041bba4b4da957f00a9a2d3afa97fe68fb503d992de4ee3378a11",
+          "final_render_sha256": "7e445354c09cf1611eb48f64d951e2383df612b290f272256cae11a3e6830552",
+          "comparison_sha256": "e5ed86312c91cff99628f31081ba5bc6fef5c038d50a3b29dcfeb387e1332622",
+          "difference_bbox": [
+            215,
+            0,
+            966,
+            750
+          ]
+        },
+        "cluster": {
+          "original_render_sha256": "8fcf8d37798482e4d2a36547010cbd8d8e27495f8b506ee4b8bd7f397c61ede4",
+          "final_render_sha256": "73db8322e0a97f815456ab6349e98ebc8ceebeb5c57d35b70402e03267f51071",
+          "comparison_sha256": "524e3efe5def9f5b25e9a60183d402d8ca311c3133cc488ab0056ce15e4c7498",
+          "difference_bbox": [
+            370,
+            139,
+            848,
+            528
+          ]
+        }
+      }
+    },
+    "360spider": {
+      "before_source_sha256": "b4f1d071119693172bbf786809da62dce8acb0c84e52d9779a6b1a996654ce57",
+      "after_source_sha256": "403ec48d0e9761214f20a5c22a7df608f38b3644b135b80aa185dcb559c33ad8",
+      "notes": "Exact native PMT010 face islands extracted for renderer only; original and final source coordinates retained.",
+      "regions": {
+        "cluster": {
+          "original_render_sha256": "1a4bfb2864d89e0705428858d7902f9ac2dd20c7fc8cf684110b18372a9bc202",
+          "final_render_sha256": "c672395e2a28a93a229297e79c714b38cccdd61f179b928574e1dde1090d8891",
+          "comparison_sha256": "ec14bbce21b00d89240d2c0ecd9e37b457c4ba183a0a9cf17c5ec93fd4a479be",
+          "difference_bbox": [
+            392,
+            224,
+            815,
+            511
+          ]
+        },
+        "dashboard": {
+          "original_render_sha256": "c4cc81123e4b068eb66be4323e23f2da68ddb8407152eb5d1d59547b6026d47c",
+          "final_render_sha256": "7df907925be1215eb793fbd0b8024817381af1eb6d5cffa8ac629fd098ce196d",
+          "comparison_sha256": "c7a093d119238b072083f01ee9625919724c623621e5275d87dc6b8a408a561b",
+          "difference_bbox": [
+            56,
+            0,
+            765,
+            558
+          ]
+        }
+      }
+    },
+    "f355spider": {
+      "before_source_sha256": "4fa9bdc314c5e30ab890adcff160377436540646588a36f1c4c1649c5df7186e",
+      "after_source_sha256": "354b2d8b67839cdabdaf838d596771750f6fb8d9919fd023a4dae2c24df52518",
+      "notes": "Original PMT22 wheel and four cockpit edited objects isolated; no exterior / glass geometry shown.",
+      "regions": {
+        "wheel": {
+          "original_render_sha256": "6628ca8c970a6e5931e332326645767747b31f51a046b027d6be0629905c7fa2",
+          "final_render_sha256": "be9ef9a811f284f1b7ca94fbc7a6af7b71bdeecf7d0fcb4b4f0804b80a57a2ee",
+          "comparison_sha256": "a63bfaa61768a63f0cd181bdb350252f21b205aa3b30ef2088a7c4d1d9567028",
+          "difference_bbox": [
+            187,
+            1,
+            993,
+            750
+          ]
+        },
+        "cockpit": {
+          "original_render_sha256": "f0588f19e319576f49bb0d0efca8ce26bfad317415457599914a14ef5bb75c7c",
+          "final_render_sha256": "1eeab858577eb64c18b94a1268e50745837ef27cc4614f68b542b2bbe4a84d5f",
+          "comparison_sha256": "96bf9af11371f01ec7506060860724b4c435bc3359cad5da31e62de496953cfc",
+          "difference_bbox": [
+            62,
+            0,
+            960,
+            591
+          ]
+        }
+      }
+    }
+  },
+  "overview_sha256": "9ca70f098fed0d5e75742aa936b88a6e974dedb58dd630775fa45c104731123e"
+}

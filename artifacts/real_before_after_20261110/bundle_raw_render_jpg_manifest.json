@@ -1,0 +1,98 @@
+{
+  "360spider_cluster_native_after.png": {
+    "native_original_blender_capture_sha256": "c672395e2a28a93a229297e79c714b38cccdd61f179b928574e1dde1090d8891",
+    "jpeg_bundle_sha256": "15e0c35211d1c47cdadd69de49e995c97cde94964d67b875931b43059f9adf5a",
+    "jpeg_file": "360spider_cluster_native_after.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "360spider_cluster_native_before.png": {
+    "native_original_blender_capture_sha256": "1a4bfb2864d89e0705428858d7902f9ac2dd20c7fc8cf684110b18372a9bc202",
+    "jpeg_bundle_sha256": "22c5ef69d91c2aada74f95140031373b96aeaf12198f683088eb8ed700196654",
+    "jpeg_file": "360spider_cluster_native_before.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "360spider_dashboard_native_after.png": {
+    "native_original_blender_capture_sha256": "7df907925be1215eb793fbd0b8024817381af1eb6d5cffa8ac629fd098ce196d",
+    "jpeg_bundle_sha256": "1c9711544236f1ede726b14f4442e1ff4d0ff58e54e5cb3dbc0351303776a51f",
+    "jpeg_file": "360spider_dashboard_native_after.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "360spider_dashboard_native_before.png": {
+    "native_original_blender_capture_sha256": "c4cc81123e4b068eb66be4323e23f2da68ddb8407152eb5d1d59547b6026d47c",
+    "jpeg_bundle_sha256": "1b2c604a2abb69e0828b6b7cdcee32e08adee9aa86b989632b48dda1fcbc3730",
+    "jpeg_file": "360spider_dashboard_native_before.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "daytona365_angle_native_after.png": {
+    "native_original_blender_capture_sha256": "ae8071972ef7bd3127c8ebd6aaf0237e26fc4318b9b6b7a811ddec1aa2bceaba",
+    "jpeg_bundle_sha256": "71d66974f4adf14c42b8d20942bad1a8d56b9606f40dce7c60efdc9a740c2843",
+    "jpeg_file": "daytona365_angle_native_after.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "daytona365_angle_native_before.png": {
+    "native_original_blender_capture_sha256": "9f1c869e1815147f4710a3f81847131b4c7c018dcda58b14b4f0bfb5ec505a69",
+    "jpeg_bundle_sha256": "c848cb587881f4658378b7df2d676a88322d7a1bb0a84f10e2b43250f73e4964",
+    "jpeg_file": "daytona365_angle_native_before.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "daytona365_cockpit_native_after.png": {
+    "native_original_blender_capture_sha256": "db4e7a1d428a1ad168d801ea5e04a87770ac76a8fc89b6dc1cd17821cfc2e259",
+    "jpeg_bundle_sha256": "df779ef5486f16ce08a1d9707e1aa4d862f81f794295ad31ee2f44c86414b3dc",
+    "jpeg_file": "daytona365_cockpit_native_after.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "daytona365_cockpit_native_before.png": {
+    "native_original_blender_capture_sha256": "f007294a59208de0186f289f048c90d8d07a25483762325949a01292289b532d",
+    "jpeg_bundle_sha256": "e89e3f448ddc0c94ed994530d45f0efbec46c0d9963332bb67aad07463c26513",
+    "jpeg_file": "daytona365_cockpit_native_before.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "f355spider_cockpit_native_after.png": {
+    "native_original_blender_capture_sha256": "1eeab858577eb64c18b94a1268e50745837ef27cc4614f68b542b2bbe4a84d5f",
+    "jpeg_bundle_sha256": "d8119dea6064fd40bd4b72c4c32baafbde22190c2444dce2324641682494f23d",
+    "jpeg_file": "f355spider_cockpit_native_after.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "f355spider_cockpit_native_before.png": {
+    "native_original_blender_capture_sha256": "f0588f19e319576f49bb0d0efca8ce26bfad317415457599914a14ef5bb75c7c",
+    "jpeg_bundle_sha256": "f34ea8e780213960bd1bdbb905e689ec72674933ac269e932d65cb2890970db9",
+    "jpeg_file": "f355spider_cockpit_native_before.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "f355spider_wheel_native_after.png": {
+    "native_original_blender_capture_sha256": "be9ef9a811f284f1b7ca94fbc7a6af7b71bdeecf7d0fcb4b4f0804b80a57a2ee",
+    "jpeg_bundle_sha256": "3901e3ab4c843a1fc81d7cd6864daa4f1e7a343930498b17b0a661da0f5be058",
+    "jpeg_file": "f355spider_wheel_native_after.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "f355spider_wheel_native_before.png": {
+    "native_original_blender_capture_sha256": "6628ca8c970a6e5931e332326645767747b31f51a046b027d6be0629905c7fa2",
+    "jpeg_bundle_sha256": "4381c01eb88acb71e33c1684f0c72c27d19e23ad74100489c5105cbc8e677d3c",
+    "jpeg_file": "f355spider_wheel_native_before.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "f50_cluster_native_after.png": {
+    "native_original_blender_capture_sha256": "73db8322e0a97f815456ab6349e98ebc8ceebeb5c57d35b70402e03267f51071",
+    "jpeg_bundle_sha256": "75865bdba56294e626401305bb4641deac10021fc138063fea5e669bf74cb706",
+    "jpeg_file": "f50_cluster_native_after.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "f50_cluster_native_before.png": {
+    "native_original_blender_capture_sha256": "8fcf8d37798482e4d2a36547010cbd8d8e27495f8b506ee4b8bd7f397c61ede4",
+    "jpeg_bundle_sha256": "7b7b70bcc159a87f9581ad8f15d5fd54ef5236aeb499401ead53677214a16cfb",
+    "jpeg_file": "f50_cluster_native_before.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "f50_wheel_native_after.png": {
+    "native_original_blender_capture_sha256": "7e445354c09cf1611eb48f64d951e2383df612b290f272256cae11a3e6830552",
+    "jpeg_bundle_sha256": "4d21346a0b643323995b202972a8f8890042871f35b2552bce1a86c3e606d0a3",
+    "jpeg_file": "f50_wheel_native_after.jpg",
+    "jpeg_is_lossy_copy": true
+  },
+  "f50_wheel_native_before.png": {
+    "native_original_blender_capture_sha256": "7a45908863a041bba4b4da957f00a9a2d3afa97fe68fb503d992de4ee3378a11",
+    "jpeg_bundle_sha256": "14155388d4b40ffb8d4914da6d1479c36bc51a10dc9bc1d188b15502530da0cb",
+    "jpeg_file": "f50_wheel_native_before.jpg",
+    "jpeg_is_lossy_copy": true
+  }
+}
