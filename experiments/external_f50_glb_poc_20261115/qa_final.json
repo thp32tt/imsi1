@@ -1,0 +1,25 @@
+{
+  "status": "PASS_BLENDER_IMPORTED_ALIGNED_REOPENED_NOT_GAME_PATCH",
+  "asset_type": "F50 external glb personal test",
+  "artifact_sha256": "07301b12ab23de5e982f0e78a0252c18912f7b3e61be840e7a846055252360a2",
+  "artifact_bytes": 11341440,
+  "source_glb_sha256": "6aa960b4d79f5e9400aaa804c2301f3c344461a88abc264d131b567575cae2dc",
+  "original_out_run_pmt_sha256": "10daa1312b6cff0267b38b4c440c6007c68b470a225ca15f0c324876fd80aeab",
+  "original_blend_sha256": "1ff620c4ede9a265b66440105c16cd318f4e9e3761ec2754d13866f0b7d7507e",
+  "original_native_mesh_geometry_fingerprint": "92e400758901234d3a523b6b36b0b1cdea4d9dcae50e13ee7cdd1dfc227a1fc9",
+  "native_source_unchanged": true,
+  "native_meshes": 42,
+  "native_triangles": 50809,
+  "external_meshes": 875,
+  "external_triangles": 218664,
+  "textures": 24,
+  "screenshots": [
+    "F50_ORIGINAL_FULL_REAL.png",
+    "F50_EXTERNAL_FULL_REAL.png"
+  ],
+  "tested_with": "Blender 4.5.15 LTS",
+  "licensed_source_claim": "Sketchfab GLB extras CC-BY 4.0 Ddiaz Design; underlying CrewRecycled provenance not verified",
+  "external_asset_redistribution_approved": false,
+  "game_pmt_export_tested": false,
+  "vr_runtime_tested": false
+}
