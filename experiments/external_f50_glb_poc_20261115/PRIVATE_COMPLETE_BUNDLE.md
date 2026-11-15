@@ -9,7 +9,7 @@ A complete private reproduction bundle is stored on the N100 work host at:
 `/home/chatgpt-runner/car_importer_transfer_20261115/OutRun2006_F50_External_OVC_R26_TEST_KIT_20261116_COMPLETE.zip`
 
 - ZIP size: 139,698,578 bytes
-- ZIP SHA256: `de4c5fe52eb88dad995708e6ec63e0f9f69b51039a03d206cd5a245b12090424`
+- ZIP SHA256: `4edc4b15838da370a42369537d9c7db82aaa268a3772dda5cb455c1802e9894d`
 - Archive entries: 129
 
 The private bundle contains:
